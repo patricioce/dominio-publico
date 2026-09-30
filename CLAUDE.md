@@ -49,7 +49,7 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 - Filtros: humano (Q5), ocupación creativa, precisión de fecha ≥ año, 10+ artículos de Wikipedia (bajar a 3 para argentinos, Q414), descartar declaraciones con rango "deprecated".
 - La columna `muertesFueraDelAnio` > 0 indica una fecha de muerte en otro año: revisar a mano, porque cambia el cálculo.
 - Consulta de argentinos (`consultas/consulta_argentinos.rq`): ciudadanía argentina, 3+ artículos, ocupaciones ampliadas (guionista, periodista, ilustrador, caricaturista, dibujante, libretista, compositor de canciones, cantautor, novelista, ensayista, crítico literario, realizador). Sin traductores (las traducciones son "Caso a verificar"). El script corre las dos consultas por año y las une por QID.
-- Periodistas, ensayistas y críticos van en Literatura (no hay categoría "Periodismo" por ahora).
+- Periodistas, ensayistas y críticos van en Literatura (no hay categoría "Periodismo" por ahora). Quien entra solo como periodista lleva `solo_periodista: true`: se publica, pero el sitio no lo destaca. Una ficha curada anula la marca.
 - Biblioteca Nacional Mariano Moreno: el cruce se hace con el identificador de Wikidata (P3788), que se guarda en el campo `bnmm`. El `robots.txt` del catálogo (catalogo.bn.gov.ar) prohíbe robots: no hacer scraping. VIAF bloquea accesos automáticos. Para un cruce completo, pedir a la BNMM una exportación de autoridades.
 - Las consultas usan `MIN` y separador ` | `, y el script ordena países y ocupaciones: el resultado tiene que ser estable entre corridas (si no, la rutina semanal abriría PR sin cambios reales).
 
@@ -79,7 +79,8 @@ Meta: lanzar a mediados de diciembre de 2026, antes del 1/1/2027.
 Para el lanzamiento:
 1. [x] Script que consulte Wikidata directamente, limpie y genere los datos (con reporte de calidad).
 2. [x] Datos reales para los años de muerte 1950 a 1976.
-3. [ ] Consulta aparte para argentinos con notabilidad más baja y más ocupaciones (letristas, guionistas, periodistas, ilustradores); cruzar con la Biblioteca Nacional Mariano Moreno.
+3. [x] Consulta aparte para argentinos con notabilidad más baja y más ocupaciones (letristas, guionistas, periodistas, ilustradores); cruzar con la Biblioteca Nacional Mariano Moreno.
+   - Pendiente: cruce completo de fechas con la BNMM (pedirles exportación de autoridades o permiso; hoy solo se usa P3788 de Wikidata).
 4. [ ] Sitio estático en Astro, con una URL por año y por autor, publicado en GitHub.
 5. [ ] Fichas curadas para los 30 a 50 autores más buscados de cada año (redacción propia, no copiada de Wikipedia).
 6. [ ] Revisión legal de "Cómo calculamos"; registrar dominio y nombre.

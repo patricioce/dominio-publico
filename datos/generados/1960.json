@@ -905,6 +905,7 @@
     "argentinos"
    ],
    "bnmm": "000058707",
+   "solo_periodista": true,
    "conf": "check"
   },
   {
@@ -4340,6 +4341,7 @@
    "consultas": [
     "argentinos"
    ],
+   "solo_periodista": true,
    "conf": "ok"
   },
   {
@@ -4461,6 +4463,7 @@
     "argentinos"
    ],
    "bnmm": "000057254",
+   "solo_periodista": true,
    "conf": "ok"
   },
   {

@@ -3895,6 +3895,7 @@
    "consultas": [
     "argentinos"
    ],
+   "solo_periodista": true,
    "conf": "check"
   },
   {

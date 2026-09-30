@@ -199,7 +199,7 @@ def limpiar(filas, anio, correcciones, curados):
         'sin_pais': [], 'sin_wikipedia_es': [],
         'corregidos': [], 'curados_fusionados': [], 'curados_ausentes_en_wikidata': [],
         'correcciones_sin_uso': [], 'sin_categoria': [],
-        'filas_por_consulta': {}, 'argentinos': 0, 'argentinos_sin_bnmm': [],
+        'filas_por_consulta': {}, 'argentinos': 0, 'argentinos_sin_bnmm': [], 'solo_periodista': [],
     }
     for f in filas:
         c = f.get('_consulta', 'csv')
@@ -348,6 +348,11 @@ def limpiar(filas, anio, correcciones, curados):
 
         if rec['o'] == 'Sin categoría':
             reporte['sin_categoria'].append(f"{rec['n']} ({qid}): {', '.join(ocupaciones)}")
+        # Quien entra solo como periodista se publica, pero el sitio no lo destaca
+        # (suelen ser figuras políticas o de otros ámbitos). No es un problema de datos: no pasa a "check".
+        if ocupaciones and set(ocupaciones) <= {'periodista'} and rec['src'] == 'wikidata':
+            rec['solo_periodista'] = True
+            reporte['solo_periodista'].append(f"{rec['n']} ({qid})")
         if 'argentinos' in rec.get('consultas', []):
             reporte['argentinos'] += 1
             if not rec.get('bnmm'):
