@@ -54,7 +54,8 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 1. Wikidata devuelve una fila por combinación de fechas: unificar por QID (216 filas → 175 personas en 1956).
 2. Si hay varias fechas de muerte dentro del mismo año, el cálculo no cambia: mostrar solo el año y marcar "Dato a revisar".
 3. Si hay varias fechas de nacimiento, mostrar los años posibles ("1886 o 1888").
-4. Excluir personas sin nombre en español ni inglés.
+4. Excluir personas sin nombre en español, inglés ni "mul" (Wikidata está pasando los nombres en alfabeto latino a la etiqueta multilingüe "mul"; sin ella se perdían casos como Einstein o Agustín Lara).
+   - Si alguien tiene fechas de muerte en varios años, se publica en el año de la fecha preferida de Wikidata; si ninguna es preferida, aparece en todos esos años con "Dato a revisar" hasta que se corrija a mano.
 5. Aplicar `correcciones.csv` y luego las fichas curadas (mandan sobre Wikidata).
 6. Limpiar países históricos (Imperio ruso, Raj británico, etc.) y mostrar hasta dos.
 7. Asignar categoría: Literatura, Música, Artes visuales, Cine e historieta, Ciencia.
@@ -72,7 +73,7 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 Meta: lanzar a mediados de diciembre de 2026, antes del 1/1/2027.
 
 Para el lanzamiento:
-1. [ ] Script que consulte Wikidata directamente, limpie y genere los datos (con reporte de calidad).
+1. [x] Script que consulte Wikidata directamente, limpie y genere los datos (con reporte de calidad).
 2. [ ] Datos reales para los años de muerte 1950 a 1976.
 3. [ ] Consulta aparte para argentinos con notabilidad más baja y más ocupaciones (letristas, guionistas, periodistas, ilustradores); cruzar con la Biblioteca Nacional Mariano Moreno.
 4. [ ] Sitio estático en Astro, con una URL por año y por autor, publicado en GitHub.

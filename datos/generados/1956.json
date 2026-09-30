@@ -14,9 +14,9 @@
    "p": "Alemania",
    "o": "Literatura",
    "occ": [
-    "director de cine",
     "letrista",
     "dramaturgo",
+    "director de cine",
     "poeta",
     "escritor"
    ],
@@ -46,8 +46,8 @@
    "p": "Unión de la India / India",
    "o": "Literatura",
    "occ": [
-    "pintor",
-    "escritor"
+    "escritor",
+    "pintor"
    ],
    "sl": 149,
    "wp": "https://es.wikipedia.org/wiki/B.R._Ambedkar",
@@ -100,9 +100,9 @@
    "p": "Reino Unido",
    "o": "Literatura",
    "occ": [
-    "dramaturgo",
     "poeta",
-    "escritor"
+    "escritor",
+    "dramaturgo"
    ],
    "sl": 82,
    "wp": "https://es.wikipedia.org/wiki/A._A._Milne",
@@ -129,8 +129,8 @@
    "p": "República Socialista Soviética de Bielorrusia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 77,
    "wp": "https://es.wikipedia.org/wiki/Yakub_Kolas",
@@ -200,8 +200,8 @@
    "p": "República Socialista Soviética de Ucrania / Unión Soviética",
    "o": "Cine e historieta",
    "occ": [
-    "director de cine",
-    "escritor"
+    "escritor",
+    "director de cine"
    ],
    "sl": 58,
    "wp": "https://es.wikipedia.org/wiki/Aleksandr_Dovzhenko",
@@ -227,9 +227,9 @@
    "p": "Alemania",
    "o": "Artes visuales",
    "occ": [
+    "fotógrafo",
     "escultor",
-    "pintor",
-    "fotógrafo"
+    "pintor"
    ],
    "sl": 57,
    "wp": "https://es.wikipedia.org/wiki/Emil_Nolde",
@@ -253,9 +253,9 @@
    "p": "España",
    "o": "Literatura",
    "occ": [
-    "dramaturgo",
+    "escritor",
     "poeta",
-    "escritor"
+    "dramaturgo"
    ],
    "sl": 55,
    "wp": "https://es.wikipedia.org/wiki/P%C3%ADo_Baroja",
@@ -337,7 +337,7 @@
    ],
    "sl": 51,
    "wp": "https://es.wikipedia.org/wiki/Pak_Heon-yeong",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pak%20Hon-yong12.jpg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pak%20Hon-yong%2002.jpg",
    "flags": [
     "muerte_otro_anio"
    ],
@@ -375,8 +375,8 @@
    "p": "Suiza",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 50,
    "wp": "https://es.wikipedia.org/wiki/Robert_Walser",
@@ -403,8 +403,8 @@
    "p": "Unión Soviética",
    "o": "Artes visuales",
    "occ": [
-    "escultor",
     "pintor",
+    "escultor",
     "fotógrafo"
    ],
    "sl": 46,
@@ -448,7 +448,7 @@
    "d": "1956-02-04",
    "bd": "22 de febrero de 1887",
    "dd": "4 de febrero de 1956",
-   "p": "Francia / Polonia",
+   "p": "Polonia / Francia",
    "o": "Literatura",
    "occ": [
     "poeta"
@@ -471,8 +471,8 @@
    "p": "Italia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 44,
    "wp": "https://es.wikipedia.org/wiki/Giovanni_Papini",
@@ -498,8 +498,8 @@
    "p": "Francia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "poeta"
+    "poeta",
+    "pintor"
    ],
    "sl": 43,
    "wp": "https://es.wikipedia.org/wiki/Marie_Laurencin",
@@ -519,10 +519,10 @@
    "p": "Estados Unidos / Alemania",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "historietista",
     "compositor",
-    "fotógrafo"
+    "fotógrafo",
+    "pintor",
+    "historietista"
    ],
    "sl": 42,
    "wp": "https://es.wikipedia.org/wiki/Lyonel_Feininger",
@@ -544,7 +544,7 @@
    "d": "1956-05-07",
    "bd": "15 de diciembre de 1870",
    "dd": "7 de mayo de 1956",
-   "p": "Austria / Estados Unidos",
+   "p": "Estados Unidos / Austria",
    "o": "Artes visuales",
    "occ": [
     "escultor"
@@ -584,7 +584,7 @@
    "d": "1956-01-23",
    "bd": "16 de septiembre de 1893",
    "dd": "23 de enero de 1956",
-   "p": "Reino Unido / Hungría",
+   "p": "Hungría / Reino Unido",
    "o": "Cine e historieta",
    "occ": [
     "director de cine"
@@ -627,9 +627,9 @@
    "p": "Reino Unido",
    "o": "Literatura",
    "occ": [
-    "pintor",
+    "escritor",
     "poeta",
-    "escritor"
+    "pintor"
    ],
    "sl": 39,
    "wp": "https://es.wikipedia.org/wiki/Max_Beerbohm",
@@ -774,9 +774,9 @@
    "p": "Francia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
+    "escritor",
     "poeta",
-    "escritor"
+    "pintor"
    ],
    "sl": 33,
    "wp": "https://es.wikipedia.org/wiki/Jean_Metzinger",
@@ -819,7 +819,7 @@
    "d": "1956-11-09",
    "bd": "2 de agosto de 1878",
    "dd": "9 de noviembre de 1956",
-   "p": "Estonia / Finlandia",
+   "p": "Finlandia / Estonia",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -859,7 +859,7 @@
    "d": "1956-06-02",
    "bd": "12 de julio de 1886",
    "dd": "2 de junio de 1956",
-   "p": "Dinamarca / Estados Unidos",
+   "p": "Estados Unidos / Dinamarca",
    "o": "Cine e historieta",
    "occ": [
     "director de cine"
@@ -882,8 +882,8 @@
    "p": "Reino Unido",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 31,
    "wp": "https://es.wikipedia.org/wiki/Walter_de_la_Mare",
@@ -908,9 +908,9 @@
    "p": "Unión Soviética",
    "o": "Literatura",
    "occ": [
-    "dramaturgo",
+    "escritor",
     "poeta",
-    "escritor"
+    "dramaturgo"
    ],
    "sl": 30,
    "wp": "https://es.wikipedia.org/wiki/Samad_Vurgun",
@@ -930,9 +930,9 @@
    "p": "Austria",
    "o": "Música",
    "occ": [
-    "pintor",
+    "escritor",
     "compositor",
-    "escritor"
+    "pintor"
    ],
    "sl": 29,
    "wp": "https://es.wikipedia.org/wiki/August_Kubizek",
@@ -998,8 +998,8 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 29,
    "wp": "https://es.wikipedia.org/wiki/Nikolaj_Velimirovi%C4%87",
@@ -1044,8 +1044,8 @@
    "p": "Egipto",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 28,
    "wp": "https://es.wikipedia.org/wiki/Muhammad_Hussein_Haykal",
@@ -1084,7 +1084,7 @@
    "d": "1956-01-03",
    "bd": "25 de octubre de 1864",
    "dd": "3 de enero de 1956",
-   "p": "Unión Soviética / Estados Unidos",
+   "p": "Estados Unidos / Unión Soviética",
    "o": "Música",
    "occ": [
     "compositor"
@@ -1124,7 +1124,7 @@
    "d": "1956-11-10",
    "bd": "20 de noviembre de 1911",
    "dd": "10 de noviembre de 1956",
-   "p": "Polonia / Estados Unidos",
+   "p": "Estados Unidos / Polonia",
    "o": "Artes visuales",
    "occ": [
     "fotógrafo"
@@ -1144,11 +1144,11 @@
    "d": "1956-05-23",
    "bd": "30 de noviembre de 1883",
    "dd": "23 de mayo de 1956",
-   "p": "Estonia / Suecia",
+   "p": "Suecia / Estonia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 25,
    "wp": "https://es.wikipedia.org/wiki/Gustav_Suits",
@@ -1297,11 +1297,11 @@
    "d": "1956-06-08",
    "bd": "13 de marzo de 1899",
    "dd": "8 de junio de 1956",
-   "p": "Segunda República polaca / Imperio ruso",
+   "p": "Imperio ruso / Segunda República polaca",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 23,
    "wp": "https://es.wikipedia.org/wiki/Jan_Lecho%C5%84",
@@ -1361,8 +1361,8 @@
    "p": "Reino Unido",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "fotógrafo"
+    "fotógrafo",
+    "pintor"
    ],
    "sl": 22,
    "wp": "https://es.wikipedia.org/wiki/Frank_Brangwyn",
@@ -1520,11 +1520,11 @@
    "d": "1956-10-26",
    "bd": "5 de noviembre de 1895",
    "dd": "26 de octubre de 1956",
-   "p": "Alemania / Francia",
+   "p": "Francia / Alemania",
    "o": "Música",
    "occ": [
-    "compositor",
-    "escritor"
+    "escritor",
+    "compositor"
    ],
    "sl": 21,
    "wp": "https://es.wikipedia.org/wiki/Walter_Gieseking",
@@ -1602,7 +1602,7 @@
    "d": "1956-11-02",
    "bd": "23 de mayo de 1873",
    "dd": "2 de noviembre de 1956",
-   "p": "Alemania / Reino Unido",
+   "p": "Reino Unido / Alemania",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -1686,8 +1686,8 @@
    "p": "Turquía",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 17,
    "wp": null,
@@ -1707,8 +1707,8 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "director de cine",
     "dramaturgo",
+    "director de cine",
     "escritor"
    ],
    "sl": 17,
@@ -1817,7 +1817,7 @@
    "d": "1956-05-05",
    "bd": "17 de junio de 1901",
    "dd": "5 de mayo de 1956",
-   "p": "Rumania / Hungría",
+   "p": "Hungría / Rumania",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -1840,8 +1840,8 @@
    "p": "Estados Unidos",
    "o": "Cine e historieta",
    "occ": [
-    "director de cine",
-    "escritor"
+    "escritor",
+    "director de cine"
    ],
    "sl": 17,
    "wp": null,
@@ -1901,8 +1901,8 @@
    "p": "Alemania",
    "o": "Cine e historieta",
    "occ": [
-    "director de cine",
-    "escritor"
+    "escritor",
+    "director de cine"
    ],
    "sl": 16,
    "wp": null,
@@ -1942,9 +1942,9 @@
    "p": "Unión Soviética",
    "o": "Literatura",
    "occ": [
-    "dramaturgo",
     "poeta",
-    "escritor"
+    "escritor",
+    "dramaturgo"
    ],
    "sl": 16,
    "wp": null,
@@ -1952,28 +1952,6 @@
    "flags": [],
    "src": "wikidata",
    "conf": "ok"
-  },
-  {
-   "id": "q645074",
-   "qid": "Q645074",
-   "n": "Freeman Wills Crofts",
-   "b": "1879-06-01",
-   "d": "1956-04-11",
-   "bd": "1 de junio de 1879",
-   "dd": "11 de abril de 1956",
-   "p": "Irlanda",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 16,
-   "wp": null,
-   "img": null,
-   "flags": [
-    "muerte_otro_anio"
-   ],
-   "src": "wikidata",
-   "conf": "check"
   },
   {
    "id": "q705062",
@@ -2043,7 +2021,7 @@
    "d": "1956-02-27",
    "bd": "15 de octubre de 1898",
    "dd": "27 de febrero de 1956",
-   "p": "Alemania Oriental / Alemania",
+   "p": "Alemania / Alemania Oriental",
    "o": "Música",
    "occ": [
     "compositor"
@@ -2086,8 +2064,8 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "director de cine",
     "dramaturgo",
+    "director de cine",
     "escritor"
    ],
    "sl": 15,
@@ -2152,9 +2130,9 @@
    "p": "Nicaragua",
    "o": "Literatura",
    "occ": [
-    "poeta",
+    "escritor",
     "compositor",
-    "escritor"
+    "poeta"
    ],
    "sl": 15,
    "wp": "https://es.wikipedia.org/wiki/Rigoberto_L%C3%B3pez_P%C3%A9rez",
@@ -2218,7 +2196,7 @@
    ],
    "sl": 14,
    "wp": "https://es.wikipedia.org/wiki/Charley_Rogers",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nazty%20Nuisance%20%281943%29%201.jpg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charley%20Rogers%20in%20Nazty%20Nuisance.jpg",
    "flags": [],
    "src": "wikidata",
    "conf": "ok"
@@ -2316,8 +2294,8 @@
    "p": "Checoslovaquia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "escritor"
+    "escritor",
+    "pintor"
    ],
    "sl": 14,
    "wp": null,
@@ -2456,12 +2434,12 @@
    "d": "1956-09-29",
    "bd": "18 de febrero de 1871",
    "dd": "29 de septiembre de 1956",
-   "p": "Francia / Suiza",
+   "p": "Suiza / Francia",
    "o": "Cine e historieta",
    "occ": [
     "director de cine",
-    "escritor",
-    "fotógrafo"
+    "fotógrafo",
+    "escritor"
    ],
    "sl": 13,
    "wp": null,
@@ -2543,8 +2521,8 @@
    "p": "Hungría",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 13,
    "wp": "https://es.wikipedia.org/wiki/Ren%C3%A9e_Erd%C5%91s",
@@ -2584,8 +2562,8 @@
    "p": "Estados Unidos / España",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 13,
    "wp": "https://es.wikipedia.org/wiki/Zenobia_Camprub%C3%AD",
@@ -2715,7 +2693,7 @@
    "d": "1956-02-25",
    "bd": "20 de septiembre de 1892",
    "dd": "25 de febrero de 1956",
-   "p": "Croatas y Eslovenos / República Federal Popular de Yugoslavia",
+   "p": "Reino de Yugoslavia / República Federal Popular de Yugoslavia",
    "o": "Música",
    "occ": [
     "compositor"
@@ -2738,9 +2716,9 @@
    "p": "Reino Unido",
    "o": "Artes visuales",
    "occ": [
-    "escultor",
+    "escritor",
     "pintor",
-    "escritor"
+    "escultor"
    ],
    "sl": 12,
    "wp": null,
@@ -2864,8 +2842,8 @@
    "p": "Chile",
    "o": "Cine e historieta",
    "occ": [
-    "director de cine",
-    "pintor"
+    "pintor",
+    "director de cine"
    ],
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Adelqui_Migliar",
@@ -2885,8 +2863,8 @@
    "p": "Japón",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Aizu_Yaichi",
@@ -3025,7 +3003,7 @@
    "d": "1956-06-26",
    "bd": "20 de mayo de 1885",
    "dd": "26 de junio de 1956",
-   "p": "Israel / Alemania",
+   "p": "Alemania / Israel",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -3093,7 +3071,7 @@
    ],
    "sl": 11,
    "wp": null,
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyagi%20Michio%20photographed%20by%20Shigeru%20Tamura.jpg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michio%20Miyagi.jpg",
    "flags": [],
    "src": "wikidata",
    "conf": "ok"
@@ -3249,8 +3227,8 @@
    "p": "España",
    "o": "Literatura",
    "occ": [
-    "compositor",
-    "escritor"
+    "escritor",
+    "compositor"
    ],
    "sl": 10,
    "wp": "https://es.wikipedia.org/wiki/Aita_Donostia",
@@ -3290,9 +3268,9 @@
    "p": "Perú",
    "o": "Literatura",
    "occ": [
-    "pintor",
     "poeta",
-    "escritor"
+    "escritor",
+    "pintor"
    ],
    "sl": 10,
    "wp": "https://es.wikipedia.org/wiki/C%C3%A9sar_Moro",
@@ -3374,7 +3352,7 @@
    "d": "1956-01-22",
    "bd": "1879",
    "dd": "22 de enero de 1956",
-   "p": "Unión Soviética / Suiza",
+   "p": "Suiza / Unión Soviética",
    "o": "Artes visuales",
    "occ": [
     "pintor"
@@ -3399,9 +3377,9 @@
    "p": "Italia",
    "o": "Artes visuales",
    "occ": [
-    "escultor",
+    "fotógrafo",
     "pintor",
-    "fotógrafo"
+    "escultor"
    ],
    "sl": 10,
    "wp": null,
@@ -3425,7 +3403,7 @@
    ],
    "sl": 10,
    "wp": null,
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Taldir2.jpg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20barde%20breton%20%27Taldir%27%20%285294014%29.jpg",
    "flags": [],
    "src": "wikidata",
    "conf": "ok"
@@ -3506,7 +3484,7 @@
    ],
    "sl": 10,
    "wp": "https://es.wikipedia.org/wiki/Gerrit_Jan_van_Heuven_Goedhart",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VanHeuvenGoedhart.jpg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1939%20Portret%20van%20G.J.%20van%20Heuven%20Goedhart.jpg",
    "flags": [],
    "src": "wikidata",
    "conf": "ok"
@@ -3646,8 +3624,8 @@
    "p": "Italia",
    "o": "Literatura",
    "occ": [
-    "dramaturgo",
-    "escritor"
+    "escritor",
+    "dramaturgo"
    ],
    "sl": 10,
    "wp": null,
@@ -3664,7 +3642,7 @@
    "d": "1956-01-19",
    "bd": "18 de noviembre de 1898",
    "dd": "19 de enero de 1956",
-   "p": "Unión de la India / India",
+   "p": "India / Unión de la India",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -3708,8 +3686,8 @@
    "o": "Literatura",
    "occ": [
     "director de cine",
-    "compositor",
-    "escritor"
+    "escritor",
+    "compositor"
    ],
    "sl": 10,
    "wp": null,

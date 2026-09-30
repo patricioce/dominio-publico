@@ -1,0 +1,112 @@
+{
+ "anio": 1962,
+ "filas": 231,
+ "personas_unicas": 185,
+ "personas_publicadas": 182,
+ "por_categoria": {
+  "Literatura": 107,
+  "Artes visuales": 28,
+  "Cine e historieta": 26,
+  "Música": 21
+ },
+ "excluidos_sin_nombre": [],
+ "excluidos_por_correccion": [],
+ "movidos_a_otro_anio": [
+  "Werner Bergengruen (Q704552): la fecha preferida en Wikidata es de otro año",
+  "Uma Nehru (Q17285647): la fecha preferida en Wikidata es de otro año",
+  "Coba Ritsema (Q2200295): la fecha preferida en Wikidata es de otro año"
+ ],
+ "muerte_en_disputa": [
+  "Michael Curtiz: 1962-03-10, 1962-04-10",
+  "André Lhote: 1962-01-24, 1962-01-25",
+  "Sylvia Beach: 1962-10-05, 1962-10-06",
+  "John Ireland: 1962-05-12, 1962-06-12",
+  "Ahmad ibn Yahya: 1962-09-18, 1962-09-19",
+  "Willis H. O'Brien: 1962-11-08, 1962-11-10",
+  "Shaaban Bin Robert: 1962-06-20, 1962-06-22",
+  "Hans Kirk: 1962-06-16, 1962-06-18",
+  "Maroun Abboud: 1962-06-02, 1962-06-03",
+  "Jean Toulout: 1962-10-18, 1962-10-23",
+  "Rudolf Alexander Schröder: 1962-08-22, 1962-08-23",
+  "Otakar Jeremiáš: 1962-03-02, 1962-03-05"
+ ],
+ "muerte_solo_anio": [
+  "Werner Bergengruen",
+  "Uma Nehru",
+  "Astrid Ahnfelt",
+  "Coba Ritsema"
+ ],
+ "muerte_fuera_del_anio": [
+  "Clive Bell (Q684978)"
+ ],
+ "nacimiento_en_disputa": [
+  "Hanns Eisler: 1898-06-06, 1898-07-06",
+  "Franz Kline: 1910-05-03, 1910-05-23",
+  "Henri Wallon: 1879-03-15, 1879-06-15",
+  "Ahmad ibn Yahya: 1891-06-18, 1895-01-01",
+  "Mary Gilmore: 1865-08-16, 1885-08-16",
+  "Emmanuel Mané-Katz: 1894-06-05, 1894-06-17"
+ ],
+ "nacimiento_solo_anio": [
+  "Solomon Linda",
+  "Abdulla Goran"
+ ],
+ "sin_nacimiento": [],
+ "sin_pais": [
+  "Mouloud Feraoun",
+  "Jean Amrouche"
+ ],
+ "sin_wikipedia_es": [
+  "Werner Bergengruen",
+  "Dhondo Keshav Karve",
+  "Zdeněk Nejedlý",
+  "Nikolai Pogodin",
+  "Albert Roosevelt",
+  "Muhammad Yamin",
+  "Helena Kottler Vurnik",
+  "Emmanuil Kazakevich",
+  "Grigol Robakidze",
+  "Walter Anderson",
+  "Abdulla Goran",
+  "Shaaban Bin Robert",
+  "Hans Kirk",
+  "Abba Ahimeir",
+  "Ralph Dawson",
+  "Ralph Hodgson",
+  "Fran Lhotka",
+  "Leonid Soloviev",
+  "Louis King",
+  "Luang Wichitwathakan",
+  "Uma Nehru",
+  "E. Franklin Frazier",
+  "Philip Gibbs",
+  "Marcello Dudovich",
+  "Maroun Abboud",
+  "Zdeněk Chalabala",
+  "Rudolf Alexander Schröder",
+  "Johannes Guter",
+  "Louis Moilliet",
+  "Irving Fine",
+  "Otakar Jeremiáš",
+  "Pierre Hamp",
+  "Marcel Delannoy",
+  "Friedrich Vordemberge-Gildewart",
+  "Jānis Jaunsudrabiņš",
+  "Marcelle Capy",
+  "Leroy Shield",
+  "Herbert William Heinrich",
+  "Paul Viiding",
+  "Antonio Baldini",
+  "Astrid Ahnfelt",
+  "H. Leivick",
+  "Hrand Nazariantz",
+  "William Bailey",
+  "Val Paul",
+  "Fred Sersen"
+ ],
+ "corregidos": [],
+ "curados_fusionados": [],
+ "curados_ausentes_en_wikidata": [],
+ "correcciones_sin_uso": [],
+ "a_revisar": 19
+}

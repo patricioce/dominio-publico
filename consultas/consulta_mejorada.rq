@@ -10,6 +10,8 @@ SELECT ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelink
        (COUNT(DISTINCT ?otraMuerte) AS ?muertesFueraDelAnio)
        (SAMPLE(?nombreEs) AS ?etiquetaEs)
        (SAMPLE(?nombreEn) AS ?etiquetaEn)
+       (SAMPLE(?nombreMul) AS ?etiquetaMul)
+       (MAX(?mejor) AS ?fechaPreferida)
 WHERE {
   VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q214917 wd:Q36834
                       wd:Q1028181 wd:Q1281618 wd:Q2526255 wd:Q715301
@@ -24,6 +26,8 @@ WHERE {
             wikibase:rank ?rango .
 
   FILTER(?rango != wikibase:DeprecatedRank)
+  # 1 si esta fecha es la de mejor rango (preferida, o normal cuando no hay preferida).
+  BIND(IF(EXISTS { ?stMuerte a wikibase:BestRank }, 1, 0) AS ?mejor)
   FILTER(?muerte >= "{ANIO}-01-01T00:00:00Z"^^xsd:dateTime &&
          ?muerte <  "{ANIO_SIG}-01-01T00:00:00Z"^^xsd:dateTime)
   FILTER(?precision >= 9)
@@ -48,9 +52,11 @@ WHERE {
   OPTIONAL { ?autor wdt:P18 ?imagen . }
   OPTIONAL { ?articuloEs schema:about ?autor ;
                          schema:isPartOf <https://es.wikipedia.org/> . }
-  # Etiquetas explícitas: se excluye a quien no tenga nombre en español ni en inglés.
+  # Etiquetas explícitas: se excluye a quien no tenga nombre en español, inglés ni "mul"
+  # (Wikidata está pasando los nombres en alfabeto latino a la etiqueta multilingüe "mul").
   OPTIONAL { ?autor rdfs:label ?nombreEs . FILTER(LANG(?nombreEs) = "es") }
   OPTIONAL { ?autor rdfs:label ?nombreEn . FILTER(LANG(?nombreEn) = "en") }
+  OPTIONAL { ?autor rdfs:label ?nombreMul . FILTER(LANG(?nombreMul) = "mul") }
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "es,en,mul,fr,de" .

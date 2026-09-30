@@ -1,0 +1,118 @@
+{
+ "anio": 1952,
+ "filas": 205,
+ "personas_unicas": 166,
+ "personas_publicadas": 165,
+ "por_categoria": {
+  "Literatura": 97,
+  "Artes visuales": 25,
+  "Cine e historieta": 24,
+  "Música": 19
+ },
+ "excluidos_sin_nombre": [],
+ "excluidos_por_correccion": [],
+ "movidos_a_otro_anio": [
+  "Dimitar Nenov (Q1225831): la fecha preferida en Wikidata es de otro año"
+ ],
+ "muerte_en_disputa": [
+  "Ferenc Molnár: 1952-04-01, 1952-04-02",
+  "Ivan Olbracht: 1952-12-20, 1952-12-30",
+  "Norman Douglas: 1952-02-07, 1952-02-09, 1952-02-15",
+  "Alberto Savinio: 1952-05-05, 1952-05-13",
+  "Yitzhak Sadeh: 1952-08-20, 1952-08-21",
+  "Alfred Neumann: 1952-10-02, 1952-10-03",
+  "Renato Simoni: 1952-07-05, 1952-07-15",
+  "Lev Karsavin: 1952-07-12, 1952-07-20",
+  "Ferdinand Bac: 1952-11-18, 1952-11-19",
+  "P.A Bashannikov: 1952-09-04, 1952-09-05"
+ ],
+ "muerte_solo_anio": [
+  "Al-Kawthari",
+  "3rd Taktra Rinpoche"
+ ],
+ "muerte_fuera_del_anio": [
+  "Giuseppe Antonio Borgese (Q1528124)",
+  "Marjorie Bowen (Q536979)"
+ ],
+ "nacimiento_en_disputa": [
+  "Italo Montemezzi: 1875-05-31, 1875-08-04",
+  "Fartein Valen: 1887-08-15, 1887-08-25",
+  "J. Farrell MacDonald: 1875-04-14, 1875-06-06",
+  "Leib Kvitko: 1890-10-15, 1890-11-11",
+  "Hugh Herbert: 1884-08-10, 1885-08-10, 1887-08-10",
+  "Marjorie Bowen: 1885-11-01, 1886-01-01",
+  "Eugenio De Liguoro: 1895-03-06, 1899-03-15",
+  "Fred Sauer: 1886-07-14, 1886-12-14",
+  "Tomás Domínguez Arévalo: 1882-09-26, 1883-10-26",
+  "Giovanni Tebaldini: 1864-07-07, 1864-09-07"
+ ],
+ "nacimiento_solo_anio": [
+  "Rashid Jahan",
+  "Anne Anderson",
+  "Al-Kawthari",
+  "3rd Taktra Rinpoche",
+  "Mikhail Doller"
+ ],
+ "sin_nacimiento": [],
+ "sin_pais": [
+  "Karel Lamač"
+ ],
+ "sin_wikipedia_es": [
+  "Ivan Olbracht",
+  "Norman Douglas",
+  "Sergei Bortkiewicz",
+  "Rashid Jahan",
+  "Peretz Markish",
+  "Roger Vitrac",
+  "August Alle",
+  "Carlo Agostini",
+  "Adolf Černý",
+  "Roland West",
+  "Renato Simoni",
+  "Nicolae Constantin Batzaria",
+  "Jules Adler",
+  "Aaro Hellaakoski",
+  "Marjorie Bowen",
+  "Lev Karsavin",
+  "Jan Kucharzewski",
+  "Masao Kume",
+  "William Pimm",
+  "Marguerite Burnat-Provins",
+  "Wadia Sabra",
+  "Tatiana Shchepkina-Kupernik",
+  "Hugo Raudsepp",
+  "Lodewijk van Deyssel",
+  "Jiří Frejka",
+  "Lamar Trotti",
+  "Jazep Varonka",
+  "Potti Sreeramulu",
+  "Al-Kawthari",
+  "Bruno Barilli",
+  "Ellen Roosval von Hallwyl",
+  "Georg Schumann",
+  "Max Laeuger",
+  "Rudolf Hans Bartsch",
+  "Ernst Zahn",
+  "Paolo Manna",
+  "Shinpei Nakayama",
+  "Ilya Shatrov",
+  "David Hofstein",
+  "Dimitar Nenov",
+  "Mikhail Doller",
+  "Vladimir Vilner",
+  "Zakhar Dorofeyev",
+  "Ernest Florman",
+  "Tom Chatterton",
+  "P.A Bashannikov",
+  "Ivan Kocherha",
+  "Arthur B. Carles",
+  "Bangalore Nagarathnamma"
+ ],
+ "corregidos": [],
+ "curados_fusionados": [
+  "Macedonio Fernández"
+ ],
+ "curados_ausentes_en_wikidata": [],
+ "correcciones_sin_uso": [],
+ "a_revisar": 24
+}

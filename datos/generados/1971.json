@@ -1,0 +1,4111 @@
+{
+ "anio_muerte": 1971,
+ "aviso": "Información orientativa, no es asesoramiento legal.",
+ "fuente": "Wikidata (CC0) + correcciones y fichas curadas",
+ "autores": [
+  {
+   "id": "q1779",
+   "qid": "Q1779",
+   "n": "Louis Armstrong",
+   "b": "1901-08-04",
+   "d": "1971-07-06",
+   "bd": "4 de agosto de 1901",
+   "dd": "6 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 178,
+   "wp": "https://es.wikipedia.org/wiki/Louis_Armstrong",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Armstrong%20restored.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7314",
+   "qid": "Q7314",
+   "n": "Ígor Stravinsky",
+   "b": "1882-06-17",
+   "d": "1971-04-06",
+   "bd": "17 de junio de 1882",
+   "dd": "6 de abril de 1971",
+   "p": "Estados Unidos / Suiza",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 166,
+   "wp": "https://es.wikipedia.org/wiki/%C3%8Dgor_Stravinski",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Igor%20Stravinsky%20LOC%2032392u.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q44301",
+   "qid": "Q44301",
+   "n": "Jim Morrison",
+   "b": "1943-12-08",
+   "d": "1971-07-03",
+   "bd": "8 de diciembre de 1943",
+   "dd": "3 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "letrista",
+    "poeta",
+    "compositor"
+   ],
+   "sl": 150,
+   "wp": "https://es.wikipedia.org/wiki/Jim_Morrison",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Morrison%201969.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q165823",
+   "qid": "Q165823",
+   "n": "Giórgos Seféris",
+   "b": "1900-03-13",
+   "d": "1971-09-19",
+   "bd": "13 de marzo de 1900",
+   "dd": "1971",
+   "p": "Grecia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 95,
+   "wp": "https://es.wikipedia.org/wiki/Yorgos_Seferis",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giorgos%20Seferis%201963.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q129092",
+   "qid": "Q129092",
+   "n": "Fernandel",
+   "b": "1903-05-08",
+   "d": "1971-02-26",
+   "bd": "8 de mayo de 1903",
+   "dd": "26 de febrero de 1971",
+   "p": "Francia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 76,
+   "wp": "https://es.wikipedia.org/wiki/Fernandel",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fernandel-Toulouse-1970.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q104340",
+   "qid": "Q104340",
+   "n": "Harold Lloyd",
+   "b": "1893-04-20",
+   "d": "1971-03-08",
+   "bd": "20 de abril de 1893",
+   "dd": "8 de marzo de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "fotógrafo",
+    "escritor",
+    "director de cine",
+    "pintor"
+   ],
+   "sl": 75,
+   "wp": "https://es.wikipedia.org/wiki/Harold_Lloyd",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Harold%20Lloyd%20-%20A%20Pictorial%20History%20of%20the%20Silent%20Screen.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q151523",
+   "qid": "Q151523",
+   "n": "Georg Lukács",
+   "b": "1885-04-13",
+   "d": "1971-06-04",
+   "bd": "13 de abril de 1885",
+   "dd": "4 de junio de 1971",
+   "p": "Hungría",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 70,
+   "wp": "https://es.wikipedia.org/wiki/Georg_Luk%C3%A1cs",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs%20Gy%C3%B6rgy.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q105937",
+   "qid": "Q105937",
+   "n": "Wendell Meredith Stanley",
+   "b": "1904-08-16",
+   "d": "1971-06-15",
+   "bd": "16 de agosto de 1904",
+   "dd": "15 de junio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 63,
+   "wp": "https://es.wikipedia.org/wiki/Wendell_Meredith_Stanley",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wendell%20Meredith%20Stanley.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q337185",
+   "qid": "Q337185",
+   "n": "Audie Murphy",
+   "b": "1925-06-20",
+   "d": "1971-05-28",
+   "bd": "20 de junio de 1925",
+   "dd": "28 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "compositor",
+    "letrista"
+   ],
+   "sl": 47,
+   "wp": "https://es.wikipedia.org/wiki/Audie_Murphy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Audie%20Murphy.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q168362",
+   "qid": "Q168362",
+   "n": "John Desmond Bernal",
+   "b": "1901-05-10",
+   "d": "1971-09-15",
+   "bd": "10 de mayo de 1901",
+   "dd": "15 de septiembre de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 47,
+   "wp": "https://es.wikipedia.org/wiki/John_Desmond_Bernal",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q234608",
+   "qid": "Q234608",
+   "n": "Diane Arbus",
+   "b": "1923-03-14",
+   "d": "1971-07-26",
+   "bd": "14 de marzo de 1923",
+   "dd": "26 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 46,
+   "wp": "https://es.wikipedia.org/wiki/Diane_Arbus",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q350704",
+   "qid": "Q350704",
+   "n": "Max Steiner",
+   "b": "1888-05-10",
+   "d": "1971-12-28",
+   "bd": "10 de mayo de 1888",
+   "dd": "28 de diciembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 44,
+   "wp": "https://es.wikipedia.org/wiki/Max_Steiner",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Steiner%20%28c.%201945%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q461726",
+   "qid": "Q461726",
+   "n": "Mijaíl Romm",
+   "b": "1901-01-24",
+   "d": "1971-11-01",
+   "bd": "24 de enero de 1901",
+   "dd": "1 de noviembre de 1971",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 41,
+   "wp": "https://es.wikipedia.org/wiki/Mija%C3%ADl_Romm",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20Romm%202026%20postcard%20of%20Russia%20cr.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q362828",
+   "qid": "Q362828",
+   "n": "Aleksándr Tvardovski",
+   "b": "1910-06-21",
+   "d": "1971-12-18",
+   "bd": "21 de junio de 1910",
+   "dd": "18 de diciembre de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Aleks%C3%A1ndr_Tvardovski",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tvardovsky%20with%20book.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q82311",
+   "qid": "Q82311",
+   "n": "Gene Vincent",
+   "b": "1935-02-11",
+   "d": "1971-10-12",
+   "bd": "11 de febrero de 1935",
+   "dd": "12 de octubre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Gene_Vincent",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Genevincent015e.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q435056",
+   "qid": "Q435056",
+   "n": "John W. Campbell",
+   "b": "1910-06-08",
+   "d": "1971-07-11",
+   "bd": "8 de junio de 1910",
+   "dd": "11 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 37,
+   "wp": "https://es.wikipedia.org/wiki/John_W._Campbell",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/14th%20WSFS%20008%20-%201956%20John%20Campbell%20cropped.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q345658",
+   "qid": "Q345658",
+   "n": "Vladislav Vólkov",
+   "b": "1935-11-23",
+   "d": "1971-06-30",
+   "bd": "23 de noviembre de 1935",
+   "dd": "30 de junio de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 37,
+   "wp": "https://es.wikipedia.org/wiki/Vladislav_V%C3%B3lkov",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vladislav%20Volkov.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q238364",
+   "qid": "Q238364",
+   "n": "Margaret Bourke-White",
+   "b": "1904-06-14",
+   "d": "1971-08-27",
+   "bd": "14 de junio de 1904",
+   "dd": "27 de agosto de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "fotógrafo"
+   ],
+   "sl": 36,
+   "wp": "https://es.wikipedia.org/wiki/Margaret_Bourke-White",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Bourke-White%201955.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q719228",
+   "qid": "Q719228",
+   "n": "Ogden Nash",
+   "b": "1902-08-19",
+   "d": "1971-05-19",
+   "bd": "19 de agosto de 1902",
+   "dd": "19 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 36,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogden%20Nash%20Dagmar%20Masquerade%20Party%201955%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q320061",
+   "qid": "Q320061",
+   "n": "Thomas E. Dewey",
+   "b": "1902-03-24",
+   "d": "1971-03-16",
+   "bd": "24 de marzo de 1902",
+   "dd": "16 de marzo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 36,
+   "wp": "https://es.wikipedia.org/wiki/Thomas_E._Dewey",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20E.%20Dewey%20color%20photograph.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q315879",
+   "qid": "Q315879",
+   "n": "Marcel Dupré",
+   "b": "1886-05-03",
+   "d": "1971-05-30",
+   "bd": "3 de mayo de 1886",
+   "dd": "30 de mayo de 1971",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 35,
+   "wp": "https://es.wikipedia.org/wiki/Marcel_Dupr%C3%A9",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Dupr%C3%A9%20%C3%A0%20Francfort-sur-le-Main.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1122412",
+   "qid": "Q1122412",
+   "n": "Giannino Castiglioni",
+   "b": "1884-05-04",
+   "d": "1971-08-27",
+   "bd": "4 de mayo de 1884",
+   "dd": "27 de agosto de 1971",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escultor"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Giannino_Castiglioni",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emilio%20Sommariva%20%281883%20-%201956%29%20Ritratto%20dello%20scultore%20Giannino%20Castiglioni%20%281884-1971%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q946745",
+   "qid": "Q946745",
+   "n": "Broncho Billy Anderson",
+   "b": "1880-03-21",
+   "d": "1971-01-20",
+   "bd": "21 de marzo de 1880",
+   "dd": "20 de enero de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Broncho_Billy_Anderson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Broncho%20Billy%20Anderson.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q437782",
+   "qid": "Q437782",
+   "n": "Simon Vestdijk",
+   "b": "1898-10-17",
+   "d": "1971-03-23",
+   "bd": "17 de octubre de 1898",
+   "dd": "23 de marzo de 1971",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Simon_Vestdijk",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VestdijkRolandHolst%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q62798",
+   "qid": "Q62798",
+   "n": "Gertrud von le Fort",
+   "b": "1876-10-11",
+   "d": "1971-11-01",
+   "bd": "11 de octubre de 1876",
+   "dd": "1 de noviembre de 1971",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 29,
+   "wp": "https://es.wikipedia.org/wiki/Gertrud_von_Le_Fort",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gertrud%20v%20Le%20Fort%20c1935.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q508522",
+   "qid": "Q508522",
+   "n": "Raicho Hiratsuka",
+   "b": "1886-02-10",
+   "d": "1971-05-24",
+   "bd": "10 de febrero de 1886",
+   "dd": "24 de mayo de 1971",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 29,
+   "wp": "https://es.wikipedia.org/wiki/Raich%C5%8D_Hiratsuka",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Raicho%20Hiratsuka.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q509002",
+   "qid": "Q509002",
+   "n": "August Derleth",
+   "b": "1909-02-24",
+   "d": "1971-07-04",
+   "bd": "24 de febrero de 1909",
+   "dd": "4 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/August_Derleth",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Studio%20portrait%20of%20August%20Derleth%20by%20Ephraim%20Burt%20Trimpey%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q540155",
+   "qid": "Q540155",
+   "n": "Friedebert Tuglas",
+   "b": "1886-03-02",
+   "d": "1971-04-15",
+   "bd": "2 de marzo de 1886",
+   "dd": "15 de abril de 1971",
+   "p": "Estonia / Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Friedebert_Tuglas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedebert%20Tuglas%201910.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q84503",
+   "qid": "Q84503",
+   "n": "Raoul Hausmann",
+   "b": "1886-07-12",
+   "d": "1971-01-01",
+   "bd": "12 de julio de 1886",
+   "dd": "1971",
+   "p": "Austria / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escultor",
+    "pintor",
+    "fotógrafo",
+    "escritor",
+    "poeta"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Raoul_Hausmann",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Raoul%20Hausmann.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q12173238",
+   "qid": "Q12173238",
+   "n": "Sophia Yablonska",
+   "b": "1907-05-15",
+   "d": "1971-02-04",
+   "bd": "15 de mayo de 1907",
+   "dd": "4 de febrero de 1971",
+   "p": "Imperio austrohúngaro",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "fotógrafo"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Sofia_Yablonska",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2721812",
+   "qid": "Q2721812",
+   "n": "Kanaiyalal Maneklal Munshi",
+   "b": "1887-12-30",
+   "d": "1971-02-08",
+   "bd": "30 de diciembre de 1887",
+   "dd": "8 de febrero de 1971",
+   "p": "India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 26,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/K%20M%20Munshi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1050195",
+   "qid": "Q1050195",
+   "n": "Mak Dizdar",
+   "b": "1917-10-17",
+   "d": "1971-07-14",
+   "bd": "17 de octubre de 1917",
+   "dd": "14 de julio de 1971",
+   "p": "República Federativa Socialista de Yugoslavia / Reino de Yugoslavia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 26,
+   "wp": "https://es.wikipedia.org/wiki/Mak_Dizdar",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mak%20Dizdar%2C%20bista%2C%20Sarajevo.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q114405",
+   "qid": "Q114405",
+   "n": "Rockwell Kent",
+   "b": "1882-06-21",
+   "d": "1971-03-13",
+   "bd": "21 de junio de 1882",
+   "dd": "13 de marzo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escultor",
+    "pintor",
+    "escritor"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/Rockwell_Kent",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rockwell%20Kent.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3351726",
+   "qid": "Q3351726",
+   "n": "Tarasankar Bandyopadhyay, Name in kannada -ತಾರಶಂಕರ ಬಂಡೋಪಾಧ್ಯಯ",
+   "b": "1898-07-23",
+   "d": "1971-09-14",
+   "bd": "23 de julio de 1898",
+   "dd": "14 de septiembre de 1971",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 25,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q536415",
+   "qid": "Q536415",
+   "n": "Wynton Kelly",
+   "b": "1931-12-02",
+   "d": "1971-04-12",
+   "bd": "2 de diciembre de 1931",
+   "dd": "12 de abril de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/Wynton_Kelly",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wynton%20Kelly.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q706654",
+   "qid": "Q706654",
+   "n": "Gaito Gazdanov",
+   "b": "1903-12-06",
+   "d": "1971-12-05",
+   "bd": "6 de diciembre de 1903",
+   "dd": "5 de diciembre de 1971",
+   "p": "Imperio ruso",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Gaito_Gazd%C3%A1nov",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gazdanov-192%3F.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q62734",
+   "qid": "Q62734",
+   "n": "Fritz von Opel",
+   "b": "1899-05-04",
+   "d": "1971-04-08",
+   "bd": "4 de mayo de 1899",
+   "dd": "8 de abril de 1971",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 23,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fritz%20von%20Opel%20%281928%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q957997",
+   "qid": "Q957997",
+   "n": "Naoya Shiga",
+   "b": "1883-02-20",
+   "d": "1971-10-21",
+   "bd": "20 de febrero de 1883",
+   "dd": "21 de octubre de 1971",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Naoya_Shiga",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Naoya%20Shiga%20cropped.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q468344",
+   "qid": "Q468344",
+   "n": "Stevie Smith",
+   "b": "1902-09-20",
+   "d": "1971-03-07",
+   "bd": "20 de septiembre de 1902",
+   "dd": "7 de marzo de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Stevie_Smith",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stevie-smith2.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q519357",
+   "qid": "Q519357",
+   "n": "Anthony Berkeley Cox",
+   "b": "1893-07-05",
+   "d": "1971-03-09",
+   "bd": "5 de julio de 1893",
+   "dd": "9 de marzo de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Anthony_Berkeley_Cox",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/AnthonyBerkeley1911.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q186798",
+   "qid": "Q186798",
+   "n": "Billy Gilbert",
+   "b": "1894-09-12",
+   "d": "1971-09-23",
+   "bd": "12 de septiembre de 1894",
+   "dd": "23 de septiembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Billy_Gilbert",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Billy%20Gilbert%201954.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q622586",
+   "qid": "Q622586",
+   "n": "Fuad Abdurakhmanov",
+   "b": "1915-05-11",
+   "d": "1971-06-15",
+   "bd": "11 de mayo de 1915",
+   "dd": "15 de junio de 1971",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Fuad_Abdurajm%C3%A1nov",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q572599",
+   "qid": "Q572599",
+   "n": "Shunryu Suzuki",
+   "b": "1904-05-18",
+   "d": "1971-12-04",
+   "bd": "18 de mayo de 1904",
+   "dd": "4 de diciembre de 1971",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Shunryu_Suzuki",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shunryu%20Suzuki%20at%20Zen%20Mountain%20Center%20%28cropped%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q46259",
+   "qid": "Q46259",
+   "n": "Kim Il-yeop",
+   "b": "1896-04-28",
+   "d": "1971-01-28",
+   "bd": "28 de abril de 1896",
+   "dd": "28 de enero de 1971",
+   "p": "Corea del Sur / Corea",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Kim_Iryeop",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%EA%B9%80%EC%9D%BC%EC%97%BD.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2395053",
+   "qid": "Q2395053",
+   "n": "Paruyr Sevak",
+   "b": "1924-01-24",
+   "d": "1971-06-17",
+   "bd": "24 de enero de 1924",
+   "dd": "17 de junio de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paruyr%20Sevak%202024%20stamp%20of%20Armenia.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2659138",
+   "qid": "Q2659138",
+   "n": "Philippe Hériat",
+   "b": "1898-09-15",
+   "d": "1971-10-10",
+   "bd": "15 de septiembre de 1898",
+   "dd": "1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Philippe_H%C3%A9riat",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Philippe%20H%C3%A9riat%20Meurisse%20b%201931.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q582574",
+   "qid": "Q582574",
+   "n": "Santiago Alberione",
+   "b": "1884-04-04",
+   "d": "1971-11-26",
+   "bd": "4 de abril de 1884",
+   "dd": "26 de noviembre de 1971",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Santiago_Alberione",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alberione.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q792878",
+   "qid": "Q792878",
+   "n": "Bengt Ekerot",
+   "b": "1920-02-08",
+   "d": "1971-11-26",
+   "bd": "8 de febrero de 1920",
+   "dd": "26 de noviembre de 1971",
+   "p": "Suecia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Bengt_Ekerot",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bengt%20Ekerot.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1293111",
+   "qid": "Q1293111",
+   "n": "Edward Andrade",
+   "b": "1887-12-27",
+   "d": "1971-06-06",
+   "bd": "27 de diciembre de 1887",
+   "dd": "6 de junio de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Edward_Andrade",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q462562",
+   "qid": "Q462562",
+   "n": "Lillian Hardin",
+   "b": "1898-02-03",
+   "d": "1971-08-27",
+   "bd": "3 de febrero de 1898",
+   "dd": "27 de agosto de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Lillian_Hardin",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lil%20Armstrong%20Billboard.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3126801",
+   "qid": "Q3126801",
+   "n": "Hank Mann",
+   "b": "1887-05-28",
+   "d": "1971-11-25",
+   "bd": "28 de mayo de 1887",
+   "dd": "25 de noviembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 19,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hank%20Mann%20-%20Nov%201920%20EH.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1903455",
+   "qid": "Q1903455",
+   "n": "Martin Benka",
+   "b": "1888-09-21",
+   "d": "1971-06-18",
+   "bd": "21 de septiembre de 1888",
+   "dd": "1971",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "pintor",
+    "escritor"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Martin_Benka",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Album%20representant%C5%AF%20v%C5%A1ech%20obor%C5%AF%20ve%C5%99ejn%C3%A9ho%20%C5%BEivota%20%C4%8Deskoslovensk%C3%A9ho%20-%201927%20-%20Martin%20Benka.png",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q655247",
+   "qid": "Q655247",
+   "n": "Nikolay Rubtsov",
+   "b": "1936-01-03",
+   "d": "1971-01-19",
+   "bd": "3 de enero de 1936",
+   "dd": "19 de enero de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 19,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rubzow%20Memorial%20Emetsk%20%282%29.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3089681",
+   "qid": "Q3089681",
+   "n": "Usmar Ismail",
+   "b": "1921-03-20",
+   "d": "1971-01-02",
+   "bd": "20 de marzo de 1921",
+   "dd": "2 de enero de 1971",
+   "p": "Indonesia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "poeta"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Usmar_Ismail",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Usmar%20Ismail%2C%20Peran%20Pemuda%20dalam%20Kebangkitan%20Film%20Indonesia%2C%20p177.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q677758",
+   "qid": "Q677758",
+   "n": "Armand Massard",
+   "b": "1884-12-01",
+   "d": "1971-04-08",
+   "bd": "1 de diciembre de 1884",
+   "dd": "1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Armand_Massard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Massard%2C%20Armand.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q948879",
+   "qid": "Q948879",
+   "n": "Henri Tomasi",
+   "b": "1901-08-17",
+   "d": "1971-01-13",
+   "bd": "17 de agosto de 1901",
+   "dd": "13 de enero de 1971",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Henri_Tomasi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Tomasi%20portrait%20corse.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1678071",
+   "qid": "Q1678071",
+   "n": "Jacques Ochs",
+   "b": "1883-02-18",
+   "d": "1971-04-03",
+   "bd": "18 de febrero de 1883",
+   "dd": "3 de abril de 1971",
+   "p": "Bélgica / Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Jacques_Ochs",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Ochs%20%281913%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1711542",
+   "qid": "Q1711542",
+   "n": "Juhan Smuul",
+   "b": "1922-01-18",
+   "d": "1971-04-13",
+   "bd": "1922",
+   "dd": "13 de abril de 1971",
+   "p": "Estonia / Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 18,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Juhan%20Smuuli%20monument%202009.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1873395",
+   "qid": "Q1873395",
+   "n": "Lucien Hubbard",
+   "b": "1888-12-22",
+   "d": "1971-12-31",
+   "bd": "22 de diciembre de 1888",
+   "dd": "31 de diciembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Lucien_Hubbard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/B%20Reeves%20Eason%2C%20Lucien%20Hubbard%2C%20%26%20Douglas%20Z%20Doty%20-%20Jan%201921%20EH.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2605075",
+   "qid": "Q2605075",
+   "n": "Peter Fleming",
+   "b": "1907-05-31",
+   "d": "1971-08-18",
+   "bd": "31 de mayo de 1907",
+   "dd": "18 de agosto de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Peter_Fleming_(escritor)",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q644548",
+   "qid": "Q644548",
+   "n": "Péter Szondi",
+   "b": "1929-05-27",
+   "d": "1971-10-18",
+   "bd": "27 de mayo de 1929",
+   "dd": "1971",
+   "p": "Hungría / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/P%C3%A9ter_Szondi",
+   "img": null,
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q675396",
+   "qid": "Q675396",
+   "n": "Philip Wylie",
+   "b": "1902-05-12",
+   "d": "1971-10-25",
+   "bd": "12 de mayo de 1902",
+   "dd": "25 de octubre de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Philip_Wylie",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Philip%20and%20Frederica%20Wylie%20listening%20to%20weather%20reports-%20Miami%20Beach%2C%20Florida%20%289352086738%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q963705",
+   "qid": "Q963705",
+   "n": "Rafał Wojaczek",
+   "b": "1945-12-06",
+   "d": "1971-05-11",
+   "bd": "6 de diciembre de 1945",
+   "dd": "11 de mayo de 1971",
+   "p": "Polonia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Rafa%C5%82_Wojaczek",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rafa%C5%82%20Wojaczek.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q810020",
+   "qid": "Q810020",
+   "n": "Basil Dearden",
+   "b": "1911-01-01",
+   "d": "1971-03-23",
+   "bd": "1 de enero de 1911",
+   "dd": "23 de marzo de 1971",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Basil_Dearden",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Basil%20Dean.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q438167",
+   "qid": "Q438167",
+   "n": "Bona Margarita de Saboya-Génova",
+   "b": "1896-08-01",
+   "d": "1971-02-02",
+   "bd": "1 de agosto de 1896",
+   "dd": "1971",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Bona_Margarita_de_Saboya-G%C3%A9nova",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cej%20-%20Ritratto%20di%20Maria%20Bona%20di%20Savoia-Genova.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1391877",
+   "qid": "Q1391877",
+   "n": "František Hrubín",
+   "b": "1910-09-17",
+   "d": "1971-03-01",
+   "bd": "17 de septiembre de 1910",
+   "dd": "1 de marzo de 1971",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor",
+    "poeta"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Franti%C5%A1ek%20Hrub%C3%ADn%20%281910-1971%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q254468",
+   "qid": "Q254468",
+   "n": "Herbert Biberman",
+   "b": "1900-03-04",
+   "d": "1971-06-30",
+   "bd": "4 de marzo de 1900",
+   "dd": "30 de junio de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Herbert_Biberman",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Biberman%20en%201947.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q947824",
+   "qid": "Q947824",
+   "n": "Jan Palouš",
+   "b": "1888-10-25",
+   "d": "1971-09-25",
+   "bd": "25 de octubre de 1888",
+   "dd": "25 de septiembre de 1971",
+   "p": "Checoslovaquia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Palou%C5%A1%20%281888-1971%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q327426",
+   "qid": "Q327426",
+   "n": "Sean Flynn",
+   "b": "1941-05-31",
+   "d": "1971-01-01",
+   "bd": "31 de mayo de 1941",
+   "dd": "1971",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Sean_Leslie_Flynn",
+   "img": null,
+   "flags": [
+    "anio",
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3500809",
+   "qid": "Q3500809",
+   "n": "Stuart Holmes",
+   "b": "1884-03-10",
+   "d": "1971-12-29",
+   "bd": "10 de marzo de 1884",
+   "dd": "29 de diciembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Stuart_Holmes",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stuart%20Holmes%20001.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2920160",
+   "qid": "Q2920160",
+   "n": "Falih Rıfkı Atay",
+   "b": "1894-01-25",
+   "d": "1971-03-20",
+   "bd": "25 de enero de 1894",
+   "dd": "20 de marzo de 1971",
+   "p": "Turquía",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Falih_R%C4%B1fk%C4%B1_Atay",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dinli%C3%A7o%C4%9Flu%20Mustafa%20R%C4%B1fk%C4%B1%20Bey.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q100989",
+   "qid": "Q100989",
+   "n": "Hubert von Meyerinck",
+   "b": "1896-08-23",
+   "d": "1971-05-13",
+   "bd": "23 de agosto de 1896",
+   "dd": "13 de mayo de 1971",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Hubert_von_Meyerinck",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hubert%20von%20Meyerinck.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1398507",
+   "qid": "Q1398507",
+   "n": "Junior Parker",
+   "b": "1932-03-27",
+   "d": "1971-11-18",
+   "bd": "1932",
+   "dd": "18 de noviembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Junior%20Parker%20AABF%201970%20JT.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q65221",
+   "qid": "Q65221",
+   "n": "Kurt Reidemeister",
+   "b": "1893-10-13",
+   "d": "1971-07-08",
+   "bd": "13 de octubre de 1893",
+   "dd": "8 de julio de 1971",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/KurtReidemeister%20MFO19544cropped.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1348644",
+   "qid": "Q1348644",
+   "n": "Larry Burrows",
+   "b": "1926-05-29",
+   "d": "1971-02-10",
+   "bd": "29 de mayo de 1926",
+   "dd": "10 de febrero de 1971",
+   "p": "Reino Unido",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Larry_Burrows",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Larry%20Burrows%20in%201967.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q584850",
+   "qid": "Q584850",
+   "n": "Luciano Bianciardi",
+   "b": "1922-12-14",
+   "d": "1971-11-14",
+   "bd": "14 de diciembre de 1922",
+   "dd": "14 de noviembre de 1971",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Luciano_Bianciardi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bianciardi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q215999",
+   "qid": "Q215999",
+   "n": "Rudolf Wittkower",
+   "b": "1901-06-22",
+   "d": "1971-10-11",
+   "bd": "22 de junio de 1901",
+   "dd": "11 de octubre de 1971",
+   "p": "Estados Unidos / Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Rudolf_Wittkower",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3607492",
+   "qid": "Q3607492",
+   "n": "Al Ferguson",
+   "b": "1888-04-19",
+   "d": "1971-12-04",
+   "bd": "19 de abril de 1888",
+   "dd": "4 de diciembre de 1971",
+   "p": "Irlanda / Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tarzan%20the%20Tiger%20Ferguson2.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3403682",
+   "qid": "Q3403682",
+   "n": "Bennett Cerf",
+   "b": "1898-05-25",
+   "d": "1971-08-27",
+   "bd": "25 de mayo de 1898",
+   "dd": "27 de agosto de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Bennett_Cerf",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bennett%20Cerf.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q958763",
+   "qid": "Q958763",
+   "n": "Carl Ruggles",
+   "b": "1876-03-11",
+   "d": "1971-10-24",
+   "bd": "11 de marzo de 1876",
+   "dd": "24 de octubre de 1971",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "compositor",
+    "pintor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Carl_Ruggles",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruggles%201911.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q732725",
+   "qid": "Q732725",
+   "n": "Charles Vildrac",
+   "b": "1882-11-22",
+   "d": "1971-06-25",
+   "bd": "22 de noviembre de 1882",
+   "dd": "25 de junio de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Vildrac%20and%20his%20wife%20in%20Japan.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q437811",
+   "qid": "Q437811",
+   "n": "Hyakken Uchida",
+   "b": "1889-05-29",
+   "d": "1971-04-20",
+   "bd": "29 de mayo de 1889",
+   "dd": "20 de abril de 1971",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Hyakken_Uchida",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Uchida%20Hyakken%2019521015.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3318947",
+   "qid": "Q3318947",
+   "n": "Mohammad Moin",
+   "b": "1918-04-30",
+   "d": "1971-07-04",
+   "bd": "30 de abril de 1918",
+   "dd": "4 de julio de 1971",
+   "p": "Irán",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mohammad-Moin.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3350450",
+   "qid": "Q3350450",
+   "n": "Olga Preobrazhenskaya",
+   "b": "1881-07-24",
+   "d": "1971-10-31",
+   "bd": "24 de julio de 1881",
+   "dd": "31 de octubre de 1971",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q543585",
+   "qid": "Q543585",
+   "n": "Sergey Konenkov",
+   "b": "1874-07-10",
+   "d": "1971-10-09",
+   "bd": "10 de julio de 1874",
+   "dd": "9 de octubre de 1971",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Sergu%C3%A9i_Koni%C3%B3nkov",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1973%20CPA%204260%20mint.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q78793",
+   "qid": "Q78793",
+   "n": "Tilla Durieux",
+   "b": "1880-08-18",
+   "d": "1971-02-21",
+   "bd": "18 de agosto de 1880",
+   "dd": "21 de febrero de 1971",
+   "p": "Austria",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Tilla_Durieux",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hilsdorf%2C%20Jacob%20-%20Tilla%20Durieux%20%28Zeno%20Fotografie%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q607568",
+   "qid": "Q607568",
+   "n": "Alberto Magnelli",
+   "b": "1888-07-01",
+   "d": "1971-04-20",
+   "bd": "1 de julio de 1888",
+   "dd": "20 de abril de 1971",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Alberto_Magnelli",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q571075",
+   "qid": "Q571075",
+   "n": "Antanas Venclova",
+   "b": "1906-01-07",
+   "d": "1971-06-28",
+   "bd": "7 de enero de 1906",
+   "dd": "28 de junio de 1971",
+   "p": "Lituania / Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D1%82%D0%B0%D0%BD%D0%B0%D1%81%20%D0%92%D0%B5%D0%BD%D1%86%D0%BB%D0%BE%D0%B2%D0%B0.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q8651",
+   "qid": "Q8651",
+   "n": "Douglas Shearer",
+   "b": "1899-11-17",
+   "d": "1971-01-05",
+   "bd": "17 de noviembre de 1899",
+   "dd": "5 de enero de 1971",
+   "p": "Canadá / Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3045368",
+   "qid": "Q3045368",
+   "n": "Ejnar Mikkelsen",
+   "b": "1880-12-23",
+   "d": "1971-05-01",
+   "bd": "23 de diciembre de 1880",
+   "dd": "1 de mayo de 1971",
+   "p": "Dinamarca",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ejnar%20Mikkelsen%201907%20lek00156.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2776972",
+   "qid": "Q2776972",
+   "n": "Jacob Glatstein",
+   "b": "1896-08-20",
+   "d": "1971-11-19",
+   "bd": "20 de agosto de 1896",
+   "dd": "19 de noviembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Jacob_Glatstein",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Glatstein.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q713743",
+   "qid": "Q713743",
+   "n": "Jean Grenier",
+   "b": "1898-02-06",
+   "d": "1971-03-05",
+   "bd": "6 de febrero de 1898",
+   "dd": "5 de marzo de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/JeanGrenierwiki.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2748881",
+   "qid": "Q2748881",
+   "n": "John Longden",
+   "b": "1900-11-11",
+   "d": "1971-05-26",
+   "bd": "11 de noviembre de 1900",
+   "dd": "26 de mayo de 1971",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/John_Longden",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Longden%20%28cropped%29%20-%20The%20Picture%20Show%20Annual%2C%201931.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2901856",
+   "qid": "Q2901856",
+   "n": "Kiyoshi Yamashita",
+   "b": "1922-03-10",
+   "d": "1971-07-12",
+   "bd": "10 de marzo de 1922",
+   "dd": "12 de julio de 1971",
+   "p": "Japón",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Kiyoshi_Yamashita",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiyoshi%20Yamashita%20on%20Ebisubashi%20Bridge.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1036885",
+   "qid": "Q1036885",
+   "n": "Kyōsuke Kindaichi",
+   "b": "1882-05-05",
+   "d": "1971-11-14",
+   "bd": "5 de mayo de 1882",
+   "dd": "14 de noviembre de 1971",
+   "p": "Japón",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "poeta"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Ky%C5%8Dsuke_Kindaichi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyosuke%20Kindaichi%20blownup.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q487355",
+   "qid": "Q487355",
+   "n": "Lennie Hayton",
+   "b": "1908-02-13",
+   "d": "1971-04-24",
+   "bd": "13 de febrero de 1908",
+   "dd": "24 de abril de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Lennie_Hayton",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lennie%20Hayton.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6068245",
+   "qid": "Q6068245",
+   "n": "María Jesús Alvarado Rivera",
+   "b": "1878-05-27",
+   "d": "1971-05-06",
+   "bd": "27 de mayo de 1878",
+   "dd": "6 de mayo de 1971",
+   "p": "Perú",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Jes%C3%BAs_Alvarado_Rivera",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mar%C3%ADa%20Jes%C3%BAs%20Alvarado%20Rivera%20%28cropped%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q927985",
+   "qid": "Q927985",
+   "n": "Paul Terry",
+   "b": "1887-02-19",
+   "d": "1971-10-25",
+   "bd": "19 de febrero de 1887",
+   "dd": "25 de octubre de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "fotógrafo",
+    "historietista",
+    "director de cine"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Paul_Terry",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Terry%20working%20at%20Pathe%20Pictures.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1398397",
+   "qid": "Q1398397",
+   "n": "Seán Ó Riada",
+   "b": "1931-08-01",
+   "d": "1971-10-03",
+   "bd": "1 de agosto de 1931",
+   "dd": "3 de octubre de 1971",
+   "p": "Irlanda",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9an%20%C3%93%20Riada.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2263974",
+   "qid": "Q2263974",
+   "n": "Zez Confrey",
+   "b": "1895-04-03",
+   "d": "1971-11-22",
+   "bd": "3 de abril de 1895",
+   "dd": "22 de noviembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ZezConfreySeatedWithVictorPhonograph.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q428560",
+   "qid": "Q428560",
+   "n": "Alan Rawsthorne",
+   "b": "1905-05-02",
+   "d": "1971-07-24",
+   "bd": "2 de mayo de 1905",
+   "dd": "24 de julio de 1971",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Alan_Rawsthorne",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1523426",
+   "qid": "Q1523426",
+   "n": "Alexander Tsfasman",
+   "b": "1906-12-14",
+   "d": "1971-02-20",
+   "bd": "14 de diciembre de 1906",
+   "dd": "20 de febrero de 1971",
+   "p": "Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q19756492",
+   "qid": "Q19756492",
+   "n": "Antonina Żabińska",
+   "b": "1908-07-18",
+   "d": "1971-03-19",
+   "bd": "18 de julio de 1908",
+   "dd": "19 de marzo de 1971",
+   "p": "Gobierno General de Polonia / República Popular de Polonia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q214365",
+   "qid": "Q214365",
+   "n": "Bernhard Paumgartner",
+   "b": "1887-11-14",
+   "d": "1971-07-27",
+   "bd": "14 de noviembre de 1887",
+   "dd": "27 de julio de 1971",
+   "p": "Austria",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Bernhard_Paumgartner",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bernhard%20Paumgartner%20%281887%E2%80%931971%29%201927%20%C2%A9%20Georg%20Fayer%20%281892%E2%80%931950%29%20OeNB%2010454070.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4901706",
+   "qid": "Q4901706",
+   "n": "Bhikhari Thakur",
+   "b": "1887-12-18",
+   "d": "1971-07-10",
+   "bd": "18 de diciembre de 1887",
+   "dd": "10 de julio de 1971",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "letrista"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bhikhari%20Thakur.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1029185",
+   "qid": "Q1029185",
+   "n": "Camille Gutt",
+   "b": "1884-11-14",
+   "d": "1971-06-07",
+   "bd": "14 de noviembre de 1884",
+   "dd": "7 de junio de 1971",
+   "p": "Bélgica",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Camille_Gutt",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Gutt.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q462615",
+   "qid": "Q462615",
+   "n": "Emy Roeder",
+   "b": "1890-01-30",
+   "d": "1971-02-07",
+   "bd": "30 de enero de 1890",
+   "dd": "7 de febrero de 1971",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geburtshaus%20Der%20Bildhauerin%20Emy%20Roeder%201890%20in%20Warzburg%201971%20in%20Mainz.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3424778",
+   "qid": "Q3424778",
+   "n": "Ernst Eklund",
+   "b": "1882-08-06",
+   "d": "1971-08-03",
+   "bd": "6 de agosto de 1882",
+   "dd": "3 de agosto de 1971",
+   "p": "Suecia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Ernst_Eklund",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20Eklund.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q576143",
+   "qid": "Q576143",
+   "n": "Godfried Bomans",
+   "b": "1913-03-02",
+   "d": "1971-12-22",
+   "bd": "2 de marzo de 1913",
+   "dd": "22 de diciembre de 1971",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Godfried%20Bomans%20%281965%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q716095",
+   "qid": "Q716095",
+   "n": "Hans Kohn",
+   "b": "1891-09-15",
+   "d": "1971-03-16",
+   "bd": "15 de septiembre de 1891",
+   "dd": "16 de marzo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Hans_Kohn",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q709990",
+   "qid": "Q709990",
+   "n": "Joe Colombo",
+   "b": "1930-07-30",
+   "d": "1971-07-30",
+   "bd": "30 de julio de 1930",
+   "dd": "30 de julio de 1971",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escultor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Joe_Colombo",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Colombo%20%281969%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q87018",
+   "qid": "Q87018",
+   "n": "Karl Farkas",
+   "b": "1893-10-28",
+   "d": "1971-05-16",
+   "bd": "28 de octubre de 1893",
+   "dd": "16 de mayo de 1971",
+   "p": "Austria",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Karl_Farkas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/USIS%20-%20Karl%20Farkas%20mit%20Kontrabass.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q690155",
+   "qid": "Q690155",
+   "n": "Marcel Gromaire",
+   "b": "1892-07-24",
+   "d": "1971-04-11",
+   "bd": "24 de julio de 1892",
+   "dd": "11 de abril de 1971",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escultor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Marcel_Gromaire",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Makowski%20Marcel%20Gromaire%20and%20his%20family.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q470359",
+   "qid": "Q470359",
+   "n": "Massimo Campigli",
+   "b": "1895-07-04",
+   "d": "1971-05-31",
+   "bd": "4 de julio de 1895",
+   "dd": "31 de mayo de 1971",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Massimo%20Campigli%201967.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q706534",
+   "qid": "Q706534",
+   "n": "Mihail Jora",
+   "b": "1891-08-02",
+   "d": "1971-05-10",
+   "bd": "2 de agosto de 1891",
+   "dd": "10 de mayo de 1971",
+   "p": "Rumania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mihail%20Jora%20stamp%201981.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6936627",
+   "qid": "Q6936627",
+   "n": "Munier Choudhury",
+   "b": "1925-11-27",
+   "d": "1971-12-14",
+   "bd": "27 de noviembre de 1925",
+   "dd": "14 de diciembre de 1971",
+   "p": "Pakistán",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Munier%20Choudhury%201957.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q305035",
+   "qid": "Q305035",
+   "n": "Paul de Kruif",
+   "b": "1890-03-02",
+   "d": "1971-02-28",
+   "bd": "2 de marzo de 1890",
+   "dd": "28 de febrero de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2621011",
+   "qid": "Q2621011",
+   "n": "William Lava",
+   "b": "1911-03-18",
+   "d": "1971-02-20",
+   "bd": "18 de marzo de 1911",
+   "dd": "20 de febrero de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/William_Lava",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Composer%20William%20Lava%20Headshot.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4352362",
+   "qid": "Q4352362",
+   "n": "A. P. Herbert",
+   "b": "1890-09-24",
+   "d": "1971-11-11",
+   "bd": "24 de septiembre de 1890",
+   "dd": "11 de noviembre de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/A._P._Herbert",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/A.%20P.%20Herbert.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q538713",
+   "qid": "Q538713",
+   "n": "Aleksandr Samokhvalov",
+   "b": "1894-08-20",
+   "d": "1971-08-20",
+   "bd": "1894",
+   "dd": "20 de agosto de 1971",
+   "p": "República Socialista Federativa Soviética de Rusia / Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Aleksandr_Samojv%C3%A1lov",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Samokhvalov%20A.N.jpg",
+   "flags": [
+    "muerte_otro_anio",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q2847306",
+   "qid": "Q2847306",
+   "n": "André Billy",
+   "b": "1882-12-13",
+   "d": "1971-04-11",
+   "bd": "13 de diciembre de 1882",
+   "dd": "11 de abril de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Billy%20b%20Meurisse%201923.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q816581",
+   "qid": "Q816581",
+   "n": "Ben Pollack",
+   "b": "1903-06-22",
+   "d": "1971-06-07",
+   "bd": "22 de junio de 1903",
+   "dd": "7 de junio de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Ben_Pollack",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Pollack.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q630819",
+   "qid": "Q630819",
+   "n": "Burt Gillett",
+   "b": "1891-10-15",
+   "d": "1971-12-28",
+   "bd": "15 de octubre de 1891",
+   "dd": "28 de diciembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Gillett%20in%20Motion%20Picture%20Herald%2C%20March%2016%2C%201935%20page%2013%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1067003",
+   "qid": "Q1067003",
+   "n": "Charlie Shavers",
+   "b": "1917-08-03",
+   "d": "1971-07-08",
+   "bd": "3 de agosto de 1917",
+   "dd": "8 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Charlie_Shavers",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Shavers%2C%20National%20Studio%2C%20May%201947%20%28Gottlieb%2007761%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q367133",
+   "qid": "Q367133",
+   "n": "Gary McFarland",
+   "b": "1933-10-23",
+   "d": "1971-11-03",
+   "bd": "23 de octubre de 1933",
+   "dd": "3 de noviembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Gary_McFarland",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q488305",
+   "qid": "Q488305",
+   "n": "Guillermo Uribe Holguín",
+   "b": "1880-03-17",
+   "d": "1971-06-26",
+   "bd": "17 de marzo de 1880",
+   "dd": "26 de junio de 1971",
+   "p": "Colombia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Guillermo_Uribe_Holgu%C3%ADn",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillermo%20Uribe%20Holgu%C3%ADn.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q74117",
+   "qid": "Q74117",
+   "n": "Günther Rittau",
+   "b": "1893-08-07",
+   "d": "1971-08-06",
+   "bd": "7 de agosto de 1893",
+   "dd": "6 de agosto de 1971",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1678026",
+   "qid": "Q1678026",
+   "n": "Jacques Leclercq",
+   "b": "1891-06-03",
+   "d": "1971-07-13",
+   "bd": "3 de junio de 1891",
+   "dd": "13 de julio de 1971",
+   "p": "Bélgica",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Jacques_Leclercq",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q326546",
+   "qid": "Q326546",
+   "n": "Josef Kainar",
+   "b": "1917-06-29",
+   "d": "1971-11-16",
+   "bd": "29 de junio de 1917",
+   "dd": "16 de noviembre de 1971",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "letrista",
+    "dramaturgo",
+    "poeta",
+    "fotógrafo",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef%20Kainar%20%28%C4%8Ceskoslovensk%C3%BD%20voj%C3%A1k%2C%201971%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1628080",
+   "qid": "Q1628080",
+   "n": "Joseph Santley",
+   "b": "1889-01-10",
+   "d": "1971-08-08",
+   "bd": "10 de enero de 1889",
+   "dd": "8 de agosto de 1971",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Santley%2001.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2701684",
+   "qid": "Q2701684",
+   "n": "Juan Manén",
+   "b": "1883-03-14",
+   "d": "1971-06-26",
+   "bd": "14 de marzo de 1883",
+   "dd": "26 de junio de 1971",
+   "p": "España",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Juan_Man%C3%A9n",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramon%20Casas%20-%20MNAC-%20Joan%20Man%C3%A9n-%20027612-D%20006602.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3829348",
+   "qid": "Q3829348",
+   "n": "Leda Rafanelli",
+   "b": "1880-07-04",
+   "d": "1971-09-13",
+   "bd": "4 de julio de 1880",
+   "dd": "13 de septiembre de 1971",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Leda_Rafanelli",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Leda%20Rafanelli%201916%20crop.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2474259",
+   "qid": "Q2474259",
+   "n": "Lew Welch",
+   "b": "1926-08-16",
+   "d": "1971-05-23",
+   "bd": "16 de agosto de 1926",
+   "dd": "23 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lew%20Welch%201968%20%282%29%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q963003",
+   "qid": "Q963003",
+   "n": "Robert Thurston Dart",
+   "b": "1921-09-03",
+   "d": "1971-03-06",
+   "bd": "3 de septiembre de 1921",
+   "dd": "6 de marzo de 1971",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ThurstonDart1961.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q22958117",
+   "qid": "Q22958117",
+   "n": "Romelia Alarcón Folgar",
+   "b": "1900-10-27",
+   "d": "1971-07-19",
+   "bd": "27 de octubre de 1900",
+   "dd": "19 de julio de 1971",
+   "p": "Guatemala",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Romelia_Alarc%C3%B3n_Folgar",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Romelia-Alarcon-Folgar.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q456983",
+   "qid": "Q456983",
+   "n": "Rudolf Mauersberger",
+   "b": "1889-01-29",
+   "d": "1971-02-22",
+   "bd": "29 de enero de 1889",
+   "dd": "22 de febrero de 1971",
+   "p": "Alemania / Alemania Oriental",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mauersberger-Museum%2C%20B%C3%BCste%20Rudolf%20Mauersberger.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4213948",
+   "qid": "Q4213948",
+   "n": "Sayakbay Karalaev",
+   "b": "1894-01-01",
+   "d": "1971-05-07",
+   "bd": "1894",
+   "dd": "7 de mayo de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/KyrgyzstanP23-500Som-2005%20a.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q715383",
+   "qid": "Q715383",
+   "n": "Virgil Finlay",
+   "b": "1914-07-23",
+   "d": "1971-01-18",
+   "bd": "23 de julio de 1914",
+   "dd": "18 de enero de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Virgil_Finlay",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Virgil%20Finlay%2C%20December%201952.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q504494",
+   "qid": "Q504494",
+   "n": "Albert Caraco",
+   "b": "1919-07-10",
+   "d": "1971-09-07",
+   "bd": "10 de julio de 1919",
+   "dd": "7 de septiembre de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Albert_Caraco",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Caraco.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2834119",
+   "qid": "Q2834119",
+   "n": "Alexandre Vialatte",
+   "b": "1901-04-22",
+   "d": "1971-05-03",
+   "bd": "22 de abril de 1901",
+   "dd": "3 de mayo de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q525387",
+   "qid": "Q525387",
+   "n": "Alexey Brodovitch",
+   "b": "1898-05-01",
+   "d": "1971-04-15",
+   "bd": "1 de mayo de 1898",
+   "dd": "15 de abril de 1971",
+   "p": "Estados Unidos / Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Aleks%C3%A9i_Brod%C3%B3vich",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Brodovitch%201950cr.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q573542",
+   "qid": "Q573542",
+   "n": "Anthony Ludovici",
+   "b": "1882-01-08",
+   "d": "1971-04-03",
+   "bd": "8 de enero de 1882",
+   "dd": "3 de abril de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anthony%20Ludovici.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q961618",
+   "qid": "Q961618",
+   "n": "Debaki Bose",
+   "b": "1898-11-25",
+   "d": "1971-11-17",
+   "bd": "25 de noviembre de 1898",
+   "dd": "17 de noviembre de 1971",
+   "p": "India / Unión de la India",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Debaki%20Bose.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q780206",
+   "qid": "Q780206",
+   "n": "Ella Cara Deloria",
+   "b": "1889-01-31",
+   "d": "1971-02-12",
+   "bd": "31 de enero de 1889",
+   "dd": "12 de febrero de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ella%20Deloria.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1108068",
+   "qid": "Q1108068",
+   "n": "François Augiéras",
+   "b": "1925-07-18",
+   "d": "1971-12-13",
+   "bd": "18 de julio de 1925",
+   "dd": "13 de diciembre de 1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Fran%C3%A7ois_Augi%C3%A9ras",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q78213",
+   "qid": "Q78213",
+   "n": "Georg Maurer",
+   "b": "1907-03-11",
+   "d": "1971-08-04",
+   "bd": "11 de marzo de 1907",
+   "dd": "4 de agosto de 1971",
+   "p": "Hungría / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200006453%20029%20Portr%C3%A4t%20des%20Schriftstellers%20Georg%20Maurer.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q966778",
+   "qid": "Q966778",
+   "n": "Georges Van Parys",
+   "b": "1902-06-07",
+   "d": "1971-01-28",
+   "bd": "7 de junio de 1902",
+   "dd": "28 de enero de 1971",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Georges_van_Parys",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5616311",
+   "qid": "Q5616311",
+   "n": "Guillermo de Torre",
+   "b": "1900-01-01",
+   "d": "1971-01-14",
+   "bd": "1900",
+   "dd": "14 de enero de 1971",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Guillermo_de_Torre",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Norah%20Borges%20y%20Guillermo%20de%20Torre.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q67573",
+   "qid": "Q67573",
+   "n": "Heinz Tiessen",
+   "b": "1887-04-10",
+   "d": "1971-11-29",
+   "bd": "10 de abril de 1887",
+   "dd": "29 de noviembre de 1971",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7944538",
+   "qid": "Q7944538",
+   "n": "Jerzy Zarzycki",
+   "b": "1911-01-11",
+   "d": "1971-01-02",
+   "bd": "11 de enero de 1911",
+   "dd": "2 de enero de 1971",
+   "p": "Polonia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Warsaw%20Uprising%20-%20Jerzy%20Zarzycki.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q551857",
+   "qid": "Q551857",
+   "n": "Josef Šíma",
+   "b": "1891-03-19",
+   "d": "1971-07-24",
+   "bd": "19 de marzo de 1891",
+   "dd": "24 de julio de 1971",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Josef_%C5%A0%C3%ADma",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sima%201929%202.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q730344",
+   "qid": "Q730344",
+   "n": "Joseph Csaky",
+   "b": "1888-03-18",
+   "d": "1971-05-01",
+   "bd": "18 de marzo de 1888",
+   "dd": "1 de mayo de 1971",
+   "p": "Hungría",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Joseph_Csaky",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Csaky%20Tete%201914.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1729384",
+   "qid": "Q1729384",
+   "n": "K. Asif",
+   "b": "1922-06-14",
+   "d": "1971-03-09",
+   "bd": "14 de junio de 1922",
+   "dd": "9 de marzo de 1971",
+   "p": "India / Unión de la India",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1820826",
+   "qid": "Q1820826",
+   "n": "Leslie Kong",
+   "b": "1933-12-20",
+   "d": "1971-08-09",
+   "bd": "20 de diciembre de 1933",
+   "dd": "9 de agosto de 1971",
+   "p": "Jamaica",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q216409",
+   "qid": "Q216409",
+   "n": "Ludwig Marcuse",
+   "b": "1894-02-08",
+   "d": "1971-08-02",
+   "bd": "8 de febrero de 1894",
+   "dd": "2 de agosto de 1971",
+   "p": "Estados Unidos / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q117539",
+   "qid": "Q117539",
+   "n": "Martin Bodmer",
+   "b": "1899-11-13",
+   "d": "1971-03-22",
+   "bd": "13 de noviembre de 1899",
+   "dd": "22 de marzo de 1971",
+   "p": "Suiza",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Martin_Bodmer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Bodmer%20au%20CICR.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q69209",
+   "qid": "Q69209",
+   "n": "Max Trapp",
+   "b": "1887-11-01",
+   "d": "1971-05-31",
+   "bd": "1 de noviembre de 1887",
+   "dd": "31 de mayo de 1971",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3273893",
+   "qid": "Q3273893",
+   "n": "P. C. Sorcar",
+   "b": "1913-02-23",
+   "d": "1971-01-06",
+   "bd": "23 de febrero de 1913",
+   "dd": "6 de enero de 1971",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20India%20-%202010%20-%20Colnect%20259552%20-%20P%20C%20Sorcar.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q24051746",
+   "qid": "Q24051746",
+   "n": "Paca Navas de Miralda",
+   "b": "1883-03-23",
+   "d": "1971-07-11",
+   "bd": "1883 o 1900",
+   "dd": "11 de julio de 1971",
+   "p": "Honduras",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Francisca_Navas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pacanavas.jpg",
+   "flags": [
+    "muerte_otro_anio",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q530235",
+   "qid": "Q530235",
+   "n": "Seth Holt",
+   "b": "1923-06-21",
+   "d": "1971-02-14",
+   "bd": "21 de junio de 1923",
+   "dd": "14 de febrero de 1971",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q12845840",
+   "qid": "Q12845840",
+   "n": "Sona xanım Axundova",
+   "b": "1898-10-16",
+   "d": "1971-10-19",
+   "bd": "16 de octubre de 1898",
+   "dd": "19 de octubre de 1971",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sona%20Akhundova.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3350230",
+   "qid": "Q3350230",
+   "n": "Syed Waliullah",
+   "b": "1922-08-15",
+   "d": "1971-10-10",
+   "bd": "15 de agosto de 1922",
+   "dd": "10 de octubre de 1971",
+   "p": "Pakistán",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Syed_Waliullah",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1290968",
+   "qid": "Q1290968",
+   "n": "Ted Fio Rito",
+   "b": "1900-12-20",
+   "d": "1971-07-22",
+   "bd": "20 de diciembre de 1900",
+   "dd": "22 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Ted_Fio_Rito",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ted%20Fio%20Rito%201945.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q330059",
+   "qid": "Q330059",
+   "n": "Tyrone Guthrie",
+   "b": "1900-07-02",
+   "d": "1971-05-15",
+   "bd": "2 de julio de 1900",
+   "dd": "15 de mayo de 1971",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "poeta",
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Tyrone_Guthrie",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrone%20Guthrie%20in%201947.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2930866",
+   "qid": "Q2930866",
+   "n": "Alfred Cheney Johnston",
+   "b": "1885-04-08",
+   "d": "1971-04-17",
+   "bd": "8 de abril de 1885",
+   "dd": "17 de abril de 1971",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Alfred_Cheney_Johnston",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cheneyjohnson1921.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1387330",
+   "qid": "Q1387330",
+   "n": "Alfred Desenclos",
+   "b": "1912-02-07",
+   "d": "1971-03-03",
+   "bd": "7 de febrero de 1912",
+   "dd": "3 de marzo de 1971",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4282647",
+   "qid": "Q4282647",
+   "n": "Amasi Martirosyan",
+   "b": "1897-04-30",
+   "d": "1971-12-21",
+   "bd": "30 de abril de 1897",
+   "dd": "21 de diciembre de 1971",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D4%B1%D5%B4%D5%A1%D5%BD%D5%AB%20%D5%84%D5%A1%D6%80%D5%BF%D5%AB%D6%80%D5%B8%D5%BD%D5%B5%D5%A1%D5%B6%20%28%D5%BC%D5%A5%D5%AA%D5%AB%D5%BD%D5%B8%D6%80%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q808416",
+   "qid": "Q808416",
+   "n": "Barnabás von Géczy",
+   "b": "1897-03-04",
+   "d": "1971-07-02",
+   "bd": "4 de marzo de 1897",
+   "dd": "2 de julio de 1971",
+   "p": "Hungría",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Barnab%C3%A1s_von_G%C3%A9czy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Barnab%C3%A1s%20von%20G%C3%A9czy.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1071696",
+   "qid": "Q1071696",
+   "n": "Bohuslav Reynek",
+   "b": "1892-05-31",
+   "d": "1971-09-28",
+   "bd": "31 de mayo de 1892",
+   "dd": "28 de septiembre de 1971",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "pintor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Bohuslav_Reynek",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bohuslav%20Reynek%201971.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2090506",
+   "qid": "Q2090506",
+   "n": "Chester Burleigh Watts",
+   "b": "1889-10-27",
+   "d": "1971-07-17",
+   "bd": "27 de octubre de 1889",
+   "dd": "17 de julio de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Chester_Burleigh_Watts",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3719501",
+   "qid": "Q3719501",
+   "n": "Edna Goodrich",
+   "b": "1883-12-22",
+   "d": "1971-05-26",
+   "bd": "22 de diciembre de 1883",
+   "dd": "26 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Edna_Goodrich",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edna%20Goodrich%202.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q506292",
+   "qid": "Q506292",
+   "n": "Edward Ward",
+   "b": "1900-04-03",
+   "d": "1971-09-26",
+   "bd": "3 de abril de 1900",
+   "dd": "26 de septiembre de 1971",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1748115",
+   "qid": "Q1748115",
+   "n": "Ermilo Abreu Gómez",
+   "b": "1894-09-18",
+   "d": "1971-07-14",
+   "bd": "18 de septiembre de 1894",
+   "dd": "14 de julio de 1971",
+   "p": "México",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Ermilo_Abreu_G%C3%B3mez",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Busto%20de%20Ermilo%20Abreu%20G%C3%B3mez%2C%20M%C3%A9rida%2C%20Yucat%C3%A1n%20%2802%29.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q129305",
+   "qid": "Q129305",
+   "n": "Feliks Chmurkowski",
+   "b": "1896-05-18",
+   "d": "1971-04-16",
+   "bd": "18 de mayo de 1896",
+   "dd": "16 de abril de 1971",
+   "p": "Polonia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Feliks%20Chmurkowski.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q20984457",
+   "qid": "Q20984457",
+   "n": "Hansa Wadkar",
+   "b": "1923-01-24",
+   "d": "1971-08-22",
+   "bd": "1923 o 1924",
+   "dd": "1971",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/HansaWadkarNavjeevan%20%281939%29.jpg",
+   "flags": [
+    "muerte",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q76282",
+   "qid": "Q76282",
+   "n": "Hellmut Ritter",
+   "b": "1892-02-27",
+   "d": "1971-05-19",
+   "bd": "27 de febrero de 1892",
+   "dd": "19 de mayo de 1971",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Helmut%20Riter%20-%20Mausoleum%20of%20Attar%20-%20Nishapur%201.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1605885",
+   "qid": "Q1605885",
+   "n": "Henri Huet",
+   "b": "1927-04-14",
+   "d": "1971-02-10",
+   "bd": "14 de abril de 1927",
+   "dd": "10 de febrero de 1971",
+   "p": "Francia / Vietnam",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3156173",
+   "qid": "Q3156173",
+   "n": "Ivan Pravov",
+   "b": "1899-11-03",
+   "d": "1971-05-11",
+   "bd": "3 de noviembre de 1899",
+   "dd": "11 de mayo de 1971",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1682148",
+   "qid": "Q1682148",
+   "n": "Jan Procházka",
+   "b": "1929-02-04",
+   "d": "1971-02-20",
+   "bd": "1929",
+   "dd": "20 de febrero de 1971",
+   "p": "Sin dato",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Proch%C3%A1zka%20%28Orbis%2C%201961%29.png",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q357324",
+   "qid": "Q357324",
+   "n": "Javier Barros Sierra",
+   "b": "1915-01-01",
+   "d": "1971-01-01",
+   "bd": "1915",
+   "dd": "1971",
+   "p": "México",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Javier_Barros_Sierra",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Javier%20Barros%20Sierra.jpg",
+   "flags": [
+    "anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3172046",
+   "qid": "Q3172046",
+   "n": "Jean Follain",
+   "b": "1903-08-29",
+   "d": "1971-03-09",
+   "bd": "29 de agosto de 1903",
+   "dd": "1971",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Follain%2C%20portrait%20par%20Josette%20Bournet.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1729164",
+   "qid": "Q1729164",
+   "n": "Karel Konrád",
+   "b": "1899-03-28",
+   "d": "1971-12-11",
+   "bd": "28 de marzo de 1899",
+   "dd": "11 de diciembre de 1971",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karel%20Konr%C3%A1d.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3218086",
+   "qid": "Q3218086",
+   "n": "Larry Morey",
+   "b": "1905-03-26",
+   "d": "1971-05-08",
+   "bd": "26 de marzo de 1905",
+   "dd": "8 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "letrista",
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Larry_Morey",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q87845",
+   "qid": "Q87845",
+   "n": "Leonard Steckel",
+   "b": "1901-01-08",
+   "d": "1971-02-09",
+   "bd": "1901",
+   "dd": "9 de febrero de 1971",
+   "p": "Austria / Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1172912",
+   "qid": "Q1172912",
+   "n": "Lina Poletti",
+   "b": "1885-08-27",
+   "d": "1971-12-12",
+   "bd": "27 de agosto de 1885",
+   "dd": "12 de diciembre de 1971",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Lina_Poletti",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lina%20Poletti.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1567263",
+   "qid": "Q1567263",
+   "n": "Líubomir Mitsich",
+   "b": "1885-11-16",
+   "d": "1971-06-14",
+   "bd": "1885 o 1895",
+   "dd": "14 de junio de 1971",
+   "p": "Serbia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ljubomir%20Micic%201925.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3296177",
+   "qid": "Q3296177",
+   "n": "Mary Esther Harding",
+   "b": "1888-01-01",
+   "d": "1971-05-04",
+   "bd": "1888",
+   "dd": "4 de mayo de 1971",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Mary_Esther_Harding",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3314543",
+   "qid": "Q3314543",
+   "n": "Milton Rosmer",
+   "b": "1881-11-04",
+   "d": "1971-12-07",
+   "bd": "4 de noviembre de 1881",
+   "dd": "7 de diciembre de 1971",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Milton_Rosmer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wuthering%20Heights%201920.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3696295",
+   "qid": "Q3696295",
+   "n": "Nanak Singh",
+   "b": "1897-07-04",
+   "d": "1971-12-28",
+   "bd": "4 de julio de 1897",
+   "dd": "28 de diciembre de 1971",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanak%20Singh%201998%20stamp%20of%20India.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q731702",
+   "qid": "Q731702",
+   "n": "Oreste Biancoli",
+   "b": "1897-02-20",
+   "d": "1971-11-25",
+   "bd": "20 de febrero de 1897",
+   "dd": "25 de noviembre de 1971",
+   "p": "Italia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3272835",
+   "qid": "Q3272835",
+   "n": "Pan Tianshou",
+   "b": "1897-01-01",
+   "d": "1971-01-01",
+   "bd": "1897",
+   "dd": "1971",
+   "p": "República Popular China",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pan%20Tianshou.JPG",
+   "flags": [
+    "anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3384300",
+   "qid": "Q3384300",
+   "n": "Pierre Caron",
+   "b": "1901-08-15",
+   "d": "1971-02-22",
+   "bd": "15 de agosto de 1901",
+   "dd": "22 de febrero de 1971",
+   "p": "Francia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q327216",
+   "qid": "Q327216",
+   "n": "Sejfulla Malëshova",
+   "b": "1900-03-02",
+   "d": "1971-06-09",
+   "bd": "2 de marzo de 1900",
+   "dd": "9 de junio de 1971",
+   "p": "Albania",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sejfulla%20Mal%C3%ABshova.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2276851",
+   "qid": "Q2276851",
+   "n": "Shane Leslie",
+   "b": "1885-09-24",
+   "d": "1971-08-14",
+   "bd": "24 de septiembre de 1885",
+   "dd": "14 de agosto de 1971",
+   "p": "Irlanda / Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shane%20Leslie%20LCCN2014686812%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q122123",
+   "qid": "Q122123",
+   "n": "Sibyl Moholy-Nagy",
+   "b": "1903-10-29",
+   "d": "1971-01-08",
+   "bd": "29 de octubre de 1903",
+   "dd": "8 de enero de 1971",
+   "p": "Estados Unidos / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Sibyl_Moholy-Nagy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sibylle%20Pietzsch%20%281927%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q542961",
+   "qid": "Q542961",
+   "n": "Vera Albreht",
+   "b": "1895-02-12",
+   "d": "1971-05-25",
+   "bd": "12 de febrero de 1895",
+   "dd": "25 de mayo de 1971",
+   "p": "República Federativa Socialista de Yugoslavia / Reino de Yugoslavia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pesni%C5%A1ka%20zbirka%20Pelin%20v%20srcu%20%28Vera%20Albreht%20cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3401655",
+   "qid": "Q3401655",
+   "n": "Waldo Williams",
+   "b": "1904-09-30",
+   "d": "1971-05-20",
+   "bd": "30 de septiembre de 1904",
+   "dd": "20 de mayo de 1971",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Waldo%20Williams%20dim%20dyddiad%20gwella%20contrast%20crop.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q117472",
+   "qid": "Q117472",
+   "n": "Willi Geiger",
+   "b": "1878-08-27",
+   "d": "1971-02-01",
+   "bd": "27 de agosto de 1878",
+   "dd": "1971",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Willi%20Geiger%20by%20Frank%20Eugene%2C%201910.png",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q2635139",
+   "qid": "Q2635139",
+   "n": "Yanka Maur",
+   "b": "1883-05-10",
+   "d": "1971-08-03",
+   "bd": "10 de mayo de 1883",
+   "dd": "3 de agosto de 1971",
+   "p": "Bielorrusia / República Socialista Soviética de Bielorrusia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%AF.%D0%9C%D0%B0%D1%9E%D1%80%20%E2%80%93%20%D0%BF%D0%B0%D0%BC%D0%BE%D1%87%D0%BD%D1%96%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%9E%D0%BD%D1%96%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B0%D0%B9%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8B%20%D1%9E%20%D0%BC%D1%8F%D1%81%D1%82%D1%8D%D1%87%D0%BA%D1%83%20%D0%9D%D0%BE%D0%B2%D0%B0%D0%B5%20%D0%9C%D0%B5%D1%81%D1%82%D0%B0%20%28%D0%9B%D1%96%D1%82%D0%B2%D0%B0%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  }
+ ]
+}

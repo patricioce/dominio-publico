@@ -4,6 +4,7 @@ correcciones y fichas curadas, y escribe el JSON del año y su reporte de calida
 
 Uso:
     python3 scripts/generar_anio.py 1956
+    python3 scripts/generar_anio.py 1950-1976            # rango, una consulta por año
     python3 scripts/generar_anio.py 1956 --desde-crudo   # reusa la última respuesta guardada
 
 Solo usa la biblioteca estándar. La lógica de limpieza viene de
@@ -172,7 +173,7 @@ def limpiar(filas, anio, correcciones, curados):
     reporte = {
         'anio': anio, 'filas': len(filas), 'personas_unicas': 0, 'personas_publicadas': 0,
         'por_categoria': {},
-        'excluidos_sin_nombre_es_en': [], 'excluidos_por_correccion': [], 'movidos_a_otro_anio': [],
+        'excluidos_sin_nombre': [], 'excluidos_por_correccion': [], 'movidos_a_otro_anio': [],
         'muerte_en_disputa': [], 'muerte_solo_anio': [], 'muerte_fuera_del_anio': [],
         'nacimiento_en_disputa': [], 'nacimiento_solo_anio': [], 'sin_nacimiento': [],
         'sin_pais': [], 'sin_wikipedia_es': [],
@@ -195,14 +196,14 @@ def limpiar(filas, anio, correcciones, curados):
     for qid, g in grupos.items():
         r = g[0]
         nombre = r['autorLabel']
-        # Nombre en español o inglés. Con la columna de etiquetas explícitas (consulta nueva) se usa esa;
-        # con un CSV viejo, alcanza con que la etiqueta no sea el QID.
-        if 'etiquetaEs' in r or 'etiquetaEn' in r or 'muertesFueraDelAnio' in r:
-            sin_nombre = not any(x.get('etiquetaEs') or x.get('etiquetaEn') for x in g)
+        # Nombre en español, inglés o "mul" (multilingüe). Con las columnas de etiquetas explícitas
+        # (consulta nueva) se usan esas; con un CSV viejo, alcanza con que la etiqueta no sea el QID.
+        if 'muertesFueraDelAnio' in r:
+            sin_nombre = not any(x.get('etiquetaEs') or x.get('etiquetaEn') or x.get('etiquetaMul') for x in g)
         else:
             sin_nombre = bool(re.fullmatch(r'Q\d+', nombre))
         if sin_nombre:
-            reporte['excluidos_sin_nombre_es_en'].append(f'{qid} ({nombre})')
+            reporte['excluidos_sin_nombre'].append(f'{qid} ({nombre})')
             correcciones_usadas.update((qid, c['campo']) for c in correcciones.get(qid, []))
             continue
 
@@ -219,10 +220,17 @@ def limpiar(filas, anio, correcciones, curados):
             marcas.append('anio')
             reporte['muerte_solo_anio'].append(nombre)
 
+        # Fechas de muerte en otro año: si ninguna fecha de este año es la de mejor rango en Wikidata,
+        # la preferida está en otro año y la persona se publica allá (salvo corrección o ficha curada).
         fuera = max(int(x.get('muertesFueraDelAnio') or 0) for x in g)
+        preferida_en_otro_anio = False
         if fuera:
-            marcas.append('muerte_otro_anio')
-            reporte['muerte_fuera_del_anio'].append(f'{nombre} ({qid})')
+            if 'fechaPreferida' in r and not any(x.get('fechaPreferida') == '1' for x in g):
+                preferida_en_otro_anio = True
+            else:
+                marcas.append('muerte_otro_anio')
+                reporte['muerte_fuera_del_anio'].append(f'{nombre} ({qid})')
+        muerte_verificada = False
 
         # Nacimiento: fecha completa solo si la precisión es de día (un CSV viejo no trae precisión: se asume día).
         nacs = sorted({(x['nacimiento'][:10], int(x.get('precisionNac') or 11)) for x in g if x.get('nacimiento')})
@@ -269,6 +277,7 @@ def limpiar(filas, anio, correcciones, curados):
                 rec['flags'] = [m for m in rec['flags'] if m not in ('nacimiento', 'sin_nacimiento')]
             elif campo == 'muerte':
                 rec['d'], rec['dd'] = valor, fecha_larga(valor)
+                muerte_verificada = True
                 rec['flags'] = [m for m in rec['flags'] if m not in ('muerte', 'anio')]
             elif campo == 'categoria':
                 rec['o'] = valor
@@ -298,9 +307,13 @@ def limpiar(filas, anio, correcciones, curados):
             rec['bd'], rec['dd'] = fecha_larga(c['b']), fecha_larga(c['d'])
             rec['flags'] = [m for m in rec['flags'] if m not in ('muerte', 'nacimiento', 'anio', 'sin_nacimiento')]
             rec['src'] = 'wikidata+curado'
+            muerte_verificada = True
 
         if rec['d'][:4] != anio_txt:
             reporte['movidos_a_otro_anio'].append(f"{nombre} ({qid}): muerte {rec['d']}")
+            continue
+        if preferida_en_otro_anio and not muerte_verificada:
+            reporte['movidos_a_otro_anio'].append(f'{nombre} ({qid}): la fecha preferida en Wikidata es de otro año')
             continue
 
         rec['conf'] = 'check' if (rec.get('c') or rec['flags']) else 'ok'
@@ -356,25 +369,61 @@ def resumen(reporte):
     return '\n'.join(lineas)
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('anio', type=int, help='año de muerte')
-    ap.add_argument('--desde-crudo', action='store_true', help='usar la respuesta guardada en datos/generados/crudo/')
-    args = ap.parse_args()
+def escribir_indice():
+    """Resumen de todos los años generados (base para la vista "Calidad de datos")."""
+    indice = []
+    for nombre in sorted(os.listdir(GENERADOS)):
+        m = re.fullmatch(r'reporte_(\d{4})\.json', nombre)
+        if not m:
+            continue
+        r = json.load(open(os.path.join(GENERADOS, nombre), encoding='utf-8'))
+        indice.append({'anio_muerte': r['anio'], 'personas': r['personas_publicadas'], 'a_revisar': r['a_revisar'],
+                       'por_categoria': r['por_categoria'],
+                       'muerte_fuera_del_anio': len(r['muerte_fuera_del_anio']),
+                       'curados': len(r['curados_fusionados']) + len(r['curados_ausentes_en_wikidata'])})
+    with open(os.path.join(GENERADOS, 'indice.json'), 'w', encoding='utf-8') as f:
+        json.dump(indice, f, ensure_ascii=False, indent=1)
+        f.write('\n')
 
-    ruta_crudo = os.path.join(CRUDO, f'{args.anio}.json')
-    if args.desde_crudo:
+
+def procesar(anio, desde_crudo):
+    ruta_crudo = os.path.join(CRUDO, f'{anio}.json')
+    if desde_crudo:
         respuesta = json.load(open(ruta_crudo, encoding='utf-8'))
     else:
-        print(f'Consultando Wikidata para {args.anio}…', file=sys.stderr)
-        respuesta = consultar_wikidata(args.anio)
+        print(f'Consultando Wikidata para {anio}…', file=sys.stderr)
+        respuesta = consultar_wikidata(anio)
         os.makedirs(CRUDO, exist_ok=True)
         with open(ruta_crudo, 'w', encoding='utf-8') as f:
             json.dump(respuesta, f, ensure_ascii=False)
 
-    personas, reporte = limpiar(filas_desde_sparql(respuesta), args.anio, cargar_correcciones(), cargar_curados())
-    escribir(args.anio, personas, reporte)
+    personas, reporte = limpiar(filas_desde_sparql(respuesta), anio, cargar_correcciones(), cargar_curados())
+    escribir(anio, personas, reporte)
     print(resumen(reporte))
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('anio', help='año de muerte (1956) o rango (1950-1976)')
+    ap.add_argument('--desde-crudo', action='store_true', help='usar la respuesta guardada en datos/generados/crudo/')
+    ap.add_argument('--pausa', type=float, default=5, help='segundos entre consultas de un rango (por defecto 5)')
+    args = ap.parse_args()
+
+    desde, _, hasta = args.anio.partition('-')
+    anios = range(int(desde), int(hasta or desde) + 1)
+    fallidos = []
+    for i, anio in enumerate(anios):
+        if i and not args.desde_crudo:
+            time.sleep(args.pausa)
+        try:
+            procesar(anio, args.desde_crudo)
+        except Exception as e:  # un año que falla no frena el resto del rango
+            print(f'ERROR en {anio}: {e}', file=sys.stderr)
+            fallidos.append(anio)
+    escribir_indice()
+    if fallidos:
+        print(f'Fallaron: {fallidos}. Volver a correrlos de a uno.', file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == '__main__':

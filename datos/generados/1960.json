@@ -1,0 +1,3686 @@
+{
+ "anio_muerte": 1960,
+ "aviso": "Información orientativa, no es asesoramiento legal.",
+ "fuente": "Wikidata (CC0) + correcciones y fichas curadas",
+ "autores": [
+  {
+   "id": "camus",
+   "qid": "Q34670",
+   "n": "Albert Camus",
+   "b": "1913-11-07",
+   "d": "1960-01-04",
+   "bd": "7 de noviembre de 1913",
+   "dd": "4 de enero de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor",
+    "poeta"
+   ],
+   "sl": 205,
+   "wp": "https://es.wikipedia.org/wiki/Albert_Camus",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Camus%2C%20gagnant%20de%20prix%20Nobel%2C%20portrait%20en%20buste%2C%20pos%C3%A9%20au%20bureau%2C%20faisant%20face%20%C3%A0%20gauche%2C%20cigarette%20de%20tabagisme.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista y ensayista francés nacido en Argelia, Premio Nobel en 1957.",
+   "w": [
+    "El extranjero (1942)",
+    "La peste (1947)",
+    "El mito de Sísifo (1942)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q41223",
+   "qid": "Q41223",
+   "n": "Borís Pasternak",
+   "b": "1890-02-10",
+   "d": "1960-05-30",
+   "bd": "10 de febrero de 1890",
+   "dd": "30 de mayo de 1960",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor",
+    "compositor",
+    "poeta"
+   ],
+   "sl": 141,
+   "wp": "https://es.wikipedia.org/wiki/Bor%C3%ADs_Pasternak",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Boris%20Pasternak%201958%20photo.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q220480",
+   "qid": "Q220480",
+   "n": "Zora Neale Hurston",
+   "b": "1891-01-07",
+   "d": "1960-01-28",
+   "bd": "7 de enero de 1891",
+   "dd": "28 de enero de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "dramaturgo",
+    "director de cine"
+   ],
+   "sl": 66,
+   "wp": "https://es.wikipedia.org/wiki/Zora_Neale_Hurston",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hurston%2C%20Zora%20Neale%204%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q28941",
+   "qid": "Q28941",
+   "n": "Frank Lloyd",
+   "b": "1886-02-02",
+   "d": "1960-08-10",
+   "bd": "2 de febrero de 1886",
+   "dd": "10 de agosto de 1960",
+   "p": "Estados Unidos / Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 54,
+   "wp": "https://es.wikipedia.org/wiki/Frank_Lloyd",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Frank%20Lloyd%201920.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q319820",
+   "qid": "Q319820",
+   "n": "Richard Nathaniel Wright",
+   "b": "1908-09-04",
+   "d": "1960-11-28",
+   "bd": "4 de septiembre de 1908",
+   "dd": "28 de noviembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 52,
+   "wp": "https://es.wikipedia.org/wiki/Richard_Wright_(escritor)",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Wright.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q93444",
+   "qid": "Q93444",
+   "n": "Vicki Baum",
+   "b": "1888-01-24",
+   "d": "1960-08-29",
+   "bd": "24 de enero de 1888",
+   "dd": "29 de agosto de 1960",
+   "p": "Estados Unidos / Austria",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 52,
+   "wp": "https://es.wikipedia.org/wiki/Vicki_Baum",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vicki%20Baum.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q317574",
+   "qid": "Q317574",
+   "n": "Mack Sennett",
+   "b": "1880-01-17",
+   "d": "1960-11-05",
+   "bd": "17 de enero de 1880",
+   "dd": "5 de noviembre de 1960",
+   "p": "Canadá / Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor",
+    "compositor"
+   ],
+   "sl": 48,
+   "wp": "https://es.wikipedia.org/wiki/Mack_Sennett",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mack%20Sennett%201916.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q466068",
+   "qid": "Q466068",
+   "n": "Ethel Lilian Voynich",
+   "b": "1864-05-11",
+   "d": "1960-07-27",
+   "bd": "11 de mayo de 1864",
+   "dd": "27 de julio de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "compositor"
+   ],
+   "sl": 46,
+   "wp": "https://es.wikipedia.org/wiki/Ethel_Lilian_Voynich",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Voynich%20Ethel%20Lilian.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q319861",
+   "qid": "Q319861",
+   "n": "Alexandre Benois",
+   "b": "1870-05-03",
+   "d": "1960-02-09",
+   "bd": "3 de mayo de 1870",
+   "dd": "9 de febrero de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 44,
+   "wp": "https://es.wikipedia.org/wiki/Alexandre_Benois",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Benua%20par%20L%C3%A9on%20Bakst%20%281898%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q163176",
+   "qid": "Q163176",
+   "n": "Olga Aleksándrovna Románova",
+   "b": "1882-06-13",
+   "d": "1960-11-24",
+   "bd": "13 de junio de 1882",
+   "dd": "24 de noviembre de 1960",
+   "p": "Imperio ruso",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 43,
+   "wp": "https://es.wikipedia.org/wiki/Olga_Aleks%C3%A1ndrovna_Rom%C3%A1nova",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Duchess%20Olga%20Alexandrovna.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q298213",
+   "qid": "Q298213",
+   "n": "Sylvia Pankhurst",
+   "b": "1882-05-05",
+   "d": "1960-09-27",
+   "bd": "5 de mayo de 1882",
+   "dd": "27 de septiembre de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 42,
+   "wp": "https://es.wikipedia.org/wiki/Sylvia_Pankhurst",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sylvia%20Pankhurst%201909.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q379931",
+   "qid": "Q379931",
+   "n": "Pierre Reverdy",
+   "b": "1889-09-13",
+   "d": "1960-06-17",
+   "bd": "13 de septiembre de 1889",
+   "dd": "1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 41,
+   "wp": "https://es.wikipedia.org/wiki/Pierre_Reverdy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PIERRE%20REVERDY%201889%20POETA%20Y%20ESCRITOR%20FRANCES%20%2813451270843%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q55170",
+   "qid": "Q55170",
+   "n": "Victor Sjöström",
+   "b": "1879-09-20",
+   "d": "1960-01-03",
+   "bd": "20 de septiembre de 1879",
+   "dd": "3 de enero de 1960",
+   "p": "Suecia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 41,
+   "wp": "https://es.wikipedia.org/wiki/Victor_Sj%C3%B6str%C3%B6m",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VictorSjostrom.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5969",
+   "qid": "Q5969",
+   "n": "Eddie Cochran",
+   "b": "1938-10-03",
+   "d": "1960-04-17",
+   "bd": "3 de octubre de 1938",
+   "dd": "17 de abril de 1960",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 40,
+   "wp": "https://es.wikipedia.org/wiki/Eddie_Cochran",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Eddie%20Cochran%20Publicity%20Photo%2C%201958.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q356639",
+   "qid": "Q356639",
+   "n": "Nevil Shute",
+   "b": "1899-01-17",
+   "d": "1960-01-12",
+   "bd": "17 de enero de 1899",
+   "dd": "12 de enero de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 40,
+   "wp": "https://es.wikipedia.org/wiki/Nevil_Shute",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Neville%20Shute%20AWW%201949.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q380000",
+   "qid": "Q380000",
+   "n": "Yuri Olesha",
+   "b": "1899-03-03",
+   "d": "1960-05-10",
+   "bd": "3 de marzo de 1899",
+   "dd": "10 de mayo de 1960",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Yuri_Olesha",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yury%20Olesha.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q55381",
+   "qid": "Q55381",
+   "n": "Jacques Becker",
+   "b": "1906-09-15",
+   "d": "1960-02-21",
+   "bd": "15 de septiembre de 1906",
+   "dd": "21 de febrero de 1960",
+   "p": "Francia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 38,
+   "wp": "https://es.wikipedia.org/wiki/Jacques_Becker",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/JacquesBecker-StudioHarcourt-1955.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q93503",
+   "qid": "Q93503",
+   "n": "Friedrich Adler",
+   "b": "1879-07-09",
+   "d": "1960-01-02",
+   "bd": "9 de julio de 1879",
+   "dd": "2 de enero de 1960",
+   "p": "Austria",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 37,
+   "wp": "https://es.wikipedia.org/wiki/Friedrich_Adler",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Wolfgang%20Adler.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q425731",
+   "qid": "Q425731",
+   "n": "Nima Yushich",
+   "b": "1895-11-12",
+   "d": "1960-01-04",
+   "bd": "12 de noviembre de 1895",
+   "dd": "1960",
+   "p": "Irán Imperial",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 36,
+   "wp": "https://es.wikipedia.org/wiki/Nima_Yushich",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nima%20Yushij%20-%20Original.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q287741",
+   "qid": "Q287741",
+   "n": "Sibilla Aleramo",
+   "b": "1876-08-14",
+   "d": "1960-01-13",
+   "bd": "14 de agosto de 1876",
+   "dd": "13 de enero de 1960",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 36,
+   "wp": "https://es.wikipedia.org/wiki/Sibilla_Aleramo",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sibilla%20Aleramo%2004.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q78532",
+   "qid": "Q78532",
+   "n": "Ernő Dohnányi",
+   "b": "1877-07-27",
+   "d": "1960-02-09",
+   "bd": "27 de julio de 1877",
+   "dd": "9 de febrero de 1960",
+   "p": "Hungría",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 35,
+   "wp": "https://es.wikipedia.org/wiki/Ern%C5%91_Dohn%C3%A1nyi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ern%C5%91%20Dohn%C3%A1nyi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q741862",
+   "qid": "Q741862",
+   "n": "Massimo Bontempelli",
+   "b": "1878-05-12",
+   "d": "1960-07-20",
+   "bd": "12 de mayo de 1878",
+   "dd": "1960",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "compositor",
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 35,
+   "wp": "https://es.wikipedia.org/wiki/Massimo_Bontempelli",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Massimo%20Bontempelli%2002%20%28cropped%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q266266",
+   "qid": "Q266266",
+   "n": "Roy Chapman Andrews",
+   "b": "1884-01-26",
+   "d": "1960-03-11",
+   "bd": "26 de enero de 1884",
+   "dd": "11 de marzo de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 35,
+   "wp": "https://es.wikipedia.org/wiki/Roy_Chapman_Andrews",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Chapman%20Andrews%2050488r.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q57442",
+   "qid": "Q57442",
+   "n": "Victor Klemperer",
+   "b": "1881-10-09",
+   "d": "1960-02-11",
+   "bd": "9 de octubre de 1881",
+   "dd": "11 de febrero de 1960",
+   "p": "Polonia / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 34,
+   "wp": "https://es.wikipedia.org/wiki/Victor_Klemperer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-16552-0002%2C%20Victor%20Klemperer.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q319741",
+   "qid": "Q319741",
+   "n": "Dimitri Mitrópoulos",
+   "b": "1896-03-01",
+   "d": "1960-11-02",
+   "bd": "1 de marzo de 1896",
+   "dd": "2 de noviembre de 1960",
+   "p": "Estados Unidos / Grecia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 33,
+   "wp": "https://es.wikipedia.org/wiki/Dimitri_Mitr%C3%B3poulos",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dimitri%20mitropoulos%201944.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q319693",
+   "qid": "Q319693",
+   "n": "Oscar Hammerstein II",
+   "b": "1895-07-12",
+   "d": "1960-08-23",
+   "bd": "12 de julio de 1895",
+   "dd": "23 de agosto de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "letrista",
+    "escritor",
+    "poeta"
+   ],
+   "sl": 33,
+   "wp": "https://es.wikipedia.org/wiki/Oscar_Hammerstein_II",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oscar%20Hammerstein%20-%20portrait.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q318840",
+   "qid": "Q318840",
+   "n": "Hugo Alfvén",
+   "b": "1872-05-01",
+   "d": "1960-05-05",
+   "bd": "1 de mayo de 1872",
+   "dd": "1960",
+   "p": "Suecia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "compositor"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Hugo_Alfv%C3%A9n",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hugo%20Alfv%C3%A9n%20ca%201906.png",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q732569",
+   "qid": "Q732569",
+   "n": "Jules Supervielle",
+   "b": "1884-01-16",
+   "d": "1960-05-17",
+   "bd": "16 de enero de 1884",
+   "dd": "17 de mayo de 1960",
+   "p": "Uruguay / Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Jules_Supervielle",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Supervielle%20Harcourt%201948%202.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q158650",
+   "qid": "Q158650",
+   "n": "Paul Abraham",
+   "b": "1892-11-02",
+   "d": "1960-05-06",
+   "bd": "2 de noviembre de 1892",
+   "dd": "6 de mayo de 1960",
+   "p": "Hungría / Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Paul_Abraham",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Abraham.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q727904",
+   "qid": "Q727904",
+   "n": "Cedric Gibbons",
+   "b": "1893-03-23",
+   "d": "1960-07-26",
+   "bd": "23 de marzo de 1893",
+   "dd": "26 de julio de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Cedric_Gibbons",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cedric-Gibbons-1936.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q548140",
+   "qid": "Q548140",
+   "n": "Eric Temple Bell",
+   "b": "1883-02-07",
+   "d": "1960-12-21",
+   "bd": "7 de febrero de 1883",
+   "dd": "21 de diciembre de 1960",
+   "p": "Estados Unidos / Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 30,
+   "wp": "https://es.wikipedia.org/wiki/Eric_Temple_Bell",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Temple%20Bell%20sketch%201931.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1030307",
+   "qid": "Q1030307",
+   "n": "Ígor Grabar",
+   "b": "1871-03-25",
+   "d": "1960-05-16",
+   "bd": "25 de marzo de 1871",
+   "dd": "16 de mayo de 1960",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 30,
+   "wp": "https://es.wikipedia.org/wiki/%C3%8Dgor_Grabar",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%80%D0%B0%D0%B1%D0%B0%D1%80%D1%8C%20%D0%98%D0%B3%D0%BE%D1%80%D1%8C%20%D0%AD%D0%BC%D0%BC%D0%B0%D0%BD%D1%83%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D1%87.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1779614",
+   "qid": "Q1779614",
+   "n": "Norodom Suramarit",
+   "b": "1896-03-06",
+   "d": "1960-04-03",
+   "bd": "6 de marzo de 1896",
+   "dd": "3 de abril de 1960",
+   "p": "Camboya",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 30,
+   "wp": "https://es.wikipedia.org/wiki/Norodom_Suramarit",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Family%20portrait%20of%20Norodom%20Suramarit%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q561724",
+   "qid": "Q561724",
+   "n": "Paul Fort",
+   "b": "1872-02-01",
+   "d": "1960-04-20",
+   "bd": "1 de febrero de 1872",
+   "dd": "20 de abril de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Paul_Fort",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Fort%201922.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q693053",
+   "qid": "Q693053",
+   "n": "Dirk Jan de Geer",
+   "b": "1870-12-14",
+   "d": "1960-11-27",
+   "bd": "14 de diciembre de 1870",
+   "dd": "1960",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 27,
+   "wp": "https://es.wikipedia.org/wiki/Dirk_Jan_de_Geer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dirk%20Jan%20de%20Geer.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q537266",
+   "qid": "Q537266",
+   "n": "James Montgomery Flagg",
+   "b": "1877-06-18",
+   "d": "1960-05-25",
+   "bd": "18 de junio de 1877",
+   "dd": "25 de mayo de 1960",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "historietista",
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 27,
+   "wp": "https://es.wikipedia.org/wiki/James_Montgomery_Flagg",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Montgomery%20Flagg%20%281%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q554105",
+   "qid": "Q554105",
+   "n": "Willem Elsschot",
+   "b": "1882-05-07",
+   "d": "1960-05-31",
+   "bd": "7 de mayo de 1882",
+   "dd": "31 de mayo de 1960",
+   "p": "Bélgica",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 27,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Elsschot1951.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q123249",
+   "qid": "Q123249",
+   "n": "Edwin Fischer",
+   "b": "1886-10-06",
+   "d": "1960-01-24",
+   "bd": "6 de octubre de 1886",
+   "dd": "24 de enero de 1960",
+   "p": "Suiza",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 26,
+   "wp": "https://es.wikipedia.org/wiki/Edwin_Fischer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edwin%20Fischer%20%281886%E2%80%931960%29%201946%20OeNB%20660124.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1190579",
+   "qid": "Q1190579",
+   "n": "John P. Marquand",
+   "b": "1893-11-10",
+   "d": "1960-07-16",
+   "bd": "10 de noviembre de 1893",
+   "dd": "16 de julio de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/John_Phillips_Marquand",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q444125",
+   "qid": "Q444125",
+   "n": "Diana Barrymore",
+   "b": "1921-03-03",
+   "d": "1960-01-25",
+   "bd": "3 de marzo de 1921",
+   "dd": "25 de enero de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Diana_Barrymore",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Diana%20Barrymore%201942.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q20739015",
+   "qid": "Q20739015",
+   "n": "Dimitrana Ivanova",
+   "b": "1881-02-01",
+   "d": "1960-05-29",
+   "bd": "1 de febrero de 1881",
+   "dd": "29 de mayo de 1960",
+   "p": "Bulgaria",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Dimitrana_Ivanova",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/D-Ivanova.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q61171",
+   "qid": "Q61171",
+   "n": "Erich Neumann",
+   "b": "1905-01-23",
+   "d": "1960-11-05",
+   "bd": "23 de enero de 1905",
+   "dd": "5 de noviembre de 1960",
+   "p": "Alemania / Israel",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Erich_Neumann",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20Neumann%2C%20psychologist.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q708559",
+   "qid": "Q708559",
+   "n": "Gregorio Marañón",
+   "b": "1887-05-19",
+   "d": "1960-03-27",
+   "bd": "19 de mayo de 1887",
+   "dd": "27 de marzo de 1960",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Gregorio_Mara%C3%B1%C3%B3n",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gregorio%20Mara%C3%B1%C3%B3n%20-%20retrato.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q537093",
+   "qid": "Q537093",
+   "n": "René Maran",
+   "b": "1887-11-08",
+   "d": "1960-05-09",
+   "bd": "8 de noviembre de 1887",
+   "dd": "9 de mayo de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Ren%C3%A9_Maran",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ren%C3%A9%20Maran-1930.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q69320",
+   "qid": "Q69320",
+   "n": "Curt Goetz",
+   "b": "1888-11-17",
+   "d": "1960-09-11",
+   "bd": "17 de noviembre de 1888",
+   "dd": "1960",
+   "p": "Suiza / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "director de cine",
+    "dramaturgo"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Curt_Goetz",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-2008-0128-502%2C%20Leopoldine%20Konstantin%20und%20Kurt%20G%C3%B6tz.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q695358",
+   "qid": "Q695358",
+   "n": "Móric Esterházy",
+   "b": "1881-04-27",
+   "d": "1960-06-26",
+   "bd": "27 de abril de 1881",
+   "dd": "26 de junio de 1960",
+   "p": "Hungría",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/M%C3%B3ric_Esterh%C3%A1zy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Esterh%C3%A1zy%20M%C3%B3ric.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q138650",
+   "qid": "Q138650",
+   "n": "Sigurd Hoel",
+   "b": "1890-12-14",
+   "d": "1960-10-14",
+   "bd": "14 de diciembre de 1890",
+   "dd": "14 de octubre de 1960",
+   "p": "Noruega",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Sigurd_Hoel",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrett%20av%20Sigurd%20Hoel%2C%201950.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3366057",
+   "qid": "Q3366057",
+   "n": "Bodil Katharine Biørn",
+   "b": "1871-01-27",
+   "d": "1960-07-22",
+   "bd": "27 de enero de 1871",
+   "dd": "22 de julio de 1960",
+   "p": "Noruega",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Bodil_Bi%C3%B8rn",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bodil%20Bi%C3%B8rn%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1386299",
+   "qid": "Q1386299",
+   "n": "Francis Parker Yockey",
+   "b": "1917-09-18",
+   "d": "1960-06-16",
+   "bd": "18 de septiembre de 1917",
+   "dd": "1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Francis_Parker_Yockey",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Parker%20Yockey%2C%20portrait%20photograph%20%28cropped%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q535323",
+   "qid": "Q535323",
+   "n": "Leó Weiner",
+   "b": "1885-04-16",
+   "d": "1960-09-13",
+   "bd": "16 de abril de 1885",
+   "dd": "13 de septiembre de 1960",
+   "p": "Hungría",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Le%C3%B3_Weiner",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Leo%20weiner.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q497183",
+   "qid": "Q497183",
+   "n": "Oscar Pettiford",
+   "b": "1922-09-30",
+   "d": "1960-09-08",
+   "bd": "30 de septiembre de 1922",
+   "dd": "1960",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Oscar_Pettiford",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oscar%20Pettiford%20%28Gottlieb%2007051%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q731925",
+   "qid": "Q731925",
+   "n": "Toyohiko Kagawa",
+   "b": "1888-07-10",
+   "d": "1960-04-23",
+   "bd": "10 de julio de 1888",
+   "dd": "23 de abril de 1960",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Toyohiko_Kagawa",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyohiko%20Kagawa%20close-up%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q177229",
+   "qid": "Q177229",
+   "n": "Arthur Benjamin",
+   "b": "1893-09-18",
+   "d": "1960-04-09",
+   "bd": "18 de septiembre de 1893",
+   "dd": "1960",
+   "p": "Australia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Arthur_Benjamin",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Arthurbenjamin.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q761368",
+   "qid": "Q761368",
+   "n": "August Gailit",
+   "b": "1891-01-09",
+   "d": "1960-11-05",
+   "bd": "9 de enero de 1891",
+   "dd": "5 de noviembre de 1960",
+   "p": "Suecia / Estonia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/August_Gailit",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/August%20Gailit%2C%20kirmus.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2354201",
+   "qid": "Q2354201",
+   "n": "Dimitri Gulia",
+   "b": "1874-02-21",
+   "d": "1960-04-07",
+   "bd": "21 de febrero de 1874",
+   "dd": "7 de abril de 1960",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Dimitri_Gulia",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Abkhazia%2010%20apsar%20Ag%202009%20Gulia%20b.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q987741",
+   "qid": "Q987741",
+   "n": "Edward Brophy",
+   "b": "1895-02-27",
+   "d": "1960-05-27",
+   "bd": "27 de febrero de 1895",
+   "dd": "27 de mayo de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Edward_Brophy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20Brophy%20in%20The%20Thin%20Man%20Goes%20Home%20%281945%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q120541",
+   "qid": "Q120541",
+   "n": "Alfred Edward Green",
+   "b": "1889-07-11",
+   "d": "1960-09-04",
+   "bd": "11 de julio de 1889",
+   "dd": "4 de septiembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Alfred_E._Green",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfred%20E%20Green%201921.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q706359",
+   "qid": "Q706359",
+   "n": "Auguste Herbin",
+   "b": "1882-04-29",
+   "d": "1960-01-30",
+   "bd": "29 de abril de 1882",
+   "dd": "1960",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Auguste_Herbin",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Auguste%20Herbin%2C%20c.1909.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1125077",
+   "qid": "Q1125077",
+   "n": "Fortunato Depero",
+   "b": "1892-03-30",
+   "d": "1960-11-29",
+   "bd": "30 de marzo de 1892",
+   "dd": "29 de noviembre de 1960",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "fotógrafo",
+    "poeta",
+    "pintor",
+    "escultor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Fortunato_Depero",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fortunato-Depero.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q432715",
+   "qid": "Q432715",
+   "n": "Gladys Bentley",
+   "b": "1907-08-12",
+   "d": "1960-01-18",
+   "bd": "12 de agosto de 1907",
+   "dd": "18 de enero de 1960",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Gladys_Bentley",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gladys%20Bentley%20c.%201930%20%28extracted%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1361039",
+   "qid": "Q1361039",
+   "n": "Gregory Ratoff",
+   "b": "1897-04-20",
+   "d": "1960-12-14",
+   "bd": "20 de abril de 1897",
+   "dd": "14 de diciembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Gregory_Ratoff",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ProfessionalSweetheart9.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1066908",
+   "qid": "Q1066908",
+   "n": "Joseph Lamb",
+   "b": "1887-12-06",
+   "d": "1960-09-03",
+   "bd": "6 de diciembre de 1887",
+   "dd": "3 de septiembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Joseph_Lamb",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Lamb%20%28musician%29%20ca.%201915.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q449869",
+   "qid": "Q449869",
+   "n": "Nesta Webster",
+   "b": "1876-08-24",
+   "d": "1960-05-16",
+   "bd": "24 de agosto de 1876",
+   "dd": "16 de mayo de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Nesta_Webster",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nesta%20Webster.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q706570",
+   "qid": "Q706570",
+   "n": "Pavel Peter Gojdič",
+   "b": "1888-07-17",
+   "d": "1960-07-17",
+   "bd": "17 de julio de 1888",
+   "dd": "17 de julio de 1960",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 20,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pavol%20Godjic.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3519468",
+   "qid": "Q3519468",
+   "n": "Thalia Flora-Karavia",
+   "b": "1871-01-01",
+   "d": "1960-01-01",
+   "bd": "1871",
+   "dd": "1960",
+   "p": "Grecia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Thalia_Flora-Karavia",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thalia%20Flora-Karavia%201912.jpeg",
+   "flags": [
+    "anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q460349",
+   "qid": "Q460349",
+   "n": "Dora Marsden",
+   "b": "1882-03-05",
+   "d": "1960-12-13",
+   "bd": "5 de marzo de 1882",
+   "dd": "13 de diciembre de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Dora_Marsden",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dora%20Marsden.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q705058",
+   "qid": "Q705058",
+   "n": "Dudley Nichols",
+   "b": "1895-04-06",
+   "d": "1960-01-04",
+   "bd": "6 de abril de 1895",
+   "dd": "4 de enero de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Dudley_Nichols",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q887597",
+   "qid": "Q887597",
+   "n": "Teodoro Picado Michalski",
+   "b": "1900-01-10",
+   "d": "1960-06-01",
+   "bd": "10 de enero de 1900",
+   "dd": "1 de junio de 1960",
+   "p": "Costa Rica",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Teodoro_Picado_Michalski",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Teodoro%20Picado%20Michalski.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q387098",
+   "qid": "Q387098",
+   "n": "Gianni Franciolini",
+   "b": "1910-06-01",
+   "d": "1960-05-10",
+   "bd": "1 de junio de 1910",
+   "dd": "10 de mayo de 1960",
+   "p": "Italia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 18,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gianni%20Franciolini%20%281951%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2052882",
+   "qid": "Q2052882",
+   "n": "Kathlyn Williams",
+   "b": "1879-05-31",
+   "d": "1960-09-23",
+   "bd": "31 de mayo de 1879",
+   "dd": "23 de septiembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Kathlyn_Williams",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kathlyn%20Williams%20Stars%20of%20the%20Photoplay.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q597713",
+   "qid": "Q597713",
+   "n": "Per Hallström",
+   "b": "1866-09-29",
+   "d": "1960-02-18",
+   "bd": "29 de septiembre de 1866",
+   "dd": "18 de febrero de 1960",
+   "p": "Suecia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Author%20Per%20Hallstr%C3%B6m%20and%20his%20wife%20Helga%201904.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2755047",
+   "qid": "Q2755047",
+   "n": "Adriano Olivetti",
+   "b": "1901-04-11",
+   "d": "1960-02-27",
+   "bd": "11 de abril de 1901",
+   "dd": "27 de febrero de 1960",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adriano%20Olivetti%20fotoritratto.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q589698",
+   "qid": "Q589698",
+   "n": "Anton Giulio Bragaglia",
+   "b": "1890-02-11",
+   "d": "1960-07-15",
+   "bd": "11 de febrero de 1890",
+   "dd": "15 de julio de 1960",
+   "p": "Italia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "pintor",
+    "fotógrafo",
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Anton_Giulio_Bragaglia",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bragaglia%20a%20giulio.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3017791",
+   "qid": "Q3017791",
+   "n": "David Diop",
+   "b": "1927-07-09",
+   "d": "1960-08-29",
+   "bd": "9 de julio de 1927",
+   "dd": "1960",
+   "p": "Francia / Senegal",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": null,
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1283557",
+   "qid": "Q1283557",
+   "n": "Eden Phillpotts",
+   "b": "1862-11-04",
+   "d": "1960-12-29",
+   "bd": "4 de noviembre de 1862",
+   "dd": "29 de diciembre de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Eden_Phillpotts",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Phillpotts%20001.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q469595",
+   "qid": "Q469595",
+   "n": "Felice Bauer",
+   "b": "1887-11-18",
+   "d": "1960-10-15",
+   "bd": "18 de noviembre de 1887",
+   "dd": "15 de octubre de 1960",
+   "p": "Alemania / Reino de Prusia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Felice_Bauer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Felice%20Bauer%20and%20Franz%20Kafka.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q357603",
+   "qid": "Q357603",
+   "n": "Franklin Pierce Adams",
+   "b": "1881-11-15",
+   "d": "1960-03-23",
+   "bd": "15 de noviembre de 1881",
+   "dd": "23 de marzo de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Franklin_Pierce_Adams",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Franklin%20P.%20Adams.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6065706",
+   "qid": "Q6065706",
+   "n": "Hamide Ayşe Sultan",
+   "b": "1886-10-31",
+   "d": "1960-08-11",
+   "bd": "31 de octubre de 1886",
+   "dd": "11 de agosto de 1960",
+   "p": "Imperio otomano",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ay%C5%9Fe-sultan-abdulhamid.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q95323",
+   "qid": "Q95323",
+   "n": "Victor Janson",
+   "b": "1884-09-25",
+   "d": "1960-06-29",
+   "bd": "25 de septiembre de 1884",
+   "dd": "29 de junio de 1960",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Victor_Janson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Victor%20Janson%20by%20Alexander%20Binder.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2847287",
+   "qid": "Q2847287",
+   "n": "André Berthomieu",
+   "b": "1903-02-16",
+   "d": "1960-04-10",
+   "bd": "16 de febrero de 1903",
+   "dd": "10 de abril de 1960",
+   "p": "Francia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Berthomieu.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1042863",
+   "qid": "Q1042863",
+   "n": "Carlos di Sarli",
+   "b": "1903-01-07",
+   "d": "1960-01-12",
+   "bd": "7 de enero de 1903",
+   "dd": "12 de enero de 1960",
+   "p": "Argentina",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Carlos_di_Sarli",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Carlos%20Di%20Sarli.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q725908",
+   "qid": "Q725908",
+   "n": "Caryl Chessman",
+   "b": "1921-05-27",
+   "d": "1960-05-02",
+   "bd": "27 de mayo de 1921",
+   "dd": "2 de mayo de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Caryl_Chessman",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Caryl%20Chessman.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2915964",
+   "qid": "Q2915964",
+   "n": "Emily Post",
+   "b": "1872-10-27",
+   "d": "1960-09-25",
+   "bd": "27 de octubre de 1872",
+   "dd": "25 de septiembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emily%20Post%20cph.3b09855.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q771295",
+   "qid": "Q771295",
+   "n": "Enrique Amorim",
+   "b": "1900-07-25",
+   "d": "1960-07-28",
+   "bd": "25 de julio de 1900",
+   "dd": "28 de julio de 1960",
+   "p": "Uruguay",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Enrique_Amorim",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Enrique%20Amorim.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3066243",
+   "qid": "Q3066243",
+   "n": "Ivan Šarić",
+   "b": "1871-09-27",
+   "d": "1960-07-16",
+   "bd": "27 de septiembre de 1871",
+   "dd": "16 de julio de 1960",
+   "p": "Imperio austrohúngaro",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Ivan_%C5%A0ari%C4%87",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q605250",
+   "qid": "Q605250",
+   "n": "José Padilla",
+   "b": "1889-05-23",
+   "d": "1960-10-25",
+   "bd": "23 de mayo de 1889",
+   "dd": "25 de octubre de 1960",
+   "p": "España",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Jos%C3%A9_Padilla_S%C3%A1nchez",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q465594",
+   "qid": "Q465594",
+   "n": "Joy Gresham",
+   "b": "1915-04-18",
+   "d": "1960-07-13",
+   "bd": "18 de abril de 1915",
+   "dd": "13 de julio de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Joy_Gresham",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q302073",
+   "qid": "Q302073",
+   "n": "Józef Retinger",
+   "b": "1888-04-17",
+   "d": "1960-06-12",
+   "bd": "17 de abril de 1888",
+   "dd": "12 de junio de 1960",
+   "p": "Polonia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jozef%20Retinger%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q52570",
+   "qid": "Q52570",
+   "n": "Valdemar Langlet",
+   "b": "1872-12-17",
+   "d": "1960-10-16",
+   "bd": "17 de diciembre de 1872",
+   "dd": "16 de octubre de 1960",
+   "p": "Suecia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Langlet.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2000883",
+   "qid": "Q2000883",
+   "n": "Vladimir Dimitrov",
+   "b": "1882-02-01",
+   "d": "1960-09-24",
+   "bd": "1 de febrero de 1882",
+   "dd": "1960",
+   "p": "Bulgaria",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vladimir%20Dimitrov%20-%20Maistora.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1917464",
+   "qid": "Q1917464",
+   "n": "Anna Blaman",
+   "b": "1905-01-03",
+   "d": "1960-07-13",
+   "bd": "1905",
+   "dd": "13 de julio de 1960",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Anna_Blaman",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Blaman%201955.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q90085",
+   "qid": "Q90085",
+   "n": "Harald Braun",
+   "b": "1901-04-26",
+   "d": "1960-09-24",
+   "bd": "26 de abril de 1901",
+   "dd": "24 de septiembre de 1960",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "escritor",
+    "director de cine"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Harald_Braun",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q26702799",
+   "qid": "Q26702799",
+   "n": "Indira Devi Chaudhurani",
+   "b": "1873-12-29",
+   "d": "1960-08-12",
+   "bd": "29 de diciembre de 1873",
+   "dd": "12 de agosto de 1960",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Indira%20Devi%20Chaudhurani-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A6%BE%20%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A7%80%20%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%80.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q452988",
+   "qid": "Q452988",
+   "n": "Joseph Haas",
+   "b": "1879-03-19",
+   "d": "1960-03-30",
+   "bd": "19 de marzo de 1879",
+   "dd": "30 de marzo de 1960",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Joseph_Haas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Haas.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q288547",
+   "qid": "Q288547",
+   "n": "Matthew Moore",
+   "b": "1888-01-08",
+   "d": "1960-01-20",
+   "bd": "8 de enero de 1888",
+   "dd": "1960",
+   "p": "Irlanda / Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Matthew_Moore",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matt%20Moore%20in%201924%20in%20The%20Narrow%20Street%20-%20%28SAYRE%2014364%29%20%28cropped%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q214123",
+   "qid": "Q214123",
+   "n": "Mátyás Seiber",
+   "b": "1905-05-04",
+   "d": "1960-09-24",
+   "bd": "4 de mayo de 1905",
+   "dd": "24 de septiembre de 1960",
+   "p": "Hungría / Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A1ty%C3%A1s%20Seiber.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q434645",
+   "qid": "Q434645",
+   "n": "Sonya Levien",
+   "b": "1888-12-25",
+   "d": "1960-03-19",
+   "bd": "25 de diciembre de 1888",
+   "dd": "19 de marzo de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "escritor",
+    "director de cine"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sonya%20Levien%20-%20Jul%201925%20EH.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q373508",
+   "qid": "Q373508",
+   "n": "C. D. Howe",
+   "b": "1886-01-15",
+   "d": "1960-12-31",
+   "bd": "15 de enero de 1886",
+   "dd": "31 de diciembre de 1960",
+   "p": "Canadá / Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/C.D.%20Howe%2C%20wartime.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3023171",
+   "qid": "Q3023171",
+   "n": "Dennis Hoey",
+   "b": "1893-03-30",
+   "d": "1960-07-25",
+   "bd": "30 de marzo de 1893",
+   "dd": "25 de julio de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Dennis_Hoey",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dennis%20Hoey%20in%20Sherlock%20Holmes%20and%20the%20Secret%20Weapon.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q542279",
+   "qid": "Q542279",
+   "n": "Günter Raphael",
+   "b": "1903-04-30",
+   "d": "1960-10-19",
+   "bd": "30 de abril de 1903",
+   "dd": "19 de octubre de 1960",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%BCnter%20Raphael%20%281903%E2%80%931960%29%20by%20Ernst%20Hoenisch%201926.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q689646",
+   "qid": "Q689646",
+   "n": "Jean-Michel Atlan",
+   "b": "1913-01-23",
+   "d": "1960-02-12",
+   "bd": "23 de enero de 1913",
+   "dd": "12 de febrero de 1960",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "poeta",
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Jean-Michel_Atlan",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q112233",
+   "qid": "Q112233",
+   "n": "Joseph Gregor",
+   "b": "1888-10-26",
+   "d": "1960-10-12",
+   "bd": "26 de octubre de 1888",
+   "dd": "12 de octubre de 1960",
+   "p": "Austria",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Joseph_Gregor",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Gregor%20%281888%E2%80%931960%29%201927%20%C2%A9%20Georg%20Fayer%20%281892%E2%80%931950%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q979946",
+   "qid": "Q979946",
+   "n": "Jozef Cíger-Hronský",
+   "b": "1896-02-23",
+   "d": "1960-07-13",
+   "bd": "23 de febrero de 1896",
+   "dd": "13 de julio de 1960",
+   "p": "Eslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20ciger-hronsky-jozef.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q472837",
+   "qid": "Q472837",
+   "n": "Leon Dabo",
+   "b": "1864-07-09",
+   "d": "1960-11-07",
+   "bd": "9 de julio de 1864",
+   "dd": "7 de noviembre de 1960",
+   "p": "Estados Unidos / Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Leon%20Dabo%20in%20his%20studio%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1226556",
+   "qid": "Q1226556",
+   "n": "Violet Oakley",
+   "b": "1874-06-10",
+   "d": "1960-02-26",
+   "bd": "10 de junio de 1874",
+   "dd": "26 de febrero de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Violet_Oakley",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VioletOakley.jpg",
+   "flags": [
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3155124",
+   "qid": "Q3155124",
+   "n": "Yoshii Isamu",
+   "b": "1886-10-08",
+   "d": "1960-11-19",
+   "bd": "8 de octubre de 1886",
+   "dd": "19 de noviembre de 1960",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor",
+    "dramaturgo"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Isamu_Yoshii",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshii%20Isamu.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4681689",
+   "qid": "Q4681689",
+   "n": "Adelaide Casely-Hayford",
+   "b": "1868-06-27",
+   "d": "1960-01-16",
+   "bd": "27 de junio de 1868",
+   "dd": "1960",
+   "p": "Colonia de Sierra Leona",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Adelaide_Casely-Hayford",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adelaide%20Casely-Hayford%2C%201903.jpg",
+   "flags": [
+    "muerte",
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q258289",
+   "qid": "Q258289",
+   "n": "Alberto María de Agostini",
+   "b": "1883-11-02",
+   "d": "1960-12-25",
+   "bd": "2 de noviembre de 1883",
+   "dd": "25 de diciembre de 1960",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Alberto_Mar%C3%ADa_de_Agostini",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alberto%20Maria%20de%20Agostini.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2847970",
+   "qid": "Q2847970",
+   "n": "André Hugon",
+   "b": "1886-12-17",
+   "d": "1960-08-22",
+   "bd": "17 de diciembre de 1886",
+   "dd": "22 de agosto de 1960",
+   "p": "Francia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Andr%C3%A9_Hugon",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1378117",
+   "qid": "Q1378117",
+   "n": "Fernando Álvarez de Sotomayor",
+   "b": "1875-09-25",
+   "d": "1960-03-17",
+   "bd": "25 de septiembre de 1875",
+   "dd": "17 de marzo de 1960",
+   "p": "España",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Fernando_%C3%81lvarez_de_Sotomayor",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramon%20Casas%20-%20MNAC-%20Fernando%20%C3%81lvarez%20de%20Sotomayor-%20027257-D%20006406.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2745340",
+   "qid": "Q2745340",
+   "n": "Henri Bouchard",
+   "b": "1875-12-13",
+   "d": "1960-11-30",
+   "bd": "13 de diciembre de 1875",
+   "dd": "30 de noviembre de 1960",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Henri_Bouchard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Bouchard%20%281875-1960%29%20by%20Carolus%20Duran%20%281837-1917%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5997066",
+   "qid": "Q5997066",
+   "n": "Margarita Manso",
+   "b": "1908-11-24",
+   "d": "1960-03-28",
+   "bd": "24 de noviembre de 1908",
+   "dd": "28 de marzo de 1960",
+   "p": "España",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Margarita_Manso",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Margarita%20Manso%203V.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1779408",
+   "qid": "Q1779408",
+   "n": "Nic Waal",
+   "b": "1905-01-01",
+   "d": "1960-05-28",
+   "bd": "1905",
+   "dd": "28 de mayo de 1960",
+   "p": "Noruega",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nic.%20Waal.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2602611",
+   "qid": "Q2602611",
+   "n": "Pannalal Ghosh",
+   "b": "1911-07-24",
+   "d": "1960-04-20",
+   "bd": "1911",
+   "dd": "20 de abril de 1960",
+   "p": "India / Unión de la India",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pt.-pannalal-ghosh-.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q3087687",
+   "qid": "Q3087687",
+   "n": "Pierre Monatte",
+   "b": "1881-01-15",
+   "d": "1960-06-27",
+   "bd": "15 de enero de 1881",
+   "dd": "27 de junio de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Monatte%20ca%201915.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q673401",
+   "qid": "Q673401",
+   "n": "Rutland Boughton",
+   "b": "1878-01-23",
+   "d": "1960-01-25",
+   "bd": "23 de enero de 1878",
+   "dd": "25 de enero de 1960",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Rutland_Boughton",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q781561",
+   "qid": "Q781561",
+   "n": "Vilmos Huszár",
+   "b": "1884-01-05",
+   "d": "1960-09-08",
+   "bd": "5 de enero de 1884",
+   "dd": "8 de septiembre de 1960",
+   "p": "Hungría / Países Bajos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escultor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Vilmos_Husz%C3%A1r",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vilmos%20Huszar.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q940323",
+   "qid": "Q940323",
+   "n": "William Morgan Shuster",
+   "b": "1877-02-23",
+   "d": "1960-05-26",
+   "bd": "23 de febrero de 1877",
+   "dd": "26 de mayo de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/MorganShuster.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2407312",
+   "qid": "Q2407312",
+   "n": "Yaacov Cahan",
+   "b": "1881-06-26",
+   "d": "1960-11-20",
+   "bd": "26 de junio de 1881",
+   "dd": "20 de noviembre de 1960",
+   "p": "Israel",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Yaacov_Cahan",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D7%99%D7%A2%D7%A7%D7%91%20%D7%9B%D7%94%D7%9F%20%28%D7%9E%D7%A9%D7%95%D7%A8%D7%A8%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q321014",
+   "qid": "Q321014",
+   "n": "A. P. Carter",
+   "b": "1891-12-15",
+   "d": "1960-11-07",
+   "bd": "15 de diciembre de 1891",
+   "dd": "7 de noviembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/A.P%20Carter.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1970611",
+   "qid": "Q1970611",
+   "n": "Alfred Hill",
+   "b": "1869-12-16",
+   "d": "1960-10-30",
+   "bd": "16 de diciembre de 1869",
+   "dd": "30 de octubre de 1960",
+   "p": "Australia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfred%20Hill.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q517153",
+   "qid": "Q517153",
+   "n": "André Bloch",
+   "b": "1873-01-14",
+   "d": "1960-08-07",
+   "bd": "14 de enero de 1873",
+   "dd": "7 de agosto de 1960",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Andr%C3%A9_Bloch",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Bloch.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q715095",
+   "qid": "Q715095",
+   "n": "Arturo Ambrosio",
+   "b": "1870-12-03",
+   "d": "1960-03-25",
+   "bd": "3 de diciembre de 1870",
+   "dd": "25 de marzo de 1960",
+   "p": "Italia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Arturo%20Ambrosio.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5231005",
+   "qid": "Q5231005",
+   "n": "David B. Steinman",
+   "b": "1886-06-11",
+   "d": "1960-08-21",
+   "bd": "11 de junio de 1886",
+   "dd": "21 de agosto de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/David_B._Steinman",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/DavidBSteinman%20Mackinac%20bridge%20plaque%20cropped.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2915399",
+   "qid": "Q2915399",
+   "n": "Désiré Defauw",
+   "b": "1885-09-05",
+   "d": "1960-07-25",
+   "bd": "5 de septiembre de 1885",
+   "dd": "25 de julio de 1960",
+   "p": "Bélgica",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/News.%20At%20Mayor%20Houde%27s%20Office%20BAnQ%20P48S1P13836.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3053159",
+   "qid": "Q3053159",
+   "n": "Emory Johnson",
+   "b": "1894-03-16",
+   "d": "1960-04-18",
+   "bd": "16 de marzo de 1894",
+   "dd": "18 de abril de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Emory_Johnson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emory%20Johnson%2C%201940.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1356379",
+   "qid": "Q1356379",
+   "n": "Ernest Holmes",
+   "b": "1887-01-21",
+   "d": "1960-04-07",
+   "bd": "21 de enero de 1887",
+   "dd": "7 de abril de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Ernest_Holmes",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q29721",
+   "qid": "Q29721",
+   "n": "Gunnar Björling",
+   "b": "1887-05-31",
+   "d": "1960-07-11",
+   "bd": "31 de mayo de 1887",
+   "dd": "11 de julio de 1960",
+   "p": "Finlandia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gunnar%20Bjorling%20%281960%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q765423",
+   "qid": "Q765423",
+   "n": "H. L. Davis",
+   "b": "1894-10-18",
+   "d": "1960-10-31",
+   "bd": "18 de octubre de 1894",
+   "dd": "31 de octubre de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q976043",
+   "qid": "Q976043",
+   "n": "István Szőnyi",
+   "b": "1894-01-17",
+   "d": "1960-08-30",
+   "bd": "17 de enero de 1894",
+   "dd": "30 de agosto de 1960",
+   "p": "Hungría",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Istv%C3%A1n%20Sz%C5%91nyi%20plaque%20Bp21%20SzentImre22.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q579636",
+   "qid": "Q579636",
+   "n": "Ivan Pregelj",
+   "b": "1883-10-27",
+   "d": "1960-01-30",
+   "bd": "27 de octubre de 1883",
+   "dd": "1960",
+   "p": "República Federativa Socialista de Yugoslavia / Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta",
+    "dramaturgo"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Pregelj%20%281%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q267171",
+   "qid": "Q267171",
+   "n": "Jaume Vicens Vives",
+   "b": "1910-06-06",
+   "d": "1960-06-28",
+   "bd": "6 de junio de 1910",
+   "dd": "28 de junio de 1960",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Jaume_Vicens_Vives",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaume%20Vicens%20Vives.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q432764",
+   "qid": "Q432764",
+   "n": "Kenneth Mees",
+   "b": "1882-05-26",
+   "d": "1960-08-15",
+   "bd": "26 de mayo de 1882",
+   "dd": "15 de agosto de 1960",
+   "p": "Estados Unidos / Reino Unido",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Kenneth_Mees",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kenneth%20Mees.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7286435",
+   "qid": "Q7286435",
+   "n": "Rajshekhar Basu",
+   "b": "1880-03-16",
+   "d": "1960-04-27",
+   "bd": "16 de marzo de 1880",
+   "dd": "27 de abril de 1960",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7781613",
+   "qid": "Q7781613",
+   "n": "Theodor Pištěk",
+   "b": "1895-06-13",
+   "d": "1960-08-05",
+   "bd": "13 de junio de 1895",
+   "dd": "5 de agosto de 1960",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodor%20Pi%C5%A1t%C4%9Bk%2C%20herec.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7925963",
+   "qid": "Q7925963",
+   "n": "Victor Hugo Green",
+   "b": "1892-11-09",
+   "d": "1960-10-16",
+   "bd": "9 de noviembre de 1892",
+   "dd": "16 de octubre de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Victor%20Hugo%20Green%20%281892-1960%29%20in%201956.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q213925",
+   "qid": "Q213925",
+   "n": "Walter Goehr",
+   "b": "1903-05-28",
+   "d": "1960-12-04",
+   "bd": "28 de mayo de 1903",
+   "dd": "4 de diciembre de 1960",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q274121",
+   "qid": "Q274121",
+   "n": "Anne Bonnet",
+   "b": "1908-05-16",
+   "d": "1960-11-14",
+   "bd": "16 de mayo de 1908",
+   "dd": "14 de noviembre de 1960",
+   "p": "Bélgica",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1052282",
+   "qid": "Q1052282",
+   "n": "Armstrong Gibbs",
+   "b": "1889-08-10",
+   "d": "1960-05-12",
+   "bd": "10 de agosto de 1889",
+   "dd": "12 de mayo de 1960",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q945624",
+   "qid": "Q945624",
+   "n": "Fernand Gregh",
+   "b": "1873-10-14",
+   "d": "1960-01-05",
+   "bd": "14 de octubre de 1873",
+   "dd": "5 de enero de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fernand%20Gregh%201922.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q942525",
+   "qid": "Q942525",
+   "n": "František Lexa",
+   "b": "1876-04-05",
+   "d": "1960-01-13",
+   "bd": "5 de abril de 1876",
+   "dd": "1960",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Franti%C5%A1ek%20Lexa%20%281876-1960%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q466154",
+   "qid": "Q466154",
+   "n": "Jack E. Cox",
+   "b": "1896-07-26",
+   "d": "1960-07-29",
+   "bd": "26 de julio de 1896",
+   "dd": "29 de julio de 1960",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "fotógrafo",
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack%20E.%20Cox%20and%20Alfred%20Hitchcock%20Ring%201927.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1682383",
+   "qid": "Q1682383",
+   "n": "Jan Zahradníček",
+   "b": "1905-01-17",
+   "d": "1960-10-07",
+   "bd": "17 de enero de 1905",
+   "dd": "7 de octubre de 1960",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Zahradn%C3%AD%C4%8Dek.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1807681",
+   "qid": "Q1807681",
+   "n": "Launy Grøndahl",
+   "b": "1886-06-30",
+   "d": "1960-01-21",
+   "bd": "30 de junio de 1886",
+   "dd": "21 de enero de 1960",
+   "p": "Dinamarca",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Launy_Gr%C3%B8ndahl",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Launy%20Gr%C3%B8ndahl.gif",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q716823",
+   "qid": "Q716823",
+   "n": "Léon Bérard",
+   "b": "1876-01-06",
+   "d": "1960-02-24",
+   "bd": "6 de enero de 1876",
+   "dd": "1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/L%C3%A9on_B%C3%A9rard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9on%20B%C3%A9rard.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1900092",
+   "qid": "Q1900092",
+   "n": "Mark Hambourg",
+   "b": "1879-06-12",
+   "d": "1960-08-26",
+   "bd": "12 de junio de 1879",
+   "dd": "26 de agosto de 1960",
+   "p": "Reino Unido / Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Hambourg%20%28BPL%20Hale%20Coll%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q679555",
+   "qid": "Q679555",
+   "n": "Váša Příhoda",
+   "b": "1900-08-22",
+   "d": "1960-07-26",
+   "bd": "22 de agosto de 1900",
+   "dd": "1960",
+   "p": "Turquía / Checoslovaquia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Prihopa%20%28with%20violin%29%20LCCN2014711770%20%28cropped%29.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q4216984",
+   "qid": "Q4216984",
+   "n": "Vladimir Kasyanov",
+   "b": "1883-08-06",
+   "d": "1960-11-24",
+   "bd": "6 de agosto de 1883",
+   "dd": "24 de noviembre de 1960",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q68409",
+   "qid": "Q68409",
+   "n": "Walter Peterhans",
+   "b": "1897-06-12",
+   "d": "1960-04-12",
+   "bd": "12 de junio de 1897",
+   "dd": "12 de abril de 1960",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Walter_Peterhans",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4247553",
+   "qid": "Q4247553",
+   "n": "Alexander V. Kuprin",
+   "b": "1880-03-10",
+   "d": "1960-03-08",
+   "bd": "1880",
+   "dd": "1960",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuprin%20AV.jpg",
+   "flags": [
+    "muerte",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q2634228",
+   "qid": "Q2634228",
+   "n": "Arkhipov Abaginsky",
+   "b": "1907-01-20",
+   "d": "1960-09-22",
+   "bd": "20 de enero de 1907",
+   "dd": "22 de septiembre de 1960",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q215597",
+   "qid": "Q215597",
+   "n": "Benno Elkan",
+   "b": "1877-12-02",
+   "d": "1960-01-10",
+   "bd": "2 de diciembre de 1877",
+   "dd": "10 de enero de 1960",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escultor",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Benno_Elkan",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Benno%20Elkan.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4820547",
+   "qid": "Q4820547",
+   "n": "Cafer Seydamet Qırımer",
+   "b": "1889-09-01",
+   "d": "1960-04-03",
+   "bd": "1 de septiembre de 1889",
+   "dd": "3 de abril de 1960",
+   "p": "Turquía / República Popular de Crimea",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cafer%20Seydamet.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q767045",
+   "qid": "Q767045",
+   "n": "Carl Harbaugh",
+   "b": "1886-11-10",
+   "d": "1960-02-26",
+   "bd": "10 de noviembre de 1886",
+   "dd": "26 de febrero de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Carl_Harbaugh",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Regeneration%20%281915%29%20-%205.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5109044",
+   "qid": "Q5109044",
+   "n": "Christabel Marshall",
+   "b": "1871-10-24",
+   "d": "1960-10-20",
+   "bd": "24 de octubre de 1871",
+   "dd": "20 de octubre de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Christabel_Marshall",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Christopher%20St%20John.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3037160",
+   "qid": "Q3037160",
+   "n": "Dorothy Bussy",
+   "b": "1865-07-24",
+   "d": "1960-05-01",
+   "bd": "24 de julio de 1865",
+   "dd": "1 de mayo de 1960",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Dorothy_Bussy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dorothy%20Bussy%20%28nee%20Strachey%29%2C%20ca.%201923.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q12053202",
+   "qid": "Q12053202",
+   "n": "Ernest L. Blumenschein",
+   "b": "1874-05-26",
+   "d": "1960-06-06",
+   "bd": "26 de mayo de 1874",
+   "dd": "6 de junio de 1960",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernest%20and%20Mary%20Blumenschein%201910.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2394266",
+   "qid": "Q2394266",
+   "n": "Ernests Birznieks-Upītis",
+   "b": "1871-04-06",
+   "d": "1960-12-30",
+   "bd": "6 de abril de 1871",
+   "dd": "30 de diciembre de 1960",
+   "p": "Letonia / Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Soviet%20Union%201971%20CPA%203985%20stamp%20%28Ernests%20Birznieks-Up%C4%ABtis%20%281871-1960%29%2C%20Latvian%20Writer%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q95699",
+   "qid": "Q95699",
+   "n": "Ernst Stahl-Nachbaur",
+   "b": "1886-03-06",
+   "d": "1960-05-13",
+   "bd": "6 de marzo de 1886",
+   "dd": "13 de mayo de 1960",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1919%20Binder%20StahlNachbaur-Toelle.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3081329",
+   "qid": "Q3081329",
+   "n": "Francis Browne",
+   "b": "1880-01-03",
+   "d": "1960-07-07",
+   "bd": "3 de enero de 1880",
+   "dd": "7 de julio de 1960",
+   "p": "Irlanda",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q13217455",
+   "qid": "Q13217455",
+   "n": "Jacques Jaccard",
+   "b": "1886-09-11",
+   "d": "1960-07-24",
+   "bd": "11 de septiembre de 1886",
+   "dd": "24 de julio de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Jacques_Jaccard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Diamondinthesky2.gif",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q339151",
+   "qid": "Q339151",
+   "n": "Jaime Zuzarte Cortesão",
+   "b": "1884-04-29",
+   "d": "1960-08-14",
+   "bd": "29 de abril de 1884",
+   "dd": "14 de agosto de 1960",
+   "p": "Portugal / Reino de Portugal",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Jaime_Zuzarte_Cortes%C3%A3o",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaime%20Zuzarte%20Cortesao.gif",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1685780",
+   "qid": "Q1685780",
+   "n": "Jean Puy",
+   "b": "1876-11-07",
+   "d": "1960-03-06",
+   "bd": "1876",
+   "dd": "6 de marzo de 1960",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Jean_Puy",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Migonney-Puy.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q854729",
+   "qid": "Q854729",
+   "n": "Jenő Huszka",
+   "b": "1875-04-24",
+   "d": "1960-02-02",
+   "bd": "24 de abril de 1875",
+   "dd": "2 de febrero de 1960",
+   "p": "Hungría",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Huszka%20Jen%C5%91-001.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q81187",
+   "qid": "Q81187",
+   "n": "Jigar Moradabadi",
+   "b": "1890-04-06",
+   "d": "1960-09-09",
+   "bd": "6 de abril de 1890",
+   "dd": "9 de septiembre de 1960",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jigar%20Moradabadi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6440797",
+   "qid": "Q6440797",
+   "n": "Kshitimohan Sen",
+   "b": "1880-12-02",
+   "d": "1960-03-12",
+   "bd": "2 de diciembre de 1880",
+   "dd": "12 de marzo de 1960",
+   "p": "India / Unión de la India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kshitimohan%20Sen%201938.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3301406",
+   "qid": "Q3301406",
+   "n": "Maurice Schwartz",
+   "b": "1890-06-18",
+   "d": "1960-05-10",
+   "bd": "18 de junio de 1890",
+   "dd": "10 de mayo de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maurice-schwartz.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q969404",
+   "qid": "Q969404",
+   "n": "Mischa Bakaleinikoff",
+   "b": "1890-11-10",
+   "d": "1960-08-10",
+   "bd": "10 de noviembre de 1890",
+   "dd": "10 de agosto de 1960",
+   "p": "Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q360286",
+   "qid": "Q360286",
+   "n": "Paul-Émile Borduas",
+   "b": "1905-11-01",
+   "d": "1960-02-22",
+   "bd": "1 de noviembre de 1905",
+   "dd": "22 de febrero de 1960",
+   "p": "Canadá",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "escultor",
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul-Emile%20Borduas.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7179013",
+   "qid": "Q7179013",
+   "n": "Petrona Viera",
+   "b": "1895-03-24",
+   "d": "1960-10-04",
+   "bd": "24 de marzo de 1895",
+   "dd": "4 de octubre de 1960",
+   "p": "Uruguay",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Petrona_Viera",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Petrona%20viera.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1648752",
+   "qid": "Q1648752",
+   "n": "Raïssa Maritain",
+   "b": "1883-09-12",
+   "d": "1960-11-04",
+   "bd": "12 de septiembre de 1883",
+   "dd": "4 de noviembre de 1960",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Ra%C3%AFssa_Maritain",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Raissa%20Maritain%20%281905%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q472734",
+   "qid": "Q472734",
+   "n": "Raymond Abrashkin",
+   "b": "1911-03-09",
+   "d": "1960-08-25",
+   "bd": "9 de marzo de 1911",
+   "dd": "25 de agosto de 1960",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q214558",
+   "qid": "Q214558",
+   "n": "Rudolf Nelson",
+   "b": "1878-04-04",
+   "d": "1960-02-05",
+   "bd": "1878",
+   "dd": "5 de febrero de 1960",
+   "p": "Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Nelson%20%281952%29.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q2420577",
+   "qid": "Q2420577",
+   "n": "Semyon Bogatyrev",
+   "b": "1890-02-15",
+   "d": "1960-12-31",
+   "bd": "15 de febrero de 1890",
+   "dd": "31 de diciembre de 1960",
+   "p": "Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Semyon%20Bogatyrev.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1280045",
+   "qid": "Q1280045",
+   "n": "Sreten Stojanović",
+   "b": "1898-02-02",
+   "d": "1960-10-29",
+   "bd": "2 de febrero de 1898",
+   "dd": "29 de octubre de 1960",
+   "p": "Yugoslavia",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Sreten_Stojanovi%C4%87",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sreten%20Stojanovi%C4%87%201998%20Yugoslavia%20stamp.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q637214",
+   "qid": "Q637214",
+   "n": "Sven Lidman",
+   "b": "1882-06-30",
+   "d": "1960-02-14",
+   "bd": "30 de junio de 1882",
+   "dd": "14 de febrero de 1960",
+   "p": "Suecia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Sven_Lidman_(escritor)",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sven-Lidman.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2447709",
+   "qid": "Q2447709",
+   "n": "Walter Dorwin Teague",
+   "b": "1883-12-18",
+   "d": "1960-12-05",
+   "bd": "18 de diciembre de 1883",
+   "dd": "5 de diciembre de 1960",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Walter_Dorwin_Teague",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  }
+ ]
+}
