@@ -1,13 +1,13 @@
 {
  "anio": 1965,
- "filas": 221,
- "personas_unicas": 172,
- "personas_publicadas": 171,
+ "filas": 242,
+ "personas_unicas": 184,
+ "personas_publicadas": 183,
  "por_categoria": {
-  "Literatura": 78,
-  "Cine e historieta": 36,
-  "Artes visuales": 30,
-  "Música": 27
+  "Literatura": 85,
+  "Cine e historieta": 38,
+  "Artes visuales": 32,
+  "Música": 28
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -29,12 +29,16 @@
   "Åke Söderblom: 1965-05-20, 1965-05-22",
   "Malcolm Wheeler-Nicholson: 1965-09-21, 1965-11-21",
   "Anthony Veiller: 1965-06-07, 1965-06-27",
-  "Harald Bergstedt: 1965-07-21, 1965-09-19"
+  "Harald Bergstedt: 1965-07-21, 1965-09-19",
+  "Alberto Greco: 1965-10-12, 1965-10-14"
  ],
  "muerte_solo_anio": [
   "Mehdi Ben Barka",
   "Barón von Sebottendorff",
-  "Muhammad Yusuf Kandhalawi"
+  "Muhammad Yusuf Kandhalawi",
+  "Ernestina A. López",
+  "Adelia Di Carlo",
+  "Eduardo Labougle"
  ],
  "muerte_fuera_del_anio": [
   "Marie 'Ajami (Q16003875)",
@@ -49,12 +53,16 @@
   "Sophia Laskaridou: 1876-02-27, 1882-02-15",
   "Arcady Boytler: 1890-08-31, 1895-08-31",
   "Elsie Jane Wilson: 1885-01-01, 1890-11-07",
+  "Lydia Mei: 1896-07-01, 1896-07-02",
   "Richard Schweizer: 1899-12-23, 1900-12-23",
-  "Lydia Mei: 1896-07-01, 1896-07-02"
+  "Alberto Greco: 1931-01-14, 1931-01-15"
  ],
  "nacimiento_solo_anio": [
   "Mehdi Ben Barka",
-  "Ruhollah Khaleqi"
+  "Ruhollah Khaleqi",
+  "Ernestina A. López",
+  "Adelia Di Carlo",
+  "Bertha Koessler-Ilg"
  ],
  "sin_nacimiento": [
   "Sonny Boy Williamson II"
@@ -97,6 +105,7 @@
   "Pier Antonio Quarantotti Gambini",
   "Hans Marchwitza",
   "Harry Tierney",
+  "Lydia Mei",
   "Galina Nikolayeva",
   "Claude Champagne",
   "Fu Baoshi",
@@ -108,7 +117,6 @@
   "Gösta Adrian-Nilsson",
   "Huang Yanpei",
   "Muhammad Yusuf Kandhalawi",
-  "Lydia Mei",
   "Stanko Premrl",
   "Boris Artzybasheff",
   "Raoul Blanchard",
@@ -128,5 +136,20 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 27
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 221,
+  "argentinos": 21
+ },
+ "argentinos": 13,
+ "argentinos_sin_bnmm": [
+  "Alberto Greco (Q3608357)",
+  "Alfredo Gobbi (Q5557433)",
+  "Alberto Etchebehere (Q5663014)",
+  "Andreas Madsen (Q5675254)",
+  "José Luis Torres (Q5941762)",
+  "Carlos Ginés (Q16543235)",
+  "Hermenegildo García Verde (Q96625262)"
+ ],
+ "a_revisar": 31
 }

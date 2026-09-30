@@ -1,13 +1,13 @@
 {
  "anio": 1970,
- "filas": 271,
- "personas_unicas": 220,
- "personas_publicadas": 219,
+ "filas": 290,
+ "personas_unicas": 237,
+ "personas_publicadas": 236,
  "por_categoria": {
-  "Literatura": 129,
-  "Música": 30,
-  "Artes visuales": 30,
-  "Cine e historieta": 30
+  "Literatura": 137,
+  "Artes visuales": 34,
+  "Música": 33,
+  "Cine e historieta": 32
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -44,7 +44,10 @@
   "Sean Flynn",
   "Arthur John Arberry",
   "Ladislao de Gauss",
-  "Chadrabalin Lodoidamba"
+  "Chadrabalin Lodoidamba",
+  "Silvia Torras",
+  "Luisa Sofovich",
+  "Felipe Aldana"
  ],
  "muerte_fuera_del_anio": [
   "Pierre Mac Orlan (Q546952)",
@@ -64,7 +67,10 @@
   "Helen Kim",
   "Ladislao de Gauss",
   "Chadrabalin Lodoidamba",
-  "Eliezer Steinman"
+  "Eliezer Steinman",
+  "Silvia Torras",
+  "Luisa Sofovich",
+  "Felipe Aldana"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -151,7 +157,9 @@
   "Tadeusz Breza",
   "Solayman Haïm",
   "Jerzy Szaniawski",
-  "Kamla Chaudhry"
+  "Kamla Chaudhry",
+  "Sasha Siemel",
+  "Adolf Seitz"
  ],
  "corregidos": [],
  "curados_fusionados": [
@@ -159,5 +167,24 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 33
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 271,
+  "argentinos": 19
+ },
+ "argentinos": 19,
+ "argentinos_sin_bnmm": [
+  "Román Viñoly Barreto (Q3441312)",
+  "Sasha Siemel (Q7425109)",
+  "Elida Carlés (Q28974303)",
+  "Adolf Seitz (Q4684165)",
+  "Farid Nuzha (Q5435262)",
+  "Mario C. Lugones (Q6764594)",
+  "Ángel María de Rosa (Q8076865)",
+  "Silvia Torras (Q104045348)",
+  "Luisa Sofovich (Q104007155)",
+  "Felipe Aldana (Q5441939)",
+  "Augusto César Ferrari (Q5711623)"
+ ],
+ "a_revisar": 36
 }

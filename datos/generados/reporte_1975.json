@@ -1,13 +1,13 @@
 {
  "anio": 1975,
- "filas": 258,
- "personas_unicas": 217,
- "personas_publicadas": 217,
+ "filas": 271,
+ "personas_unicas": 228,
+ "personas_publicadas": 228,
  "por_categoria": {
-  "Literatura": 118,
-  "Cine e historieta": 44,
-  "Artes visuales": 31,
-  "Música": 24
+  "Literatura": 124,
+  "Cine e historieta": 45,
+  "Artes visuales": 34,
+  "Música": 25
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -32,11 +32,13 @@
   "József Lengyel: 1975-07-12, 1975-07-14"
  ],
  "muerte_solo_anio": [
-  "Jimmy Hoffa"
+  "Jimmy Hoffa",
+  "Arturo Lanteri"
  ],
  "muerte_fuera_del_anio": [
   "Jimmy Hoffa (Q317638)",
-  "Ilia Zdanevich (Q984030)"
+  "Ilia Zdanevich (Q984030)",
+  "Juan Stefanich (Q6504504)"
  ],
  "nacimiento_en_disputa": [
   "Ernst Hanfstaengl: 1887-02-02, 1887-02-11",
@@ -51,7 +53,9 @@
   "Bedri Rahmi Eyüboğlu",
   "Edward S. Aarons",
   "Carlo Manzoni",
-  "Kateryna Antonovych (Serebriakova)"
+  "Kateryna Antonovych (Serebriakova)",
+  "Arturo Lanteri",
+  "Juan Stefanich"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -86,7 +90,6 @@
   "Sten Bergman",
   "Robert Neumann",
   "John H. Auer",
-  "Marcel Grandjany",
   "Paul Vogel",
   "Jean Yarbrough",
   "Edward H. Griffith",
@@ -99,6 +102,7 @@
   "Patrice de la Tour du Pin",
   "Anne Spencer",
   "Ariadna Ėfron",
+  "Marcel Grandjany",
   "Abdur Rahman Chughtai",
   "Alfred Kurella",
   "Shikō Munakata",
@@ -117,5 +121,17 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 24
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 258,
+  "argentinos": 13
+ },
+ "argentinos": 12,
+ "argentinos_sin_bnmm": [
+  "Olga Gurski (Q19595222)",
+  "Juan Stefanich (Q6504504)",
+  "Lia Correa Morales (Q47124011)",
+  "Bibí Zogbé (Q115688389)"
+ ],
+ "a_revisar": 26
 }

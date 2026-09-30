@@ -1,11 +1,11 @@
 {
  "anio": 1961,
- "filas": 205,
- "personas_unicas": 177,
- "personas_publicadas": 176,
+ "filas": 209,
+ "personas_unicas": 179,
+ "personas_publicadas": 178,
  "por_categoria": {
-  "Literatura": 95,
-  "Artes visuales": 31,
+  "Literatura": 96,
+  "Artes visuales": 32,
   "Cine e historieta": 30,
   "Música": 20
  },
@@ -52,7 +52,8 @@
   "Madge Gill",
   "Sems Kesmai",
   "Vincenzo Galdi",
-  "Munis Tekinalp"
+  "Munis Tekinalp",
+  "Miguel Gómez Bao"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -69,27 +70,27 @@
   "Taha al-Hashimi",
   "Antanas Škėma",
   "Jacques Stephen Alexis",
+  "Marcel Vertès",
   "Vasily Kamensky",
   "Bhupendranath Datta",
   "Iva Despić-Simonović",
-  "Marcel Vertès",
   "Giovanni Battista Angioletti",
   "Branko Miljković",
   "ʻAbdulḥaq",
   "Hampe Faustman",
-  "Kristofer Uppdal",
   "Werner R. Heymann",
+  "Kristofer Uppdal",
   "Valentine Davies",
   "Josip Kosor",
   "Hjalmar Gullberg",
+  "Ole Hallesby",
   "Armand Robin",
   "Paul Guilfoyle",
-  "Ole Hallesby",
   "Cezar Petrescu",
-  "Maja Fjæstad",
   "Patricia Wentworth",
   "Aribert Wäscher",
   "István Csók",
+  "Maja Fjæstad",
   "Olga Máté",
   "Aleksey Dmitrievich Popov",
   "Hasan Âli Yücel",
@@ -105,15 +106,15 @@
   "Hans Friedrich Blunck",
   "Ferenc Mező",
   "John Duncan Fergusson",
-  "John J. Becker",
-  "Pola Gauguin",
-  "Jafar Khandan",
-  "Amjad Hyderabadi",
   "Mysore Vasudevachar",
   "Elvira Dolinar",
   "Carlos Salzedo",
   "Arthur Raymond Robinson",
-  "Munis Tekinalp"
+  "Munis Tekinalp",
+  "John J. Becker",
+  "Pola Gauguin",
+  "Jafar Khandan",
+  "Amjad Hyderabadi"
  ],
  "corregidos": [],
  "curados_fusionados": [
@@ -121,5 +122,14 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 205,
+  "argentinos": 4
+ },
+ "argentinos": 3,
+ "argentinos_sin_bnmm": [
+  "Arturo Dresco (Q4801726)"
+ ],
  "a_revisar": 21
 }

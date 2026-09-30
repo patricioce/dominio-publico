@@ -1,12 +1,12 @@
 {
  "anio": 1956,
- "filas": 215,
- "personas_unicas": 175,
- "personas_publicadas": 176,
+ "filas": 221,
+ "personas_unicas": 180,
+ "personas_publicadas": 181,
  "por_categoria": {
-  "Literatura": 90,
+  "Literatura": 94,
   "Artes visuales": 30,
-  "Cine e historieta": 28,
+  "Cine e historieta": 29,
   "Música": 27,
   "Ciencia": 1
  },
@@ -33,7 +33,8 @@
  ],
  "muerte_solo_anio": [
   "Nikolaos Trikoupis",
-  "Nino Tkheshelashvili"
+  "Nino Tkheshelashvili",
+  "Carlos Torres Ríos"
  ],
  "muerte_fuera_del_anio": [
   "Pak Heon-yeong (Q334297)",
@@ -53,7 +54,8 @@
   "Makbule Atadan",
   "George Thomas Moore",
   "Nino Tkheshelashvili",
-  "Fuat Uzkınay"
+  "Fuat Uzkınay",
+  "Carlos Torres Ríos"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -66,8 +68,8 @@
   "Sergei Vasilenko",
   "C. B. Fry",
   "Owen Davis",
-  "Cahit Sıtkı Tarancı",
   "Pyotr Konchalovsky",
+  "Cahit Sıtkı Tarancı",
   "Johannes Gabriel Granö",
   "Charles MacArthur",
   "Benno von Arent",
@@ -81,12 +83,12 @@
   "Manik Bandopadhyay",
   "Devorah Baron",
   "Helmar Lerski",
-  "Aleksandr Sanin",
   "Karl Caspar",
+  "Aleksandr Sanin",
   "Makbule Atadan",
   "Paul Rohrbach",
-  "Theo Frenkel",
   "Nina Hamnett",
+  "Theo Frenkel",
   "Marij Kogoj",
   "Archibald Low",
   "August Winnig",
@@ -103,9 +105,9 @@
   "François Jaffrennou",
   "Pier Maria Rosso di San Secondo",
   "Mykola Vilinsky",
+  "Fuat Uzkınay",
   "Rupert Hughes",
   "Amanda Aldridge",
-  "Fuat Uzkınay",
   "Stina Aronson"
  ],
  "corregidos": [
@@ -167,5 +169,16 @@
   "Irène Joliot-Curie"
  ],
  "correcciones_sin_uso": [],
- "a_revisar": 37
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 215,
+  "argentinos": 6
+ },
+ "argentinos": 6,
+ "argentinos_sin_bnmm": [
+  "Erich Kleiber (Q78527)",
+  "Carlos Torres Ríos (Q5042714)",
+  "Josefina Oliver (Q96390466)"
+ ],
+ "a_revisar": 38
 }

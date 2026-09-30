@@ -1,13 +1,13 @@
 {
  "anio": 1973,
- "filas": 284,
- "personas_unicas": 231,
- "personas_publicadas": 231,
+ "filas": 297,
+ "personas_unicas": 242,
+ "personas_publicadas": 242,
  "por_categoria": {
-  "Literatura": 133,
+  "Literatura": 138,
   "Cine e historieta": 42,
-  "Música": 34,
-  "Artes visuales": 22
+  "Música": 38,
+  "Artes visuales": 24
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -35,7 +35,8 @@
   "Naum Gabo",
   "Kamal Nasser",
   "Janaki Devi Bajaj",
-  "Arnoldo de Winkelried Bertoni"
+  "Arnoldo de Winkelried Bertoni",
+  "Aldo Pellegrini"
  ],
  "muerte_fuera_del_anio": [
   "Naum Gabo (Q309482)",
@@ -76,9 +77,9 @@
   "Tomoji Abe",
   "John Creasey",
   "Cicely Mary Barker",
+  "Kemal Tahir",
   "Aleksandr Bezymensky",
   "Haim Hazaz",
-  "Kemal Tahir",
   "André Barsacq",
   "Márton Keleti",
   "Coleman Francis",
@@ -109,12 +110,12 @@
   "Ljudmil Stojanov",
   "Abylkhan Kasteev",
   "Margaret Wilson",
-  "Alexandre Arnoux",
   "Jirō Osaragi",
+  "Alexandre Arnoux",
   "Arna Bontemps",
   "Felix Braun",
-  "John Neihardt",
   "Eduard Flipse",
+  "John Neihardt",
   "Jonas Aistis",
   "Robert C. O'Brien",
   "Wilbur de Paris",
@@ -134,5 +135,17 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 31
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 284,
+  "argentinos": 13
+ },
+ "argentinos": 11,
+ "argentinos_sin_bnmm": [
+  "Terig Tucci (Q361762)",
+  "Viktor Sulčič (Q2057039)",
+  "Leonardo Henrichsen (Q3830386)",
+  "Salme Rosalie Riig (Q17446806)"
+ ],
+ "a_revisar": 32
 }

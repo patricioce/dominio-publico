@@ -1,12 +1,12 @@
 {
  "anio": 1969,
- "filas": 253,
- "personas_unicas": 210,
- "personas_publicadas": 210,
+ "filas": 265,
+ "personas_unicas": 219,
+ "personas_publicadas": 219,
  "por_categoria": {
-  "Literatura": 119,
-  "Cine e historieta": 39,
-  "Artes visuales": 26,
+  "Literatura": 124,
+  "Cine e historieta": 41,
+  "Artes visuales": 28,
   "Música": 26
  },
  "excluidos_sin_nombre": [],
@@ -27,8 +27,8 @@
   "Hugh Williams: 1969-12-07, 1969-12-12",
   "Rudolf Pannwitz: 1969-03-23, 1969-05-23",
   "Russ Morgan: 1969-08-07, 1969-08-08",
-  "Axel Graatkjær: 1969-11-02, 1969-11-11",
-  "Armas Otto Väisänen: 1969-07-08, 1969-07-18"
+  "Armas Otto Väisänen: 1969-07-08, 1969-07-18",
+  "Axel Graatkjær: 1969-11-02, 1969-11-11"
  ],
  "muerte_solo_anio": [
   "Félix Couchoro",
@@ -55,13 +55,15 @@
   "Veselin Stoyanov: 1902-04-07, 1902-04-20",
   "Félix de Pomés: 1889-02-05, 1893-02-06",
   "Paca Navas de Miralda: 1883-03-23, 1900-01-01",
-  "José Régio: 1899-09-17, 1901-09-17"
+  "José Régio: 1899-09-17, 1901-09-17",
+  "Antonio Cunill Cabanellas: 1893-08-27, 1894-08-27"
  ],
  "nacimiento_solo_anio": [
   "Zhang Junmai",
   "Harry Luke",
   "Joseph Constant",
-  "Atanasio Ndongo"
+  "Atanasio Ndongo",
+  "Emilio Jáuregui"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -123,14 +125,27 @@
   "Geneviève Fauconnier",
   "Humayun Kabir",
   "Sampurnanand",
-  "Axel Graatkjær",
   "Camille Marbo",
-  "János Kodolányi",
-  "Armas Otto Väisänen"
+  "Armas Otto Väisänen",
+  "Axel Graatkjær",
+  "János Kodolányi"
  ],
  "corregidos": [],
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 33
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 253,
+  "argentinos": 12
+ },
+ "argentinos": 11,
+ "argentinos_sin_bnmm": [
+  "Enrique García (Q3726144)",
+  "Arnoldo Ellerman (Q696847)",
+  "Antonio Cunill Cabanellas (Q4776556)",
+  "Emilio Jáuregui (Q5831154)",
+  "Ernesto Soto Avendaño (Q56164218)"
+ ],
+ "a_revisar": 34
 }

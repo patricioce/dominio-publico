@@ -1,12 +1,12 @@
 {
  "anio": 1963,
- "filas": 225,
- "personas_unicas": 179,
- "personas_publicadas": 179,
+ "filas": 236,
+ "personas_unicas": 184,
+ "personas_publicadas": 184,
  "por_categoria": {
-  "Literatura": 97,
-  "Cine e historieta": 30,
-  "Música": 29,
+  "Literatura": 100,
+  "Cine e historieta": 31,
+  "Música": 30,
   "Artes visuales": 23
  },
  "excluidos_sin_nombre": [],
@@ -56,14 +56,16 @@
   "ʻAbd al-Masīḥ Ḥaddād: 1888-01-01, 1890-01-01",
   "Rowland Brown: 1897-11-06, 1900-11-06",
   "A.V. Bramble: 1884-05-01, 1887-01-01",
-  "Phil Baker: 1896-08-24, 1896-08-26"
+  "Phil Baker: 1896-08-24, 1896-08-26",
+  "Gilardo Gilardi: 1889-05-02, 1889-05-25"
  ],
  "nacimiento_solo_anio": [
   "Daniel O. Fagunwa",
   "Mark Clifton",
   "Naftule Brandwein",
   "Armand",
-  "Z. D. Mangoaela"
+  "Z. D. Mangoaela",
+  "Víctor Lis Quibén"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -84,8 +86,8 @@
   "Oliver Wallace",
   "László Lajtha",
   "Walter Russell",
-  "Mahmud Shaltut",
   "Mark Clifton",
+  "Mahmud Shaltut",
   "Luigi Bartolini",
   "Anthony Coldeway",
   "Leonid Lukov",
@@ -107,6 +109,7 @@
   "Édouard Belin",
   "Tadeusz Szeligowski",
   "Felice Minotti",
+  "Natasha Lytess",
   "Franz Jung",
   "Galina Nikolayeva",
   "Simon Jurovsky",
@@ -116,7 +119,6 @@
   "Ezzel Dine Zulficar",
   "Myjailo Parashchuk",
   "ʻAbd al-Masīḥ Ḥaddād",
-  "Natasha Lytess",
   "Frank Dobson",
   "Aarne Sihvo",
   "Hilda Vīka",
@@ -136,5 +138,16 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 36
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 225,
+  "argentinos": 11
+ },
+ "argentinos": 8,
+ "argentinos_sin_bnmm": [
+  "Ernesto Arancibia (Q5836762)",
+  "Víctor Lis Quibén (Q3393265)",
+  "Alfredo Luis Schiuma (Q19997737)"
+ ],
+ "a_revisar": 37
 }

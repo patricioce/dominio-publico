@@ -1,13 +1,13 @@
 {
  "anio": 1953,
- "filas": 201,
- "personas_unicas": 162,
- "personas_publicadas": 161,
+ "filas": 209,
+ "personas_unicas": 169,
+ "personas_publicadas": 168,
  "por_categoria": {
-  "Literatura": 75,
-  "Artes visuales": 30,
-  "Cine e historieta": 29,
-  "Música": 27
+  "Literatura": 78,
+  "Artes visuales": 31,
+  "Cine e historieta": 30,
+  "Música": 29
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -32,7 +32,9 @@
  ],
  "muerte_solo_anio": [
   "Sevasti Kallisperi",
-  "Achyut Charan Choudhury"
+  "Achyut Charan Choudhury",
+  "Fausto Burgos",
+  "Ezequiel Pedro Paz"
  ],
  "muerte_fuera_del_anio": [
   "Rudolf Bauer (Q72615)",
@@ -46,7 +48,8 @@
  ],
  "nacimiento_solo_anio": [
   "Sevasti Kallisperi",
-  "Heinrich Claß"
+  "Heinrich Claß",
+  "Ezequiel Pedro Paz"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -75,8 +78,8 @@
   "Ahmed Ghulamali Chagla",
   "Osip Abdulov",
   "Sevasti Kallisperi",
-  "C. E. M. Joad",
   "Jindrich Honzl",
+  "C. E. M. Joad",
   "Andor Gábor",
   "Daniel Gregory Mason",
   "Aleksandr Osmiorkin",
@@ -108,5 +111,17 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 18
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 201,
+  "argentinos": 8
+ },
+ "argentinos": 8,
+ "argentinos_sin_bnmm": [
+  "Walther Darré (Q60145)",
+  "Ezequiel Pedro Paz (Q5423239)",
+  "Felipe Galante (Q18599590)",
+  "Eva Limiñana (Q30346020)"
+ ],
+ "a_revisar": 20
 }

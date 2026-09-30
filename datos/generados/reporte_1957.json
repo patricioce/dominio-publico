@@ -1,12 +1,12 @@
 {
  "anio": 1957,
- "filas": 231,
- "personas_unicas": 186,
- "personas_publicadas": 184,
+ "filas": 239,
+ "personas_unicas": 192,
+ "personas_publicadas": 190,
  "por_categoria": {
-  "Literatura": 98,
+  "Literatura": 102,
   "Artes visuales": 32,
-  "Cine e historieta": 29,
+  "Cine e historieta": 31,
   "Música": 25
  },
  "excluidos_sin_nombre": [],
@@ -34,7 +34,8 @@
  "muerte_solo_anio": [
   "Barón von Sebottendorff",
   "Frank Powell",
-  "Shi Hui"
+  "Shi Hui",
+  "Enrique Pérez Colman"
  ],
  "muerte_fuera_del_anio": [
   "Konrad Tom (Q1447210)",
@@ -74,48 +75,50 @@
   "David Bomberg",
   "Sem Dresden",
   "Tim Whelan",
-  "John Middleton Murry",
   "Jenő Heltai",
+  "John Middleton Murry",
   "Ray Cummings",
   "Norm Ferguson",
   "Eric Coates",
   "Kenneth Roberts",
-  "Nils Åberg",
   "Bhai Vir Singh",
+  "Nils Åberg",
   "Felix Bryk",
   "Antanas Vienuolis",
   "Robert Vansittart, 1st Baron Vansittart",
-  "Maria Chekhova",
-  "Vladimir Lugovskoy",
   "Erik Tuxen",
   "Edvard Persson",
   "Jagoda Truhelka",
   "Choe Nam-seon",
+  "Maria Chekhova",
+  "Vladimir Lugovskoy",
   "Ludwig Trautmann",
   "Louis Fürnberg",
   "Hüseyin Cahit Yalçin",
   "Wedgwood Nowell",
   "Émilie Desjeux",
+  "Artur Malawski",
   "Ede Poldini",
   "Vitold Byalynitsky-Birulya",
-  "Artur Malawski",
   "Gyula Mészáros",
   "Mait Metsanurk",
   "Adolf Dietrich",
   "Amiya Chakravarty",
   "Abolhasan Saba",
-  "Cheng Maoyun",
-  "Petar Stojanović",
-  "Ille Toktash",
-  "Heino Kaski",
-  "Shi Hui",
   "Aldo Vergano",
   "Kawai Gyokudō",
   "Konstantin Yudin",
   "Amelie Posse",
   "Evagoras Pallikarides",
   "Francisco Valdomiro Lorenz",
-  "Just Knud Qvigstad"
+  "Just Knud Qvigstad",
+  "Cheng Maoyun",
+  "Petar Stojanović",
+  "Ille Toktash",
+  "Heino Kaski",
+  "Shi Hui",
+  "Lajos Cselle",
+  "José Gabriel"
  ],
  "corregidos": [],
  "curados_fusionados": [
@@ -128,5 +131,16 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 24
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 231,
+  "argentinos": 8
+ },
+ "argentinos": 7,
+ "argentinos_sin_bnmm": [
+  "Carlos Schlieper (Q5042640)",
+  "Daniel García-Mansilla (Q5798363)",
+  "Lajos Cselle (Q43476894)"
+ ],
+ "a_revisar": 25
 }

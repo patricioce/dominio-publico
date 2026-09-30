@@ -24,7 +24,12 @@ import urllib.parse
 import urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CONSULTA = os.path.join(RAIZ, 'consultas', 'consulta_mejorada.rq')
+# Consultas que se corren por año y se unen por QID. La de argentinos baja la notabilidad y suma ocupaciones.
+CONSULTAS = {
+    'general': os.path.join(RAIZ, 'consultas', 'consulta_mejorada.rq'),
+    'argentinos': os.path.join(RAIZ, 'consultas', 'consulta_argentinos.rq'),
+}
+BNMM_URL = 'https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_number={}'
 CORRECCIONES = os.path.join(RAIZ, 'datos', 'correcciones.csv')
 CURADOS = os.path.join(RAIZ, 'datos', 'autores_curados.json')
 GENERADOS = os.path.join(RAIZ, 'datos', 'generados')
@@ -49,8 +54,8 @@ def _contexto_ssl():
     return ctx
 
 
-def consultar_wikidata(anio, intentos=4):
-    consulta = (open(CONSULTA, encoding='utf-8').read()
+def consultar_wikidata(anio, ruta_consulta, intentos=4):
+    consulta = (open(ruta_consulta, encoding='utf-8').read()
                 .replace('{ANIO_SIG}', str(anio + 1)).replace('{ANIO}', str(anio)))
     datos = urllib.parse.urlencode({'query': consulta}).encode()
     cabeceras = {'Accept': 'application/sparql-results+json', 'User-Agent': USER_AGENT}
@@ -75,11 +80,14 @@ def consultar_wikidata(anio, intentos=4):
         time.sleep(espera)
 
 
-def filas_desde_sparql(respuesta):
-    """Convierte la respuesta SPARQL en filas con las mismas columnas que el CSV de query.wikidata.org."""
+def filas_desde_sparql(respuesta, consulta='general'):
+    """Convierte la respuesta SPARQL en filas con las mismas columnas que el CSV de query.wikidata.org.
+    Cada fila recuerda de qué consulta vino en '_consulta'."""
     filas = []
     for b in respuesta['results']['bindings']:
-        filas.append({k: v['value'] for k, v in b.items()})
+        fila = {k: v['value'] for k, v in b.items()}
+        fila['_consulta'] = consulta
+        filas.append(fila)
     return filas
 
 
@@ -113,11 +121,11 @@ RENOMBRAR_PAIS = [('Reino Unido de Gran Bretaña e Irlanda', 'Reino Unido'), ('R
                   ('Reino de Dinamarca', 'Dinamarca'), ('Reino de los Países Bajos', 'Países Bajos')]
 
 
-def limpiar_paises(texto):
-    if not texto:
+def limpiar_paises(partes):
+    """Hasta dos países actuales, en orden alfabético (el orden de Wikidata no es estable)."""
+    if not partes:
         return ''
-    partes = [p.strip() for p in texto.split(',')]
-    quedan = [p for p in partes if not HISTORICOS.search(p)] or partes
+    quedan = sorted(p for p in partes if not HISTORICOS.search(p)) or sorted(partes)
     salida = []
     for p in quedan:
         for viejo, nuevo in RENOMBRAR_PAIS:
@@ -127,13 +135,18 @@ def limpiar_paises(texto):
     return ' / '.join(salida[:2])
 
 
-LITERATURA = {'escritor', 'poeta', 'dramaturgo', 'letrista'}
-VISUALES = {'pintor', 'escultor', 'fotógrafo'}
+LITERATURA = {'escritor', 'poeta', 'dramaturgo', 'letrista',
+              'novelista', 'ensayista', 'crítico literario', 'libretista', 'periodista'}
+VISUALES = {'pintor', 'escultor', 'fotógrafo', 'ilustrador', 'dibujante'}
+MUSICA = {'compositor', 'compositor de canciones', 'cantautor'}
+DIRECCION = {'director de cine', 'realizador'}
 
 
 def categoria(ocupaciones):
+    """Categoría a partir de las ocupaciones (etiquetas en español de Wikidata).
+    Las reglas 1-8 son las de limpieza_referencia.py, ampliadas a las ocupaciones de la consulta de argentinos."""
     o = set(ocupaciones)
-    if 'director de cine' in o and 'dramaturgo' not in o:
+    if o & DIRECCION and 'dramaturgo' not in o:
         return 'Cine e historieta'
     if 'historietista' in o and 'pintor' not in o:
         return 'Cine e historieta'
@@ -141,13 +154,15 @@ def categoria(ocupaciones):
         return 'Literatura'
     if o & VISUALES and not o & {'escritor', 'dramaturgo'}:
         return 'Artes visuales'
-    if 'compositor' in o and not o & {'escritor', 'poeta', 'dramaturgo'}:
+    if o & MUSICA and not o & {'escritor', 'poeta', 'dramaturgo'}:
         return 'Música'
     if o & LITERATURA:
         return 'Literatura'
-    if 'compositor' in o:
+    if o & MUSICA:
         return 'Música'
-    return 'Artes visuales'
+    if 'guionista' in o:
+        return 'Cine e historieta'
+    return 'Sin categoría'
 
 
 def fecha_larga(iso):
@@ -156,7 +171,12 @@ def fecha_larga(iso):
 
 
 def _lista(texto):
-    return [x.strip() for x in texto.split(',') if x.strip()] if texto else []
+    """Separa un GROUP_CONCAT: las consultas usan ' | ' (hay países con comas en el nombre);
+    el CSV de referencia usa ', '."""
+    if not texto:
+        return []
+    sep = '|' if '|' in texto else ','
+    return [x.strip() for x in texto.split(sep) if x.strip()]
 
 
 def _unir(listas):
@@ -178,8 +198,12 @@ def limpiar(filas, anio, correcciones, curados):
         'nacimiento_en_disputa': [], 'nacimiento_solo_anio': [], 'sin_nacimiento': [],
         'sin_pais': [], 'sin_wikipedia_es': [],
         'corregidos': [], 'curados_fusionados': [], 'curados_ausentes_en_wikidata': [],
-        'correcciones_sin_uso': [],
+        'correcciones_sin_uso': [], 'sin_categoria': [],
+        'filas_por_consulta': {}, 'argentinos': 0, 'argentinos_sin_bnmm': [],
     }
+    for f in filas:
+        c = f.get('_consulta', 'csv')
+        reporte['filas_por_consulta'][c] = reporte['filas_por_consulta'].get(c, 0) + 1
 
     grupos = {}
     for f in filas:
@@ -250,20 +274,26 @@ def limpiar(filas, anio, correcciones, curados):
             nac, nac_txt = nacs[0][0], anios_nac[0]
             reporte['nacimiento_solo_anio'].append(nombre)
 
-        ocupaciones = _unir(_lista(x.get('ocupaciones')) for x in g)
-        pais = limpiar_paises(', '.join(_unir(_lista(x.get('paises')) for x in g)))
+        ocupaciones = sorted(_unir(_lista(x.get('ocupaciones')) for x in g))
+        pais = limpiar_paises(_unir(_lista(x.get('paises')) for x in g))
         if not pais:
             reporte['sin_pais'].append(nombre)
             pais = 'Sin dato'
-        wp = next((x['wikipediaEs'] for x in g if x.get('wikipediaEs')), None)
+        wp = min((x['wikipediaEs'] for x in g if x.get('wikipediaEs')), default=None)
         if not wp:
             reporte['sin_wikipedia_es'].append(nombre)
 
         rec = {'id': qid.lower(), 'qid': qid, 'n': nombre, 'b': nac, 'd': muerte, 'bd': nac_txt, 'dd': muerte_txt,
                'p': pais, 'o': categoria(ocupaciones), 'occ': ocupaciones,
                'sl': max(int(x['sitelinks']) for x in g), 'wp': wp,
-               'img': next((x['foto'] for x in g if x.get('foto')), None),
+               'img': min((x['foto'] for x in g if x.get('foto')), default=None),
                'flags': marcas, 'src': 'wikidata'}
+        consultas = sorted({x['_consulta'] for x in g if x.get('_consulta')})
+        if consultas:
+            rec['consultas'] = consultas
+        bnmm = min((x['bnmm'] for x in g if x.get('bnmm')), default=None)
+        if bnmm:
+            rec['bnmm'] = bnmm
 
         # 1) Correcciones manuales.
         excluir = False
@@ -316,6 +346,12 @@ def limpiar(filas, anio, correcciones, curados):
             reporte['movidos_a_otro_anio'].append(f'{nombre} ({qid}): la fecha preferida en Wikidata es de otro año')
             continue
 
+        if rec['o'] == 'Sin categoría':
+            reporte['sin_categoria'].append(f"{rec['n']} ({qid}): {', '.join(ocupaciones)}")
+        if 'argentinos' in rec.get('consultas', []):
+            reporte['argentinos'] += 1
+            if not rec.get('bnmm'):
+                reporte['argentinos_sin_bnmm'].append(f"{rec['n']} ({qid})")
         rec['conf'] = 'check' if (rec.get('c') or rec['flags']) else 'ok'
         personas.append(rec)
 
@@ -350,7 +386,7 @@ def escribir(anio, personas, reporte):
     os.makedirs(GENERADOS, exist_ok=True)
     # Sin marcas de tiempo: si Wikidata no cambió, el archivo no cambia (sirve para la rutina semanal).
     datos = {'anio_muerte': anio, 'aviso': AVISO, 'fuente': 'Wikidata (CC0) + correcciones y fichas curadas',
-             'autores': personas}
+             'enlaces': {'bnmm': BNMM_URL}, 'autores': personas}
     with open(os.path.join(GENERADOS, f'{anio}.json'), 'w', encoding='utf-8') as f:
         json.dump(datos, f, ensure_ascii=False, indent=1)
         f.write('\n')
@@ -380,24 +416,31 @@ def escribir_indice():
         indice.append({'anio_muerte': r['anio'], 'personas': r['personas_publicadas'], 'a_revisar': r['a_revisar'],
                        'por_categoria': r['por_categoria'],
                        'muerte_fuera_del_anio': len(r['muerte_fuera_del_anio']),
+                       'argentinos': r.get('argentinos', 0), 'argentinos_sin_bnmm': len(r.get('argentinos_sin_bnmm', [])),
                        'curados': len(r['curados_fusionados']) + len(r['curados_ausentes_en_wikidata'])})
     with open(os.path.join(GENERADOS, 'indice.json'), 'w', encoding='utf-8') as f:
         json.dump(indice, f, ensure_ascii=False, indent=1)
         f.write('\n')
 
 
-def procesar(anio, desde_crudo):
-    ruta_crudo = os.path.join(CRUDO, f'{anio}.json')
-    if desde_crudo:
-        respuesta = json.load(open(ruta_crudo, encoding='utf-8'))
-    else:
-        print(f'Consultando Wikidata para {anio}…', file=sys.stderr)
-        respuesta = consultar_wikidata(anio)
-        os.makedirs(CRUDO, exist_ok=True)
-        with open(ruta_crudo, 'w', encoding='utf-8') as f:
-            json.dump(respuesta, f, ensure_ascii=False)
+def procesar(anio, desde_crudo, pausa=5):
+    filas = []
+    for n, (nombre, ruta) in enumerate(CONSULTAS.items()):
+        sufijo = '' if nombre == 'general' else f'_{nombre}'
+        ruta_crudo = os.path.join(CRUDO, f'{anio}{sufijo}.json')
+        if desde_crudo:
+            respuesta = json.load(open(ruta_crudo, encoding='utf-8'))
+        else:
+            if n:
+                time.sleep(pausa)
+            print(f'Consultando Wikidata para {anio} ({nombre})…', file=sys.stderr)
+            respuesta = consultar_wikidata(anio, ruta)
+            os.makedirs(CRUDO, exist_ok=True)
+            with open(ruta_crudo, 'w', encoding='utf-8') as f:
+                json.dump(respuesta, f, ensure_ascii=False)
+        filas += filas_desde_sparql(respuesta, nombre)
 
-    personas, reporte = limpiar(filas_desde_sparql(respuesta), anio, cargar_correcciones(), cargar_curados())
+    personas, reporte = limpiar(filas, anio, cargar_correcciones(), cargar_curados())
     escribir(anio, personas, reporte)
     print(resumen(reporte))
 
@@ -416,7 +459,7 @@ def main():
         if i and not args.desde_crudo:
             time.sleep(args.pausa)
         try:
-            procesar(anio, args.desde_crudo)
+            procesar(anio, args.desde_crudo, args.pausa)
         except Exception as e:  # un año que falla no frena el resto del rango
             print(f'ERROR en {anio}: {e}', file=sys.stderr)
             fallidos.append(anio)

@@ -2,6 +2,9 @@
  "anio_muerte": 1971,
  "aviso": "Información orientativa, no es asesoramiento legal.",
  "fuente": "Wikidata (CC0) + correcciones y fichas curadas",
+ "enlaces": {
+  "bnmm": "https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_number={}"
+ },
  "autores": [
   {
    "id": "q1779",
@@ -21,6 +24,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Armstrong%20restored.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -31,7 +37,7 @@
    "d": "1971-04-06",
    "bd": "17 de junio de 1882",
    "dd": "6 de abril de 1971",
-   "p": "Estados Unidos / Suiza",
+   "p": "Estados Unidos / Francia",
    "o": "Música",
    "occ": [
     "compositor"
@@ -41,6 +47,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Igor%20Stravinsky%20LOC%2032392u.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -54,15 +63,18 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
+    "compositor",
     "letrista",
-    "poeta",
-    "compositor"
+    "poeta"
    ],
    "sl": 150,
    "wp": "https://es.wikipedia.org/wiki/Jim_Morrison",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Morrison%201969.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -76,8 +88,8 @@
    "p": "Grecia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 95,
    "wp": "https://es.wikipedia.org/wiki/Yorgos_Seferis",
@@ -86,6 +98,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -106,6 +121,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fernandel-Toulouse-1970.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -119,9 +137,9 @@
    "p": "Estados Unidos",
    "o": "Cine e historieta",
    "occ": [
-    "fotógrafo",
-    "escritor",
     "director de cine",
+    "escritor",
+    "fotógrafo",
     "pintor"
    ],
    "sl": 75,
@@ -129,6 +147,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Harold%20Lloyd%20-%20A%20Pictorial%20History%20of%20the%20Silent%20Screen.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -149,6 +170,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs%20Gy%C3%B6rgy.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -169,6 +193,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wendell%20Meredith%20Stanley.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -190,6 +217,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Audie%20Murphy.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -210,6 +240,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -230,6 +263,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -250,6 +286,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Steiner%20%28c.%201945%29.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -270,6 +309,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20Romm%202026%20postcard%20of%20Russia%20cr.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -283,14 +325,17 @@
    "p": "Unión Soviética",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 39,
    "wp": "https://es.wikipedia.org/wiki/Aleks%C3%A1ndr_Tvardovski",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tvardovsky%20with%20book.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -311,6 +356,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Genevincent015e.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -331,6 +379,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/14th%20WSFS%20008%20-%201956%20John%20Campbell%20cropped.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -351,6 +402,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vladislav%20Volkov.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -372,6 +426,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Bourke-White%201955.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -393,6 +450,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogden%20Nash%20Dagmar%20Masquerade%20Party%201955%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -413,6 +473,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20E.%20Dewey%20color%20photograph.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -433,6 +496,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Dupr%C3%A9%20%C3%A0%20Francfort-sur-le-Main.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -446,14 +512,17 @@
    "p": "Italia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "escultor"
+    "escultor",
+    "pintor"
    ],
    "sl": 32,
    "wp": "https://es.wikipedia.org/wiki/Giannino_Castiglioni",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emilio%20Sommariva%20%281883%20-%201956%29%20Ritratto%20dello%20scultore%20Giannino%20Castiglioni%20%281884-1971%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -475,6 +544,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Broncho%20Billy%20Anderson.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -496,6 +568,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VestdijkRolandHolst%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -509,14 +584,17 @@
    "p": "Alemania",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 29,
    "wp": "https://es.wikipedia.org/wiki/Gertrud_von_Le_Fort",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gertrud%20v%20Le%20Fort%20c1935.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -537,6 +615,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Raicho%20Hiratsuka.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -550,14 +631,17 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 28,
    "wp": "https://es.wikipedia.org/wiki/August_Derleth",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Studio%20portrait%20of%20August%20Derleth%20by%20Ephraim%20Burt%20Trimpey%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -578,6 +662,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Friedebert%20Tuglas%201910.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -588,13 +675,13 @@
    "d": "1971-01-01",
    "bd": "12 de julio de 1886",
    "dd": "1971",
-   "p": "Austria / Alemania",
+   "p": "Alemania / Austria",
    "o": "Literatura",
    "occ": [
-    "escultor",
-    "pintor",
-    "fotógrafo",
     "escritor",
+    "escultor",
+    "fotógrafo",
+    "pintor",
     "poeta"
    ],
    "sl": 28,
@@ -604,6 +691,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -625,6 +715,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -645,6 +738,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/K%20M%20Munshi.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -655,7 +751,7 @@
    "d": "1971-07-14",
    "bd": "17 de octubre de 1917",
    "dd": "14 de julio de 1971",
-   "p": "República Federativa Socialista de Yugoslavia / Reino de Yugoslavia",
+   "p": "Reino de Yugoslavia / República Federativa Socialista de Yugoslavia",
    "o": "Literatura",
    "occ": [
     "escritor",
@@ -666,6 +762,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mak%20Dizdar%2C%20bista%2C%20Sarajevo.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -679,15 +778,18 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
+    "escritor",
     "escultor",
-    "pintor",
-    "escritor"
+    "pintor"
    ],
    "sl": 25,
    "wp": "https://es.wikipedia.org/wiki/Rockwell_Kent",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rockwell%20Kent.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -709,6 +811,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -729,6 +834,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wynton%20Kelly.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -749,6 +857,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gazdanov-192%3F.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -769,6 +880,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fritz%20von%20Opel%20%281928%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -789,6 +903,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Naoya%20Shiga%20cropped.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -802,14 +919,17 @@
    "p": "Reino Unido",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 23,
    "wp": "https://es.wikipedia.org/wiki/Stevie_Smith",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stevie-smith2.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -830,6 +950,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/AnthonyBerkeley1911.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -851,6 +974,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Billy%20Gilbert%201954.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -872,6 +998,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -892,6 +1021,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shunryu%20Suzuki%20at%20Zen%20Mountain%20Center%20%28cropped%29.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -902,7 +1034,7 @@
    "d": "1971-01-28",
    "bd": "28 de abril de 1896",
    "dd": "28 de enero de 1971",
-   "p": "Corea del Sur / Corea",
+   "p": "Corea / Corea del Sur",
    "o": "Literatura",
    "occ": [
     "escritor",
@@ -913,6 +1045,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%EA%B9%80%EC%9D%BC%EC%97%BD.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -926,14 +1061,17 @@
    "p": "Unión Soviética",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 21,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paruyr%20Sevak%202024%20stamp%20of%20Armenia.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -957,6 +1095,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -977,6 +1118,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alberione.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -997,6 +1141,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bengt%20Ekerot.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1017,6 +1164,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1037,6 +1187,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lil%20Armstrong%20Billboard.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1057,6 +1210,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hank%20Mann%20-%20Nov%201920%20EH.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1070,8 +1226,8 @@
    "p": "Checoslovaquia",
    "o": "Literatura",
    "occ": [
-    "pintor",
-    "escritor"
+    "escritor",
+    "pintor"
    ],
    "sl": 19,
    "wp": "https://es.wikipedia.org/wiki/Martin_Benka",
@@ -1080,6 +1236,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1101,6 +1260,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rubzow%20Memorial%20Emetsk%20%282%29.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1122,6 +1284,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Usmar%20Ismail%2C%20Peran%20Pemuda%20dalam%20Kebangkitan%20Film%20Indonesia%2C%20p177.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1145,6 +1310,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1165,6 +1333,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Tomasi%20portrait%20corse.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1185,6 +1356,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Ochs%20%281913%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1198,9 +1372,9 @@
    "p": "Estonia / Unión Soviética",
    "o": "Literatura",
    "occ": [
-    "poeta",
+    "dramaturgo",
     "escritor",
-    "dramaturgo"
+    "poeta"
    ],
    "sl": 18,
    "wp": null,
@@ -1209,6 +1383,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1229,6 +1406,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/B%20Reeves%20Eason%2C%20Lucien%20Hubbard%2C%20%26%20Douglas%20Z%20Doty%20-%20Jan%201921%20EH.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1249,6 +1429,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1259,7 +1442,7 @@
    "d": "1971-10-18",
    "bd": "27 de mayo de 1929",
    "dd": "1971",
-   "p": "Hungría / Alemania",
+   "p": "Alemania / Hungría",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -1271,6 +1454,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1292,6 +1478,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Philip%20and%20Frederica%20Wylie%20listening%20to%20weather%20reports-%20Miami%20Beach%2C%20Florida%20%289352086738%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1305,14 +1494,17 @@
    "p": "Polonia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 18,
    "wp": "https://es.wikipedia.org/wiki/Rafa%C5%82_Wojaczek",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rafa%C5%82%20Wojaczek.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1333,6 +1525,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Basil%20Dean.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1355,6 +1550,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1377,6 +1575,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Franti%C5%A1ek%20Hrub%C3%ADn%20%281910-1971%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1397,6 +1598,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Biberman%20en%201947.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1417,6 +1621,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Palou%C5%A1%20%281888-1971%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1440,6 +1647,9 @@
     "muerte_otro_anio"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1460,6 +1670,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stuart%20Holmes%20001.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1480,6 +1693,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dinli%C3%A7o%C4%9Flu%20Mustafa%20R%C4%B1fk%C4%B1%20Bey.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1500,6 +1716,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hubert%20von%20Meyerinck.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1522,6 +1741,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -1542,6 +1764,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/KurtReidemeister%20MFO19544cropped.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1562,6 +1787,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Larry%20Burrows%20in%201967.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1582,6 +1810,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bianciardi.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1602,6 +1833,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1612,7 +1846,7 @@
    "d": "1971-12-04",
    "bd": "19 de abril de 1888",
    "dd": "4 de diciembre de 1971",
-   "p": "Irlanda / Estados Unidos",
+   "p": "Estados Unidos / Irlanda",
    "o": "Cine e historieta",
    "occ": [
     "director de cine"
@@ -1622,6 +1856,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tarzan%20the%20Tiger%20Ferguson2.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1642,6 +1879,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bennett%20Cerf.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1663,6 +1903,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruggles%201911.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1676,15 +1919,18 @@
    "p": "Francia",
    "o": "Literatura",
    "occ": [
+    "dramaturgo",
     "escritor",
-    "poeta",
-    "dramaturgo"
+    "poeta"
    ],
    "sl": 15,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Vildrac%20and%20his%20wife%20in%20Japan.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1705,6 +1951,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Uchida%20Hyakken%2019521015.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1725,6 +1974,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mohammad-Moin.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1745,6 +1997,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1766,6 +2021,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1973%20CPA%204260%20mint.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1786,6 +2044,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hilsdorf%2C%20Jacob%20-%20Tilla%20Durieux%20%28Zeno%20Fotografie%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1806,6 +2067,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1827,6 +2091,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D1%82%D0%B0%D0%BD%D0%B0%D1%81%20%D0%92%D0%B5%D0%BD%D1%86%D0%BB%D0%BE%D0%B2%D0%B0.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1847,6 +2114,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1867,6 +2137,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ejnar%20Mikkelsen%201907%20lek00156.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1880,14 +2153,17 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 14,
    "wp": "https://es.wikipedia.org/wiki/Jacob_Glatstein",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Glatstein.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1908,6 +2184,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/JeanGrenierwiki.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1928,6 +2207,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Longden%20%28cropped%29%20-%20The%20Picture%20Show%20Annual%2C%201931.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1948,6 +2230,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiyoshi%20Yamashita%20on%20Ebisubashi%20Bridge.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1969,6 +2254,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyosuke%20Kindaichi%20blownup.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -1989,6 +2277,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lennie%20Hayton.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2009,6 +2300,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mar%C3%ADa%20Jes%C3%BAs%20Alvarado%20Rivera%20%28cropped%29.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2022,15 +2316,18 @@
    "p": "Estados Unidos",
    "o": "Cine e historieta",
    "occ": [
+    "director de cine",
     "fotógrafo",
-    "historietista",
-    "director de cine"
+    "historietista"
    ],
    "sl": 14,
    "wp": "https://es.wikipedia.org/wiki/Paul_Terry",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Terry%20working%20at%20Pathe%20Pictures.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2051,6 +2348,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9an%20%C3%93%20Riada.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2071,6 +2371,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ZezConfreySeatedWithVictorPhonograph.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2091,6 +2394,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2111,6 +2417,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2131,6 +2440,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2151,6 +2463,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bernhard%20Paumgartner%20%281887%E2%80%931971%29%201927%20%C2%A9%20Georg%20Fayer%20%281892%E2%80%931950%29%20OeNB%2010454070.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2171,6 +2486,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bhikhari%20Thakur.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2191,6 +2509,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Gutt.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2211,6 +2532,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geburtshaus%20Der%20Bildhauerin%20Emy%20Roeder%201890%20in%20Warzburg%201971%20in%20Mainz.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2231,6 +2555,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20Eklund.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2251,6 +2578,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Godfried%20Bomans%20%281965%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2271,6 +2601,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2284,14 +2617,17 @@
    "p": "Italia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "escultor"
+    "escultor",
+    "pintor"
    ],
    "sl": 13,
    "wp": "https://es.wikipedia.org/wiki/Joe_Colombo",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Colombo%20%281969%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2312,6 +2648,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/USIS%20-%20Karl%20Farkas%20mit%20Kontrabass.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2325,14 +2664,17 @@
    "p": "Francia",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "escultor"
+    "escultor",
+    "pintor"
    ],
    "sl": 13,
    "wp": "https://es.wikipedia.org/wiki/Marcel_Gromaire",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Makowski%20Marcel%20Gromaire%20and%20his%20family.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2353,6 +2695,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Massimo%20Campigli%201967.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2373,6 +2718,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mihail%20Jora%20stamp%201981.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2386,14 +2734,17 @@
    "p": "Pakistán",
    "o": "Literatura",
    "occ": [
-    "escritor",
-    "dramaturgo"
+    "dramaturgo",
+    "escritor"
    ],
    "sl": 13,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Munier%20Choudhury%201957.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2414,6 +2765,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2434,6 +2788,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Composer%20William%20Lava%20Headshot.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2455,6 +2812,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/A.%20P.%20Herbert.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2478,6 +2838,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -2498,6 +2861,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Billy%20b%20Meurisse%201923.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2518,6 +2884,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Pollack.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2538,6 +2907,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Gillett%20in%20Motion%20Picture%20Herald%2C%20March%2016%2C%201935%20page%2013%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2558,6 +2930,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Shavers%2C%20National%20Studio%2C%20May%201947%20%28Gottlieb%2007761%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2578,6 +2953,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2598,6 +2976,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillermo%20Uribe%20Holgu%C3%ADn.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2618,6 +2999,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2638,6 +3022,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2651,17 +3038,20 @@
    "p": "Checoslovaquia",
    "o": "Literatura",
    "occ": [
-    "letrista",
     "dramaturgo",
-    "poeta",
+    "escritor",
     "fotógrafo",
-    "escritor"
+    "letrista",
+    "poeta"
    ],
    "sl": 12,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef%20Kainar%20%28%C4%8Ceskoslovensk%C3%BD%20voj%C3%A1k%2C%201971%29.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2683,6 +3073,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Santley%2001.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2703,6 +3096,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramon%20Casas%20-%20MNAC-%20Joan%20Man%C3%A9n-%20027612-D%20006602.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2723,6 +3119,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Leda%20Rafanelli%201916%20crop.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2743,6 +3142,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lew%20Welch%201968%20%282%29%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2763,6 +3165,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ThurstonDart1961.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2784,6 +3189,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Romelia-Alarcon-Folgar.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2804,6 +3212,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mauersberger-Museum%2C%20B%C3%BCste%20Rudolf%20Mauersberger.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2825,6 +3236,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/KyrgyzstanP23-500Som-2005%20a.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2845,6 +3259,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Virgil%20Finlay%2C%20December%201952.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2866,6 +3283,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Caraco.jpeg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2886,6 +3306,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2906,6 +3329,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Brodovitch%201950cr.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2927,6 +3353,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anthony%20Ludovici.png",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2948,6 +3377,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Debaki%20Bose.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2968,6 +3400,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ella%20Deloria.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2988,6 +3423,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -2998,17 +3436,20 @@
    "d": "1971-08-04",
    "bd": "11 de marzo de 1907",
    "dd": "4 de agosto de 1971",
-   "p": "Hungría / Alemania",
+   "p": "Alemania / Hungría",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 11,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200006453%20029%20Portr%C3%A4t%20des%20Schriftstellers%20Georg%20Maurer.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3029,6 +3470,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3042,14 +3486,17 @@
    "p": "España",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Guillermo_de_Torre",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Norah%20Borges%20y%20Guillermo%20de%20Torre.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3070,6 +3517,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3090,6 +3540,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Warsaw%20Uprising%20-%20Jerzy%20Zarzycki.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3110,6 +3563,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sima%201929%202.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3131,6 +3587,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Csaky%20Tete%201914.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3151,6 +3610,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3171,6 +3633,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3181,7 +3646,7 @@
    "d": "1971-08-02",
    "bd": "8 de febrero de 1894",
    "dd": "2 de agosto de 1971",
-   "p": "Estados Unidos / Alemania",
+   "p": "Alemania / Estados Unidos",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -3191,6 +3656,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3211,6 +3679,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Bodmer%20au%20CICR.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3231,6 +3702,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3251,6 +3725,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20India%20-%202010%20-%20Colnect%20259552%20-%20P%20C%20Sorcar.jpeg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3264,8 +3741,8 @@
    "p": "Honduras",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Francisca_Navas",
@@ -3275,6 +3752,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3295,6 +3775,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3315,6 +3798,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sona%20Akhundova.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3336,6 +3822,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3356,6 +3845,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ted%20Fio%20Rito%201945.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3369,14 +3861,17 @@
    "p": "Reino Unido",
    "o": "Cine e historieta",
    "occ": [
-    "poeta",
-    "director de cine"
+    "director de cine",
+    "poeta"
    ],
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Tyrone_Guthrie",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrone%20Guthrie%20in%201947.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3397,6 +3892,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cheneyjohnson1921.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3417,6 +3915,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3437,6 +3938,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D4%B1%D5%B4%D5%A1%D5%BD%D5%AB%20%D5%84%D5%A1%D6%80%D5%BF%D5%AB%D6%80%D5%B8%D5%BD%D5%B5%D5%A1%D5%B6%20%28%D5%BC%D5%A5%D5%AA%D5%AB%D5%BD%D5%B8%D6%80%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3457,6 +3961,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Barnab%C3%A1s%20von%20G%C3%A9czy.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3470,15 +3977,18 @@
    "p": "Checoslovaquia",
    "o": "Literatura",
    "occ": [
+    "escritor",
     "pintor",
-    "poeta",
-    "escritor"
+    "poeta"
    ],
    "sl": 10,
    "wp": "https://es.wikipedia.org/wiki/Bohuslav_Reynek",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bohuslav%20Reynek%201971.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3499,6 +4009,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3519,6 +4032,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edna%20Goodrich%202.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3539,6 +4055,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3559,6 +4078,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Busto%20de%20Ermilo%20Abreu%20G%C3%B3mez%2C%20M%C3%A9rida%2C%20Yucat%C3%A1n%20%2802%29.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3579,6 +4101,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Feliks%20Chmurkowski.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3602,6 +4127,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3622,6 +4150,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Helmut%20Riter%20-%20Mausoleum%20of%20Attar%20-%20Nishapur%201.JPG",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3635,14 +4166,17 @@
    "p": "Francia / Vietnam",
    "o": "Artes visuales",
    "occ": [
-    "pintor",
-    "fotógrafo"
+    "fotógrafo",
+    "pintor"
    ],
    "sl": 10,
    "wp": null,
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3663,6 +4197,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3685,6 +4222,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3707,6 +4247,9 @@
     "anio"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3730,6 +4273,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3743,14 +4289,17 @@
    "p": "Checoslovaquia",
    "o": "Literatura",
    "occ": [
-    "escritor",
-    "dramaturgo"
+    "dramaturgo",
+    "escritor"
    ],
    "sl": 10,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karel%20Konr%C3%A1d.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3764,14 +4313,17 @@
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
-    "letrista",
-    "compositor"
+    "compositor",
+    "letrista"
    ],
    "sl": 10,
    "wp": "https://es.wikipedia.org/wiki/Larry_Morey",
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3782,7 +4334,7 @@
    "d": "1971-02-09",
    "bd": "1901",
    "dd": "9 de febrero de 1971",
-   "p": "Austria / Alemania",
+   "p": "Alemania / Austria",
    "o": "Cine e historieta",
    "occ": [
     "director de cine"
@@ -3794,6 +4346,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3814,6 +4369,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lina%20Poletti.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3837,6 +4395,9 @@
     "nacimiento"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3857,6 +4418,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3877,6 +4441,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wuthering%20Heights%201920.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3898,6 +4465,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanak%20Singh%201998%20stamp%20of%20India.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3918,6 +4488,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3940,6 +4513,9 @@
     "anio"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -3960,6 +4536,9 @@
    "img": null,
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3981,6 +4560,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sejfulla%20Mal%C3%ABshova.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -3994,14 +4576,17 @@
    "p": "Irlanda / Reino Unido",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 10,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shane%20Leslie%20LCCN2014686812%20%28cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -4012,7 +4597,7 @@
    "d": "1971-01-08",
    "bd": "29 de octubre de 1903",
    "dd": "8 de enero de 1971",
-   "p": "Estados Unidos / Alemania",
+   "p": "Alemania / Estados Unidos",
    "o": "Literatura",
    "occ": [
     "escritor"
@@ -4022,6 +4607,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sibylle%20Pietzsch%20%281927%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -4032,17 +4620,20 @@
    "d": "1971-05-25",
    "bd": "12 de febrero de 1895",
    "dd": "25 de mayo de 1971",
-   "p": "República Federativa Socialista de Yugoslavia / Reino de Yugoslavia",
+   "p": "Reino de Yugoslavia / República Federativa Socialista de Yugoslavia",
    "o": "Literatura",
    "occ": [
-    "poeta",
-    "escritor"
+    "escritor",
+    "poeta"
    ],
    "sl": 10,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pesni%C5%A1ka%20zbirka%20Pelin%20v%20srcu%20%28Vera%20Albreht%20cropped%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -4063,6 +4654,9 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Waldo%20Williams%20dim%20dyddiad%20gwella%20contrast%20crop.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "ok"
   },
   {
@@ -4085,6 +4679,9 @@
     "muerte"
    ],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
    "conf": "check"
   },
   {
@@ -4105,6 +4702,212 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%AF.%D0%9C%D0%B0%D1%9E%D1%80%20%E2%80%93%20%D0%BF%D0%B0%D0%BC%D0%BE%D1%87%D0%BD%D1%96%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%9E%D0%BD%D1%96%D0%BA%D0%B0%20%D0%BF%D0%B0%D1%87%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B0%D0%B9%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8B%20%D1%9E%20%D0%BC%D1%8F%D1%81%D1%82%D1%8D%D1%87%D0%BA%D1%83%20%D0%9D%D0%BE%D0%B2%D0%B0%D0%B5%20%D0%9C%D0%B5%D1%81%D1%82%D0%B0%20%28%D0%9B%D1%96%D1%82%D0%B2%D0%B0%29.jpg",
    "flags": [],
    "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q3724491",
+   "qid": "Q3724491",
+   "n": "Emilio Pettoruti",
+   "b": "1892-10-01",
+   "d": "1971-10-16",
+   "bd": "1 de octubre de 1892",
+   "dd": "16 de octubre de 1971",
+   "p": "Argentina",
+   "o": "Artes visuales",
+   "occ": [
+    "ilustrador",
+    "pintor"
+   ],
+   "sl": 9,
+   "wp": "https://es.wikipedia.org/wiki/Emilio_Pettoruti",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emilio%20pettoruti%20retrato.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "bnmm": "000039305",
+   "conf": "ok"
+  },
+  {
+   "id": "q678303",
+   "qid": "Q678303",
+   "n": "Armando Discépolo",
+   "b": "1887-09-18",
+   "d": "1971-01-08",
+   "bd": "18 de septiembre de 1887",
+   "dd": "8 de enero de 1971",
+   "p": "Argentina",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor",
+    "realizador"
+   ],
+   "sl": 8,
+   "wp": "https://es.wikipedia.org/wiki/Armando_Disc%C3%A9polo",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ArmandoDiscepolo.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "bnmm": "000031407",
+   "conf": "ok"
+  },
+  {
+   "id": "q2029670",
+   "qid": "Q2029670",
+   "n": "Orestes Caviglia",
+   "b": "1893-11-09",
+   "d": "1971-04-01",
+   "bd": "9 de noviembre de 1893",
+   "dd": "1 de abril de 1971",
+   "p": "Argentina",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "realizador"
+   ],
+   "sl": 8,
+   "wp": "https://es.wikipedia.org/wiki/Orestes_Caviglia",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Orestes%20Caviglia.png",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q1127112",
+   "qid": "Q1127112",
+   "n": "Conrado Nalé Roxlo",
+   "b": "1896-01-15",
+   "d": "1971-07-02",
+   "bd": "1896 o 1898",
+   "dd": "2 de julio de 1971",
+   "p": "Argentina",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "guionista",
+    "letrista",
+    "periodista",
+    "poeta"
+   ],
+   "sl": 5,
+   "wp": "https://es.wikipedia.org/wiki/Conrado_Nal%C3%A9_Roxlo",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Conrado%20Nal%C3%A9%20Roxlo.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "bnmm": "000034875",
+   "conf": "check"
+  },
+  {
+   "id": "q5368094",
+   "qid": "Q5368094",
+   "n": "Elvino Vardaro",
+   "b": "1905-06-18",
+   "d": "1971-08-05",
+   "bd": "18 de junio de 1905",
+   "dd": "5 de agosto de 1971",
+   "p": "Argentina",
+   "o": "Música",
+   "occ": [
+    "compositor",
+    "compositor de canciones"
+   ],
+   "sl": 5,
+   "wp": "https://es.wikipedia.org/wiki/Elvino_Vardaro",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Elvino%20Vardaro%20playing%20the%20violin.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q1703961",
+   "qid": "Q1703961",
+   "n": "Jorge de la Vega",
+   "b": "1930-03-27",
+   "d": "1971-08-26",
+   "bd": "27 de marzo de 1930",
+   "dd": "26 de agosto de 1971",
+   "p": "Argentina",
+   "o": "Artes visuales",
+   "occ": [
+    "compositor de canciones",
+    "dibujante",
+    "pintor"
+   ],
+   "sl": 5,
+   "wp": "https://es.wikipedia.org/wiki/Jorge_de_la_Vega",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jorge%20de%20la%20Vega%20by%20Anatole%20Saderman%2C%201966.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q5878808",
+   "qid": "Q5878808",
+   "n": "Germán Rozenmacher",
+   "b": "1936-01-01",
+   "d": "1971-08-06",
+   "bd": "1936",
+   "dd": "6 de agosto de 1971",
+   "p": "Argentina",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "periodista"
+   ],
+   "sl": 3,
+   "wp": "https://es.wikipedia.org/wiki/Germ%C3%A1n_Rozenmacher",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Germ%C3%A1n%20Rozenmacher-ca1972.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "bnmm": "000024520",
+   "conf": "ok"
+  },
+  {
+   "id": "q6128426",
+   "qid": "Q6128426",
+   "n": "Silvano Santander",
+   "b": "1895-05-05",
+   "d": "1971-05-08",
+   "bd": "5 de mayo de 1895",
+   "dd": "8 de mayo de 1971",
+   "p": "Argentina",
+   "o": "Literatura",
+   "occ": [
+    "periodista"
+   ],
+   "sl": 3,
+   "wp": "https://es.wikipedia.org/wiki/Silvano_Santander",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Silvano%20Santander.png",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "argentinos"
+   ],
+   "bnmm": "000057686",
    "conf": "ok"
   }
  ]

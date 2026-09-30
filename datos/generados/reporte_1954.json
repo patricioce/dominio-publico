@@ -1,12 +1,12 @@
 {
  "anio": 1954,
- "filas": 205,
- "personas_unicas": 171,
- "personas_publicadas": 171,
+ "filas": 219,
+ "personas_unicas": 179,
+ "personas_publicadas": 179,
  "por_categoria": {
-  "Literatura": 94,
-  "Cine e historieta": 27,
-  "Música": 26,
+  "Literatura": 99,
+  "Cine e historieta": 28,
+  "Música": 28,
   "Artes visuales": 24
  },
  "excluidos_sin_nombre": [],
@@ -22,11 +22,14 @@
   "Yevgeni Znosko-Borovski: 1954-12-30, 1954-12-31",
   "Gilbert Pratt: 1954-12-10, 1954-12-19",
   "Pieter Nicolaas van Eyck: 1954-04-10, 1954-04-11",
-  "Álvaro de Albornoz: 1954-10-20, 1954-10-22"
+  "Álvaro de Albornoz: 1954-10-20, 1954-10-22",
+  "Ernesto Vilches: 1954-12-07, 1954-12-08"
  ],
  "muerte_solo_anio": [
   "Mihri Müşfik Hanım",
-  "Rudolf Bauer"
+  "Rudolf Bauer",
+  "Carlos Muzzio Sáenz-Peña",
+  "María Torres Frías"
  ],
  "muerte_fuera_del_anio": [
   "Claude Cahun (Q219634)",
@@ -42,11 +45,15 @@
   "William K. Howard: 1893-06-16, 1899-06-16",
   "Diran Alexanian: 1881-04-02, 1881-04-12",
   "Fred Rose: 1897-08-24, 1898-08-24",
-  "Edward Coxen: 1880-08-08, 1884-08-08"
+  "Edward Coxen: 1880-08-08, 1884-08-08",
+  "Manuel Buzón: 1902-12-18, 1904-12-18",
+  "Max Daireaux: 1882-07-28, 1883-07-18, 1884-07-28"
  ],
  "nacimiento_solo_anio": [
   "Yehuda Ashlag",
-  "Enrique Flores Magón"
+  "Enrique Flores Magón",
+  "Carlos Muzzio Sáenz-Peña",
+  "María Torres Frías"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -59,10 +66,10 @@
   "Jibanananda Das",
   "Ğayaz İsxaqi",
   "Boris Gorbatov",
+  "Duff Cooper",
   "Ferenc Herczeg",
   "Ahmad Amin",
   "Aršak Č'opanyan",
-  "Duff Cooper",
   "Leon Schiller",
   "Karol Rathaus",
   "Alexander Abasheli",
@@ -72,13 +79,13 @@
   "Kalki Krishnamurthy",
   "Diran Alexanian",
   "Vladimir Ghika",
-  "Siegfried Breuer",
   "Arthur Greenwood",
+  "Siegfried Breuer",
   "Mustafa Sabri",
-  "Ernest Dimnet",
   "Lajos Nagy",
   "Louis Silvers",
   "Jean Roger-Ducasse",
+  "Ernest Dimnet",
   "Einar Jónsson",
   "Fred Raymond",
   "Dhani Ram Chatrik",
@@ -94,18 +101,29 @@
   "Claude Delvincourt",
   "Edhem Mulabdić",
   "Flor Alpaerts",
-  "Shmerke Kaczerginsky",
   "Hans Janowitz",
   "Nikolai Obukhov",
   "Earnest Hooton",
   "Hakon Børresen",
   "Ionel Teodoreanu",
   "Salix Säydäşef",
+  "Shmerke Kaczerginsky",
   "Reginald Marsh"
  ],
  "corregidos": [],
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 22
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 205,
+  "argentinos": 14
+ },
+ "argentinos": 10,
+ "argentinos_sin_bnmm": [
+  "Shmerke Kaczerginsky (Q4217964)",
+  "Manuel Buzón (Q6752465)",
+  "María Torres Frías (Q21987213)"
+ ],
+ "a_revisar": 27
 }

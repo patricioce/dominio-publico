@@ -1,13 +1,13 @@
 {
  "anio": 1972,
- "filas": 267,
- "personas_unicas": 216,
- "personas_publicadas": 216,
+ "filas": 285,
+ "personas_unicas": 225,
+ "personas_publicadas": 225,
  "por_categoria": {
-  "Literatura": 107,
-  "Cine e historieta": 44,
-  "Artes visuales": 33,
-  "Música": 32
+  "Literatura": 110,
+  "Cine e historieta": 46,
+  "Música": 35,
+  "Artes visuales": 34
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -29,12 +29,14 @@
   "Margaret Ruthven Lang: 1972-05-29, 1972-05-30",
   "Fred Forbat: 1972-05-22, 1972-05-23",
   "Viktor Ivchenko: 1972-09-07, 1972-11-06",
-  "Jiro Yoshihara: 1972-01-21, 1972-02-19"
+  "Jiro Yoshihara: 1972-01-21, 1972-02-19",
+  "Juan Carlos Paz: 1972-08-25, 1972-08-26"
  ],
  "muerte_solo_anio": [
   "Edward Tingatinga",
   "R. Nataraja Mudaliar",
-  "Bibbo"
+  "Bibbo",
+  "Luis Mottura"
  ],
  "muerte_fuera_del_anio": [
   "Martiros Sarian (Q718409)",
@@ -53,7 +55,8 @@
   "Apollon Kutateladze: 1899-12-29, 1900-01-06",
   "Erik Hesselberg: 1914-06-01, 1914-06-04",
   "Yevhén Adamstévich: 1903-01-01, 1904-01-01",
-  "Abe Gubegna: 1933-07-01, 1934-01-01"
+  "Abe Gubegna: 1933-07-01, 1934-01-01",
+  "Juan Carlos Paz: 1897-08-05, 1901-08-05"
  ],
  "nacimiento_solo_anio": [
   "Allauddin Khan",
@@ -61,7 +64,8 @@
   "Suat Derviş",
   "Franco Indovina",
   "Jankiel Wiernik",
-  "Bibbo"
+  "Bibbo",
+  "Luis Mottura"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -97,6 +101,7 @@
   "Zofia Albinowska-Minkiewiczowa",
   "Chandraprava Saikiani",
   "Vera Nikolić Podrinska",
+  "Herbert Eimert",
   "Hirabayashi Taiko",
   "Yaroslav Smelyakov",
   "Karel Boleslav Jirák",
@@ -104,7 +109,6 @@
   "Ismail Yasin",
   "Ruvim Frayerman",
   "Mkrtich Armen",
-  "Herbert Eimert",
   "Pavel Bořkovec",
   "Nasir Kazmi",
   "Alexander Lenard",
@@ -122,7 +126,6 @@
   "E.O. Hoppé",
   "Bella Fromm",
   "Otto Griebel",
-  "Franz Hellens",
   "Hans Jenny",
   "Harry Joe Brown",
   "May Aufderheide",
@@ -135,6 +138,7 @@
   "Harmon Jones",
   "Tatyana Lukashevich",
   "Abdulla Sabir",
+  "Franz Hellens",
   "A. M. Klein",
   "Lucian Bernhard",
   "Teodors Zal̦kalns"
@@ -145,5 +149,14 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 32
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 267,
+  "argentinos": 18
+ },
+ "argentinos": 11,
+ "argentinos_sin_bnmm": [
+  "Luis Mottura (Q5984028)"
+ ],
+ "a_revisar": 34
 }

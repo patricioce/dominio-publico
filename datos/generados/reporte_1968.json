@@ -1,13 +1,13 @@
 {
  "anio": 1968,
- "filas": 280,
- "personas_unicas": 211,
- "personas_publicadas": 211,
+ "filas": 306,
+ "personas_unicas": 222,
+ "personas_publicadas": 222,
  "por_categoria": {
-  "Literatura": 116,
-  "Cine e historieta": 39,
-  "Artes visuales": 29,
-  "Música": 27
+  "Literatura": 121,
+  "Cine e historieta": 41,
+  "Artes visuales": 32,
+  "Música": 28
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -33,18 +33,23 @@
   "Frank Skinner: 1968-10-08, 1968-10-09",
   "Rahi Mo'ayyeri: 1968-11-14, 1968-11-15",
   "Lúcio Cardoso: 1968-09-22, 1968-09-24, 1968-09-28",
-  "Luis Gianneo: 1968-08-15, 1968-08-16"
+  "Luis Gianneo: 1968-08-15, 1968-08-16",
+  "Sixto Pondal Ríos: 1968-09-22, 1968-09-29",
+  "José Pedroni: 1968-01-04, 1968-02-04"
  ],
  "muerte_solo_anio": [
   "Deolinda Rodrigues Francisco de Almeida",
   "Rambriksh Benipuri",
   "Adelchi Bianchi",
-  "Carles Fages de Climent"
+  "Carles Fages de Climent",
+  "Rafael Alberto Arrieta",
+  "Alberto María Candioti"
  ],
  "muerte_fuera_del_anio": [
   "Samad Behrangi (Q340074)",
   "Nicolás Sestito (Q683420)",
-  "Félix Couchoro (Q3092429)"
+  "Félix Couchoro (Q3092429)",
+  "José Pedroni (Q2917366)"
  ],
  "nacimiento_en_disputa": [
   "Thomas Merton: 1915-01-15, 1915-01-31",
@@ -58,7 +63,8 @@
   "Leonid Sabaneyev: 1881-10-02, 1881-11-19",
   "Léopold Survage: 1879-07-31, 1879-08-12",
   "Lúcio Cardoso: 1912-08-14, 1913-08-14",
-  "Mary Foote: 1872-11-20, 1872-11-25"
+  "Mary Foote: 1872-11-20, 1872-11-25",
+  "Sixto Pondal Ríos: 1907-04-04, 1907-04-08"
  ],
  "nacimiento_solo_anio": [
   "Zaki al-Arsuzi",
@@ -68,7 +74,8 @@
   "Rambriksh Benipuri",
   "Delhy Tejero",
   "Adelchi Bianchi",
-  "Carles Fages de Climent"
+  "Carles Fages de Climent",
+  "Vicente Scaramuzza"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -110,8 +117,8 @@
   "Adela Milčinović",
   "Fannie Hurst",
   "Mary Borden",
-  "Ivy Kellerman Reed",
   "Helene Holzman",
+  "Ivy Kellerman Reed",
   "Anatol Stern",
   "Maurice Rostand",
   "Frank Skinner",
@@ -137,5 +144,17 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 35
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 280,
+  "argentinos": 26
+ },
+ "argentinos": 15,
+ "argentinos_sin_bnmm": [
+  "Vicente Scaramuzza (Q1981354)",
+  "Alberto María Candioti (Q1440687)",
+  "Mario Fortuna (Q6764677)",
+  "Carlos Ripamonte (Q110910497)"
+ ],
+ "a_revisar": 39
 }

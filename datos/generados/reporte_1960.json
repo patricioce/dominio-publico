@@ -1,17 +1,19 @@
 {
  "anio": 1960,
- "filas": 215,
- "personas_unicas": 177,
- "personas_publicadas": 177,
+ "filas": 231,
+ "personas_unicas": 189,
+ "personas_publicadas": 188,
  "por_categoria": {
-  "Literatura": 93,
-  "Música": 32,
-  "Cine e historieta": 27,
-  "Artes visuales": 25
+  "Literatura": 99,
+  "Música": 34,
+  "Cine e historieta": 29,
+  "Artes visuales": 26
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
- "movidos_a_otro_anio": [],
+ "movidos_a_otro_anio": [
+  "Lino Enea Spilimbergo (Q6554670): la fecha preferida en Wikidata es de otro año"
+ ],
  "muerte_en_disputa": [
   "Pierre Reverdy: 1960-06-17, 1960-06-21",
   "Nima Yushich: 1960-01-04, 1960-01-06",
@@ -34,7 +36,11 @@
   "Alexander V. Kuprin: 1960-03-08, 1960-03-18"
  ],
  "muerte_solo_anio": [
-  "Thalia Flora-Karavia"
+  "Thalia Flora-Karavia",
+  "Virginia Bolten",
+  "Lino Enea Spilimbergo",
+  "Tito Cittadini",
+  "Juan Antonio Garcia Estrada"
  ],
  "muerte_fuera_del_anio": [
   "Violet Oakley (Q1226556)",
@@ -49,7 +55,9 @@
  ],
  "nacimiento_solo_anio": [
   "Thalia Flora-Karavia",
-  "Nic Waal"
+  "Nic Waal",
+  "Juan Antonio Garcia Estrada",
+  "Manuel Sofovich"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -79,9 +87,9 @@
   "Pierre Monatte",
   "Alfred Hill",
   "Désiré Defauw",
-  "Ivan Pregelj",
   "Theodor Pištěk",
   "Victor Hugo Green",
+  "Ivan Pregelj",
   "Arturo Ambrosio",
   "Walter Goehr",
   "A. P. Carter",
@@ -101,8 +109,8 @@
   "Ernst Stahl-Nachbaur",
   "Rudolf Nelson",
   "Ernests Birznieks-Upītis",
-  "Raymond Abrashkin",
   "Francis Browne",
+  "Raymond Abrashkin",
   "Cafer Seydamet Qırımer",
   "Jigar Moradabadi",
   "Paul-Émile Borduas",
@@ -113,7 +121,9 @@
   "Maurice Schwartz",
   "Alexander V. Kuprin",
   "Kshitimohan Sen",
-  "Ernest L. Blumenschein"
+  "Ernest L. Blumenschein",
+  "Ivan Ahčin",
+  "Juan Antonio Garcia Estrada"
  ],
  "corregidos": [],
  "curados_fusionados": [
@@ -121,5 +131,18 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 25
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 215,
+  "argentinos": 16
+ },
+ "argentinos": 12,
+ "argentinos_sin_bnmm": [
+  "Ángel Guido (Q8076841)",
+  "Ivan Ahčin (Q6095778)",
+  "Federico Valle (Q3067939)",
+  "Tito Cittadini (Q4889187)",
+  "Juan Antonio Garcia Estrada (Q6298863)"
+ ],
+ "a_revisar": 28
 }

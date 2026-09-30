@@ -1,13 +1,13 @@
 {
  "anio": 1959,
- "filas": 212,
- "personas_unicas": 176,
- "personas_publicadas": 176,
+ "filas": 219,
+ "personas_unicas": 182,
+ "personas_publicadas": 182,
  "por_categoria": {
-  "Literatura": 97,
+  "Literatura": 102,
   "Cine e historieta": 31,
   "Música": 26,
-  "Artes visuales": 22
+  "Artes visuales": 23
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -30,7 +30,8 @@
   "Stepan Erzia (Q2553547)",
   "Konrad Tom (Q1447210)",
   "Henri Pourrat (Q779953)",
-  "Adelaide Casely-Hayford (Q4681689)"
+  "Adelaide Casely-Hayford (Q4681689)",
+  "Juan José de Soiza Reilly (Q19448008)"
  ],
  "nacimiento_en_disputa": [
   "José Vasconcelos: 1881-02-28, 1882-02-27",
@@ -78,8 +79,8 @@
   "Yrjö Kilpinen",
   "Andrew Loomis",
   "Kurt Held",
-  "Jean Gallon",
   "Ernest Newman",
+  "Jean Gallon",
   "József Révai",
   "Aleksandr Vesnín",
   "Gershon Agron",
@@ -116,5 +117,12 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 19
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 212,
+  "argentinos": 7
+ },
+ "argentinos": 6,
+ "argentinos_sin_bnmm": [],
+ "a_revisar": 20
 }

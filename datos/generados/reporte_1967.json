@@ -1,18 +1,19 @@
 {
  "anio": 1967,
- "filas": 269,
- "personas_unicas": 220,
- "personas_publicadas": 219,
+ "filas": 294,
+ "personas_unicas": 235,
+ "personas_publicadas": 233,
  "por_categoria": {
-  "Literatura": 129,
-  "Música": 35,
-  "Cine e historieta": 31,
-  "Artes visuales": 24
+  "Literatura": 138,
+  "Música": 38,
+  "Cine e historieta": 32,
+  "Artes visuales": 25
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
  "movidos_a_otro_anio": [
-  "Samad Behrangi (Q340074): la fecha preferida en Wikidata es de otro año"
+  "Samad Behrangi (Q340074): la fecha preferida en Wikidata es de otro año",
+  "José Pedroni (Q2917366): la fecha preferida en Wikidata es de otro año"
  ],
  "muerte_en_disputa": [
   "Mohammad Mosaddeq: 1967-03-04, 1967-03-05",
@@ -26,12 +27,16 @@
   "Hans Schomburgk: 1967-07-26, 1967-07-27",
   "Bengt Berg: 1967-07-30, 1967-07-31",
   "Héctor Panizza: 1967-11-27, 1967-11-28",
-  "Amanda Randolph: 1967-08-24, 1967-08-25"
+  "Amanda Randolph: 1967-08-24, 1967-08-25",
+  "Tamara Bunke: 1967-08-11, 1967-08-31",
+  "Ignacio Corsini: 1967-07-16, 1967-07-26"
  ],
  "muerte_solo_anio": [
   "Sayyid Qutb",
   "Munira Thabit",
-  "Harold Gresley"
+  "Harold Gresley",
+  "Pedro Miguel Obligado",
+  "José Pedroni"
  ],
  "muerte_fuera_del_anio": [
   "Sayyid Qutb (Q211379)",
@@ -46,13 +51,16 @@
   "Margaret Ayer Barnes: 1886-04-08, 1886-06-16",
   "Stepan Zoryan: 1889-09-15, 1890-09-15",
   "Miloš Đurić: 1892-01-03, 1892-01-14",
+  "Simone Téry: 1897-01-28, 1898-01-01",
   "Olga Nicolaevna Sacharoff: 1881-05-28, 1889-05-28",
-  "Simone Téry: 1897-01-28, 1898-01-01"
+  "Julio Irigoyen: 1892-01-01, 1894-07-01",
+  "Ignacio Corsini: 1891-02-03, 1891-02-13"
  ],
  "nacimiento_solo_anio": [
   "Fadhma Aït Mansour",
   "Munira Thabit",
-  "Harold Gresley"
+  "Harold Gresley",
+  "Pilar de Lusarreta"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -73,8 +81,8 @@
   "Shūgorō Yamamoto",
   "Victor Gollancz",
   "Paul Henckels",
-  "Lajos Áprily",
   "Leonard Buczkowski",
+  "Lajos Áprily",
   "Otto Nagel",
   "Arthur Omre",
   "Christopher Okigbo",
@@ -91,8 +99,8 @@
   "Harold Gresley",
   "Ida Presti",
   "Martin Flavin",
-  "Luigi Federzoni",
   "Stepan Zoryan",
+  "Luigi Federzoni",
   "Esther Forbes",
   "Miloš Đurić",
   "Heinrich Brandler",
@@ -131,5 +139,18 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 24
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 269,
+  "argentinos": 25
+ },
+ "argentinos": 16,
+ "argentinos_sin_bnmm": [
+  "Tamara Bunke (Q213684)",
+  "Julio Irigoyen (Q6309357)",
+  "Rodolfo Irazusta (Q7357166)",
+  "Alejandro Ogloblin (Q5665331)",
+  "Fernando Paillet (Q5860029)"
+ ],
+ "a_revisar": 28
 }

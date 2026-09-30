@@ -1,13 +1,13 @@
 {
  "anio": 1950,
- "filas": 198,
- "personas_unicas": 160,
- "personas_publicadas": 160,
+ "filas": 208,
+ "personas_unicas": 168,
+ "personas_publicadas": 168,
  "por_categoria": {
-  "Literatura": 101,
+  "Literatura": 107,
   "Cine e historieta": 22,
-  "Música": 21,
-  "Artes visuales": 16
+  "Música": 22,
+  "Artes visuales": 17
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -30,7 +30,8 @@
   "Ismail Mire",
   "Gladys Casely-Hayford",
   "Prajnasundari Devi",
-  "Mathilde Laigle"
+  "Mathilde Laigle",
+  "Elvira Aldao de Díaz"
  ],
  "muerte_fuera_del_anio": [
   "Ramana Maharshi (Q288441)",
@@ -55,7 +56,9 @@
   "Ismail Mire",
   "Prajnasundari Devi",
   "Dimitrios Semsis",
-  "Mathilde Laigle"
+  "Mathilde Laigle",
+  "Elvira Aldao de Díaz",
+  "Husni Abdelmalek"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -68,10 +71,10 @@
   "Carter G. Woodson",
   "Karl Straube",
   "Fritz Kampers",
-  "Gerald Tyrwhitt-Wilson, 14th Baron Berners",
   "Armen Tigranian",
   "Ernest Poole",
   "Piramerd",
+  "Gerald Tyrwhitt-Wilson, 14th Baron Berners",
   "Der Nister",
   "William Rose Benét",
   "Jaroslav Kocián",
@@ -79,25 +82,25 @@
   "Igor Savchenko",
   "Ernest Douwes Dekker",
   "Jan Bułhak",
+  "Otto Manninen",
   "Wojciech Weiss",
   "Tatyana Sukhotina-Tolstaya",
-  "Otto Manninen",
   "Carl Clinton Van Doren",
   "Julius Weismann",
   "Dimitrios Semsis",
   "Sarat Chandra Bose",
   "Arthur Kampf",
-  "Anton Kolig",
   "Kansas Joe McCoy",
   "Dai Wangshu",
   "Douglas Gerrard",
-  "Anna Branting",
   "Adolf Schiffer",
+  "Anton Kolig",
+  "Anna Branting",
   "Francesco Jovine",
   "Karl Schröder",
-  "Záviš Kalandra",
   "Paul Haviland",
   "Charles Graham Baker",
+  "Záviš Kalandra",
   "Gordon Wiles",
   "Paul Muratov",
   "Elna Borch",
@@ -111,5 +114,15 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 28
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 198,
+  "argentinos": 10
+ },
+ "argentinos": 9,
+ "argentinos_sin_bnmm": [
+  "Enrique Mosca (Q5379768)",
+  "Husni Abdelmalek (Q113292867)"
+ ],
+ "a_revisar": 29
 }

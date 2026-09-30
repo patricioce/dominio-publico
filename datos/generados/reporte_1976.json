@@ -1,13 +1,13 @@
 {
  "anio": 1976,
- "filas": 240,
- "personas_unicas": 213,
- "personas_publicadas": 213,
+ "filas": 257,
+ "personas_unicas": 224,
+ "personas_publicadas": 224,
  "por_categoria": {
-  "Literatura": 115,
-  "Cine e historieta": 44,
-  "Artes visuales": 28,
-  "Música": 26
+  "Literatura": 122,
+  "Cine e historieta": 45,
+  "Artes visuales": 30,
+  "Música": 27
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -27,12 +27,16 @@
   "Naẓīra Zain-ad-Dīn",
   "Martha Walter",
   "José Díaz Morales",
-  "Izzat al-Nuss"
+  "Izzat al-Nuss",
+  "Raymundo Gleyzer",
+  "Miguel Ángel Bustos",
+  "Juan Stefanich"
  ],
  "muerte_fuera_del_anio": [
   "Lotte Lehmann (Q60303)",
   "Zofia Stryjeńska (Q218326)",
-  "Martín Luis Guzmán (Q267209)"
+  "Martín Luis Guzmán (Q267209)",
+  "Juan Stefanich (Q6504504)"
  ],
  "nacimiento_en_disputa": [
   "Afro Basaldella: 1912-03-04, 1912-04-03",
@@ -44,7 +48,10 @@
  "nacimiento_solo_anio": [
   "Armén Ohanián",
   "Naẓīra Zain-ad-Dīn",
-  "Izzat al-Nuss"
+  "Izzat al-Nuss",
+  "Carlos Mastronardi",
+  "Miguel Ángel Bustos",
+  "Juan Stefanich"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -68,8 +75,8 @@
   "Serafima Birman",
   "Max Tau",
   "Adriaan Roland Holst",
-  "Sŏr-ya Han",
   "Albert Dieudonné",
+  "Sŏr-ya Han",
   "Winston Hibler",
   "John Lounsbery",
   "Hans Stüwe",
@@ -90,6 +97,7 @@
   "Giani Gurmukh Singh Musafir",
   "Viktor Nikitič Lazarev",
   "Sergiu Dan",
+  "Mohsen Hashtroodi",
   "Józef Wittlin",
   "Johannes Meyer",
   "Harry Braverman",
@@ -97,13 +105,13 @@
   "Charles Reznikoff",
   "Robert Lord",
   "Anna Barkova",
-  "Mohsen Hashtroodi",
   "Georges Migot",
   "Rd Ariffien",
   "Gegham Saryan",
   "Eva Schulze-Knabe",
   "Lars Gullin",
   "Mike Pratt",
+  "Ercole Patti",
   "Camilo Osías",
   "Akio Yashiro",
   "Arthur Hornblow, Jr.",
@@ -111,7 +119,6 @@
   "Edward Streeter",
   "Vladimir Gajdarov",
   "Vasyl Kasian",
-  "Ercole Patti",
   "Ilya Kopalin",
   "Izzat al-Nuss"
  ],
@@ -121,5 +128,19 @@
  ],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 21
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 240,
+  "argentinos": 17
+ },
+ "argentinos": 14,
+ "argentinos_sin_bnmm": [
+  "Enrique Angelelli (Q372423)",
+  "Francisco de Caro (Q5484113)",
+  "Juan Stefanich (Q6504504)",
+  "Ricardo Ernesto Montes i Bradley (Q7322627)",
+  "Sergio Karakachoff (Q7454303)",
+  "Aquiles Badi (Q4782939)"
+ ],
+ "a_revisar": 24
 }

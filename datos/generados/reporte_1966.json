@@ -1,12 +1,12 @@
 {
  "anio": 1966,
- "filas": 237,
- "personas_unicas": 194,
- "personas_publicadas": 192,
+ "filas": 247,
+ "personas_unicas": 201,
+ "personas_publicadas": 199,
  "por_categoria": {
-  "Literatura": 118,
+  "Literatura": 122,
   "Cine e historieta": 34,
-  "Artes visuales": 26,
+  "Artes visuales": 29,
   "Música": 14
  },
  "excluidos_sin_nombre": [],
@@ -34,7 +34,8 @@
  ],
  "muerte_solo_anio": [
   "Marie 'Ajami",
-  "Vahan Malezian"
+  "Vahan Malezian",
+  "Raúl Rosarivo"
  ],
  "muerte_fuera_del_anio": [
   "Sayyid Qutb (Q211379)",
@@ -48,7 +49,8 @@
   "Gaspar Cassadó: 1897-09-30, 1897-10-05",
   "William Zorach: 1887-02-28, 1889-01-01",
   "Simon Chikovani: 1902-01-22, 1903-01-22",
-  "Peter George: 1924-03-24, 1924-03-26"
+  "Peter George: 1924-03-24, 1924-03-26",
+  "Emilio Lascano Tegui: 1887-05-19, 1888-05-17"
  ],
  "nacimiento_solo_anio": [
   "Abubakar Tafawa Balewa",
@@ -56,7 +58,8 @@
   "Cheng Bugao",
   "Mary Heaton Vorse",
   "Deng Tuo",
-  "Zeenat Begum"
+  "Zeenat Begum",
+  "Raúl Rosarivo"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -65,8 +68,8 @@
  "sin_wikipedia_es": [
   "Gʻafur Gʻulom",
   "Damodar Dharmananda Kosambi",
-  "Giorgi Leonidze",
   "Jan Brzechwa",
+  "Giorgi Leonidze",
   "Áron Tamási",
   "Friedrich Wilhelm Foerster",
   "Nandalal Bose",
@@ -83,9 +86,9 @@
   "Chit Phumisak",
   "Dimitar Talev",
   "Vladimir Petrov",
+  "Svetoslav Minkov",
   "Arthur Lourié",
   "Simon Chikovani",
-  "Svetoslav Minkov",
   "Matvey Manizer",
   "Gnat Yura",
   "Gösta Nystroem",
@@ -94,20 +97,22 @@
   "Andrej Bagar",
   "Don Herold",
   "Stanisław Mackiewicz",
+  "Ina Boudier-Bakker",
   "Wilhelm Busch",
   "Gerhard Menzel",
   "Billy Rose",
   "Raoul Lévy",
   "Marjan Kozina",
   "Alexander Bazhbeuk-Melikyan",
-  "Ina Boudier-Bakker",
   "Osvald Sirén",
   "Alex Wedding",
   "Margarete Susman",
-  "Noël Gallon",
   "Christian Günther",
+  "Noël Gallon",
   "Quincy Porter",
+  "Ruth Landshoff",
   "André Spire",
+  "Mollie Faustman",
   "Jules Furthman",
   "Chen Mengjia",
   "Vittorio Giannini",
@@ -118,8 +123,6 @@
   "Deng Tuo",
   "Mohamed Fawzi",
   "Thomas Hardie Chalmers",
-  "Mollie Faustman",
-  "Ruth Landshoff",
   "Jabbar Baghtcheban",
   "Zeenat Begum",
   "Yakov Yakovlevich Kuldurkaev",
@@ -138,5 +141,16 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 25
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 237,
+  "argentinos": 10
+ },
+ "argentinos": 7,
+ "argentinos_sin_bnmm": [
+  "Bartolomé Macías (Q536014)",
+  "Mercedes Dantas Lacombe (Q28653835)",
+  "Silvia Martorell (Q20735819)"
+ ],
+ "a_revisar": 27
 }

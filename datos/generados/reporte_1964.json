@@ -1,13 +1,13 @@
 {
  "anio": 1964,
- "filas": 234,
- "personas_unicas": 182,
- "personas_publicadas": 180,
+ "filas": 257,
+ "personas_unicas": 194,
+ "personas_publicadas": 192,
  "por_categoria": {
-  "Literatura": 93,
+  "Literatura": 100,
   "Cine e historieta": 32,
-  "Música": 28,
-  "Artes visuales": 27
+  "Música": 30,
+  "Artes visuales": 30
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -26,7 +26,9 @@
   "Alexander Petrunkevitch: 1964-03-09, 1964-03-10",
   "Arthur Upfield: 1964-02-12, 1964-02-13",
   "Léon Moussinac: 1964-03-10, 1964-03-15",
-  "Ezequiel Martínez Estrada: 1964-11-03, 1964-11-04"
+  "Ezequiel Martínez Estrada: 1964-11-03, 1964-11-04",
+  "Lino Enea Spilimbergo: 1964-03-16, 1964-03-17",
+  "José María Castro (compositor): 1964-05-02, 1964-08-02"
  ],
  "muerte_solo_anio": [
   "Nikolái Aséiev"
@@ -34,7 +36,8 @@
  "muerte_fuera_del_anio": [
   "Harpo Marx (Q317237)",
   "Clive Bell (Q684978)",
-  "Werner Bergengruen (Q704552)"
+  "Werner Bergengruen (Q704552)",
+  "Lino Enea Spilimbergo (Q6554670)"
  ],
  "nacimiento_en_disputa": [
   "Ary Barroso: 1903-11-07, 1903-11-16",
@@ -46,11 +49,14 @@
   "Tudor Vianu: 1897-01-08, 1898-01-08",
   "Alexander Petrunkevitch: 1875-12-12, 1875-12-22",
   "Jo Swerling: 1893-04-18, 1897-04-08",
-  "Pat Frank: 1907-06-15, 1908-05-05"
+  "Pat Frank: 1907-06-15, 1908-05-05",
+  "Jacobo Botoschansky: 1892-08-06, 1895-08-06"
  ],
  "nacimiento_solo_anio": [
   "Alfred Duggan",
-  "Shamsunnahar Mahmud"
+  "Shamsunnahar Mahmud",
+  "Akaki Papava",
+  "Elsa Fernández González"
  ],
  "sin_nacimiento": [],
  "sin_pais": [],
@@ -79,37 +85,53 @@
   "Anne Vabarna",
   "Nacio Herb Brown",
   "Louis Gruenberg",
+  "Lewis Seiler",
   "Andrei Babayev",
+  "Louis Sparre",
+  "Sergey Vasilyevich Gerasimov",
   "Stephan Rosti",
   "Viktor Eisymont",
   "Edgar Manas",
-  "Louis Sparre",
-  "Sergey Vasilyevich Gerasimov",
-  "Lewis Seiler",
   "Jan Fabricius",
   "Alexander Petrunkevitch",
   "Sigurd Islandsmoen",
-  "Hryhoriy Veryovka",
   "Rofū Miki",
-  "Arthur Upfield",
+  "Hryhoriy Veryovka",
   "Ion Vinea",
+  "Arthur Upfield",
   "Villem Kapp",
   "Guy Hedlund",
   "Juliet Rhys-Williams",
   "Juš Kozak",
   "Jo Swerling",
+  "Bertalan Pór",
   "J. Frank Dobie",
   "Léon Moussinac",
   "Bharathidasan",
   "Emînê Evdal",
   "Shamsunnahar Mahmud",
-  "Bertalan Pór",
   "Pat Frank",
-  "Anna Airy"
+  "Anna Airy",
+  "Jacobo Botoschansky",
+  "Akaki Papava"
  ],
  "corregidos": [],
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 23
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 234,
+  "argentinos": 23
+ },
+ "argentinos": 15,
+ "argentinos_sin_bnmm": [
+  "Florian Czarnyszewicz (Q2268075)",
+  "Ramón Suárez Picallo (Q944434)",
+  "Alfredo Bigatti (Q609764)",
+  "Jacobo Botoschansky (Q4095194)",
+  "Akaki Papava (Q26721078)",
+  "Elsa Fernández González (Q57055012)"
+ ],
+ "a_revisar": 26
 }

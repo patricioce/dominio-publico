@@ -1,0 +1,78 @@
+# Creadores ARGENTINOS muertos en un año dado: notabilidad más baja (3+ sitelinks) y más ocupaciones.
+# Complementa consulta_mejorada.rq; el script une ambas por QID.
+# Plantilla: scripts/generar_anio.py reemplaza {ANIO} y {ANIO_SIG} (año siguiente).
+# Para usarla a mano en query.wikidata.org, reemplazar esos marcadores por los años.
+# Descarta fechas "deprecated" y cuenta fechas de muerte fuera del año (revisar si > 0).
+SELECT ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelinks
+       (GROUP_CONCAT(DISTINCT ?ocupacionLabel; separator=" | ") AS ?ocupaciones)
+       (GROUP_CONCAT(DISTINCT ?paisLabel; separator=" | ") AS ?paises)
+       (MIN(?imagen) AS ?foto)
+       (MIN(?articuloEs) AS ?wikipediaEs)
+       (COUNT(DISTINCT ?otraMuerte) AS ?muertesFueraDelAnio)
+       (MIN(?nombreEs) AS ?etiquetaEs)
+       (MIN(?nombreEn) AS ?etiquetaEn)
+       (MIN(?nombreMul) AS ?etiquetaMul)
+       (MAX(?mejor) AS ?fechaPreferida)
+       (MIN(?idBnmm) AS ?bnmm)
+WHERE {
+  # Las 10 de la consulta general + guionista, periodista, ilustrador, caricaturista, dibujante,
+  # libretista, compositor de canciones, cantautor, novelista, ensayista, crítico literario, realizador.
+  # Sin traductores (las traducciones son "Caso a verificar").
+  VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q214917 wd:Q36834
+                      wd:Q1028181 wd:Q1281618 wd:Q2526255 wd:Q715301
+                      wd:Q33231 wd:Q822146
+                      wd:Q28389 wd:Q1930187 wd:Q644687 wd:Q1114448 wd:Q15296811
+                      wd:Q8178443 wd:Q753110 wd:Q488205 wd:Q6625963 wd:Q11774202
+                      wd:Q4263842 wd:Q3455803 }
+
+  ?autor wdt:P31 wd:Q5 ;
+         wdt:P106 ?ocupacion ;
+         p:P570 ?stMuerte ;
+         wikibase:sitelinks ?sitelinks .
+  ?stMuerte psv:P570 [ wikibase:timeValue ?muerte ;
+                       wikibase:timePrecision ?precision ] ;
+            wikibase:rank ?rango .
+
+  FILTER(?rango != wikibase:DeprecatedRank)
+  # 1 si esta fecha es la de mejor rango (preferida, o normal cuando no hay preferida).
+  BIND(IF(EXISTS { ?stMuerte a wikibase:BestRank }, 1, 0) AS ?mejor)
+  FILTER(?muerte >= "{ANIO}-01-01T00:00:00Z"^^xsd:dateTime &&
+         ?muerte <  "{ANIO_SIG}-01-01T00:00:00Z"^^xsd:dateTime)
+  FILTER(?precision >= 9)
+  FILTER(?sitelinks >= 3)
+  ?autor wdt:P27 wd:Q414 .   # solo ciudadanía argentina
+
+  OPTIONAL {
+    ?autor p:P570/psv:P570/wikibase:timeValue ?otraMuerte .
+    FILTER(?otraMuerte < "{ANIO}-01-01T00:00:00Z"^^xsd:dateTime ||
+           ?otraMuerte >= "{ANIO_SIG}-01-01T00:00:00Z"^^xsd:dateTime)
+  }
+
+  # Nacimiento con su precisión (BestRank = las mismas declaraciones que wdt:P569),
+  # para no mostrar "1 de enero" cuando solo se conoce el año.
+  OPTIONAL {
+    ?autor p:P569 ?stNac .
+    ?stNac a wikibase:BestRank ;
+           psv:P569 [ wikibase:timeValue ?nacimiento ;
+                      wikibase:timePrecision ?precisionNac ] .
+  }
+  OPTIONAL { ?autor wdt:P27 ?pais . }
+  OPTIONAL { ?autor wdt:P18 ?imagen . }
+  OPTIONAL { ?autor wdt:P3788 ?idBnmm . }   # identificador de autoridad de la Biblioteca Nacional Mariano Moreno
+  OPTIONAL { ?articuloEs schema:about ?autor ;
+                         schema:isPartOf <https://es.wikipedia.org/> . }
+  # Etiquetas explícitas: se excluye a quien no tenga nombre en español, inglés ni "mul"
+  # (Wikidata está pasando los nombres en alfabeto latino a la etiqueta multilingüe "mul").
+  OPTIONAL { ?autor rdfs:label ?nombreEs . FILTER(LANG(?nombreEs) = "es") }
+  OPTIONAL { ?autor rdfs:label ?nombreEn . FILTER(LANG(?nombreEn) = "en") }
+  OPTIONAL { ?autor rdfs:label ?nombreMul . FILTER(LANG(?nombreMul) = "mul") }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "es,en,mul,fr,de" .
+    ?autor rdfs:label ?autorLabel .
+    ?ocupacion rdfs:label ?ocupacionLabel .
+    ?pais rdfs:label ?paisLabel .
+  }
+}
+GROUP BY ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelinks
+ORDER BY DESC(?sitelinks)

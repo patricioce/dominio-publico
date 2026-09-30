@@ -1,13 +1,13 @@
 {
  "anio": 1962,
- "filas": 231,
- "personas_unicas": 185,
- "personas_publicadas": 182,
+ "filas": 245,
+ "personas_unicas": 194,
+ "personas_publicadas": 191,
  "por_categoria": {
-  "Literatura": 107,
-  "Artes visuales": 28,
-  "Cine e historieta": 26,
-  "Música": 21
+  "Literatura": 111,
+  "Artes visuales": 30,
+  "Cine e historieta": 28,
+  "Música": 22
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -28,13 +28,16 @@
   "Maroun Abboud: 1962-06-02, 1962-06-03",
   "Jean Toulout: 1962-10-18, 1962-10-23",
   "Rudolf Alexander Schröder: 1962-08-22, 1962-08-23",
-  "Otakar Jeremiáš: 1962-03-02, 1962-03-05"
+  "Otakar Jeremiáš: 1962-03-02, 1962-03-05",
+  "Celia Torrá: 1962-12-06, 1962-12-16"
  ],
  "muerte_solo_anio": [
   "Werner Bergengruen",
   "Uma Nehru",
   "Astrid Ahnfelt",
-  "Coba Ritsema"
+  "Coba Ritsema",
+  "Fermín Arango",
+  "Francisco Romero"
  ],
  "muerte_fuera_del_anio": [
   "Clive Bell (Q684978)"
@@ -49,7 +52,9 @@
  ],
  "nacimiento_solo_anio": [
   "Solomon Linda",
-  "Abdulla Goran"
+  "Abdulla Goran",
+  "Don Napy",
+  "Francisco Romero"
  ],
  "sin_nacimiento": [],
  "sin_pais": [
@@ -108,5 +113,18 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
- "a_revisar": 19
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 231,
+  "argentinos": 14
+ },
+ "argentinos": 10,
+ "argentinos_sin_bnmm": [
+  "Don Napy (Q5813223)",
+  "José María Beltrán (Q6293188)",
+  "Fermín Arango (Q18116510)",
+  "Pablo Curatella Manes (Q3359967)",
+  "Horacio Estol (Q30088362)"
+ ],
+ "a_revisar": 22
 }

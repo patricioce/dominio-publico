@@ -1,13 +1,13 @@
 {
  "anio": 1955,
- "filas": 187,
- "personas_unicas": 155,
- "personas_publicadas": 155,
+ "filas": 197,
+ "personas_unicas": 162,
+ "personas_publicadas": 162,
  "por_categoria": {
-  "Literatura": 86,
+  "Literatura": 92,
   "Artes visuales": 32,
   "Cine e historieta": 22,
-  "Música": 15
+  "Música": 16
  },
  "excluidos_sin_nombre": [],
  "excluidos_por_correccion": [],
@@ -100,5 +100,14 @@
  "curados_fusionados": [],
  "curados_ausentes_en_wikidata": [],
  "correcciones_sin_uso": [],
+ "sin_categoria": [],
+ "filas_por_consulta": {
+  "general": 187,
+  "argentinos": 10
+ },
+ "argentinos": 7,
+ "argentinos_sin_bnmm": [
+  "Béla Székely (Q12346003)"
+ ],
  "a_revisar": 19
 }

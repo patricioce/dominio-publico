@@ -1,354 +1,408 @@
 [
  {
   "anio_muerte": 1950,
-  "personas": 160,
-  "a_revisar": 28,
+  "personas": 168,
+  "a_revisar": 29,
   "por_categoria": {
-   "Literatura": 101,
+   "Literatura": 107,
    "Cine e historieta": 22,
-   "Música": 21,
-   "Artes visuales": 16
+   "Música": 22,
+   "Artes visuales": 17
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 9,
+  "argentinos_sin_bnmm": 2,
   "curados": 1
  },
  {
   "anio_muerte": 1951,
-  "personas": 168,
-  "a_revisar": 27,
+  "personas": 174,
+  "a_revisar": 28,
   "por_categoria": {
-   "Literatura": 104,
+   "Literatura": 107,
    "Cine e historieta": 25,
-   "Música": 21,
-   "Artes visuales": 18
+   "Música": 23,
+   "Artes visuales": 19
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 10,
+  "argentinos_sin_bnmm": 2,
   "curados": 1
  },
  {
   "anio_muerte": 1952,
-  "personas": 165,
+  "personas": 169,
   "a_revisar": 24,
   "por_categoria": {
-   "Literatura": 97,
-   "Artes visuales": 25,
+   "Literatura": 100,
+   "Artes visuales": 26,
    "Cine e historieta": 24,
    "Música": 19
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 7,
+  "argentinos_sin_bnmm": 2,
   "curados": 1
  },
  {
   "anio_muerte": 1953,
-  "personas": 161,
-  "a_revisar": 18,
+  "personas": 168,
+  "a_revisar": 20,
   "por_categoria": {
-   "Literatura": 75,
-   "Artes visuales": 30,
-   "Cine e historieta": 29,
-   "Música": 27
+   "Literatura": 78,
+   "Artes visuales": 31,
+   "Cine e historieta": 30,
+   "Música": 29
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 8,
+  "argentinos_sin_bnmm": 4,
   "curados": 0
  },
  {
   "anio_muerte": 1954,
-  "personas": 171,
-  "a_revisar": 22,
+  "personas": 179,
+  "a_revisar": 27,
   "por_categoria": {
-   "Literatura": 94,
-   "Cine e historieta": 27,
-   "Música": 26,
+   "Literatura": 99,
+   "Cine e historieta": 28,
+   "Música": 28,
    "Artes visuales": 24
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 10,
+  "argentinos_sin_bnmm": 3,
   "curados": 0
  },
  {
   "anio_muerte": 1955,
-  "personas": 155,
+  "personas": 162,
   "a_revisar": 19,
   "por_categoria": {
-   "Literatura": 86,
+   "Literatura": 92,
    "Artes visuales": 32,
    "Cine e historieta": 22,
-   "Música": 15
+   "Música": 16
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 7,
+  "argentinos_sin_bnmm": 1,
   "curados": 0
  },
  {
   "anio_muerte": 1956,
-  "personas": 176,
-  "a_revisar": 37,
+  "personas": 181,
+  "a_revisar": 38,
   "por_categoria": {
-   "Literatura": 90,
+   "Literatura": 94,
    "Artes visuales": 30,
-   "Cine e historieta": 28,
+   "Cine e historieta": 29,
    "Música": 27,
    "Ciencia": 1
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 6,
+  "argentinos_sin_bnmm": 3,
   "curados": 36
  },
  {
   "anio_muerte": 1957,
-  "personas": 184,
-  "a_revisar": 24,
+  "personas": 190,
+  "a_revisar": 25,
   "por_categoria": {
-   "Literatura": 98,
+   "Literatura": 102,
    "Artes visuales": 32,
-   "Cine e historieta": 29,
+   "Cine e historieta": 31,
    "Música": 25
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 7,
+  "argentinos_sin_bnmm": 3,
   "curados": 6
  },
  {
   "anio_muerte": 1958,
-  "personas": 190,
-  "a_revisar": 25,
+  "personas": 196,
+  "a_revisar": 28,
   "por_categoria": {
-   "Literatura": 107,
+   "Literatura": 111,
    "Artes visuales": 33,
    "Cine e historieta": 29,
-   "Música": 21
+   "Música": 23
   },
-  "muerte_fuera_del_anio": 2,
+  "muerte_fuera_del_anio": 3,
+  "argentinos": 6,
+  "argentinos_sin_bnmm": 0,
   "curados": 1
  },
  {
   "anio_muerte": 1959,
-  "personas": 176,
-  "a_revisar": 19,
+  "personas": 182,
+  "a_revisar": 20,
   "por_categoria": {
-   "Literatura": 97,
+   "Literatura": 102,
    "Cine e historieta": 31,
    "Música": 26,
-   "Artes visuales": 22
+   "Artes visuales": 23
   },
-  "muerte_fuera_del_anio": 5,
+  "muerte_fuera_del_anio": 6,
+  "argentinos": 6,
+  "argentinos_sin_bnmm": 0,
   "curados": 0
  },
  {
   "anio_muerte": 1960,
-  "personas": 177,
-  "a_revisar": 25,
+  "personas": 188,
+  "a_revisar": 28,
   "por_categoria": {
-   "Literatura": 93,
-   "Música": 32,
-   "Cine e historieta": 27,
-   "Artes visuales": 25
+   "Literatura": 99,
+   "Música": 34,
+   "Cine e historieta": 29,
+   "Artes visuales": 26
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 12,
+  "argentinos_sin_bnmm": 5,
   "curados": 1
  },
  {
   "anio_muerte": 1961,
-  "personas": 176,
+  "personas": 178,
   "a_revisar": 21,
   "por_categoria": {
-   "Literatura": 95,
-   "Artes visuales": 31,
+   "Literatura": 96,
+   "Artes visuales": 32,
    "Cine e historieta": 30,
    "Música": 20
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 3,
+  "argentinos_sin_bnmm": 1,
   "curados": 1
  },
  {
   "anio_muerte": 1962,
-  "personas": 182,
-  "a_revisar": 19,
+  "personas": 191,
+  "a_revisar": 22,
   "por_categoria": {
-   "Literatura": 107,
-   "Artes visuales": 28,
-   "Cine e historieta": 26,
-   "Música": 21
+   "Literatura": 111,
+   "Artes visuales": 30,
+   "Cine e historieta": 28,
+   "Música": 22
   },
   "muerte_fuera_del_anio": 1,
+  "argentinos": 10,
+  "argentinos_sin_bnmm": 5,
   "curados": 0
  },
  {
   "anio_muerte": 1963,
-  "personas": 179,
-  "a_revisar": 36,
+  "personas": 184,
+  "a_revisar": 37,
   "por_categoria": {
-   "Literatura": 97,
-   "Cine e historieta": 30,
-   "Música": 29,
+   "Literatura": 100,
+   "Cine e historieta": 31,
+   "Música": 30,
    "Artes visuales": 23
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 8,
+  "argentinos_sin_bnmm": 3,
   "curados": 0
  },
  {
   "anio_muerte": 1964,
-  "personas": 180,
-  "a_revisar": 23,
+  "personas": 192,
+  "a_revisar": 26,
   "por_categoria": {
-   "Literatura": 93,
+   "Literatura": 100,
    "Cine e historieta": 32,
-   "Música": 28,
-   "Artes visuales": 27
+   "Música": 30,
+   "Artes visuales": 30
   },
-  "muerte_fuera_del_anio": 3,
+  "muerte_fuera_del_anio": 4,
+  "argentinos": 15,
+  "argentinos_sin_bnmm": 6,
   "curados": 0
  },
  {
   "anio_muerte": 1965,
-  "personas": 171,
-  "a_revisar": 27,
+  "personas": 183,
+  "a_revisar": 31,
   "por_categoria": {
-   "Literatura": 78,
-   "Cine e historieta": 36,
-   "Artes visuales": 30,
-   "Música": 27
+   "Literatura": 85,
+   "Cine e historieta": 38,
+   "Artes visuales": 32,
+   "Música": 28
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 13,
+  "argentinos_sin_bnmm": 7,
   "curados": 0
  },
  {
   "anio_muerte": 1966,
-  "personas": 192,
-  "a_revisar": 25,
+  "personas": 199,
+  "a_revisar": 27,
   "por_categoria": {
-   "Literatura": 118,
+   "Literatura": 122,
    "Cine e historieta": 34,
-   "Artes visuales": 26,
+   "Artes visuales": 29,
    "Música": 14
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 7,
+  "argentinos_sin_bnmm": 3,
   "curados": 0
  },
  {
   "anio_muerte": 1967,
-  "personas": 219,
-  "a_revisar": 24,
+  "personas": 233,
+  "a_revisar": 28,
   "por_categoria": {
-   "Literatura": 129,
-   "Música": 35,
-   "Cine e historieta": 31,
-   "Artes visuales": 24
+   "Literatura": 138,
+   "Música": 38,
+   "Cine e historieta": 32,
+   "Artes visuales": 25
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 16,
+  "argentinos_sin_bnmm": 5,
   "curados": 1
  },
  {
   "anio_muerte": 1968,
-  "personas": 211,
-  "a_revisar": 35,
+  "personas": 222,
+  "a_revisar": 39,
   "por_categoria": {
-   "Literatura": 116,
-   "Cine e historieta": 39,
-   "Artes visuales": 29,
-   "Música": 27
+   "Literatura": 121,
+   "Cine e historieta": 41,
+   "Artes visuales": 32,
+   "Música": 28
   },
-  "muerte_fuera_del_anio": 3,
+  "muerte_fuera_del_anio": 4,
+  "argentinos": 15,
+  "argentinos_sin_bnmm": 4,
   "curados": 0
  },
  {
   "anio_muerte": 1969,
-  "personas": 210,
-  "a_revisar": 33,
+  "personas": 219,
+  "a_revisar": 34,
   "por_categoria": {
-   "Literatura": 119,
-   "Cine e historieta": 39,
-   "Artes visuales": 26,
+   "Literatura": 124,
+   "Cine e historieta": 41,
+   "Artes visuales": 28,
    "Música": 26
   },
   "muerte_fuera_del_anio": 4,
+  "argentinos": 11,
+  "argentinos_sin_bnmm": 5,
   "curados": 0
  },
  {
   "anio_muerte": 1970,
-  "personas": 219,
-  "a_revisar": 33,
+  "personas": 236,
+  "a_revisar": 36,
   "por_categoria": {
-   "Literatura": 129,
-   "Música": 30,
-   "Artes visuales": 30,
-   "Cine e historieta": 30
+   "Literatura": 137,
+   "Artes visuales": 34,
+   "Música": 33,
+   "Cine e historieta": 32
   },
   "muerte_fuera_del_anio": 4,
+  "argentinos": 19,
+  "argentinos_sin_bnmm": 11,
   "curados": 1
  },
  {
   "anio_muerte": 1971,
-  "personas": 199,
-  "a_revisar": 20,
+  "personas": 207,
+  "a_revisar": 21,
   "por_categoria": {
-   "Literatura": 110,
-   "Cine e historieta": 34,
-   "Música": 31,
-   "Artes visuales": 24
+   "Literatura": 114,
+   "Cine e historieta": 35,
+   "Música": 32,
+   "Artes visuales": 26
   },
   "muerte_fuera_del_anio": 3,
+  "argentinos": 8,
+  "argentinos_sin_bnmm": 3,
   "curados": 0
  },
  {
   "anio_muerte": 1972,
-  "personas": 216,
-  "a_revisar": 32,
+  "personas": 225,
+  "a_revisar": 34,
   "por_categoria": {
-   "Literatura": 107,
-   "Cine e historieta": 44,
-   "Artes visuales": 33,
-   "Música": 32
+   "Literatura": 110,
+   "Cine e historieta": 46,
+   "Música": 35,
+   "Artes visuales": 34
   },
   "muerte_fuera_del_anio": 2,
+  "argentinos": 11,
+  "argentinos_sin_bnmm": 1,
   "curados": 1
  },
  {
   "anio_muerte": 1973,
-  "personas": 231,
-  "a_revisar": 31,
+  "personas": 242,
+  "a_revisar": 32,
   "por_categoria": {
-   "Literatura": 133,
+   "Literatura": 138,
    "Cine e historieta": 42,
-   "Música": 34,
-   "Artes visuales": 22
+   "Música": 38,
+   "Artes visuales": 24
   },
   "muerte_fuera_del_anio": 5,
+  "argentinos": 11,
+  "argentinos_sin_bnmm": 4,
   "curados": 1
  },
  {
   "anio_muerte": 1974,
-  "personas": 228,
-  "a_revisar": 31,
+  "personas": 238,
+  "a_revisar": 33,
   "por_categoria": {
-   "Literatura": 123,
+   "Literatura": 129,
    "Cine e historieta": 42,
-   "Música": 34,
-   "Artes visuales": 29
+   "Música": 37,
+   "Artes visuales": 30
   },
   "muerte_fuera_del_anio": 1,
+  "argentinos": 12,
+  "argentinos_sin_bnmm": 3,
   "curados": 0
  },
  {
   "anio_muerte": 1975,
-  "personas": 217,
-  "a_revisar": 24,
+  "personas": 228,
+  "a_revisar": 26,
   "por_categoria": {
-   "Literatura": 118,
-   "Cine e historieta": 44,
-   "Artes visuales": 31,
-   "Música": 24
+   "Literatura": 124,
+   "Cine e historieta": 45,
+   "Artes visuales": 34,
+   "Música": 25
   },
-  "muerte_fuera_del_anio": 2,
+  "muerte_fuera_del_anio": 3,
+  "argentinos": 12,
+  "argentinos_sin_bnmm": 4,
   "curados": 0
  },
  {
   "anio_muerte": 1976,
-  "personas": 213,
-  "a_revisar": 21,
+  "personas": 224,
+  "a_revisar": 24,
   "por_categoria": {
-   "Literatura": 115,
-   "Cine e historieta": 44,
-   "Artes visuales": 28,
-   "Música": 26
+   "Literatura": 122,
+   "Cine e historieta": 45,
+   "Artes visuales": 30,
+   "Música": 27
   },
-  "muerte_fuera_del_anio": 3,
+  "muerte_fuera_del_anio": 4,
+  "argentinos": 14,
+  "argentinos_sin_bnmm": 6,
   "curados": 1
  }
 ]

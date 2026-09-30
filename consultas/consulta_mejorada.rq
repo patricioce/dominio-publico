@@ -3,14 +3,14 @@
 # Para usarla a mano en query.wikidata.org, reemplazar esos marcadores por los años.
 # Descarta fechas "deprecated" y cuenta fechas de muerte fuera del año (revisar si > 0).
 SELECT ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelinks
-       (GROUP_CONCAT(DISTINCT ?ocupacionLabel; separator=", ") AS ?ocupaciones)
-       (GROUP_CONCAT(DISTINCT ?paisLabel; separator=", ") AS ?paises)
-       (SAMPLE(?imagen) AS ?foto)
-       (SAMPLE(?articuloEs) AS ?wikipediaEs)
+       (GROUP_CONCAT(DISTINCT ?ocupacionLabel; separator=" | ") AS ?ocupaciones)
+       (GROUP_CONCAT(DISTINCT ?paisLabel; separator=" | ") AS ?paises)
+       (MIN(?imagen) AS ?foto)
+       (MIN(?articuloEs) AS ?wikipediaEs)
        (COUNT(DISTINCT ?otraMuerte) AS ?muertesFueraDelAnio)
-       (SAMPLE(?nombreEs) AS ?etiquetaEs)
-       (SAMPLE(?nombreEn) AS ?etiquetaEn)
-       (SAMPLE(?nombreMul) AS ?etiquetaMul)
+       (MIN(?nombreEs) AS ?etiquetaEs)
+       (MIN(?nombreEn) AS ?etiquetaEn)
+       (MIN(?nombreMul) AS ?etiquetaMul)
        (MAX(?mejor) AS ?fechaPreferida)
 WHERE {
   VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q214917 wd:Q36834
