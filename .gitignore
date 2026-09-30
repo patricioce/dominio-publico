@@ -1,0 +1,7 @@
+# Metadatos de macOS (el disco es exFAT)
+._*
+.DS_Store
+__pycache__/
+*.pyc
+# Respuestas crudas de Wikidata: se regeneran con el script
+datos/generados/crudo/

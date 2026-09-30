@@ -1,0 +1,992 @@
+{
+ "nota": "Fichas curadas a mano. Las fechas de estos registros están verificadas y mandan sobre Wikidata. Los registros con qid se fusionan por qid; los demás, por nombre.",
+ "autores": [
+  {
+   "id": "brecht",
+   "n": "Bertolt Brecht",
+   "b": "1898-02-10",
+   "d": "1956-08-14",
+   "p": "Alemania",
+   "o": "Literatura",
+   "bio": "Dramaturgo y poeta alemán, creador del teatro épico y una de las voces centrales del teatro del siglo XX.",
+   "w": [
+    "La ópera de tres centavos (1928)",
+    "Madre Coraje y sus hijos (1941)",
+    "Vida de Galileo (1943)",
+    "El círculo de tiza caucasiano (1948)"
+   ],
+   "c": "Muchas obras las escribió con colaboradores. Las hechas solo o con coautores que murieron antes (Steffin, Valentin, Weill) se liberan en 2027; las que tienen aportes de Elisabeth Hauptmann (m. 1973) quedan en zona gris.",
+   "conf": "check"
+  },
+  {
+   "id": "milne",
+   "n": "A. A. Milne",
+   "b": "1882-01-18",
+   "d": "1956-01-31",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Escritor británico, autor de los libros de Winnie-the-Pooh y de obras de teatro y humor.",
+   "w": [
+    "Winnie-the-Pooh (1926)",
+    "La casa en la esquina de Pooh (1928)",
+    "When We Were Very Young (1924)"
+   ],
+   "c": "Se libera el texto. Las ilustraciones originales de E. H. Shepard (m. 1976) siguen protegidas hasta 2047 en países con vida + 70, y las versiones de Disney tienen derechos y marcas propios.",
+   "conf": "check"
+  },
+  {
+   "id": "delamare",
+   "n": "Walter de la Mare",
+   "b": "1873-04-25",
+   "d": "1956-06-22",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Poeta y narrador británico, maestro del relato fantástico y la poesía para chicos.",
+   "w": [
+    "The Listeners (1912)",
+    "Memorias de una enana (1921)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "walser",
+   "n": "Robert Walser",
+   "b": "1878-04-15",
+   "d": "1956-12-25",
+   "p": "Suiza",
+   "o": "Literatura",
+   "bio": "Novelista suizo de prosa breve y excéntrica, admirado por Kafka y redescubierto a fines del siglo XX.",
+   "w": [
+    "Los hermanos Tanner (1907)",
+    "Jakob von Gunten (1909)",
+    "El paseo (1917)"
+   ],
+   "c": "Parte de su obra (los microgramas) se descifró y publicó después de su muerte; esas ediciones pueden tener derechos propios.",
+   "conf": "check"
+  },
+  {
+   "id": "benn",
+   "n": "Gottfried Benn",
+   "b": "1886-05-02",
+   "d": "1956-07-07",
+   "p": "Alemania",
+   "o": "Literatura",
+   "bio": "Poeta expresionista alemán y médico, figura decisiva de la lírica alemana moderna.",
+   "w": [
+    "Morgue (1912)",
+    "Poemas estáticos (1948)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "mencken",
+   "n": "H. L. Mencken",
+   "b": "1880-09-12",
+   "d": "1956-01-29",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "bio": "Periodista, ensayista y crítico estadounidense, célebre por su ironía y su estudio del inglés americano.",
+   "w": [
+    "The American Language (1919)",
+    "Prejuicios (1919–1927)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "beerbohm",
+   "n": "Max Beerbohm",
+   "b": "1872-08-24",
+   "d": "1956-05-20",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Ensayista, caricaturista y novelista británico de humor refinado.",
+   "w": [
+    "Zuleika Dobson (1911)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "bromfield",
+   "n": "Louis Bromfield",
+   "b": "1896-12-27",
+   "d": "1956-03-18",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "bio": "Novelista estadounidense, ganador del Pulitzer y pionero de la agricultura sustentable.",
+   "w": [
+    "Early Autumn (1926)",
+    "Vinieron las lluvias (1937)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "arlen",
+   "n": "Michael Arlen",
+   "b": "1895-11-16",
+   "d": "1956-06-23",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Novelista británico de origen armenio, retratista de la alta sociedad de los años veinte.",
+   "w": [
+    "The Green Hat (1924)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "macarthur",
+   "n": "Charles MacArthur",
+   "b": "1895-11-05",
+   "d": "1956-04-21",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "bio": "Dramaturgo y guionista estadounidense, coautor de algunas de las comedias más imitadas de Broadway y Hollywood.",
+   "w": [
+    "The Front Page (1928, con Ben Hecht)",
+    "Twentieth Century (1932, con Ben Hecht)"
+   ],
+   "c": "Sus obras principales son coautorías con Ben Hecht (m. 1964): esas se liberan recién en 2035. Solo lo escrito por él solo se libera en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "papini",
+   "n": "Giovanni Papini",
+   "b": "1881-01-09",
+   "d": "1956-07-08",
+   "p": "Italia",
+   "o": "Literatura",
+   "bio": "Escritor y polemista italiano, muy leído en Latinoamérica; Borges prologó su obra.",
+   "w": [
+    "Un hombre acabado (1913)",
+    "Historia de Cristo (1921)",
+    "Gog (1931)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "alvaro",
+   "n": "Corrado Alvaro",
+   "b": "1895-04-15",
+   "d": "1956-06-11",
+   "p": "Italia",
+   "o": "Literatura",
+   "bio": "Narrador y periodista italiano, cronista del sur campesino de Calabria.",
+   "w": [
+    "Gente de Aspromonte (1930)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "benda",
+   "n": "Julien Benda",
+   "b": "1867-12-26",
+   "d": "1956-06-07",
+   "p": "Francia",
+   "o": "Literatura",
+   "bio": "Filósofo y ensayista francés, autor de un clásico sobre la responsabilidad de los intelectuales.",
+   "w": [
+    "La traición de los intelectuales (1927)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "leautaud",
+   "n": "Paul Léautaud",
+   "b": "1872-01-18",
+   "d": "1956-02-22",
+   "p": "Francia",
+   "o": "Literatura",
+   "bio": "Escritor francés, autor de uno de los diarios literarios más extensos y mordaces de su siglo.",
+   "w": [
+    "Le Petit Ami (1903)",
+    "Journal littéraire (1954–1966)"
+   ],
+   "c": "Buena parte de su diario se publicó después de su muerte; esas ediciones pueden tener un régimen distinto.",
+   "conf": "check"
+  },
+  {
+   "id": "fadeyev",
+   "n": "Aleksandr Fadéyev",
+   "b": "1901-12-24",
+   "d": "1956-05-13",
+   "p": "URSS",
+   "o": "Literatura",
+   "bio": "Novelista soviético y dirigente de la Unión de Escritores durante el estalinismo.",
+   "w": [
+    "La derrota (1927)",
+    "La joven guardia (1945)"
+   ],
+   "c": "En Rusia el plazo se extiende 4 años para autores que trabajaron durante la guerra de 1941–1945, así que allí la fecha puede ser 2031.",
+   "conf": "check"
+  },
+  {
+   "id": "guntekin",
+   "n": "Reşat Nuri Güntekin",
+   "b": "1889-11-25",
+   "d": "1956-12-07",
+   "p": "Turquía",
+   "o": "Literatura",
+   "bio": "Novelista y dramaturgo turco, autor de una de las novelas más populares de su país.",
+   "w": [
+    "Çalıkuşu (1922)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "tamayo",
+   "n": "Franz Tamayo",
+   "b": "1879-02-28",
+   "d": "1956-07-29",
+   "p": "Bolivia",
+   "o": "Literatura",
+   "bio": "Poeta, ensayista y político boliviano, figura clave del pensamiento nacional de su país.",
+   "w": [
+    "Creación de la pedagogía nacional (1910)",
+    "La Prometheida (1917)"
+   ],
+   "c": "Bolivia aplica vida + 50: allí su obra ya es libre desde 2007.",
+   "conf": "ok"
+  },
+  {
+   "id": "carossa",
+   "n": "Hans Carossa",
+   "b": "1878-12-15",
+   "d": "1956-09-12",
+   "p": "Alemania",
+   "o": "Literatura",
+   "bio": "Médico y escritor alemán de prosa autobiográfica serena.",
+   "w": [
+    "Infancia (1922)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "pollock",
+   "n": "Jackson Pollock",
+   "b": "1912-01-28",
+   "d": "1956-08-11",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "bio": "Pintor estadounidense, figura central del expresionismo abstracto y de la técnica del dripping.",
+   "w": [
+    "Número 1A (1948)",
+    "Ritmo de otoño (1950)",
+    "Blue Poles (1952)"
+   ],
+   "c": "Dominio público no obliga a los museos a dar acceso a los originales ni a liberar sus fotografías; en algunos países las fotos de reproducción tienen derechos propios.",
+   "conf": "ok"
+  },
+  {
+   "id": "nolde",
+   "n": "Emil Nolde",
+   "b": "1867-08-07",
+   "d": "1956-04-13",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "bio": "Pintor expresionista alemán, maestro del color, perseguido como 'degenerado' por el nazismo pese a su afiliación.",
+   "w": [
+    "Pinturas no pintadas (acuarelas, 1938–1945)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "feininger",
+   "n": "Lyonel Feininger",
+   "b": "1871-07-17",
+   "d": "1956-01-13",
+   "p": "Estados Unidos / Alemania",
+   "o": "Artes visuales",
+   "bio": "Pintor y grabador germano-estadounidense, maestro de la Bauhaus y también historietista.",
+   "w": [
+    "Catedral (1919, xilografía del manifiesto Bauhaus)",
+    "The Kin-der-Kids (1906)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "renner",
+   "n": "Paul Renner",
+   "b": "1878-08-09",
+   "d": "1956-04-25",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "bio": "Tipógrafo alemán, creador de Futura, una de las tipografías más usadas del siglo XX.",
+   "w": [
+    "Futura (1927)"
+   ],
+   "c": "Se libera el diseño original. Las fuentes digitales de Futura son software y siguen protegidas por sus fabricantes.",
+   "conf": "check"
+  },
+  {
+   "id": "gliere",
+   "n": "Reinhold Glière",
+   "b": "1875-01-11",
+   "d": "1956-06-23",
+   "p": "URSS",
+   "o": "Música",
+   "bio": "Compositor ruso-soviético, puente entre el romanticismo ruso y la música soviética.",
+   "w": [
+    "La amapola roja (ballet, 1927)",
+    "Concierto para soprano de coloratura (1943)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "charpentier",
+   "n": "Gustave Charpentier",
+   "b": "1860-06-25",
+   "d": "1956-02-18",
+   "p": "Francia",
+   "o": "Música",
+   "bio": "Compositor francés, autor de una ópera naturalista ambientada en el París obrero.",
+   "w": [
+    "Louise (1900)"
+   ],
+   "c": "El libreto de Louise es del propio Charpentier, así que la ópera completa se libera en 2027.",
+   "conf": "ok"
+  },
+  {
+   "id": "cbrown",
+   "n": "Clifford Brown",
+   "b": "1930-10-30",
+   "d": "1956-06-26",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "bio": "Trompetista y compositor de jazz, muerto a los 25 años en un accidente de ruta.",
+   "w": [
+    "Joy Spring (1954)",
+    "Daahoud (1954)"
+   ],
+   "c": "Se liberan las composiciones. Las grabaciones tienen plazos propios, distintos de los del autor.",
+   "conf": "check"
+  },
+  {
+   "id": "mizoguchi",
+   "n": "Kenji Mizoguchi",
+   "b": "1898-05-16",
+   "d": "1956-08-24",
+   "p": "Japón",
+   "o": "Cine e historieta",
+   "bio": "Director japonés, maestro del plano secuencia y de los retratos de mujeres en la sociedad japonesa.",
+   "w": [
+    "Cuentos de la luna pálida (1953)",
+    "El intendente Sansho (1954)"
+   ],
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (su guionista Yoshikata Yoda murió en 1991), y Japón mide las películas desde su estreno. Sus films no se liberan en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "raymond",
+   "n": "Alex Raymond",
+   "b": "1909-10-02",
+   "d": "1956-09-06",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "bio": "Dibujante estadounidense, creador de Flash Gordon y referente del realismo en la historieta.",
+   "w": [
+    "Flash Gordon (1934)",
+    "Jungle Jim (1934)",
+    "Rip Kirby (1946)"
+   ],
+   "c": "Los guiones de Flash Gordon fueron de Don Moore y el personaje es marca registrada de King Features.",
+   "conf": "check"
+  },
+  {
+   "id": "joliot",
+   "n": "Irène Joliot-Curie",
+   "b": "1897-09-12",
+   "d": "1956-03-17",
+   "p": "Francia",
+   "o": "Ciencia",
+   "bio": "Química francesa, Premio Nobel en 1935 por el descubrimiento de la radiactividad artificial.",
+   "w": [
+    "Trabajos sobre radiactividad artificial (1934, con Frédéric Joliot)"
+   ],
+   "c": "Los trabajos firmados con Frédéric Joliot (m. 1958) se liberan en 2029.",
+   "conf": "check"
+  },
+  {
+   "id": "mistral",
+   "n": "Gabriela Mistral",
+   "b": "1889-04-07",
+   "d": "1957-01-10",
+   "p": "Chile",
+   "o": "Literatura",
+   "bio": "Poeta chilena, primera escritora latinoamericana en recibir el Premio Nobel de Literatura (1945).",
+   "w": [
+    "Desolación (1922)",
+    "Ternura (1924)",
+    "Tala (1938)",
+    "Lagar (1954)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "rojas",
+   "n": "Ricardo Rojas",
+   "b": "1882-09-16",
+   "d": "1957-07-29",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor e historiador argentino, fundador de los estudios de literatura argentina en la universidad.",
+   "w": [
+    "La restauración nacionalista (1909)",
+    "Historia de la literatura argentina (1917–1922)",
+    "El santo de la espada (1933)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "rivera",
+   "n": "Diego Rivera",
+   "b": "1886-12-08",
+   "d": "1957-11-24",
+   "p": "México",
+   "o": "Artes visuales",
+   "bio": "Pintor mexicano, figura mayor del muralismo.",
+   "w": [
+    "Murales de la Secretaría de Educación Pública (1923–1928)",
+    "Murales del Palacio Nacional (1929–1951)"
+   ],
+   "c": "México aplica vida + 100: allí su obra recién se libera en 2058.",
+   "conf": "check"
+  },
+  {
+   "id": "kazantzakis",
+   "n": "Nikos Kazantzakis",
+   "b": "1883-02-18",
+   "d": "1957-10-26",
+   "p": "Grecia",
+   "o": "Literatura",
+   "bio": "Novelista y poeta griego, el escritor griego moderno más traducido.",
+   "w": [
+    "Zorba el griego (1946)",
+    "La última tentación de Cristo (1955)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "sibelius",
+   "n": "Jean Sibelius",
+   "b": "1865-12-08",
+   "d": "1957-09-20",
+   "p": "Finlandia",
+   "o": "Música",
+   "bio": "Compositor finlandés, símbolo musical de la identidad de su país.",
+   "w": [
+    "Finlandia (1899)",
+    "Concierto para violín (1904)",
+    "Sinfonía n.º 5 (1915)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "sayers",
+   "n": "Dorothy L. Sayers",
+   "b": "1893-06-13",
+   "d": "1957-12-17",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Novelista británica de misterio, creadora de Lord Peter Wimsey, y traductora de Dante.",
+   "w": [
+    "Whose Body? (1923)",
+    "Gaudy Night (1935)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "jrj",
+   "n": "Juan Ramón Jiménez",
+   "b": "1881-12-23",
+   "d": "1958-05-29",
+   "p": "España",
+   "o": "Literatura",
+   "bio": "Poeta español, Premio Nobel de Literatura en 1956.",
+   "w": [
+    "Platero y yo (1914)",
+    "Diario de un poeta recién casado (1917)"
+   ],
+   "c": "En España rige vida + 80 para autores muertos antes de diciembre de 1987: allí se libera en 2039.",
+   "conf": "ok"
+  },
+  {
+   "id": "camus",
+   "n": "Albert Camus",
+   "b": "1913-11-07",
+   "d": "1960-01-04",
+   "p": "Francia",
+   "o": "Literatura",
+   "bio": "Novelista y ensayista francés nacido en Argelia, Premio Nobel en 1957.",
+   "w": [
+    "El extranjero (1942)",
+    "La peste (1947)",
+    "El mito de Sísifo (1942)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "hemingway",
+   "n": "Ernest Hemingway",
+   "b": "1899-07-21",
+   "d": "1961-07-02",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "bio": "Novelista estadounidense, Premio Nobel en 1954.",
+   "w": [
+    "Fiesta (1926)",
+    "Adiós a las armas (1929)",
+    "El viejo y el mar (1952)"
+   ],
+   "c": "En EE.UU. sus libros se liberan por fecha de publicación: Fiesta ya es libre allí desde 2022.",
+   "conf": "ok"
+  },
+  {
+   "id": "girondo",
+   "n": "Oliverio Girondo",
+   "b": "1891-08-17",
+   "d": "1967-01-24",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta argentino de la vanguardia martinfierrista.",
+   "w": [
+    "Veinte poemas para ser leídos en el tranvía (1922)",
+    "Espantapájaros (1932)",
+    "En la masmédula (1954)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "marechal",
+   "n": "Leopoldo Marechal",
+   "b": "1900-06-11",
+   "d": "1970-06-26",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta y novelista argentino, autor de una de las grandes novelas de Buenos Aires.",
+   "w": [
+    "Adán Buenosayres (1948)",
+    "Megafón, o la guerra (1970)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "pizarnik",
+   "n": "Alejandra Pizarnik",
+   "b": "1936-04-29",
+   "d": "1972-09-25",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta argentina, una de las voces más intensas de la poesía en castellano del siglo XX.",
+   "w": [
+    "Árbol de Diana (1962)",
+    "Extracción de la piedra de locura (1968)",
+    "La condesa sangrienta (1971)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "tolkien",
+   "n": "J. R. R. Tolkien",
+   "b": "1892-01-03",
+   "d": "1973-09-02",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Filólogo y novelista británico, creador de la Tierra Media.",
+   "w": [
+    "El hobbit (1937)",
+    "El Señor de los Anillos (1954–1955)"
+   ],
+   "c": "Muchas obras se editaron póstumamente con Christopher Tolkien (m. 2020), y los personajes tienen marcas registradas.",
+   "conf": "check"
+  },
+  {
+   "id": "christie",
+   "n": "Agatha Christie",
+   "b": "1890-09-15",
+   "d": "1976-01-12",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Novelista británica de misterio, creadora de Hercule Poirot y Miss Marple.",
+   "w": [
+    "El misterioso caso de Styles (1920)",
+    "El asesinato de Roger Ackroyd (1926)",
+    "Asesinato en el Orient Express (1934)"
+   ],
+   "c": "En países con vida + 50 (China, Egipto, buena parte de África y Asia) se libera en 2027. En EE.UU. sus primeras novelas ya son libres por fecha de publicación.",
+   "conf": "ok"
+  },
+  {
+   "id": "rwalsh",
+   "n": "Rodolfo Walsh",
+   "b": "1927-01-09",
+   "d": "1977-03-25",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Periodista y escritor argentino, pionero de la no ficción; asesinado por la dictadura.",
+   "w": [
+    "Operación masacre (1957)",
+    "Los oficios terrestres (1965)",
+    "Carta abierta de un escritor a la Junta Militar (1977)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "vocampo",
+   "n": "Victoria Ocampo",
+   "b": "1890-04-07",
+   "d": "1979-01-27",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritora y editora argentina, fundadora de la revista Sur.",
+   "w": [
+    "Testimonios (1935–1977)",
+    "Autobiografía (1979–1984)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "cortazar",
+   "n": "Julio Cortázar",
+   "b": "1914-08-26",
+   "d": "1984-02-12",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor argentino, figura central del boom latinoamericano y maestro del cuento.",
+   "w": [
+    "Bestiario (1951)",
+    "Rayuela (1963)",
+    "Historias de cronopios y de famas (1962)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "borges",
+   "n": "Jorge Luis Borges",
+   "b": "1899-08-24",
+   "d": "1986-06-14",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor argentino, uno de los autores más influyentes de la literatura universal del siglo XX.",
+   "w": [
+    "Ficciones (1944)",
+    "El Aleph (1949)",
+    "El hacedor (1960)"
+   ],
+   "c": "Las obras escritas con Bioy Casares (m. 1999), como las de H. Bustos Domecq, se liberan recién en 2070.",
+   "conf": "check"
+  },
+  {
+   "id": "puig",
+   "n": "Manuel Puig",
+   "b": "1932-12-28",
+   "d": "1990-07-22",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista argentino que llevó el folletín y el cine a la novela.",
+   "w": [
+    "La traición de Rita Hayworth (1968)",
+    "Boquitas pintadas (1969)",
+    "El beso de la mujer araña (1976)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "piazzolla",
+   "n": "Astor Piazzolla",
+   "b": "1921-03-11",
+   "d": "1992-07-04",
+   "p": "Argentina",
+   "o": "Música",
+   "bio": "Compositor y bandoneonista argentino, renovador del tango.",
+   "w": [
+    "Adiós Nonino (1959)",
+    "Libertango (1974)",
+    "María de Buenos Aires (1968, con Horacio Ferrer)"
+   ],
+   "c": "Las obras con letra de Horacio Ferrer (m. 2014) se liberan en 2085.",
+   "conf": "check"
+  },
+  {
+   "id": "socampo",
+   "n": "Silvina Ocampo",
+   "b": "1903-07-28",
+   "d": "1993-12-14",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Cuentista y poeta argentina, de una literatura fantástica perturbadora y singular.",
+   "w": [
+    "La furia (1959)",
+    "Las invitadas (1961)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "bioy",
+   "n": "Adolfo Bioy Casares",
+   "b": "1914-09-15",
+   "d": "1999-03-08",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista argentino, autor de uno de los clásicos de la literatura fantástica.",
+   "w": [
+    "La invención de Morel (1940)",
+    "El sueño de los héroes (1954)",
+    "Diario de la guerra del cerdo (1969)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "sabato",
+   "n": "Ernesto Sabato",
+   "b": "1911-06-24",
+   "d": "2011-04-30",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista y ensayista argentino, físico de formación.",
+   "w": [
+    "El túnel (1948)",
+    "Sobre héroes y tumbas (1961)",
+    "Abaddón el exterminador (1974)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "mewalsh",
+   "n": "María Elena Walsh",
+   "b": "1930-02-01",
+   "d": "2011-01-10",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta, compositora y escritora argentina, referente de la literatura infantil.",
+   "w": [
+    "Tutú Marambá (1960)",
+    "El reino del revés (1965)",
+    "Manuelita (1962)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "quino",
+   "n": "Quino",
+   "b": "1932-07-17",
+   "d": "2020-09-30",
+   "p": "Argentina",
+   "o": "Cine e historieta",
+   "bio": "Humorista gráfico argentino, creador de Mafalda.",
+   "w": [
+    "Mafalda (1964–1973)"
+   ],
+   "c": "Mafalda también está protegida como marca registrada, independientemente del derecho de autor.",
+   "conf": "check"
+  },
+  {
+   "id": "gardel",
+   "n": "Carlos Gardel",
+   "b": "1890-12-11",
+   "d": "1935-06-24",
+   "p": "Argentina",
+   "o": "Música",
+   "bio": "Cantante y compositor, la voz más emblemática del tango.",
+   "w": [
+    "Mi Buenos Aires querido (1934)",
+    "Volver (1934)",
+    "Por una cabeza (1935)"
+   ],
+   "c": "Las músicas de Gardel son libres, pero muchas letras son de Alfredo Le Pera, que murió en el mismo accidente (1935): también libres.",
+   "conf": "ok"
+  },
+  {
+   "id": "quiroga",
+   "n": "Horacio Quiroga",
+   "b": "1878-12-31",
+   "d": "1937-02-19",
+   "p": "Uruguay / Argentina",
+   "o": "Literatura",
+   "bio": "Cuentista uruguayo radicado en Argentina, maestro del cuento de la selva misionera.",
+   "w": [
+    "Cuentos de amor de locura y de muerte (1917)",
+    "Cuentos de la selva (1918)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "storni",
+   "n": "Alfonsina Storni",
+   "b": "1892-05-29",
+   "d": "1938-10-25",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta argentina nacida en Suiza, voz fundamental del posmodernismo y del feminismo literario.",
+   "w": [
+    "La inquietud del rosal (1916)",
+    "Ocre (1925)",
+    "Mascarilla y trébol (1938)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "arlt",
+   "n": "Roberto Arlt",
+   "b": "1900-04-02",
+   "d": "1942-07-26",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista y cronista argentino, retratista feroz de la Buenos Aires moderna.",
+   "w": [
+    "El juguete rabioso (1926)",
+    "Los siete locos (1929)",
+    "Aguafuertes porteñas (1933)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "orwell",
+   "n": "George Orwell",
+   "b": "1903-06-25",
+   "d": "1950-01-21",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Novelista y ensayista británico.",
+   "w": [
+    "Rebelión en la granja (1945)",
+    "1984 (1949)"
+   ],
+   "c": "En EE.UU. sigue protegido: allí 1984 se libera en 2045 por fecha de publicación.",
+   "conf": "ok"
+  },
+  {
+   "id": "discepolo",
+   "n": "Enrique Santos Discépolo",
+   "b": "1901-03-27",
+   "d": "1951-12-23",
+   "p": "Argentina",
+   "o": "Música",
+   "bio": "Compositor y letrista de tango, poeta del desencanto porteño.",
+   "w": [
+    "Yira, yira (1930)",
+    "Cambalache (1934)",
+    "Uno (1943, con Mariano Mores)"
+   ],
+   "c": "Uno tiene música de Mariano Mores (m. 2016): esa obra se libera recién en 2087.",
+   "conf": "check"
+  },
+  {
+   "id": "macedonio",
+   "n": "Macedonio Fernández",
+   "b": "1874-06-01",
+   "d": "1952-02-10",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor y pensador argentino, maestro de Borges y precursor de la vanguardia.",
+   "w": [
+    "No toda es vigilia la de los ojos abiertos (1928)",
+    "Papeles de Recienvenido (1929)",
+    "Museo de la Novela de la Eterna (1967)"
+   ],
+   "c": "El Museo de la Novela de la Eterna es póstumo (1967); en algunos países las ediciones póstumas generan derechos propios.",
+   "conf": "ok"
+  },
+  {
+   "qid": "Q231690",
+   "n": "B.R. Ambedkar",
+   "b": "1891-04-14",
+   "d": "1956-12-06",
+   "p": "Unión de la India / India",
+   "o": "Literatura",
+   "bio": "Jurista, economista y político indio, principal redactor de la Constitución de la India y líder de los dalits.",
+   "w": [
+    "La aniquilación de las castas (1936)",
+    "El Buda y su dhamma (1957)"
+   ],
+   "c": "Wikidata lo registra como \"pintor\", un error de datos. En India (vida + 60) su obra ya es libre desde 2017."
+  },
+  {
+   "qid": "Q483709",
+   "n": "Yakub Kolas",
+   "b": "1882-11-03",
+   "d": "1956-08-13",
+   "p": "República Socialista Soviética de Bielorrusia",
+   "o": "Literatura",
+   "bio": "Poeta bielorruso, uno de los fundadores de la literatura bielorrusa moderna.",
+   "w": [
+    "Nuevo terruño (1923)"
+   ],
+   "c": "Bielorrusia aplica vida + 50: allí su obra es libre desde 2007."
+  },
+  {
+   "qid": "Q55198",
+   "n": "Aleksandr Dovzhenko",
+   "b": "1894-09-10",
+   "d": "1956-11-25",
+   "p": "República Socialista Soviética de Ucrania / Unión Soviética",
+   "o": "Cine e historieta",
+   "bio": "Cineasta y escritor ucraniano, uno de los grandes del cine soviético mudo.",
+   "w": [
+    "Tierra (1930)",
+    "Arsenal (1929)"
+   ],
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal, así que sus películas pueden liberarse más tarde."
+  },
+  {
+   "qid": "Q220980",
+   "n": "Pío Baroja",
+   "b": "1872-12-28",
+   "d": "1956-10-30",
+   "p": "España",
+   "o": "Literatura",
+   "bio": "Novelista español de la Generación del 98, uno de los grandes narradores en castellano del siglo XX.",
+   "w": [
+    "La busca (1904)",
+    "Zalacaín el aventurero (1909)",
+    "El árbol de la ciencia (1911)"
+   ],
+   "c": "En España rige vida + 80 para autores muertos antes de diciembre de 1987: allí se libera en 2037. En Argentina, en 2027."
+  },
+  {
+   "qid": "Q78527",
+   "n": "Erich Kleiber",
+   "b": "1890-08-05",
+   "d": "1956-01-27",
+   "p": "Argentina / Austria",
+   "o": "Música",
+   "bio": "Director de orquesta austríaco, nacionalizado argentino en 1938; dirigió temporadas decisivas en el Teatro Colón.",
+   "c": "Su trabajo fue sobre todo de interpretación: las grabaciones tienen plazos propios, distintos de los del autor."
+  },
+  {
+   "qid": "Q3346493",
+   "n": "Zenobia Camprubí",
+   "b": "1887-08-31",
+   "d": "1956-10-28",
+   "p": "Estados Unidos / España",
+   "o": "Literatura",
+   "bio": "Escritora y traductora española, difusora de Rabindranath Tagore en castellano y esposa de Juan Ramón Jiménez.",
+   "w": [
+    "Traducciones de Tagore (con Juan Ramón Jiménez)",
+    "Diario"
+   ],
+   "c": "Las traducciones de Tagore las firmó con Juan Ramón Jiménez (m. 1958): esas se liberan en 2029. Parte de su diario se publicó después de su muerte."
+  },
+  {
+   "qid": "Q3010499",
+   "n": "César Moro",
+   "b": "1903-08-19",
+   "d": "1956-01-10",
+   "p": "Perú",
+   "o": "Literatura",
+   "bio": "Poeta y pintor peruano, figura del surrealismo, que escribió buena parte de su obra en francés.",
+   "w": [
+    "La tortuga ecuestre (escrita en 1938–1939, publicada en 1957)"
+   ],
+   "c": "Parte de su obra se publicó después de su muerte; en algunos países las ediciones póstumas tienen derechos propios."
+  },
+  {
+   "qid": "Q6700358",
+   "n": "Luis Bayón Herrera",
+   "b": "1889-09-23",
+   "d": "1956-03-30",
+   "p": "España",
+   "o": "Cine e historieta",
+   "bio": "Director de cine español que desarrolló casi toda su carrera en la industria cinematográfica argentina.",
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (director, guionista, compositor), así que sus películas pueden liberarse más tarde."
+  }
+ ]
+}

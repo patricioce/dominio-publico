@@ -1,0 +1,51 @@
+# Creadores muertos en un año dado (cambiar las fechas marcadas con AÑO).
+# Descarta fechas "deprecated" y cuenta fechas de muerte fuera del año (revisar si > 0).
+SELECT ?autor ?autorLabel ?nacimiento ?muerte ?precision ?sitelinks
+       (GROUP_CONCAT(DISTINCT ?ocupacionLabel; separator=", ") AS ?ocupaciones)
+       (GROUP_CONCAT(DISTINCT ?paisLabel; separator=", ") AS ?paises)
+       (SAMPLE(?imagen) AS ?foto)
+       (SAMPLE(?articuloEs) AS ?wikipediaEs)
+       (COUNT(DISTINCT ?otraMuerte) AS ?muertesFueraDelAnio)
+WHERE {
+  VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q214917 wd:Q36834
+                      wd:Q1028181 wd:Q1281618 wd:Q2526255 wd:Q715301
+                      wd:Q33231 wd:Q822146 }
+
+  ?autor wdt:P31 wd:Q5 ;
+         wdt:P106 ?ocupacion ;
+         p:P570 ?stMuerte ;
+         wikibase:sitelinks ?sitelinks .
+  ?stMuerte psv:P570 [ wikibase:timeValue ?muerte ;
+                       wikibase:timePrecision ?precision ] ;
+            wikibase:rank ?rango .
+
+  FILTER(?rango != wikibase:DeprecatedRank)
+  # AÑO: 1956
+  FILTER(?muerte >= "1956-01-01T00:00:00Z"^^xsd:dateTime &&
+         ?muerte <  "1957-01-01T00:00:00Z"^^xsd:dateTime)
+  FILTER(?precision >= 9)
+  FILTER(?sitelinks >= 10)
+  # ?autor wdt:P27 wd:Q414 .   # solo ciudadanía argentina
+
+  OPTIONAL {
+    ?autor p:P570/psv:P570/wikibase:timeValue ?otraMuerte .
+    # AÑO: 1956
+    FILTER(?otraMuerte < "1956-01-01T00:00:00Z"^^xsd:dateTime ||
+           ?otraMuerte >= "1957-01-01T00:00:00Z"^^xsd:dateTime)
+  }
+
+  OPTIONAL { ?autor wdt:P569 ?nacimiento . }
+  OPTIONAL { ?autor wdt:P27 ?pais . }
+  OPTIONAL { ?autor wdt:P18 ?imagen . }
+  OPTIONAL { ?articuloEs schema:about ?autor ;
+                         schema:isPartOf <https://es.wikipedia.org/> . }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "es,en,mul,fr,de" .
+    ?autor rdfs:label ?autorLabel .
+    ?ocupacion rdfs:label ?ocupacionLabel .
+    ?pais rdfs:label ?paisLabel .
+  }
+}
+GROUP BY ?autor ?autorLabel ?nacimiento ?muerte ?precision ?sitelinks
+ORDER BY DESC(?sitelinks)
