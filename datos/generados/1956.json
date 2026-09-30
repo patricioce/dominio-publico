@@ -1,0 +1,3840 @@
+{
+ "anio_muerte": 1956,
+ "aviso": "Información orientativa, no es asesoramiento legal.",
+ "fuente": "Wikidata (CC0) + correcciones y fichas curadas",
+ "autores": [
+  {
+   "id": "brecht",
+   "qid": "Q38757",
+   "n": "Bertolt Brecht",
+   "b": "1898-02-10",
+   "d": "1956-08-14",
+   "bd": "10 de febrero de 1898",
+   "dd": "14 de agosto de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "director de cine",
+    "letrista",
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 155,
+   "wp": "https://es.wikipedia.org/wiki/Bertolt_Brecht",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-W0409-300%2C%20Bertolt%20Brecht.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Dramaturgo y poeta alemán, creador del teatro épico y una de las voces centrales del teatro del siglo XX.",
+   "w": [
+    "La ópera de tres centavos (1928)",
+    "Madre Coraje y sus hijos (1941)",
+    "Vida de Galileo (1943)",
+    "El círculo de tiza caucasiano (1948)"
+   ],
+   "c": "Muchas obras las escribió con colaboradores. Las hechas solo o con coautores que murieron antes (Steffin, Valentin, Weill) se liberan en 2027; las que tienen aportes de Elisabeth Hauptmann (m. 1973) quedan en zona gris.",
+   "conf": "check"
+  },
+  {
+   "id": "q231690",
+   "qid": "Q231690",
+   "n": "B.R. Ambedkar",
+   "b": "1891-04-14",
+   "d": "1956-12-06",
+   "bd": "14 de abril de 1891",
+   "dd": "6 de diciembre de 1956",
+   "p": "Unión de la India / India",
+   "o": "Literatura",
+   "occ": [
+    "pintor",
+    "escritor"
+   ],
+   "sl": 149,
+   "wp": "https://es.wikipedia.org/wiki/B.R._Ambedkar",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr.%20Bhimrao%20Ambedkar.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Jurista, economista y político indio, principal redactor de la Constitución de la India y líder de los dalits.",
+   "w": [
+    "La aniquilación de las castas (1936)",
+    "El Buda y su dhamma (1957)"
+   ],
+   "c": "Wikidata lo registra como \"pintor\", un error de datos. En India (vida + 60) su obra ya es libre desde 2017.",
+   "conf": "check"
+  },
+  {
+   "id": "pollock",
+   "qid": "Q37571",
+   "n": "Jackson Pollock",
+   "b": "1912-01-28",
+   "d": "1956-08-11",
+   "bd": "28 de enero de 1912",
+   "dd": "11 de agosto de 1956",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 118,
+   "wp": "https://es.wikipedia.org/wiki/Jackson_Pollock",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jackson%20Pollock%20by%20Hans%20Namuth.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Pintor estadounidense, figura central del expresionismo abstracto y de la técnica del dripping.",
+   "w": [
+    "Número 1A (1948)",
+    "Ritmo de otoño (1950)",
+    "Blue Poles (1952)"
+   ],
+   "c": "Dominio público no obliga a los museos a dar acceso a los originales ni a liberar sus fotografías; en algunos países las fotos de reproducción tienen derechos propios.",
+   "conf": "check"
+  },
+  {
+   "id": "milne",
+   "qid": "Q207036",
+   "n": "A. A. Milne",
+   "b": "1882-01-18",
+   "d": "1956-01-31",
+   "bd": "18 de enero de 1882",
+   "dd": "31 de enero de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 82,
+   "wp": "https://es.wikipedia.org/wiki/A._A._Milne",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20a%20milne.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Escritor británico, autor de los libros de Winnie-the-Pooh y de obras de teatro y humor.",
+   "w": [
+    "Winnie-the-Pooh (1926)",
+    "La casa en la esquina de Pooh (1928)",
+    "When We Were Very Young (1924)"
+   ],
+   "c": "Se libera el texto. Las ilustraciones originales de E. H. Shepard (m. 1976) siguen protegidas hasta 2047 en países con vida + 70, y las versiones de Disney tienen derechos y marcas propios.",
+   "conf": "check"
+  },
+  {
+   "id": "q483709",
+   "qid": "Q483709",
+   "n": "Yakub Kolas",
+   "b": "1882-11-03",
+   "d": "1956-08-13",
+   "bd": "3 de noviembre de 1882",
+   "dd": "13 de agosto de 1956",
+   "p": "República Socialista Soviética de Bielorrusia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 77,
+   "wp": "https://es.wikipedia.org/wiki/Yakub_Kolas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kanstantyn%20Mickievi%C4%8D%20%28Jakub%20Ko%C5%82as%29.%20%D0%9A%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B%D0%BD%20%D0%9C%D1%96%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87%20%28%D0%AF%D0%BA%D1%83%D0%B1%20%D0%9A%D0%BE%D0%BB%D0%B0%D1%81%29%20%281925%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Poeta bielorruso, uno de los fundadores de la literatura bielorrusa moderna.",
+   "w": [
+    "Nuevo terruño (1923)"
+   ],
+   "c": "Bielorrusia aplica vida + 50: allí su obra es libre desde 2007.",
+   "conf": "check"
+  },
+  {
+   "id": "mencken",
+   "qid": "Q439204",
+   "n": "H. L. Mencken",
+   "b": "1880-09-12",
+   "d": "1956-01-29",
+   "bd": "12 de septiembre de 1880",
+   "dd": "29 de enero de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 66,
+   "wp": "https://es.wikipedia.org/wiki/H._L._Mencken",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/H-L-Mencken-1928.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Periodista, ensayista y crítico estadounidense, célebre por su ironía y su estudio del inglés americano.",
+   "w": [
+    "The American Language (1919)",
+    "Prejuicios (1919–1927)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q186561",
+   "qid": "Q186561",
+   "n": "Alfred C. Kinsey",
+   "b": "1894-06-23",
+   "d": "1956-08-25",
+   "bd": "23 de junio de 1894",
+   "dd": "25 de agosto de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 62,
+   "wp": "https://es.wikipedia.org/wiki/Alfred_C._Kinsey",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfred%20Kinsey%201955.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q55198",
+   "qid": "Q55198",
+   "n": "Aleksandr Dovzhenko",
+   "b": "1894-09-10",
+   "d": "1956-11-25",
+   "bd": "10 de septiembre de 1894",
+   "dd": "25 de noviembre de 1956",
+   "p": "República Socialista Soviética de Ucrania / Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 58,
+   "wp": "https://es.wikipedia.org/wiki/Aleksandr_Dovzhenko",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Dovzhenko.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Cineasta y escritor ucraniano, uno de los grandes del cine soviético mudo.",
+   "w": [
+    "Tierra (1930)",
+    "Arsenal (1929)"
+   ],
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal, así que sus películas pueden liberarse más tarde.",
+   "conf": "check"
+  },
+  {
+   "id": "nolde",
+   "qid": "Q152788",
+   "n": "Emil Nolde",
+   "b": "1867-08-07",
+   "d": "1956-04-13",
+   "bd": "7 de agosto de 1867",
+   "dd": "13 de abril de 1956",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 57,
+   "wp": "https://es.wikipedia.org/wiki/Emil_Nolde",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Emil%20Nolde.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Pintor expresionista alemán, maestro del color, perseguido como 'degenerado' por el nazismo pese a su afiliación.",
+   "w": [
+    "Pinturas no pintadas (acuarelas, 1938–1945)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q220980",
+   "qid": "Q220980",
+   "n": "Pío Baroja",
+   "b": "1872-12-28",
+   "d": "1956-10-30",
+   "bd": "28 de diciembre de 1872",
+   "dd": "30 de octubre de 1956",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 55,
+   "wp": "https://es.wikipedia.org/wiki/P%C3%ADo_Baroja",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20P%C3%ADo%20Baroja%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista español de la Generación del 98, uno de los grandes narradores en castellano del siglo XX.",
+   "w": [
+    "La busca (1904)",
+    "Zalacaín el aventurero (1909)",
+    "El árbol de la ciencia (1911)"
+   ],
+   "c": "En España rige vida + 80 para autores muertos antes de diciembre de 1987: allí se libera en 2037. En Argentina, en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "benn",
+   "qid": "Q57277",
+   "n": "Gottfried Benn",
+   "b": "1886-05-02",
+   "d": "1956-07-07",
+   "bd": "2 de mayo de 1886",
+   "dd": "7 de julio de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 52,
+   "wp": "https://es.wikipedia.org/wiki/Gottfried_Benn",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv-Bild-183-1984-1116-500%2C-Gottfried-Benn-Arzt-und-Schriftsteller%20cropped.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Poeta expresionista alemán y médico, figura decisiva de la lírica alemana moderna.",
+   "w": [
+    "Morgue (1912)",
+    "Poemas estáticos (1948)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "mizoguchi",
+   "qid": "Q55401",
+   "n": "Kenji Mizoguchi",
+   "b": "1898-05-16",
+   "d": "1956-08-24",
+   "bd": "16 de mayo de 1898",
+   "dd": "24 de agosto de 1956",
+   "p": "Japón",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 51,
+   "wp": "https://es.wikipedia.org/wiki/Kenji_Mizoguchi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kenji%20Mizoguchi%203.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Director japonés, maestro del plano secuencia y de los retratos de mujeres en la sociedad japonesa.",
+   "w": [
+    "Cuentos de la luna pálida (1953)",
+    "El intendente Sansho (1954)"
+   ],
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (su guionista Yoshikata Yoda murió en 1991), y Japón mide las películas desde su estreno. Sus films no se liberan en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "q334297",
+   "qid": "Q334297",
+   "n": "Pak Heon-yeong",
+   "b": "1900-05-28",
+   "d": "1956-12-15",
+   "bd": "28 de mayo de 1900",
+   "dd": "15 de diciembre de 1956",
+   "p": "Corea del Norte",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 51,
+   "wp": "https://es.wikipedia.org/wiki/Pak_Heon-yeong",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pak%20Hon-yong12.jpg",
+   "flags": [
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q237220",
+   "qid": "Q237220",
+   "n": "Hiram Bingham III",
+   "b": "1875-11-19",
+   "d": "1956-06-06",
+   "bd": "19 de noviembre de 1875",
+   "dd": "6 de junio de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 50,
+   "wp": "https://es.wikipedia.org/wiki/Hiram_Bingham_III",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Hiram%20Bingham%20of%20Conn.%2C%20%281-9-25%29%20LCCN2016839105%20%283x4a%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "walser",
+   "qid": "Q123075",
+   "n": "Robert Walser",
+   "b": "1878-04-15",
+   "d": "1956-12-25",
+   "bd": "15 de abril de 1878",
+   "dd": "25 de diciembre de 1956",
+   "p": "Suiza",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 50,
+   "wp": "https://es.wikipedia.org/wiki/Robert_Walser",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Walser%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista suizo de prosa breve y excéntrica, admirado por Kafka y redescubierto a fines del siglo XX.",
+   "w": [
+    "Los hermanos Tanner (1907)",
+    "Jakob von Gunten (1909)",
+    "El paseo (1917)"
+   ],
+   "c": "Parte de su obra (los microgramas) se descifró y publicó después de su muerte; esas ediciones pueden tener derechos propios.",
+   "conf": "check"
+  },
+  {
+   "id": "q312631",
+   "qid": "Q312631",
+   "n": "Aleksandr Ródchenko",
+   "b": "1891-12-05",
+   "d": "1956-12-03",
+   "bd": "5 de diciembre de 1891",
+   "dd": "3 de diciembre de 1956",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 46,
+   "wp": "https://es.wikipedia.org/wiki/Aleksandr_R%C3%B3dchenko",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1935-alexander%20rodschenko.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "fadeyev",
+   "qid": "Q60128",
+   "n": "Aleksandr Fadéyev",
+   "b": "1901-12-24",
+   "d": "1956-05-13",
+   "bd": "24 de diciembre de 1901",
+   "dd": "13 de mayo de 1956",
+   "p": "URSS",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 45,
+   "wp": "https://es.wikipedia.org/wiki/Aleksandr_Fad%C3%A9yev",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200006329%20003%20Mitglied%20%281%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista soviético y dirigente de la Unión de Escritores durante el estalinismo.",
+   "w": [
+    "La derrota (1927)",
+    "La joven guardia (1945)"
+   ],
+   "c": "En Rusia el plazo se extiende 4 años para autores que trabajaron durante la guerra de 1941–1945, así que allí la fecha puede ser 2031.",
+   "conf": "check"
+  },
+  {
+   "id": "q161135",
+   "qid": "Q161135",
+   "n": "Savielly Tartakower",
+   "b": "1887-02-22",
+   "d": "1956-02-04",
+   "bd": "22 de febrero de 1887",
+   "dd": "4 de febrero de 1956",
+   "p": "Francia / Polonia",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 45,
+   "wp": "https://es.wikipedia.org/wiki/Savielly_Tartakower",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "papini",
+   "qid": "Q529858",
+   "n": "Giovanni Papini",
+   "b": "1881-01-09",
+   "d": "1956-07-08",
+   "bd": "9 de enero de 1881",
+   "dd": "8 de julio de 1956",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 44,
+   "wp": "https://es.wikipedia.org/wiki/Giovanni_Papini",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picture%20of%20Giovanni%20Papini.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Escritor y polemista italiano, muy leído en Latinoamérica; Borges prologó su obra.",
+   "w": [
+    "Un hombre acabado (1913)",
+    "Historia de Cristo (1921)",
+    "Gog (1931)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q233088",
+   "qid": "Q233088",
+   "n": "Marie Laurencin",
+   "b": "1883-10-31",
+   "d": "1956-06-08",
+   "bd": "31 de octubre de 1883",
+   "dd": "8 de junio de 1956",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "poeta"
+   ],
+   "sl": 43,
+   "wp": "https://es.wikipedia.org/wiki/Marie_Laurencin",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Laurencin%2C%20c.1912%2C%20Paris.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "feininger",
+   "qid": "Q158255",
+   "n": "Lyonel Feininger",
+   "b": "1871-07-17",
+   "d": "1956-01-13",
+   "bd": "17 de julio de 1871",
+   "dd": "13 de enero de 1956",
+   "p": "Estados Unidos / Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "historietista",
+    "compositor",
+    "fotógrafo"
+   ],
+   "sl": 42,
+   "wp": "https://es.wikipedia.org/wiki/Lyonel_Feininger",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyonel%20Feininger%20by%20Hugo%20Erfurth%201941.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Pintor y grabador germano-estadounidense, maestro de la Bauhaus y también historietista.",
+   "w": [
+    "Catedral (1919, xilografía del manifiesto Bauhaus)",
+    "The Kin-der-Kids (1906)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q84250",
+   "qid": "Q84250",
+   "n": "Josef Hoffmann",
+   "b": "1870-12-15",
+   "d": "1956-05-07",
+   "bd": "15 de diciembre de 1870",
+   "dd": "7 de mayo de 1956",
+   "p": "Austria / Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor"
+   ],
+   "sl": 40,
+   "wp": "https://es.wikipedia.org/wiki/Josef_Hoffmann",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef-Hoffmann.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q359568",
+   "qid": "Q359568",
+   "n": "Vladímir Óbruchev",
+   "b": "1863-10-10",
+   "d": "1956-06-19",
+   "bd": "10 de octubre de 1863",
+   "dd": "19 de junio de 1956",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 40,
+   "wp": "https://es.wikipedia.org/wiki/Vlad%C3%ADmir_%C3%93bruchev",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1886-ObruchevVA.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q55221",
+   "qid": "Q55221",
+   "n": "Alexander Korda",
+   "b": "1893-09-16",
+   "d": "1956-01-23",
+   "bd": "16 de septiembre de 1893",
+   "dd": "23 de enero de 1956",
+   "p": "Reino Unido / Hungría",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Alexander_Korda",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexander-Korda-1936.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q263067",
+   "qid": "Q263067",
+   "n": "Evelyn Beatrice Hall",
+   "b": "1868-09-28",
+   "d": "1956-04-13",
+   "bd": "28 de septiembre de 1868",
+   "dd": "13 de abril de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Evelyn_Beatrice_Hall",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1896%20Alfred-Pierre%20Agache%20-%20The%20Sword.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "beerbohm",
+   "qid": "Q472071",
+   "n": "Max Beerbohm",
+   "b": "1872-08-24",
+   "d": "1956-05-20",
+   "bd": "24 de agosto de 1872",
+   "dd": "20 de mayo de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "pintor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Max_Beerbohm",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Beerbohm%201901%20retouched.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Ensayista, caricaturista y novelista británico de humor refinado.",
+   "w": [
+    "Zuleika Dobson (1911)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "guntekin",
+   "qid": "Q379595",
+   "n": "Reşat Nuri Güntekin",
+   "b": "1889-11-25",
+   "d": "1956-12-07",
+   "bd": "25 de noviembre de 1889",
+   "dd": "7 de diciembre de 1956",
+   "p": "Turquía",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 39,
+   "wp": "https://es.wikipedia.org/wiki/Re%C5%9Fat_Nuri_G%C3%BCntekin",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Re%C5%9Fat%20Nuri%20G%C3%BCntekin%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista y dramaturgo turco, autor de una de las novelas más populares de su país.",
+   "w": [
+    "Çalıkuşu (1922)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "gliere",
+   "qid": "Q316795",
+   "n": "Reinhold Glière",
+   "b": "1875-01-11",
+   "d": "1956-06-23",
+   "bd": "11 de enero de 1875",
+   "dd": "23 de junio de 1956",
+   "p": "URSS",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 38,
+   "wp": "https://es.wikipedia.org/wiki/Reinhold_Gli%C3%A8re",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Reinhold%20Glier.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Compositor ruso-soviético, puente entre el romanticismo ruso y la música soviética.",
+   "w": [
+    "La amapola roja (ballet, 1927)",
+    "Concierto para soprano de coloratura (1943)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q313529",
+   "qid": "Q313529",
+   "n": "Tommy Dorsey",
+   "b": "1905-11-19",
+   "d": "1956-11-26",
+   "bd": "19 de noviembre de 1905",
+   "dd": "26 de noviembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 37,
+   "wp": "https://es.wikipedia.org/wiki/Tommy_Dorsey",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tommy%20dorsey%20playing%20trombone.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "alvaro",
+   "qid": "Q371925",
+   "n": "Corrado Alvaro",
+   "b": "1895-04-15",
+   "d": "1956-06-11",
+   "bd": "15 de abril de 1895",
+   "dd": "11 de junio de 1956",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 35,
+   "wp": "https://es.wikipedia.org/wiki/Corrado_Alvaro",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Corrado%20alvaro.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Narrador y periodista italiano, cronista del sur campesino de Calabria.",
+   "w": [
+    "Gente de Aspromonte (1930)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "charpentier",
+   "qid": "Q311663",
+   "n": "Gustave Charpentier",
+   "b": "1860-06-25",
+   "d": "1956-02-18",
+   "bd": "25 de junio de 1860",
+   "dd": "18 de febrero de 1956",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor",
+    "escritor"
+   ],
+   "sl": 34,
+   "wp": "https://es.wikipedia.org/wiki/Gustave_Charpentier",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gustave%20Charpentier%20LOC.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Compositor francés, autor de una ópera naturalista ambientada en el París obrero.",
+   "w": [
+    "Louise (1900)"
+   ],
+   "c": "El libreto de Louise es del propio Charpentier, así que la ópera completa se libera en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "q313096",
+   "qid": "Q313096",
+   "n": "Jean Metzinger",
+   "b": "1883-06-24",
+   "d": "1956-11-01",
+   "bd": "24 de junio de 1883",
+   "dd": "1956",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 33,
+   "wp": "https://es.wikipedia.org/wiki/Jean_Metzinger",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Metzinger%2C%20photograph%20circa%201912.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "benda",
+   "qid": "Q155270",
+   "n": "Julien Benda",
+   "b": "1867-12-26",
+   "d": "1956-06-07",
+   "bd": "26 de diciembre de 1867",
+   "dd": "7 de junio de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 33,
+   "wp": "https://es.wikipedia.org/wiki/Julien_Benda",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Julien%20Benda.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Filósofo y ensayista francés, autor de un clásico sobre la responsabilidad de los intelectuales.",
+   "w": [
+    "La traición de los intelectuales (1927)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q261223",
+   "qid": "Q261223",
+   "n": "Aino Kallas",
+   "b": "1878-08-02",
+   "d": "1956-11-09",
+   "bd": "2 de agosto de 1878",
+   "dd": "9 de noviembre de 1956",
+   "p": "Estonia / Finlandia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Aino_Kallas",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aino%20Kallas.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q57500",
+   "qid": "Q57500",
+   "n": "Hermann Abendroth",
+   "b": "1883-01-19",
+   "d": "1956-05-29",
+   "bd": "19 de enero de 1883",
+   "dd": "29 de mayo de 1956",
+   "p": "Alemania Oriental",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Hermann_Abendroth",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/HL%20Damals%20%E2%80%93%20Abendroth.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q359251",
+   "qid": "Q359251",
+   "n": "Jean Hersholt",
+   "b": "1886-07-12",
+   "d": "1956-06-02",
+   "bd": "12 de julio de 1886",
+   "dd": "2 de junio de 1956",
+   "p": "Dinamarca / Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Jean_Hersholt",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Hersholt%201929.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "delamare",
+   "qid": "Q981086",
+   "n": "Walter de la Mare",
+   "b": "1873-04-25",
+   "d": "1956-06-22",
+   "bd": "25 de abril de 1873",
+   "dd": "22 de junio de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 31,
+   "wp": "https://es.wikipedia.org/wiki/Walter_de_la_Mare",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Walter%20de%20la%20Mare%20by%20Lady%20Ottoline%20Morrell.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Poeta y narrador británico, maestro del relato fantástico y la poesía para chicos.",
+   "w": [
+    "The Listeners (1912)",
+    "Memorias de una enana (1921)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q983507",
+   "qid": "Q983507",
+   "n": "Samad Vurgun",
+   "b": "1906-03-21",
+   "d": "1956-05-27",
+   "bd": "21 de marzo de 1906",
+   "dd": "27 de mayo de 1956",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 30,
+   "wp": "https://es.wikipedia.org/wiki/Samad_Vurgun",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C9%99m%C9%99d%20Vur%C4%9Fun%20%281947%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q78877",
+   "qid": "Q78877",
+   "n": "August Kubizek",
+   "b": "1888-08-03",
+   "d": "1956-10-23",
+   "bd": "3 de agosto de 1888",
+   "dd": "23 de octubre de 1956",
+   "p": "Austria",
+   "o": "Música",
+   "occ": [
+    "pintor",
+    "compositor",
+    "escritor"
+   ],
+   "sl": 29,
+   "wp": "https://es.wikipedia.org/wiki/August_Kubizek",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/August%20Kubizek%201907.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "cbrown",
+   "qid": "Q354490",
+   "n": "Clifford Brown",
+   "b": "1930-10-30",
+   "d": "1956-06-26",
+   "bd": "30 de octubre de 1930",
+   "dd": "26 de junio de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 29,
+   "wp": "https://es.wikipedia.org/wiki/Clifford_Brown",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Clifford%20Brown%201956.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Trompetista y compositor de jazz, muerto a los 25 años en un accidente de ruta.",
+   "w": [
+    "Joy Spring (1954)",
+    "Daahoud (1954)"
+   ],
+   "c": "Se liberan las composiciones. Las grabaciones tienen plazos propios, distintos de los del autor.",
+   "conf": "check"
+  },
+  {
+   "id": "q400341",
+   "qid": "Q400341",
+   "n": "Mikheil Gelovani",
+   "b": "1893-01-06",
+   "d": "1956-12-21",
+   "bd": "6 de enero de 1893",
+   "dd": "21 de diciembre de 1956",
+   "p": "Unión Soviética",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 29,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gelovani%20M.G.%202.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q566764",
+   "qid": "Q566764",
+   "n": "Nikolaj Velimirović",
+   "b": "1881-01-04",
+   "d": "1956-03-18",
+   "bd": "4 de enero de 1881",
+   "dd": "18 de marzo de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 29,
+   "wp": "https://es.wikipedia.org/wiki/Nikolaj_Velimirovi%C4%87",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikolaj-Velimirovi%C4%87.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "bromfield",
+   "qid": "Q500042",
+   "n": "Louis Bromfield",
+   "b": "1896-12-27",
+   "d": "1956-03-18",
+   "bd": "27 de diciembre de 1896",
+   "dd": "18 de marzo de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Louis_Bromfield",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Bromfield.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista estadounidense, ganador del Pulitzer y pionero de la agricultura sustentable.",
+   "w": [
+    "Early Autumn (1926)",
+    "Vinieron las lluvias (1937)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q2362588",
+   "qid": "Q2362588",
+   "n": "Muhammad Husayn Haykal",
+   "b": "1888-08-20",
+   "d": "1956-12-08",
+   "bd": "20 de agosto de 1888",
+   "dd": "8 de diciembre de 1956",
+   "p": "Egipto",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Muhammad_Hussein_Haykal",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D8%B5%D9%88%D8%B1%D8%A9%20%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%AD%D8%B3%D9%8A%D9%86%20%D9%87%D9%8A%D9%83%D9%84.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q78527",
+   "qid": "Q78527",
+   "n": "Erich Kleiber",
+   "b": "1890-08-05",
+   "d": "1956-01-27",
+   "bd": "5 de agosto de 1890",
+   "dd": "27 de enero de 1956",
+   "p": "Argentina / Austria",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 27,
+   "wp": "https://es.wikipedia.org/wiki/Erich_Kleiber",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20Kleiber%2C%201955%20-%20collezione%20Tino%20Barindelli%20%28cropped%29.tif",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Director de orquesta austríaco, nacionalizado argentino en 1938; dirigió temporadas decisivas en el Teatro Colón.",
+   "c": "Su trabajo fue sobre todo de interpretación: las grabaciones tienen plazos propios, distintos de los del autor.",
+   "conf": "check"
+  },
+  {
+   "id": "q508270",
+   "qid": "Q508270",
+   "n": "Aleksandr Grechanínov",
+   "b": "1864-10-25",
+   "d": "1956-01-03",
+   "bd": "25 de octubre de 1864",
+   "dd": "3 de enero de 1956",
+   "p": "Unión Soviética / Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 26,
+   "wp": "https://es.wikipedia.org/wiki/Aleksandr_Grechan%C3%ADnov",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gretschaninov%20A.T%20postcard-1910.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q365199",
+   "qid": "Q365199",
+   "n": "Victor Young",
+   "b": "1900-08-08",
+   "d": "1956-11-10",
+   "bd": "8 de agosto de 1900",
+   "dd": "10 de noviembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 26,
+   "wp": "https://es.wikipedia.org/wiki/Victor_Young",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q375282",
+   "qid": "Q375282",
+   "n": "David Seymour",
+   "b": "1911-11-20",
+   "d": "1956-11-10",
+   "bd": "20 de noviembre de 1911",
+   "dd": "10 de noviembre de 1956",
+   "p": "Polonia / Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/David_Seymour",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bill-lang-LIFE-staff-2.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1392550",
+   "qid": "Q1392550",
+   "n": "Gustav Suits",
+   "b": "1883-11-30",
+   "d": "1956-05-23",
+   "bd": "30 de noviembre de 1883",
+   "dd": "23 de mayo de 1956",
+   "p": "Estonia / Suecia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/Gustav_Suits",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Suits.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q373784",
+   "qid": "Q373784",
+   "n": "Henri Callot",
+   "b": "1875-12-20",
+   "d": "1956-12-22",
+   "bd": "20 de diciembre de 1875",
+   "dd": "22 de diciembre de 1956",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 25,
+   "wp": "https://es.wikipedia.org/wiki/Henri_Callot",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q291260",
+   "qid": "Q291260",
+   "n": "Évariste Lévi-Provençal",
+   "b": "1894-01-04",
+   "d": "1956-03-23",
+   "bd": "4 de enero de 1894",
+   "dd": "23 de marzo de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/%C3%89variste_L%C3%A9vi-Proven%C3%A7al",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maklouf%20Evariste%20Levi.png",
+   "flags": [
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q242876",
+   "qid": "Q242876",
+   "n": "María Luisa de Schleswig-Holstein",
+   "b": "1872-08-12",
+   "d": "1956-12-08",
+   "bd": "12 de agosto de 1872",
+   "dd": "8 de diciembre de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Luisa_de_Schleswig-Holstein",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Princess%20Marie%20Louise%20of%20Schleswig-Holstein%20by%20Lafayette.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2631374",
+   "qid": "Q2631374",
+   "n": "Ostap Vishnya",
+   "b": "1889-11-11",
+   "d": "1956-09-28",
+   "bd": "1889",
+   "dd": "28 de septiembre de 1956",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 24,
+   "wp": "https://es.wikipedia.org/wiki/Ostap_Vishnya",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ostap%20Vyshnya.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "raymond",
+   "qid": "Q919115",
+   "n": "Alex Raymond",
+   "b": "1909-10-02",
+   "d": "1956-09-06",
+   "bd": "2 de octubre de 1909",
+   "dd": "6 de septiembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "historietista"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Alex_Raymond",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexraymond-by-origa.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Dibujante estadounidense, creador de Flash Gordon y referente del realismo en la historieta.",
+   "w": [
+    "Flash Gordon (1934)",
+    "Jungle Jim (1934)",
+    "Rip Kirby (1946)"
+   ],
+   "c": "Los guiones de Flash Gordon fueron de Don Moore y el personaje es marca registrada de King Features.",
+   "conf": "check"
+  },
+  {
+   "id": "q817511",
+   "qid": "Q817511",
+   "n": "Benjamin Glazer",
+   "b": "1887-05-07",
+   "d": "1956-03-18",
+   "bd": "7 de mayo de 1887",
+   "dd": "18 de marzo de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 23,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20Glazer%20September%201927.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1399280",
+   "qid": "Q1399280",
+   "n": "Jan Lechoń",
+   "b": "1899-03-13",
+   "d": "1956-06-08",
+   "bd": "13 de marzo de 1899",
+   "dd": "8 de junio de 1956",
+   "p": "Segunda República polaca / Imperio ruso",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Jan_Lecho%C5%84",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Lecho%C5%84.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1748192",
+   "qid": "Q1748192",
+   "n": "Marion Leonard",
+   "b": "1881-06-09",
+   "d": "1956-01-09",
+   "bd": "9 de junio de 1881",
+   "dd": "9 de enero de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 23,
+   "wp": "https://es.wikipedia.org/wiki/Marion_Leonard",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marion%20Leonard%2C%20The%20Moving%20Picture%20World%2C%20December%207th%2C%201912%2C%20p688.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q561089",
+   "qid": "Q561089",
+   "n": "Ernst Robert Curtius",
+   "b": "1886-04-14",
+   "d": "1956-04-19",
+   "bd": "14 de abril de 1886",
+   "dd": "19 de abril de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Ernst_Robert_Curtius",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q560115",
+   "qid": "Q560115",
+   "n": "Frank Brangwyn",
+   "b": "1867-05-12",
+   "d": "1956-06-11",
+   "bd": "1867",
+   "dd": "11 de junio de 1956",
+   "p": "Reino Unido",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Frank_Brangwyn",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Brangwyn%20c1900e.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "carossa",
+   "qid": "Q77491",
+   "n": "Hans Carossa",
+   "b": "1878-12-15",
+   "d": "1956-09-12",
+   "bd": "15 de diciembre de 1878",
+   "dd": "12 de septiembre de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Hans_Carossa",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Carossa.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Médico y escritor alemán de prosa autobiográfica serena.",
+   "w": [
+    "Infancia (1922)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q919108",
+   "qid": "Q919108",
+   "n": "Lewis Terman",
+   "b": "1877-01-15",
+   "d": "1956-12-21",
+   "bd": "15 de enero de 1877",
+   "dd": "21 de diciembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 22,
+   "wp": "https://es.wikipedia.org/wiki/Lewis_Terman",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Madison%20Terman.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q713017",
+   "qid": "Q713017",
+   "n": "Austin Osman Spare",
+   "b": "1886-12-30",
+   "d": "1956-05-15",
+   "bd": "1886 o 1888",
+   "dd": "15 de mayo de 1956",
+   "p": "Reino Unido",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Austin_Osman_Spare",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Austin%20Osman%20Spare.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1371568",
+   "qid": "Q1371568",
+   "n": "Johannes Jørgensen",
+   "b": "1866-11-06",
+   "d": "1956-05-29",
+   "bd": "6 de noviembre de 1866",
+   "dd": "29 de mayo de 1956",
+   "p": "Dinamarca",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Johannes_J%C3%B8rgensen",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20J%C3%B8rgensen%20%28ca%201925%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q563117",
+   "qid": "Q563117",
+   "n": "Nikolaos Trikoupis",
+   "b": "1868-01-01",
+   "d": "1956-01-01",
+   "bd": "1868 o 1869",
+   "dd": "1956",
+   "p": "Grecia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Nikolaos_Trikoupis",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/NikolaosTrikoypis.jpg",
+   "flags": [
+    "anio",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "leautaud",
+   "qid": "Q960018",
+   "n": "Paul Léautaud",
+   "b": "1872-01-18",
+   "d": "1956-02-22",
+   "bd": "18 de enero de 1872",
+   "dd": "22 de febrero de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Paul_L%C3%A9autaud",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9autaud%20en%201920.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Escritor francés, autor de uno de los diarios literarios más extensos y mordaces de su siglo.",
+   "w": [
+    "Le Petit Ami (1903)",
+    "Journal littéraire (1954–1966)"
+   ],
+   "c": "Buena parte de su diario se publicó después de su muerte; esas ediciones pueden tener un régimen distinto.",
+   "conf": "check"
+  },
+  {
+   "id": "q61028",
+   "qid": "Q61028",
+   "n": "Walter Gieseking",
+   "b": "1895-11-05",
+   "d": "1956-10-26",
+   "bd": "5 de noviembre de 1895",
+   "dd": "26 de octubre de 1956",
+   "p": "Alemania / Francia",
+   "o": "Música",
+   "occ": [
+    "compositor",
+    "escritor"
+   ],
+   "sl": 21,
+   "wp": "https://es.wikipedia.org/wiki/Walter_Gieseking",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Walter-Gieseking.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q596925",
+   "qid": "Q596925",
+   "n": "Edmund Clerihew Bentley",
+   "b": "1875-07-10",
+   "d": "1956-03-30",
+   "bd": "10 de julio de 1875",
+   "dd": "30 de marzo de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 20,
+   "wp": "https://es.wikipedia.org/wiki/Edmund_Clerihew_Bentley",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edmund%20Clerihew%20Bentley%20%28The%20Bookman%2C%201913%29.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1553197",
+   "qid": "Q1553197",
+   "n": "Sergei Vasilenko",
+   "b": "1872-03-30",
+   "d": "1956-03-11",
+   "bd": "30 de marzo de 1872",
+   "dd": "11 de marzo de 1956",
+   "p": "Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 20,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%84%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q70678",
+   "qid": "Q70678",
+   "n": "Ewald André Dupont",
+   "b": "1891-12-25",
+   "d": "1956-12-12",
+   "bd": "25 de diciembre de 1891",
+   "dd": "12 de diciembre de 1956",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Ewald_Andr%C3%A9_Dupont",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/E.%20M.%20Ascher%20greets%20Carl%20Laemmle%20and%20his%20party%20on%20their%20arrival%20in%20Los%20Angeles.%201926.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q704954",
+   "qid": "Q704954",
+   "n": "Leo Baeck",
+   "b": "1873-05-23",
+   "d": "1956-11-02",
+   "bd": "23 de mayo de 1873",
+   "dd": "2 de noviembre de 1956",
+   "p": "Alemania / Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Leo_Baeck",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bust%20of%20Leo%20Baeck.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q590512",
+   "qid": "Q590512",
+   "n": "Lorenzo Perosi",
+   "b": "1872-12-21",
+   "d": "1956-10-12",
+   "bd": "21 de diciembre de 1872",
+   "dd": "12 de octubre de 1956",
+   "p": "Italia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 19,
+   "wp": "https://es.wikipedia.org/wiki/Lorenzo_Perosi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1954%20Lorenzo%20Perosi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1106119",
+   "qid": "Q1106119",
+   "n": "C. B. Fry",
+   "b": "1872-04-25",
+   "d": "1956-09-07",
+   "bd": "25 de abril de 1872",
+   "dd": "7 de septiembre de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/CBFry.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q24718637",
+   "qid": "Q24718637",
+   "n": "Teresa Feoderovna Ries",
+   "b": "1866-01-30",
+   "d": "1956-07-16",
+   "bd": "30 de enero de 1866",
+   "dd": "16 de julio de 1956",
+   "p": "Austria",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Teresa_Feoderovna_Ries",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Teresa%20Feodorowna%20Ries.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2933169",
+   "qid": "Q2933169",
+   "n": "Cahit Sıtkı Tarancı",
+   "b": "1910-10-04",
+   "d": "1956-01-12",
+   "bd": "4 de octubre de 1910",
+   "dd": "12 de enero de 1956",
+   "p": "Turquía",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cahit%20S%C4%B1tk%C4%B1%20Taranc%C4%B1%20b%C3%BCst%C3%BC%20cropped.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "macarthur",
+   "qid": "Q983356",
+   "n": "Charles MacArthur",
+   "b": "1895-11-05",
+   "d": "1956-04-21",
+   "bd": "5 de noviembre de 1895",
+   "dd": "21 de abril de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "director de cine",
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20MacArthur%20%28American%20screenwriter%29%202.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Dramaturgo y guionista estadounidense, coautor de algunas de las comedias más imitadas de Broadway y Hollywood.",
+   "w": [
+    "The Front Page (1928, con Ben Hecht)",
+    "Twentieth Century (1932, con Ben Hecht)"
+   ],
+   "c": "Sus obras principales son coautorías con Ben Hecht (m. 1964): esas se liberan recién en 2035. Solo lo escrito por él solo se libera en 2027.",
+   "conf": "check"
+  },
+  {
+   "id": "q713025",
+   "qid": "Q713025",
+   "n": "Gerald Finzi",
+   "b": "1901-07-14",
+   "d": "1956-09-27",
+   "bd": "14 de julio de 1901",
+   "dd": "27 de septiembre de 1956",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Gerald_Finzi",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q694849",
+   "qid": "Q694849",
+   "n": "Jan Šrámek",
+   "b": "1870-08-11",
+   "d": "1956-04-22",
+   "bd": "11 de agosto de 1870",
+   "dd": "22 de abril de 1956",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Jan_%C5%A0r%C3%A1mek",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20%C5%A0r%C3%A1mek.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3736180",
+   "qid": "Q3736180",
+   "n": "Johannes Gabriel Granö",
+   "b": "1882-03-14",
+   "d": "1956-02-23",
+   "bd": "14 de marzo de 1882",
+   "dd": "23 de febrero de 1956",
+   "p": "Finlandia",
+   "o": "Artes visuales",
+   "occ": [
+    "fotógrafo"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20Gabriel%20Gran%C3%B6.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "arlen",
+   "qid": "Q115683",
+   "n": "Michael Arlen",
+   "b": "1895-11-16",
+   "d": "1956-06-23",
+   "bd": "16 de noviembre de 1895",
+   "dd": "23 de junio de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Michael_Arlen",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Time-magazine-cover-michael-arlen%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Novelista británico de origen armenio, retratista de la alta sociedad de los años veinte.",
+   "w": [
+    "The Green Hat (1924)"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q550391",
+   "qid": "Q550391",
+   "n": "Miklós Nyiszli",
+   "b": "1901-06-17",
+   "d": "1956-05-05",
+   "bd": "17 de junio de 1901",
+   "dd": "5 de mayo de 1956",
+   "p": "Rumania / Hungría",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Mikl%C3%B3s_Nyiszli",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1321778",
+   "qid": "Q1321778",
+   "n": "Owen Davis",
+   "b": "1874-01-29",
+   "d": "1956-10-14",
+   "bd": "29 de enero de 1874",
+   "dd": "14 de octubre de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Owen-Davis-1950.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2626131",
+   "qid": "Q2626131",
+   "n": "Pyotr Konchalovsky",
+   "b": "1876-02-21",
+   "d": "1956-02-02",
+   "bd": "21 de febrero de 1876",
+   "dd": "2 de febrero de 1956",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 17,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/P-P-Konchalovskij-Avtoportret-1943-g--ic1976%204564.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q196860",
+   "qid": "Q196860",
+   "n": "Zeth Höglund",
+   "b": "1884-04-29",
+   "d": "1956-08-13",
+   "bd": "29 de abril de 1884",
+   "dd": "13 de agosto de 1956",
+   "p": "Suecia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 17,
+   "wp": "https://es.wikipedia.org/wiki/Zeth_H%C3%B6glund",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zethh1953.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q68746",
+   "qid": "Q68746",
+   "n": "Benno von Arent",
+   "b": "1898-06-19",
+   "d": "1956-10-14",
+   "bd": "19 de junio de 1898",
+   "dd": "14 de octubre de 1956",
+   "p": "Alemania",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Benno%20von%20Arent.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1248688",
+   "qid": "Q1248688",
+   "n": "Carlo Gnocchi",
+   "b": "1902-10-25",
+   "d": "1956-02-28",
+   "bd": "25 de octubre de 1902",
+   "dd": "28 de febrero de 1956",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Carlo_Gnocchi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Don%20Carlo%20Gnocchi.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3646436",
+   "qid": "Q3646436",
+   "n": "Derenik Demirchian",
+   "b": "1877-01-17",
+   "d": "1956-12-06",
+   "bd": "17 de enero de 1877",
+   "dd": "6 de diciembre de 1956",
+   "p": "Unión Soviética",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Derenik%20Demirchyan.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q645074",
+   "qid": "Q645074",
+   "n": "Freeman Wills Crofts",
+   "b": "1879-06-01",
+   "d": "1956-04-11",
+   "bd": "1 de junio de 1879",
+   "dd": "11 de abril de 1956",
+   "p": "Irlanda",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": null,
+   "flags": [
+    "muerte_otro_anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q705062",
+   "qid": "Q705062",
+   "n": "Ivan Puni",
+   "b": "1890-04-03",
+   "d": "1956-12-28",
+   "bd": "3 de abril de 1890",
+   "dd": "28 de diciembre de 1956",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 16,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Puni%20SelfPortrait.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3257530",
+   "qid": "Q3257530",
+   "n": "Lloyd Ingraham",
+   "b": "1874-11-30",
+   "d": "1956-04-04",
+   "bd": "30 de noviembre de 1874",
+   "dd": "4 de abril de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Lloyd_Ingraham",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Intolerance%20%281916%29%20-%20Judge.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q568284",
+   "qid": "Q568284",
+   "n": "Theodor Pallady",
+   "b": "1871-04-11",
+   "d": "1956-08-16",
+   "bd": "11 de abril de 1871",
+   "dd": "16 de agosto de 1956",
+   "p": "Rumania",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 16,
+   "wp": "https://es.wikipedia.org/wiki/Theodor_Pallady",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodor%20Pallady%202021%20stampsheet%20of%20Romania%202.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q518002",
+   "qid": "Q518002",
+   "n": "Günther Ramin",
+   "b": "1898-10-15",
+   "d": "1956-02-27",
+   "bd": "15 de octubre de 1898",
+   "dd": "27 de febrero de 1956",
+   "p": "Alemania Oriental / Alemania",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200002787%20003%20Podium%20der%20Bachfeier%2C%20G%C3%BCnther%20Ramin%20im%20Vordergrund.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q167409",
+   "qid": "Q167409",
+   "n": "Isham Jones",
+   "b": "1894-01-31",
+   "d": "1956-10-19",
+   "bd": "31 de enero de 1894",
+   "dd": "19 de octubre de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Isham_Jones",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/IshamJonesWithSaxophoneBain.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3809247",
+   "qid": "Q3809247",
+   "n": "John Emerson",
+   "b": "1874-05-29",
+   "d": "1956-03-07",
+   "bd": "29 de mayo de 1874",
+   "dd": "1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "director de cine",
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/John_Emerson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Emerson%20-%20Feb%201919%20MPW.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1646239",
+   "qid": "Q1646239",
+   "n": "Kōtarō Takamura",
+   "b": "1883-03-13",
+   "d": "1956-04-02",
+   "bd": "13 de marzo de 1883",
+   "dd": "2 de abril de 1956",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "escultor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E6%9D%91%E5%85%89%E5%A4%AA%E9%83%8E.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q8994469",
+   "qid": "Q8994469",
+   "n": "Olena Kysilevska",
+   "b": "1869-03-24",
+   "d": "1956-03-29",
+   "bd": "24 de marzo de 1869",
+   "dd": "29 de marzo de 1956",
+   "p": "Sin dato",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Olena_Kisilevska",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anon%20K%20Y%20Kysilevska%20Olena.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1394538",
+   "qid": "Q1394538",
+   "n": "Rigoberto López Pérez",
+   "b": "1929-05-13",
+   "d": "1956-09-21",
+   "bd": "13 de mayo de 1929",
+   "dd": "21 de septiembre de 1956",
+   "p": "Nicaragua",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "compositor",
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Rigoberto_L%C3%B3pez_P%C3%A9rez",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q958538",
+   "qid": "Q958538",
+   "n": "Yves Nat",
+   "b": "1890-12-29",
+   "d": "1956-08-31",
+   "bd": "29 de diciembre de 1890",
+   "dd": "31 de agosto de 1956",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 15,
+   "wp": "https://es.wikipedia.org/wiki/Yves_Nat",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yves%20Nat.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q264707",
+   "qid": "Q264707",
+   "n": "B. Reeves Eason",
+   "b": "1886-10-02",
+   "d": "1956-06-09",
+   "bd": "2 de octubre de 1886",
+   "dd": "9 de junio de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/B._Reeves_Eason",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/B%20Reeves%20Eason%2C%20Lucien%20Hubbard%2C%20%26%20Douglas%20Z%20Doty%20-%20Jan%201921%20EH.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2960804",
+   "qid": "Q2960804",
+   "n": "Charley Rogers",
+   "b": "1887-01-15",
+   "d": "1956-12-20",
+   "bd": "15 de enero de 1887",
+   "dd": "20 de diciembre de 1956",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Charley_Rogers",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nazty%20Nuisance%20%281943%29%201.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q15133288",
+   "qid": "Q15133288",
+   "n": "Devorah Baron",
+   "b": "1887-12-04",
+   "d": "1956-08-20",
+   "bd": "4 de diciembre de 1887",
+   "dd": "20 de agosto de 1956",
+   "p": "Israel",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%91%D7%95%D7%A8%D7%94%20%D7%91%D7%90%D7%A8%D7%95%D7%9F%20%D7%91%D7%9E%D7%99%D7%A6%D7%92%20%D7%AA%D7%95%D7%A6%D7%A8%D7%AA%20%D7%94%D7%90%D7%A8%D7%A5%20%D7%A9%D7%9C%20%D7%93%D7%95%D7%93%20%D7%98%D7%A8%D7%98%D7%A7%D7%95%D7%91%D7%A8%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96%20%D7%A1%D7%95%D7%96%D7%9F%20%D7%93%D7%9C%D7%9C%20%D7%91%D7%A0%D7%95%D7%95%D7%94%20%D7%A6%D7%93%D7%A7%20%D7%91%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%2034.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q661473",
+   "qid": "Q661473",
+   "n": "Filippo de Pisis",
+   "b": "1896-05-11",
+   "d": "1956-04-02",
+   "bd": "11 de mayo de 1896",
+   "dd": "2 de abril de 1956",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "poeta"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Filippo_de_Pisis",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Filippo%20de%20Pisis.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q491416",
+   "qid": "Q491416",
+   "n": "Frankie Trumbauer",
+   "b": "1901-05-30",
+   "d": "1956-06-11",
+   "bd": "30 de mayo de 1901",
+   "dd": "11 de junio de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FrankieTrumbauer.jpeg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1547340",
+   "qid": "Q1547340",
+   "n": "Leonora Speyer",
+   "b": "1872-11-07",
+   "d": "1956-02-10",
+   "bd": "7 de noviembre de 1872",
+   "dd": "10 de febrero de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": "https://es.wikipedia.org/wiki/Leonora_Speyer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lady%20Speyer%20by%20John%20Singer%20Sargent.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q164703",
+   "qid": "Q164703",
+   "n": "Ludvík Kuba",
+   "b": "1863-04-16",
+   "d": "1956-11-30",
+   "bd": "16 de abril de 1863",
+   "dd": "30 de noviembre de 1956",
+   "p": "Checoslovaquia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuba%20Ludvik.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3115772",
+   "qid": "Q3115772",
+   "n": "Manik Bandopadhyay",
+   "b": "1908-05-19",
+   "d": "1956-12-03",
+   "bd": "19 de mayo de 1908",
+   "dd": "3 de diciembre de 1956",
+   "p": "India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 14,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Manik%20Bandopadhyay.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4407593",
+   "qid": "Q4407593",
+   "n": "Aleksandr Sanin",
+   "b": "1869-04-03",
+   "d": "1956-05-08",
+   "bd": "3 de abril de 1869",
+   "dd": "8 de mayo de 1956",
+   "p": "Sin dato",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanin%20AA.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2745779",
+   "qid": "Q2745779",
+   "n": "Curnonsky",
+   "b": "1872-10-12",
+   "d": "1956-07-22",
+   "bd": "12 de octubre de 1872",
+   "dd": "22 de julio de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Curnonsky",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Curnonsky.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3021715",
+   "qid": "Q3021715",
+   "n": "Dell Henderson",
+   "b": "1883-07-05",
+   "d": "1956-12-02",
+   "bd": "5 de julio de 1883",
+   "dd": "2 de diciembre de 1956",
+   "p": "Canadá",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Dell_Henderson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dell%20Henderson%20-%20Aug%201920%20EH.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q929387",
+   "qid": "Q929387",
+   "n": "George Thomas Moore",
+   "b": "1871-01-01",
+   "d": "1956-11-27",
+   "bd": "1871",
+   "dd": "27 de noviembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/George_Thomas_Moore",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Thomas%20Moore%20001.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2724714",
+   "qid": "Q2724714",
+   "n": "Helios Gómez",
+   "b": "1905-05-27",
+   "d": "1956-09-19",
+   "bd": "27 de mayo de 1905",
+   "dd": "19 de septiembre de 1956",
+   "p": "España",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Helios_G%C3%B3mez",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Helios%20Gomez.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q124434",
+   "qid": "Q124434",
+   "n": "Helmar Lerski",
+   "b": "1871-02-18",
+   "d": "1956-09-29",
+   "bd": "18 de febrero de 1871",
+   "dd": "29 de septiembre de 1956",
+   "p": "Francia / Suiza",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "escritor",
+    "fotógrafo"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Helmar%20Lerski.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q317202",
+   "qid": "Q317202",
+   "n": "Karl Caspar",
+   "b": "1879-03-13",
+   "d": "1956-09-21",
+   "bd": "13 de marzo de 1879",
+   "dd": "1956",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": null,
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q4275586",
+   "qid": "Q4275586",
+   "n": "Makbule Atadan",
+   "b": "1885-01-01",
+   "d": "1956-01-18",
+   "bd": "1885",
+   "dd": "18 de enero de 1956",
+   "p": "Turquía",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Makbule%20Atadan%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q774678",
+   "qid": "Q774678",
+   "n": "Paul Gadenne",
+   "b": "1907-04-04",
+   "d": "1956-05-01",
+   "bd": "4 de abril de 1907",
+   "dd": "1 de mayo de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Paul_Gadenne",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q549496",
+   "qid": "Q549496",
+   "n": "Renée Erdős",
+   "b": "1878-05-07",
+   "d": "1956-07-07",
+   "bd": "7 de mayo de 1878",
+   "dd": "7 de julio de 1956",
+   "p": "Hungría",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Ren%C3%A9e_Erd%C5%91s",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erd%C5%91s%20Ren%C3%A9e.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3934879",
+   "qid": "Q3934879",
+   "n": "Richard Stanton",
+   "b": "1876-10-08",
+   "d": "1956-05-22",
+   "bd": "8 de octubre de 1876",
+   "dd": "22 de mayo de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Richard_Stanton",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Stanton%20portrait.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3346493",
+   "qid": "Q3346493",
+   "n": "Zenobia Camprubí",
+   "b": "1887-08-31",
+   "d": "1956-10-28",
+   "bd": "31 de agosto de 1887",
+   "dd": "28 de octubre de 1956",
+   "p": "Estados Unidos / España",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Zenobia_Camprub%C3%AD",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zenobia%20Camprub%C3%AD%20Aymar.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Escritora y traductora española, difusora de Rabindranath Tagore en castellano y esposa de Juan Ramón Jiménez.",
+   "w": [
+    "Traducciones de Tagore (con Juan Ramón Jiménez)",
+    "Diario"
+   ],
+   "c": "Las traducciones de Tagore las firmó con Juan Ramón Jiménez (m. 1958): esas se liberan en 2029. Parte de su diario se publicó después de su muerte.",
+   "conf": "check"
+  },
+  {
+   "id": "q3269478",
+   "qid": "Q3269478",
+   "n": "Archibald Low",
+   "b": "1888-10-17",
+   "d": "1956-09-13",
+   "bd": "17 de octubre de 1888",
+   "dd": "13 de septiembre de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5729862",
+   "qid": "Q5729862",
+   "n": "Blanca de los Ríos",
+   "b": "1859-08-15",
+   "d": "1956-04-13",
+   "bd": "1859 o 1861",
+   "dd": "13 de abril de 1956",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "pintor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Blanca_de_los_R%C3%ADos",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Blanca%20de%20los%20R%C3%ADos.png",
+   "flags": [
+    "muerte_otro_anio",
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q1042105",
+   "qid": "Q1042105",
+   "n": "Carlo Duse",
+   "b": "1899-01-05",
+   "d": "1956-09-09",
+   "bd": "5 de enero de 1899",
+   "dd": "9 de septiembre de 1956",
+   "p": "Italia",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Carlo_Duse",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fanfulla%20da%20Lodi%20-%20Carlo%20Duse.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q5041871",
+   "qid": "Q5041871",
+   "n": "Carlos Bulosan",
+   "b": "1913-11-24",
+   "d": "1956-09-11",
+   "bd": "24 de noviembre de 1913",
+   "dd": "1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Carlos_Bulosan",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bulosan%20Marker%20in%20Binalonan.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q2383857",
+   "qid": "Q2383857",
+   "n": "Henriette Renié",
+   "b": "1875-09-18",
+   "d": "1956-03-01",
+   "bd": "18 de septiembre de 1875",
+   "dd": "1 de marzo de 1956",
+   "p": "Francia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Henriette_Reni%C3%A9",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renie2.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3080044",
+   "qid": "Q3080044",
+   "n": "Marij Kogoj",
+   "b": "1892-09-20",
+   "d": "1956-02-25",
+   "bd": "20 de septiembre de 1892",
+   "dd": "25 de febrero de 1956",
+   "p": "Croatas y Eslovenos / República Federal Popular de Yugoslavia",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marij%20Kogoj.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q449054",
+   "qid": "Q449054",
+   "n": "Nina Hamnett",
+   "b": "1890-02-14",
+   "d": "1956-12-16",
+   "bd": "14 de febrero de 1890",
+   "dd": "16 de diciembre de 1956",
+   "p": "Reino Unido",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nina%20Hamnett%20by%20Roger%20Fry%201917.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q63213382",
+   "qid": "Q63213382",
+   "n": "Nino Tkheshelashvili",
+   "b": "1874-01-01",
+   "d": "1956-01-01",
+   "bd": "1874",
+   "dd": "1956",
+   "p": "República Socialista Soviética Georgiana",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Nino_Tkheshelashvili",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nino%20Tkeshelashvili%20%28cropped%29.png",
+   "flags": [
+    "anio"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q77845",
+   "qid": "Q77845",
+   "n": "Paul Rohrbach",
+   "b": "1869-06-29",
+   "d": "1956-06-19",
+   "bd": "29 de junio de 1869",
+   "dd": "1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Rohrbach%201931.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q485158",
+   "qid": "Q485158",
+   "n": "Pedro Subercaseaux",
+   "b": "1880-12-10",
+   "d": "1956-01-03",
+   "bd": "10 de diciembre de 1880",
+   "dd": "3 de enero de 1956",
+   "p": "Chile",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Pedro_Subercaseaux",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pedro%20Subercaseaux%282%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2689880",
+   "qid": "Q2689880",
+   "n": "Theo Frenkel",
+   "b": "1871-07-14",
+   "d": "1956-09-20",
+   "bd": "14 de julio de 1871",
+   "dd": "20 de septiembre de 1956",
+   "p": "Países Bajos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 12,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Coba%20Kinsbergen%20en%20Theo%20Frenkel%20in%20hun%20modernen%20apachendans%2C%201914.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q273022",
+   "qid": "Q273022",
+   "n": "Valaida Snow",
+   "b": "1904-06-02",
+   "d": "1956-05-30",
+   "bd": "2 de junio de 1904",
+   "dd": "30 de mayo de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Valaida_Snow",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Valaida%20Snow%20Billboard.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2468242",
+   "qid": "Q2468242",
+   "n": "Adelqui Migliar",
+   "b": "1891-08-05",
+   "d": "1956-08-06",
+   "bd": "5 de agosto de 1891",
+   "dd": "6 de agosto de 1956",
+   "p": "Chile",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Adelqui_Migliar",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adelqui%20Migliar.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q411737",
+   "qid": "Q411737",
+   "n": "Aizu Yaichi",
+   "b": "1881-08-01",
+   "d": "1956-02-21",
+   "bd": "1 de agosto de 1881",
+   "dd": "21 de febrero de 1956",
+   "p": "Japón",
+   "o": "Literatura",
+   "occ": [
+    "poeta",
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Aizu_Yaichi",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yaichi%20Aizu%20by%20Ken%20Domon.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q106354",
+   "qid": "Q106354",
+   "n": "August Winnig",
+   "b": "1878-03-31",
+   "d": "1956-11-06",
+   "bd": "31 de marzo de 1878",
+   "dd": "6 de noviembre de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/August%20Winnig%201920.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4924866",
+   "qid": "Q4924866",
+   "n": "Blanche Lazzell",
+   "b": "1878-10-10",
+   "d": "1956-06-01",
+   "bd": "10 de octubre de 1878",
+   "dd": "1 de junio de 1956",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Blanche%20Lazzell.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q94590",
+   "qid": "Q94590",
+   "n": "Emmerich Hanus",
+   "b": "1884-08-24",
+   "d": "1956-11-20",
+   "bd": "24 de agosto de 1884",
+   "dd": "20 de noviembre de 1956",
+   "p": "Austria",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Emmerich_Hanus",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Emmerich%20Hanus.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1351464",
+   "qid": "Q1351464",
+   "n": "Fletcher Pratt",
+   "b": "1897-04-25",
+   "d": "1956-06-10",
+   "bd": "25 de abril de 1897",
+   "dd": "1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Fletcher_Pratt",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fpratt%20sws.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q69447",
+   "qid": "Q69447",
+   "n": "Frieda von Richthofen",
+   "b": "1879-08-11",
+   "d": "1956-08-11",
+   "bd": "11 de agosto de 1879",
+   "dd": "11 de agosto de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Frieda_Lawrence",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Frieda%20Lawrence%2C%20Taos%2C%20N.M.%20LCCN2004663190%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1688423",
+   "qid": "Q1688423",
+   "n": "Jesús Galíndez",
+   "b": "1915-10-12",
+   "d": "1956-08-30",
+   "bd": "12 de octubre de 1915",
+   "dd": "30 de agosto de 1956",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Gal%C3%ADndez",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jes%C3%BAs%20Gal%C3%ADndez%20Su%C3%A1rez%20%281915-1956%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q101529",
+   "qid": "Q101529",
+   "n": "Karl M. Baer",
+   "b": "1885-05-20",
+   "d": "1956-06-26",
+   "bd": "20 de mayo de 1885",
+   "dd": "26 de junio de 1956",
+   "p": "Israel / Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Karl_M._Baer",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6430240",
+   "qid": "Q6430240",
+   "n": "Konstanty Laszczka",
+   "b": "1865-09-03",
+   "d": "1956-03-23",
+   "bd": "3 de septiembre de 1865",
+   "dd": "23 de marzo de 1956",
+   "p": "República Popular de Polonia",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Konstanty%20Laszczka.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q6504967",
+   "qid": "Q6504967",
+   "n": "Lawson Butt",
+   "b": "1880-03-04",
+   "d": "1956-01-14",
+   "bd": "4 de marzo de 1880",
+   "dd": "14 de enero de 1956",
+   "p": "Reino Unido",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Lawson_Butt",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lawson%20Butt%201915.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1940929",
+   "qid": "Q1940929",
+   "n": "Michio Miyagi",
+   "b": "1894-04-07",
+   "d": "1956-06-25",
+   "bd": "7 de abril de 1894",
+   "dd": "25 de junio de 1956",
+   "p": "Japón",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyagi%20Michio%20photographed%20by%20Shigeru%20Tamura.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q923614",
+   "qid": "Q923614",
+   "n": "Nicolae Labiș",
+   "b": "1935-12-02",
+   "d": "1956-12-22",
+   "bd": "2 de diciembre de 1935",
+   "dd": "22 de diciembre de 1956",
+   "p": "Rumania",
+   "o": "Literatura",
+   "occ": [
+    "poeta"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolae-labis-1-1-221x300.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1350253",
+   "qid": "Q1350253",
+   "n": "Peder Gram",
+   "b": "1881-11-25",
+   "d": "1956-02-04",
+   "bd": "25 de noviembre de 1881",
+   "dd": "4 de febrero de 1956",
+   "p": "Dinamarca",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Peder%20Gram.gif",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1382528",
+   "qid": "Q1382528",
+   "n": "Thomas de Hartmann",
+   "b": "1885-09-21",
+   "d": "1956-03-28",
+   "bd": "21 de septiembre de 1885",
+   "dd": "28 de marzo de 1956",
+   "p": "Imperio ruso",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Thomas_de_Hartmann",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20and%20Olga%20de%20Hartmann%201906.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3290663",
+   "qid": "Q3290663",
+   "n": "Tobías Dantzig",
+   "b": "1884-02-19",
+   "d": "1956-08-09",
+   "bd": "19 de febrero de 1884",
+   "dd": "9 de agosto de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Tob%C3%ADas_Dantzig",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q121192",
+   "qid": "Q121192",
+   "n": "Willy Prager",
+   "b": "1877-05-23",
+   "d": "1956-03-04",
+   "bd": "23 de mayo de 1877",
+   "dd": "4 de marzo de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Willy_Prager",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Willy%20Prager%20%28BerlLeben%201906-10%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q8064218",
+   "qid": "Q8064218",
+   "n": "Zafar Ali Khan",
+   "b": "1873-01-19",
+   "d": "1956-11-27",
+   "bd": "19 de enero de 1873",
+   "dd": "27 de noviembre de 1956",
+   "p": "Pakistán",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": null,
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2740325",
+   "qid": "Q2740325",
+   "n": "Adolphe d'Espie",
+   "b": "1878-01-28",
+   "d": "1956-09-05",
+   "bd": "28 de enero de 1878",
+   "dd": "5 de septiembre de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Adolphe_d%27Espie",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20de%20La%20Hire.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2828813",
+   "qid": "Q2828813",
+   "n": "Aita Donostia",
+   "b": "1886-01-10",
+   "d": "1956-08-30",
+   "bd": "10 de enero de 1886",
+   "dd": "30 de agosto de 1956",
+   "p": "España",
+   "o": "Literatura",
+   "occ": [
+    "compositor",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Aita_Donostia",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aita%20Donostia%20argazkia.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q4739591",
+   "qid": "Q4739591",
+   "n": "Amanda Aldridge",
+   "b": "1866-03-10",
+   "d": "1956-03-09",
+   "bd": "10 de marzo de 1866",
+   "dd": "9 de marzo de 1956",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Amanda%20Ira%20Aldrigde%20The%20A.M.E.%20church%20review%2C%20p.%20114%2C%20October%201912%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3010499",
+   "qid": "Q3010499",
+   "n": "César Moro",
+   "b": "1903-08-19",
+   "d": "1956-01-10",
+   "bd": "19 de agosto de 1903",
+   "dd": "10 de enero de 1956",
+   "p": "Perú",
+   "o": "Literatura",
+   "occ": [
+    "pintor",
+    "poeta",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/C%C3%A9sar_Moro",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20Moro%2002%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Poeta y pintor peruano, figura del surrealismo, que escribió buena parte de su obra en francés.",
+   "w": [
+    "La tortuga ecuestre (escrita en 1938–1939, publicada en 1957)"
+   ],
+   "c": "Parte de su obra se publicó después de su muerte; en algunos países las ediciones póstumas tienen derechos propios.",
+   "conf": "check"
+  },
+  {
+   "id": "q2975468",
+   "qid": "Q2975468",
+   "n": "Clara Beranger",
+   "b": "1886-01-14",
+   "d": "1956-09-10",
+   "bd": "14 de enero de 1886",
+   "dd": "10 de septiembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Clara_Beranger",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Clara%20Berenger01.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q919187",
+   "qid": "Q919187",
+   "n": "Edgar Bainton",
+   "b": "1880-02-14",
+   "d": "1956-12-08",
+   "bd": "14 de febrero de 1880",
+   "dd": "8 de diciembre de 1956",
+   "p": "Reino Unido",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Edgar_Bainton",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Bainton%2C%20Head%20of%20Sydney%20Conservatorium%20as%20Melbourne%20radio%20quest%20judge%20%2831658674421%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q322210",
+   "qid": "Q322210",
+   "n": "Edwin Franko Goldman",
+   "b": "1878-01-01",
+   "d": "1956-02-21",
+   "bd": "1 de enero de 1878",
+   "dd": "21 de febrero de 1956",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Goldman%20LCCN2014717439%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q1330008",
+   "qid": "Q1330008",
+   "n": "Elisabeth Epstein",
+   "b": "1879-02-27",
+   "d": "1956-01-22",
+   "bd": "1879",
+   "dd": "22 de enero de 1956",
+   "p": "Unión Soviética / Suiza",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Elisabeth_Epstein",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/August%20Macke%2C%20Bildnisstudie%20Elisabeth%20Epstein%2C%201912.jpg",
+   "flags": [
+    "nacimiento"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q921345",
+   "qid": "Q921345",
+   "n": "Enrico Prampolini",
+   "b": "1894-04-20",
+   "d": "1956-06-17",
+   "bd": "20 de abril de 1894",
+   "dd": "17 de junio de 1956",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "escultor",
+    "pintor",
+    "fotógrafo"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Enrico%20Prampolini%20-%201927%20-%20Nakayama%20Iwata.png",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3084964",
+   "qid": "Q3084964",
+   "n": "François Jaffrennou",
+   "b": "1879-03-15",
+   "d": "1956-03-23",
+   "bd": "15 de marzo de 1879",
+   "dd": "23 de marzo de 1956",
+   "p": "Francia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Taldir2.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q91245",
+   "qid": "Q91245",
+   "n": "Franz Osten",
+   "b": "1876-12-23",
+   "d": "1956-12-02",
+   "bd": "23 de diciembre de 1876",
+   "dd": "2 de diciembre de 1956",
+   "p": "Alemania Occidental",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Franz_Osten",
+   "img": null,
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q375247",
+   "qid": "Q375247",
+   "n": "Fuat Uzkınay",
+   "b": "1888-01-01",
+   "d": "1956-03-29",
+   "bd": "1888",
+   "dd": "29 de marzo de 1956",
+   "p": "Turquía",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine",
+    "fotógrafo"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fuat%20Uzk%C4%B1nay%20%26%20Ayastefanos%20%28San%20Stefano%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3094741",
+   "qid": "Q3094741",
+   "n": "Galileo Chini",
+   "b": "1873-12-02",
+   "d": "1956-08-23",
+   "bd": "2 de diciembre de 1873",
+   "dd": "23 de agosto de 1956",
+   "p": "Italia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Galileo_Chini",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Galileo%20Chini.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q515563",
+   "qid": "Q515563",
+   "n": "Gerrit Jan van Heuven Goedhart",
+   "b": "1901-03-19",
+   "d": "1956-07-08",
+   "bd": "19 de marzo de 1901",
+   "dd": "8 de julio de 1956",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Gerrit_Jan_van_Heuven_Goedhart",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VanHeuvenGoedhart.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q465618",
+   "qid": "Q465618",
+   "n": "Jeanne Rij-Rousseau",
+   "b": "1870-06-10",
+   "d": "1956-10-22",
+   "bd": "10 de junio de 1870",
+   "dd": "22 de octubre de 1956",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Jeanne_Rij-Rousseau",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeanne%20Rij-Rousseau%201929.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q2073966",
+   "qid": "Q2073966",
+   "n": "Louis Raemaekers",
+   "b": "1869-04-06",
+   "d": "1956-07-25",
+   "bd": "6 de abril de 1869",
+   "dd": "1956",
+   "p": "Países Bajos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Louis_Raemaekers",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Raemaekers.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "conf": "check"
+  },
+  {
+   "id": "q6700358",
+   "qid": "Q6700358",
+   "n": "Luis Bayón Herrera",
+   "b": "1889-09-23",
+   "d": "1956-03-30",
+   "bd": "23 de septiembre de 1889",
+   "dd": "30 de marzo de 1956",
+   "p": "España",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Luis_Bay%C3%B3n_Herrera",
+   "img": null,
+   "flags": [],
+   "src": "wikidata+curado",
+   "bio": "Director de cine español que desarrolló casi toda su carrera en la industria cinematográfica argentina.",
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (director, guionista, compositor), así que sus películas pueden liberarse más tarde.",
+   "conf": "check"
+  },
+  {
+   "id": "q4111193",
+   "qid": "Q4111193",
+   "n": "Mykola Vilinsky",
+   "b": "1888-05-02",
+   "d": "1956-09-07",
+   "bd": "2 de mayo de 1888",
+   "dd": "7 de septiembre de 1956",
+   "p": "Unión Soviética",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D1%96%D0%BB%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q71864",
+   "qid": "Q71864",
+   "n": "Nikolaus zu Dohna-Schlodien",
+   "b": "1879-04-05",
+   "d": "1956-08-21",
+   "bd": "5 de abril de 1879",
+   "dd": "21 de agosto de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Nikolaus_zu_Dohna-Schlodien",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Nikolaus%20Graf%20zu%20Dohna-Schlodien.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q49714",
+   "qid": "Q49714",
+   "n": "Otto Willi Gail",
+   "b": "1896-07-18",
+   "d": "1956-03-29",
+   "bd": "18 de julio de 1896",
+   "dd": "29 de marzo de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Otto%20Willi%20Gail%20SWQ.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3902928",
+   "qid": "Q3902928",
+   "n": "Pier Maria Rosso di San Secondo",
+   "b": "1887-11-30",
+   "d": "1956-11-22",
+   "bd": "30 de noviembre de 1887",
+   "dd": "22 de noviembre de 1956",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pier%20Maria%20Rosso%20di%20San%20Secondo.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q725669",
+   "qid": "Q725669",
+   "n": "Prabodh Chandra Bagchi",
+   "b": "1898-11-18",
+   "d": "1956-01-19",
+   "bd": "18 de noviembre de 1898",
+   "dd": "19 de enero de 1956",
+   "p": "Unión de la India / India",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr%20PC%20Bagchi%20at%20work.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q7297882",
+   "qid": "Q7297882",
+   "n": "Ray Myers",
+   "b": "1889-06-21",
+   "d": "1956-11-04",
+   "bd": "21 de junio de 1889",
+   "dd": "4 de noviembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Ray_Myers",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ray%20Myers%20as%20Davy%20Crockett%201913.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3453278",
+   "qid": "Q3453278",
+   "n": "Rupert Hughes",
+   "b": "1872-01-31",
+   "d": "1956-09-09",
+   "bd": "31 de enero de 1872",
+   "dd": "9 de septiembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "director de cine",
+    "compositor",
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruperthughes.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q328297",
+   "qid": "Q328297",
+   "n": "Sterling Clark",
+   "b": "1877-06-25",
+   "d": "1956-12-29",
+   "bd": "25 de junio de 1877",
+   "dd": "29 de diciembre de 1956",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Sterling_Clark",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Orpen%20Robert%20Sterling%20Clark.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q517360",
+   "qid": "Q517360",
+   "n": "Stina Aronson",
+   "b": "1892-12-26",
+   "d": "1956-11-24",
+   "bd": "26 de diciembre de 1892",
+   "dd": "24 de noviembre de 1956",
+   "p": "Suecia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stina%20Aronson.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "q3517129",
+   "qid": "Q3517129",
+   "n": "Tefft Johnson",
+   "b": "1883-09-23",
+   "d": "1956-10-15",
+   "bd": "23 de septiembre de 1883",
+   "dd": "15 de octubre de 1956",
+   "p": "Estados Unidos",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 10,
+   "wp": "https://es.wikipedia.org/wiki/Tefft_Johnson",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tefft%20Johnson.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "conf": "ok"
+  },
+  {
+   "id": "tamayo",
+   "n": "Franz Tamayo",
+   "b": "1879-02-28",
+   "d": "1956-07-29",
+   "p": "Bolivia",
+   "o": "Literatura",
+   "bio": "Poeta, ensayista y político boliviano, figura clave del pensamiento nacional de su país.",
+   "w": [
+    "Creación de la pedagogía nacional (1910)",
+    "La Prometheida (1917)"
+   ],
+   "c": "Bolivia aplica vida + 50: allí su obra ya es libre desde 2007.",
+   "conf": "ok",
+   "bd": "28 de febrero de 1879",
+   "dd": "29 de julio de 1956",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "joliot",
+   "n": "Irène Joliot-Curie",
+   "b": "1897-09-12",
+   "d": "1956-03-17",
+   "p": "Francia",
+   "o": "Ciencia",
+   "bio": "Química francesa, Premio Nobel en 1935 por el descubrimiento de la radiactividad artificial.",
+   "w": [
+    "Trabajos sobre radiactividad artificial (1934, con Frédéric Joliot)"
+   ],
+   "c": "Los trabajos firmados con Frédéric Joliot (m. 1958) se liberan en 2029.",
+   "conf": "check",
+   "bd": "12 de septiembre de 1897",
+   "dd": "17 de marzo de 1956",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "renner",
+   "n": "Paul Renner",
+   "b": "1878-08-09",
+   "d": "1956-04-25",
+   "p": "Alemania",
+   "o": "Artes visuales",
+   "bio": "Tipógrafo alemán, creador de Futura, una de las tipografías más usadas del siglo XX.",
+   "w": [
+    "Futura (1927)"
+   ],
+   "c": "Se libera el diseño original. Las fuentes digitales de Futura son software y siguen protegidas por sus fabricantes.",
+   "conf": "check",
+   "bd": "9 de agosto de 1878",
+   "dd": "25 de abril de 1956",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  }
+ ]
+}

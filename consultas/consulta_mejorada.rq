@@ -1,11 +1,15 @@
-# Creadores muertos en un año dado (cambiar las fechas marcadas con AÑO).
+# Creadores muertos en un año dado.
+# Plantilla: scripts/generar_anio.py reemplaza {ANIO} y {ANIO_SIG} (año siguiente).
+# Para usarla a mano en query.wikidata.org, reemplazar esos marcadores por los años.
 # Descarta fechas "deprecated" y cuenta fechas de muerte fuera del año (revisar si > 0).
-SELECT ?autor ?autorLabel ?nacimiento ?muerte ?precision ?sitelinks
+SELECT ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelinks
        (GROUP_CONCAT(DISTINCT ?ocupacionLabel; separator=", ") AS ?ocupaciones)
        (GROUP_CONCAT(DISTINCT ?paisLabel; separator=", ") AS ?paises)
        (SAMPLE(?imagen) AS ?foto)
        (SAMPLE(?articuloEs) AS ?wikipediaEs)
        (COUNT(DISTINCT ?otraMuerte) AS ?muertesFueraDelAnio)
+       (SAMPLE(?nombreEs) AS ?etiquetaEs)
+       (SAMPLE(?nombreEn) AS ?etiquetaEn)
 WHERE {
   VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q214917 wd:Q36834
                       wd:Q1028181 wd:Q1281618 wd:Q2526255 wd:Q715301
@@ -20,25 +24,33 @@ WHERE {
             wikibase:rank ?rango .
 
   FILTER(?rango != wikibase:DeprecatedRank)
-  # AÑO: 1956
-  FILTER(?muerte >= "1956-01-01T00:00:00Z"^^xsd:dateTime &&
-         ?muerte <  "1957-01-01T00:00:00Z"^^xsd:dateTime)
+  FILTER(?muerte >= "{ANIO}-01-01T00:00:00Z"^^xsd:dateTime &&
+         ?muerte <  "{ANIO_SIG}-01-01T00:00:00Z"^^xsd:dateTime)
   FILTER(?precision >= 9)
   FILTER(?sitelinks >= 10)
   # ?autor wdt:P27 wd:Q414 .   # solo ciudadanía argentina
 
   OPTIONAL {
     ?autor p:P570/psv:P570/wikibase:timeValue ?otraMuerte .
-    # AÑO: 1956
-    FILTER(?otraMuerte < "1956-01-01T00:00:00Z"^^xsd:dateTime ||
-           ?otraMuerte >= "1957-01-01T00:00:00Z"^^xsd:dateTime)
+    FILTER(?otraMuerte < "{ANIO}-01-01T00:00:00Z"^^xsd:dateTime ||
+           ?otraMuerte >= "{ANIO_SIG}-01-01T00:00:00Z"^^xsd:dateTime)
   }
 
-  OPTIONAL { ?autor wdt:P569 ?nacimiento . }
+  # Nacimiento con su precisión (BestRank = las mismas declaraciones que wdt:P569),
+  # para no mostrar "1 de enero" cuando solo se conoce el año.
+  OPTIONAL {
+    ?autor p:P569 ?stNac .
+    ?stNac a wikibase:BestRank ;
+           psv:P569 [ wikibase:timeValue ?nacimiento ;
+                      wikibase:timePrecision ?precisionNac ] .
+  }
   OPTIONAL { ?autor wdt:P27 ?pais . }
   OPTIONAL { ?autor wdt:P18 ?imagen . }
   OPTIONAL { ?articuloEs schema:about ?autor ;
                          schema:isPartOf <https://es.wikipedia.org/> . }
+  # Etiquetas explícitas: se excluye a quien no tenga nombre en español ni en inglés.
+  OPTIONAL { ?autor rdfs:label ?nombreEs . FILTER(LANG(?nombreEs) = "es") }
+  OPTIONAL { ?autor rdfs:label ?nombreEn . FILTER(LANG(?nombreEn) = "en") }
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "es,en,mul,fr,de" .
@@ -47,5 +59,5 @@ WHERE {
     ?pais rdfs:label ?paisLabel .
   }
 }
-GROUP BY ?autor ?autorLabel ?nacimiento ?muerte ?precision ?sitelinks
+GROUP BY ?autor ?autorLabel ?nacimiento ?precisionNac ?muerte ?precision ?sitelinks
 ORDER BY DESC(?sitelinks)
