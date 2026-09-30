@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 # Respuestas crudas de Wikidata: se regeneran con el script
 datos/generados/crudo/
+prototipo/prototipo.html

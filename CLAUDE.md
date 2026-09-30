@@ -21,7 +21,7 @@ Un sitio web que lista, año por año, los autores cuya obra pasa a dominio púb
 - `datos/referencia/query.csv`: export de 1956 hecho en el chat, para comparar.
 - `scripts/generar_anio.py AAAA`: consulta Wikidata, limpia y genera los datos de un año.
 - `referencia/`: script original del chat (solo documentación).
-- `prototipo/`: prototipo HTML.
+- `prototipo/plantilla.html`: prototipo HTML; `scripts/armar_prototipo.py` le inserta los datos y genera `prototipo/prototipo.html` (no versionado).
 
 ## Reglas de cálculo
 
@@ -65,7 +65,7 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 7. Asignar categoría: Literatura, Música, Artes visuales, Cine e historieta, Ciencia.
 8. Generar un reporte de calidad de datos por año.
 
-## Diseño (del prototipo `prototipo/anio-libre.html`)
+## Diseño (del prototipo `prototipo/plantilla.html`)
 
 - Sello como elemento central: violeta (`#5B3A9B`) = protegida, verde (`#2E7D57`) = libre.
 - Tipografías: Literata (nombres, biografías) y Public Sans (interfaz).

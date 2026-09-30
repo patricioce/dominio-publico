@@ -1,0 +1,565 @@
+<title>Autores que se liberan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,800;1,7..72,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F5F1; --surface:#FFFFFF; --ink:#16213A; --muted:#5B6478; --rule:#D5DAD2;
+  --violet:#5B3A9B; --violet-soft:#ECE6F7; --green:#2E7D57; --green-soft:#E1F1E8;
+  --serif:"Literata", Georgia, "Times New Roman", serif;
+  --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#121826; --surface:#19202F; --ink:#E8EAF0; --muted:#9AA3B5; --rule:#2A3246;
+    --violet:#B39AEB; --violet-soft:#2A2340; --green:#6CCB9C; --green-soft:#17332A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121826; --surface:#19202F; --ink:#E8EAF0; --muted:#9AA3B5; --rule:#2A3246;
+  --violet:#B39AEB; --violet-soft:#2A2340; --green:#6CCB9C; --green-soft:#17332A;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--violet);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header.top{border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:env(safe-area-inset-top,0px);z-index:10}
+.top .wrap{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.brand{font-family:var(--serif);font-weight:800;font-size:1.3rem;text-decoration:none;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.brand-mark{width:28px;height:28px;border-radius:50%;border:2.5px solid var(--green);display:grid;place-items:center;font-size:.85rem;color:var(--green);font-family:var(--sans);font-weight:700}
+nav.main{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav.main a{text-decoration:none;padding:6px 12px;border-radius:6px;color:var(--muted);font-weight:500;font-size:.95rem}
+nav.main a[aria-current="page"]{color:var(--ink);background:var(--surface);box-shadow:inset 0 0 0 1px var(--rule)}
+.regime{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)}
+.regime select{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:6px 8px;color:var(--ink);max-width:230px}
+
+.notice{background:var(--violet-soft);color:var(--ink);font-size:.88rem;padding:10px 0}
+.notice .wrap{display:flex;gap:8px}
+
+main{padding:40px 0 80px}
+
+/* Year hero */
+.year-hero{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center;margin-bottom:44px}
+.stamp{position:relative;border:4px double var(--green);color:var(--green);border-radius:14px;padding:10px 26px 14px;transform:rotate(-3deg);text-align:center;min-width:220px}
+.stamp.protected{border-color:var(--violet);color:var(--violet)}
+.stamp-year{font-family:var(--serif);font-weight:800;font-size:clamp(4rem,11vw,7.2rem);line-height:1;letter-spacing:-.03em;font-variant-numeric:lining-nums}
+.stamp-sub{font-weight:600;font-size:.95rem;margin-top:4px}
+.year-copy h1{font-family:var(--serif);font-weight:600;font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.2;margin:0 0 12px;letter-spacing:-.01em;max-width:24ch}
+.year-copy p{margin:0 0 18px;color:var(--muted);max-width:56ch}
+.yearnav{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--surface);border-radius:8px;padding:7px 14px;text-decoration:none;font-weight:500;font-size:.95rem;cursor:pointer}
+.btn:hover{border-color:var(--ink)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.chip{font-size:.85rem;padding:3px 10px;border-radius:999px;border:1px solid var(--rule);text-decoration:none;color:var(--muted);font-variant-numeric:tabular-nums}
+.chip[aria-current="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* Groups & rows */
+.group{margin-bottom:36px}
+.group h2{font-family:var(--serif);font-weight:600;font-size:1.25rem;margin:0 0 6px;display:flex;align-items:baseline;gap:10px}
+.group h2 small{font-family:var(--sans);font-size:.85rem;color:var(--muted);font-weight:500}
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.row{border-bottom:1px solid var(--rule)}
+.row a{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:14px 4px;text-decoration:none}
+.row a:hover .row-name{text-decoration:underline;text-underline-offset:3px}
+.row-name{font-family:var(--serif);font-size:1.15rem;font-weight:600}
+.row-meta{color:var(--muted);font-size:.9rem;grid-column:1}
+.row-works{color:var(--muted);font-size:.9rem;font-style:italic;font-family:var(--serif);grid-column:1}
+.row-flag{grid-column:2;grid-row:1 / span 3;align-self:center;font-size:.8rem;font-weight:600;color:var(--violet);white-space:nowrap}
+.empty{border:1px dashed var(--rule);border-radius:10px;padding:28px;color:var(--muted)}
+
+/* Profile */
+.back{font-size:.9rem;color:var(--muted);text-decoration:none;display:inline-block;margin-bottom:24px}
+.back:hover{color:var(--ink)}
+.profile{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:start}
+.monogram{width:72px;height:72px;border-radius:50%;background:var(--surface);border:1px solid var(--rule);display:grid;place-items:center;font-family:var(--serif);font-weight:800;font-size:1.6rem;margin-bottom:18px}
+.profile h1{font-family:var(--serif);font-weight:800;font-size:clamp(2rem,5vw,3.1rem);line-height:1.08;margin:0 0 8px;letter-spacing:-.02em}
+.lifespan{color:var(--muted);margin:0 0 20px;font-size:1rem}
+.bio{font-family:var(--serif);font-size:1.12rem;line-height:1.65;max-width:60ch;margin:0 0 26px}
+h3{font-family:var(--serif);font-weight:600;font-size:1.1rem;margin:28px 0 10px}
+.works{margin:0;padding-left:1.1em;font-family:var(--serif);line-height:1.7}
+.caveat{border-left:3px solid var(--violet);background:var(--violet-soft);padding:12px 16px;border-radius:0 8px 8px 0;font-size:.95rem;margin-top:24px}
+.caveat strong{display:block;margin-bottom:2px}
+
+.counter{text-align:center;padding:12px 0 8px}
+.counter .stamp{display:inline-block;min-width:0;padding:14px 30px 18px}
+.counter-big{font-family:var(--serif);font-weight:800;font-size:clamp(3.4rem,9vw,5rem);line-height:1;letter-spacing:-.03em;font-variant-numeric:lining-nums}
+.counter-label{font-weight:600;font-size:1rem;margin-top:6px}
+.counter-lead{font-weight:600;font-size:1rem;margin-bottom:6px}
+.counter-note{color:var(--muted);font-size:.92rem;margin:18px auto 0;max-width:34ch}
+
+.timeline{margin:30px 0 8px}
+.tl-bar{position:relative;height:14px;border-radius:7px;overflow:hidden;display:flex;background:var(--rule)}
+.tl-life{background:var(--ink);opacity:.8}
+.tl-prot{background:repeating-linear-gradient(135deg,var(--violet) 0 5px,transparent 5px 9px);background-color:var(--violet-soft)}
+.tl-free{background:var(--green)}
+.tl-wrap{position:relative;padding-top:26px}
+.tl-today{position:absolute;top:0;bottom:-4px;width:2px;background:var(--ink)}
+.tl-today span{position:absolute;top:0;left:50%;transform:translateX(-50%);font-size:.75rem;font-weight:600;white-space:nowrap}
+.tl-legend{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+.tl-keys{display:flex;gap:14px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin-top:10px}
+.tl-keys i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+table.juris{width:100%;border-collapse:collapse;font-size:.93rem;margin-top:6px}
+table.juris th,table.juris td{text-align:left;padding:9px 6px;border-bottom:1px solid var(--rule)}
+table.juris th{font-weight:600;color:var(--muted);font-size:.82rem}
+table.juris td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.st-free{color:var(--green);font-weight:600}
+.st-prot{color:var(--violet);font-weight:600}
+tr.active td{background:var(--surface)}
+
+.conf{display:inline-block;font-size:.8rem;font-weight:600;padding:2px 9px;border-radius:999px;margin-left:6px;vertical-align:3px}
+.conf.ok{background:var(--green-soft);color:var(--green)}
+.conf.check{background:var(--violet-soft);color:var(--violet)}
+
+/* Search */
+.search-head h1{font-family:var(--serif);font-weight:600;font-size:2rem;margin:0 0 14px}
+.search-input{width:100%;max-width:520px;padding:12px 14px;border-radius:10px;border:1px solid var(--rule);background:var(--surface);font-size:1rem}
+.table-wrap{overflow-x:auto;margin-top:22px}
+table.all{width:100%;border-collapse:collapse;min-width:620px}
+table.all th,table.all td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--rule);font-size:.94rem}
+table.all th{color:var(--muted);font-weight:600;font-size:.82rem}
+table.all td.name a{font-family:var(--serif);font-weight:600;font-size:1.02rem;text-decoration:none}
+table.all td.name a:hover{text-decoration:underline}
+table.all td.num{font-variant-numeric:tabular-nums}
+
+/* Method */
+.prose{max-width:66ch}
+.prose h1{font-family:var(--serif);font-weight:600;font-size:2rem;margin:0 0 16px}
+.prose h2{font-family:var(--serif);font-weight:600;font-size:1.25rem;margin:30px 0 8px}
+.prose p,.prose li{line-height:1.65}
+.formula{font-family:var(--serif);font-size:1.2rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 18px;margin:12px 0}
+
+.more{margin-top:10px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.src{font-size:.82rem;color:var(--muted);margin-top:18px}
+.occ{color:var(--muted);font-size:.95rem;margin:-10px 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0 8px}
+.stat{border:1px solid var(--rule);border-radius:10px;padding:12px 14px;background:var(--surface)}
+.stat b{display:block;font-family:var(--serif);font-size:1.7rem;line-height:1.1}
+.stat span{font-size:.85rem;color:var(--muted)}
+.prose ul.tight li{line-height:1.5;margin-bottom:4px}
+footer{border-top:1px solid var(--rule);padding:24px 0 40px;color:var(--muted);font-size:.85rem}
+footer p{margin:0 0 6px;max-width:70ch}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:.92rem;color:var(--muted);margin-left:6px;cursor:pointer}
+.toggle input{accent-color:var(--violet);width:16px;height:16px}
+.prose.wide{max-width:none}
+.prose.wide > p,.prose.wide > ul,.prose.wide > h2{max-width:66ch}
+table.all.compact{min-width:560px}
+table.all.compact td,table.all.compact th{padding:7px 8px}
+table.all tr.active td{background:var(--surface)}
+.linklike{background:none;border:0;padding:0;color:var(--violet);font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-variant-numeric:tabular-nums}
+.row-meta,.row-works,.row-name{min-width:0;overflow-wrap:anywhere}
+
+@media (max-width:760px){
+  .year-hero{grid-template-columns:1fr;gap:24px}
+  .stamp{justify-self:start}
+  .profile{grid-template-columns:1fr;gap:28px}
+  .profile aside{order:-1}
+  nav.main{margin-left:0;width:100%}
+  .regime{width:100%}
+  .regime select{flex:1;max-width:none}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stamp.animate{animation:stampIn .45s cubic-bezier(.2,.9,.3,1.3) both}
+  @keyframes stampIn{from{transform:rotate(-3deg) scale(1.35);opacity:0}to{transform:rotate(-3deg) scale(1);opacity:1}}
+}
+</style>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">©</span>Nombre a definir</a>
+    <nav class="main" aria-label="Secciones">
+      <a href="#/" data-nav="anio">Por año</a>
+      <a href="#/buscar" data-nav="buscar">Todos los autores</a>
+      <a href="#/metodo" data-nav="metodo">Cómo calculamos</a>
+      <a href="#/datos" data-nav="datos">Calidad de datos</a>
+    </nav>
+    <label class="regime">Calcular para
+      <select id="regime" aria-label="Legislación para el cálculo"></select>
+    </label>
+  </div>
+</header>
+<div class="notice"><div class="wrap"><span id="notice"></span></div></div>
+
+<main><div class="wrap" id="app"></div></main>
+
+<footer><div class="wrap">
+  <p>Información orientativa, no es asesoramiento legal. El cálculo aplica el plazo estándar; coautorías, obras póstumas, traducciones y marcas registradas pueden cambiarlo.</p>
+  <p>En Argentina, el uso comercial de obras en dominio público paga un derecho al Fondo Nacional de las Artes (dominio público pagante).</p>
+  <p>Datos: Wikidata (CC0), con correcciones y fichas curadas a mano.</p>
+</div></footer>
+
+<script>
+/* ---------- Datos (generados por scripts/armar_prototipo.py) ---------- */
+const AUTHORS = /*AUTORES*/[];
+const REPORTES = /*REPORTES*/{};
+const INDICE = /*INDICE*/[];
+const ENLACES = /*ENLACES*/{};
+const RANGO = /*RANGO*/[0,0];
+
+/* ---------- Legislaciones ---------- */
+const REGIMES = {
+  ar:  {label:"Argentina (vida + 70)", short:"Argentina", term:()=>70},
+  ue:  {label:"Unión Europea (vida + 70)", short:"Unión Europea", term:()=>70},
+  es:  {label:"España (vida + 80 / + 70)", short:"España", term:a=>a.d < "1987-12-07" ? 80 : 70},
+  v60: {label:"Vida + 60 (India, Venezuela)", short:"Vida + 60", term:()=>60},
+  v50: {label:"Vida + 50 (China, Egipto…)", short:"Vida + 50", term:()=>50}
+};
+const FLAG_TEXT = {
+  muerte: a=>`Wikidata registra más de una fecha de muerte, todas en ${deathYear(a)}. El año de liberación no cambia, pero la fecha exacta está pendiente de verificar.`,
+  nacimiento: ()=>"Wikidata registra más de una fecha de nacimiento. No afecta el cálculo.",
+  anio: ()=>"Solo se conoce el año de muerte. Alcanza para el cálculo, pero la fecha exacta está pendiente.",
+  muerte_otro_anio: ()=>"Wikidata registra también una fecha de muerte en otro año, y ninguna figura como preferida. Si la correcta es la otra, cambia el año de liberación.",
+  sin_nacimiento: ()=>"No hay fecha de nacimiento registrada. No afecta el cálculo."
+};
+const SRC_TEXT = {"wikidata":"Wikidata, sin revisión manual","wikidata+curado":"Wikidata, con revisión manual","curado":"ficha curada a mano"};
+const OCC_ORDER = ["Literatura","Música","Artes visuales","Cine e historieta","Ciencia","Sin categoría"];
+
+let regime = "ar", soloArg = false;
+try{ const r = localStorage.getItem("dp-regime"); if(r && REGIMES[r]) regime = r; }catch(e){}
+try{ soloArg = localStorage.getItem("dp-solo-arg") === "1"; }catch(e){}
+
+const now = new Date();
+const THIS_YEAR = now.getFullYear();
+const byId = Object.fromEntries(AUTHORS.map(a=>[a.id,a]));
+
+const deathYear = a => parseInt(a.d.slice(0,4),10);
+const birthYear = a => a.b ? parseInt(a.b.slice(0,4),10) : null;
+const lifeSpan = a => `${birthYear(a) ?? "?"}–${deathYear(a)}`;
+const isArg = a => (a.consultas||[]).includes("argentinos") || /Argentina/.test(a.p||"");
+const freeYear = (a,r=regime) => deathYear(a) + REGIMES[r].term(a) + 1;
+const daysUntil = y => Math.ceil((Date.UTC(y,0,1) - Date.UTC(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
+const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const fmtDate = iso => { const [y,m,d] = iso.split("-").map(Number); return `${d} de ${MONTHS[m-1]} de ${y}`; };
+const initials = n => n.replace(/[^A-Za-zÁÉÍÓÚÑáéíóúñçÇşŞ\s.]/g,"").split(/\s+/).filter(w=>w && w[0]===w[0].toUpperCase() && w.length>1).slice(-2).map(w=>w[0]).join("") || n[0];
+const plural = (n,s,p) => `${n.toLocaleString("es-AR")} ${n===1?s:p}`;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function status(a, r=regime){
+  const fy = freeYear(a,r);
+  if (fy <= THIS_YEAR) return {free:true, fy, text:`Libre desde ${fy}`};
+  const years = fy - THIS_YEAR;
+  if (years === 1) return {free:false, fy, years, text:`Faltan ${plural(daysUntil(fy),"día","días")}`};
+  return {free:false, fy, years, text:`Faltan ${plural(years,"año","años")}`};
+}
+
+document.getElementById("notice").textContent =
+  `Prototipo con datos reales de Wikidata: ${plural(AUTHORS.length,"creador","creadores")} muertos entre ${RANGO[0]} y ${RANGO[1]} (${plural(AUTHORS.filter(isArg).length,"argentino","argentinos")}). El nombre del sitio está a definir.`;
+
+/* ---------- Render ---------- */
+const app = document.getElementById("app");
+const sel = document.getElementById("regime");
+sel.innerHTML = Object.entries(REGIMES).map(([k,v])=>`<option value="${k}">${v.label}</option>`).join("");
+sel.value = regime;
+sel.addEventListener("change", ()=>{
+  regime = sel.value;
+  try{ localStorage.setItem("dp-regime", regime); }catch(e){}
+  route(false);
+});
+
+function setNav(key){
+  document.querySelectorAll("[data-nav]").forEach(a=>{
+    if(a.dataset.nav===key) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");
+  });
+}
+
+function renderYear(year){
+  setNav("anio");
+  const all = AUTHORS.filter(a=>freeYear(a)===year);
+  const list = soloArg ? all.filter(isArg) : all;
+  const years = [...new Set(AUTHORS.map(a=>freeYear(a)))].sort((x,y)=>x-y);
+  const future = year > THIS_YEAR;
+  const days = daysUntil(year);
+  let sub;
+  if (year === THIS_YEAR + 1) sub = `Faltan ${plural(days,"día","días")}`;
+  else if (future) sub = `Dentro de ${plural(year-THIS_YEAR,"año","años")}`;
+  else if (year === THIS_YEAR) sub = "Liberados este año";
+  else sub = `Hace ${plural(THIS_YEAR-year,"año","años")}`;
+
+  const term = REGIMES[regime].short;
+  const deathY = regime==="es" ? null : year - REGIMES[regime].term({d:"2000-01-01"}) - 1;
+  const lead = future
+    ? `Autores cuyas obras quedan libres el 1 de enero de ${year}`
+    : `Autores cuyas obras quedaron libres el 1 de enero de ${year}`;
+  const nArg = all.filter(isArg).length;
+  const expl = regime==="es"
+    ? `Cálculo para ${term}: vida + 80 para quienes murieron antes de diciembre de 1987 y vida + 70 después.`
+    : `Cálculo para ${term}: creadores que murieron en ${deathY}. ${all.length ? `Hay ${plural(all.length,"autor","autores")}, ${plural(nArg,"argentino","argentinos")}.` : ""}`;
+
+  const prev = years.filter(y=>y<year).pop(), next = years.find(y=>y>year);
+  let html = `
+  <section class="year-hero">
+    <div class="stamp animate ${future?"protected":""}" aria-hidden="true">
+      <div class="stamp-year">${year}</div><div class="stamp-sub">${sub}</div>
+    </div>
+    <div class="year-copy">
+      <h1>${lead}</h1>
+      <p>${expl}</p>
+      <div class="yearnav">
+        <a class="btn" href="#/anio/${year-1}" aria-label="Año anterior">‹ ${year-1}</a>
+        <a class="btn" href="#/anio/${year+1}" aria-label="Año siguiente">${year+1} ›</a>
+        <label class="toggle"><input type="checkbox" id="solo-arg" ${soloArg?"checked":""}> Solo argentinos</label>
+      </div>
+      <div class="chips" aria-label="Años con autores">
+        ${years.map(y=>`<a class="chip" href="#/anio/${y}" aria-current="${y===year}">${y}</a>`).join("")}
+      </div>
+    </div>
+  </section>`;
+
+  if (!list.length){
+    html += `<div class="empty">No hay ${soloArg?"autores argentinos":"autores"} que se liberen en ${year} con esta legislación en los datos cargados (muertes entre ${RANGO[0]} y ${RANGO[1]}).
+      ${prev?`<a href="#/anio/${prev}">Ver ${prev}</a>`:""}${prev&&next?" o ":""}${next?`<a href="#/anio/${next}">ver ${next}</a>`:""}.</div>`;
+  } else {
+    const LIMIT = 12;
+    for (const occ of OCC_ORDER){
+      // Fichas curadas primero, luego por notoriedad; quienes entran solo como periodistas van al final.
+      const g = list.filter(a=>a.o===occ).sort((x,y)=>
+        (!!x.solo_periodista - !!y.solo_periodista) || (!!y.bio - !!x.bio) || (y.sl||0)-(x.sl||0) || x.n.localeCompare(y.n,"es"));
+      if(!g.length) continue;
+      const rowHtml = (a,hidden) => `<li class="row"${hidden?" hidden":""}><a href="#/autor/${a.id}">
+          <span class="row-name">${esc(a.n)}</span>
+          <span class="row-meta">${lifeSpan(a)} · ${esc(a.p)}</span>
+          <span class="row-works">${esc(a.w&&a.w.length ? a.w.slice(0,2).join(", ") : (a.occ||[]).join(", "))}</span>
+          ${a.conf==="check"?`<span class="row-flag">Caso a verificar</span>`:""}
+        </a></li>`;
+      html += `<section class="group"><h2>${occ} <small>${g.length}</small></h2><ul class="rows">
+        ${g.map((a,i)=>rowHtml(a,i>=LIMIT)).join("")}
+      </ul>${g.length>LIMIT?`<button class="btn more" data-more>Mostrar los ${g.length} autores</button>`:""}</section>`;
+    }
+    html += `<p class="src">Primero las fichas revisadas a mano; después, por notoriedad (cantidad de Wikipedias con artículo sobre el autor).</p>`;
+  }
+  app.innerHTML = html;
+  app.querySelectorAll("[data-more]").forEach(b=>b.addEventListener("click",()=>{
+    b.previousElementSibling.querySelectorAll("li[hidden]").forEach(li=>li.hidden=false); b.remove();
+  }));
+  document.getElementById("solo-arg").addEventListener("change", e=>{
+    soloArg = e.target.checked;
+    try{ localStorage.setItem("dp-solo-arg", soloArg?"1":"0"); }catch(err){}
+    renderYear(year);
+  });
+}
+
+function renderAuthor(id){
+  setNav("");
+  const a = byId[id];
+  if(!a){ app.innerHTML = `<div class="empty">No encontramos ese autor. <a href="#/buscar">Ver todos los autores</a>.</div>`; return; }
+  const st = status(a);
+  const dy = deathYear(a), by = birthYear(a) ?? dy - 60;
+
+  const start = by, end = Math.max(st.fy + 8, THIS_YEAR + 6);
+  const span = end - start;
+  const pct = y => ((y - start)/span*100);
+  const today = Math.min(100, Math.max(0, pct(THIS_YEAR + (now.getMonth()/12))));
+
+  let counter;
+  if (st.free){
+    counter = `<div class="stamp" aria-hidden="true"><div class="counter-lead">Libre desde</div><div class="counter-big">${st.fy}</div></div>
+      <p class="counter-note">Su obra está en dominio público en ${REGIMES[regime].short} desde hace ${plural(THIS_YEAR - st.fy + 1,"año","años")}.</p>`;
+  } else if (st.years === 1){
+    const d = daysUntil(st.fy);
+    counter = `<div class="stamp protected animate" aria-hidden="true"><div class="counter-lead">Faltan</div><div class="counter-big">${d.toLocaleString("es-AR")}</div><div class="counter-label">${d===1?"día":"días"}</div></div>
+      <p class="counter-note">Queda libre en ${REGIMES[regime].short} el 1 de enero de ${st.fy}.</p>`;
+  } else {
+    counter = `<div class="stamp protected animate" aria-hidden="true"><div class="counter-lead">Faltan</div><div class="counter-big">${st.years}</div><div class="counter-label">años</div></div>
+      <p class="counter-note">Queda libre en ${REGIMES[regime].short} el 1 de enero de ${st.fy}.</p>`;
+  }
+
+  const rows = Object.entries(REGIMES).map(([k,r])=>{
+    const s = status(a,k);
+    return `<tr class="${k===regime?"active":""}"><td>${r.short}</td><td class="num">${s.fy}</td><td class="${s.free?"st-free":"st-prot"}">${s.free?"Libre":s.text}</td></tr>`;
+  }).join("");
+
+  app.innerHTML = `
+  <a class="back" href="#/anio/${st.fy}">‹ Autores que se liberan en ${st.fy}</a>
+  <div class="profile">
+    <article>
+      <div class="monogram" aria-hidden="true">${esc(initials(a.n))}</div>
+      <h1>${esc(a.n)}</h1>
+      <p class="lifespan">${esc(a.bd||(a.b?fmtDate(a.b):"Nacimiento sin dato"))} – ${esc(a.dd||fmtDate(a.d))} · ${esc(a.p)} · ${a.o}
+        <span class="conf ${a.conf==="check"?"check":"ok"}">${a.conf==="check"?"Caso a verificar":"Cálculo estándar"}</span></p>
+      ${a.occ&&a.occ.length?`<p class="occ">${esc(a.occ.join(", "))}</p>`:""}
+      <p class="bio">${a.bio ? esc(a.bio) : "Biografía pendiente de redacción."}</p>
+      ${a.w&&a.w.length?`<h3>Obras principales</h3><ul class="works">${a.w.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+      ${a.c?`<div class="caveat"><strong>A tener en cuenta</strong>${esc(a.c)}</div>`:""}
+      ${(a.flags||[]).filter(f=>FLAG_TEXT[f]).map(f=>`<div class="caveat"><strong>Dato a revisar</strong>${FLAG_TEXT[f](a)}</div>`).join("")}
+      ${isArg(a)?`<div class="caveat"><strong>Dominio público pagante</strong>En Argentina, el uso comercial de esta obra, una vez libre, paga un derecho al Fondo Nacional de las Artes.</div>`:""}
+      <div class="links">
+        ${a.wp?`<a class="btn" href="${esc(a.wp)}" target="_blank" rel="noopener">Wikipedia</a>`:""}
+        ${a.qid?`<a class="btn" href="https://www.wikidata.org/wiki/${a.qid}" target="_blank" rel="noopener">Wikidata</a>`:""}
+        ${a.bnmm&&ENLACES.bnmm?`<a class="btn" href="${esc(ENLACES.bnmm.replace("{}",a.bnmm))}" target="_blank" rel="noopener">Biblioteca Nacional</a>`:""}
+        ${a.img?`<a class="btn" href="${esc(a.img)}" target="_blank" rel="noopener">Ver foto</a>`:""}
+      </div>
+      <p class="src">Fuente: ${SRC_TEXT[a.src]||"ficha curada"}.${a.solo_periodista?" Figura en Wikidata solo como periodista.":""}</p>
+    </article>
+    <aside>
+      <div class="counter" role="status" aria-label="${st.free?`Libre desde ${st.fy}`:`${st.text} para que quede libre en ${REGIMES[regime].short}`}">${counter}</div>
+
+      <div class="timeline" aria-hidden="true">
+        <div class="tl-wrap">
+          <div class="tl-bar">
+            <div class="tl-life" style="width:${pct(dy)}%"></div>
+            <div class="tl-prot" style="width:${pct(st.fy)-pct(dy)}%"></div>
+            <div class="tl-free" style="width:${100-pct(st.fy)}%"></div>
+          </div>
+          <div class="tl-today" style="left:${today}%"><span>Hoy</span></div>
+        </div>
+        <div class="tl-legend"><span>${birthYear(a) ?? "?"}</span><span>${dy}</span><span>${st.fy}</span></div>
+        <div class="tl-keys"><span><i style="background:var(--ink);opacity:.8"></i>Vida</span><span><i style="background:var(--violet)"></i>Protegida</span><span><i style="background:var(--green)"></i>Dominio público</span></div>
+      </div>
+
+      <h3>En otras legislaciones</h3>
+      <table class="juris">
+        <thead><tr><th>Legislación</th><th>Se libera</th><th>Estado</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </aside>
+  </div>`;
+  window.scrollTo(0,0);
+}
+
+function renderSearch(){
+  setNav("buscar");
+  app.innerHTML = `
+  <div class="search-head">
+    <h1>Todos los autores</h1>
+    <input class="search-input" id="q" type="search" placeholder="Buscar por nombre, país u oficio" aria-label="Buscar autores">
+    <p class="src" id="count"></p>
+  </div>
+  <div class="table-wrap"><table class="all">
+    <thead><tr><th>Autor</th><th>Vida</th><th>País</th><th>Se libera</th><th>Estado</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table></div>`;
+  const input = document.getElementById("q"), tb = document.getElementById("tb"), count = document.getElementById("count");
+  const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+  const MAX = 200;
+  const draw = () => {
+    const t = norm(input.value.trim());
+    const rows = AUTHORS
+      .filter(a=>!t || norm(`${a.n} ${a.p} ${a.o} ${(a.occ||[]).join(" ")}`).includes(t))
+      .sort((x,y)=>freeYear(x)-freeYear(y) || (y.sl||0)-(x.sl||0) || x.n.localeCompare(y.n,"es"));
+    count.textContent = rows.length > MAX ? `${plural(rows.length,"resultado","resultados")}; se muestran los primeros ${MAX}. Escribí para filtrar.` : plural(rows.length,"resultado","resultados");
+    tb.innerHTML = rows.length ? rows.slice(0,MAX).map(a=>{
+      const s = status(a);
+      return `<tr><td class="name"><a href="#/autor/${a.id}">${esc(a.n)}</a></td>
+        <td class="num">${lifeSpan(a)}</td><td>${esc(a.p)}</td>
+        <td class="num">${s.fy}</td><td class="${s.free?"st-free":"st-prot"}">${s.free?"Libre":s.text}</td></tr>`;
+    }).join("") : `<tr><td colspan="5">Ningún autor coincide con “${esc(input.value)}”. Probá con otro nombre, país u oficio.</td></tr>`;
+  };
+  input.addEventListener("input", draw);
+  draw();
+}
+
+function renderMethod(){
+  setNav("metodo");
+  app.innerHTML = `
+  <article class="prose">
+    <h1>Cómo calculamos</h1>
+    <p>La obra de un autor pasa a dominio público el 1 de enero siguiente al vencimiento del plazo de protección, que se cuenta desde su muerte.</p>
+    <div class="formula">Año de liberación = año de muerte + plazo + 1</div>
+    <p>Por ejemplo, Bertolt Brecht murió en 1956. Con el plazo argentino de 70 años, su obra queda libre el 1 de enero de 2027.</p>
+    <h2>Plazos que usamos</h2>
+    <ul>
+      <li><strong>Argentina y Unión Europea:</strong> vida + 70.</li>
+      <li><strong>España:</strong> vida + 80 para autores muertos antes del 7 de diciembre de 1987, y vida + 70 después.</li>
+      <li><strong>Vida + 60:</strong> India, Bangladesh y Venezuela.</li>
+      <li><strong>Vida + 50:</strong> China, Egipto y buena parte de África y Asia. Canadá, Nueva Zelanda y Japón pasaron a vida + 70 sin efecto retroactivo, por eso no los incluimos acá.</li>
+      <li><strong>México</strong> aplica vida + 100, con transiciones complejas; no lo calculamos.</li>
+    </ul>
+    <h2>Qué no cubre el cálculo estándar</h2>
+    <ul>
+      <li>Obras en coautoría, que se liberan con la muerte del último coautor.</li>
+      <li>Obras póstumas, anónimas o con seudónimo.</li>
+      <li>Traducciones e ilustraciones, que tienen su propio autor.</li>
+      <li>Películas, que dependen de varios colaboradores.</li>
+      <li>Marcas registradas sobre personajes y títulos.</li>
+      <li>Estados Unidos, que para obras antiguas cuenta desde la publicación y no desde la muerte del autor.</li>
+    </ul>
+    <p>Cuando alguna de estas situaciones aplica, el perfil lo marca como “Caso a verificar”.</p>
+    <h2>De dónde salen los datos</h2>
+    <p>Los creadores muertos entre ${RANGO[0]} y ${RANGO[1]} vienen de Wikidata: escritores, poetas, dramaturgos, letristas, compositores, pintores, escultores, fotógrafos, directores de cine e historietistas con artículo en al menos 10 Wikipedias. Para argentinos bajamos el umbral a 3 y sumamos guionistas, periodistas, ilustradores, dibujantes, libretistas y otras ocupaciones. Los autores más conocidos tienen además una ficha revisada a mano. Ver <a href="#/datos">calidad de datos</a>.</p>
+    <h2>Dominio público pagante</h2>
+    <p>En Argentina, quien explota comercialmente una obra en dominio público (por ejemplo, al editarla) debe pagar un derecho al Fondo Nacional de las Artes.</p>
+  </article>`;
+}
+
+let datosAnio = null;
+function renderData(){
+  setNav("datos");
+  const anios = INDICE.map(r=>r.anio_muerte);
+  if (!anios.includes(datosAnio)) datosAnio = anios.includes(1956) ? 1956 : anios[0];
+  const r = REPORTES[datosAnio] || {};
+  const li = xs => (xs||[]).map(x=>`<li>${esc(x)}</li>`).join("") || "<li>Ninguno.</li>";
+  const tot = k => INDICE.reduce((s,x)=>s+(x[k]||0),0);
+  app.innerHTML = `
+  <article class="prose wide">
+    <h1>Calidad de datos</h1>
+    <p>Resultado de la importación de Wikidata después de la limpieza automática, las correcciones manuales y las fichas curadas.</p>
+    <div class="stats">
+      <div class="stat"><b>${tot("personas").toLocaleString("es-AR")}</b><span>creadores publicados</span></div>
+      <div class="stat"><b>${tot("argentinos").toLocaleString("es-AR")}</b><span>argentinos</span></div>
+      <div class="stat"><b>${tot("a_revisar").toLocaleString("es-AR")}</b><span>casos a verificar</span></div>
+      <div class="stat"><b>${tot("muerte_fuera_del_anio").toLocaleString("es-AR")}</b><span>con fechas de muerte en dos años</span></div>
+    </div>
+    <h2>Por año de muerte</h2>
+    <div class="table-wrap"><table class="all compact">
+      <thead><tr><th>Muerte</th><th>Se libera (AR)</th><th>Autores</th><th>Argentinos</th><th>Sin ficha BNMM</th><th>A verificar</th><th>Fechas en dos años</th></tr></thead>
+      <tbody>${INDICE.map(x=>`<tr${x.anio_muerte===datosAnio?' class="active"':""}>
+        <td class="num"><button class="linklike" data-anio="${x.anio_muerte}">${x.anio_muerte}</button></td><td class="num">${x.anio_muerte+71}</td>
+        <td class="num">${x.personas}</td><td class="num">${x.argentinos}</td><td class="num">${x.argentinos_sin_bnmm}</td>
+        <td class="num">${x.a_revisar}</td><td class="num">${x.muerte_fuera_del_anio}</td></tr>`).join("")}</tbody>
+    </table></div>
+    <h2>Detalle de ${datosAnio}</h2>
+    <p>${r.filas} filas de Wikidata (${Object.entries(r.filas_por_consulta||{}).map(([k,v])=>`${v} de la consulta ${k}`).join(", ")}) se unificaron en ${r.personas_unicas} personas; se publican ${r.personas_publicadas}.</p>
+    <h2>Fechas de muerte en otro año</h2>
+    <p>Wikidata registra también una fecha en otro año y ninguna es la preferida. Cambian el año de liberación: hay que resolverlas a mano.</p>
+    <ul class="tight">${li(r.muerte_fuera_del_anio)}</ul>
+    <h2>Pasaron a otro año</h2>
+    <p>La fecha preferida en Wikidata, una corrección o una ficha curada ubican la muerte en otro año.</p>
+    <ul class="tight">${li(r.movidos_a_otro_anio)}</ul>
+    <h2>Fechas de muerte en disputa dentro del año</h2>
+    <p>No cambian el año de liberación; se muestra solo el año hasta verificarlas.</p>
+    <ul class="tight">${li(r.muerte_en_disputa)}</ul>
+    <h2>Fechas de nacimiento en disputa</h2>
+    <ul class="tight">${li(r.nacimiento_en_disputa)}</ul>
+    <h2>Argentinos sin ficha en la Biblioteca Nacional</h2>
+    <p>No tienen cargado en Wikidata el identificador de la Biblioteca Nacional Mariano Moreno.</p>
+    <ul class="tight">${li(r.argentinos_sin_bnmm)}</ul>
+    <h2>Solo como periodistas</h2>
+    <p>Se publican, pero no se destacan en las listas por año.</p>
+    <ul class="tight">${li(r.solo_periodista)}</ul>
+    <h2>Otros</h2>
+    <ul class="tight">
+      <li>Excluidos por corrección manual: ${esc((r.excluidos_por_correccion||[]).join(", ") || "ninguno")}.</li>
+      <li>Excluidos por no tener nombre en español, inglés ni multilingüe: ${esc((r.excluidos_sin_nombre||[]).join(", ") || "ninguno")}.</li>
+      <li>Sin país registrado: ${esc((r.sin_pais||[]).join(", ") || "ninguno")}.</li>
+      <li>Sin artículo en la Wikipedia en español: ${(r.sin_wikipedia_es||[]).length}.</li>
+      <li>Fichas curadas que la consulta no trajo (se mantienen): ${esc((r.curados_ausentes_en_wikidata||[]).join(", ") || "ninguna")}.</li>
+    </ul>
+  </article>`;
+  app.querySelectorAll("[data-anio]").forEach(b=>b.addEventListener("click",()=>{ datosAnio = +b.dataset.anio; renderData(); }));
+}
+
+function route(scroll=true){
+  const parts = location.hash.replace(/^#\/?/,"").split("/");
+  if (parts[0]==="autor") renderAuthor(parts[1]);
+  else if (parts[0]==="buscar") renderSearch();
+  else if (parts[0]==="metodo") renderMethod();
+  else if (parts[0]==="datos") renderData();
+  else {
+    const y = parseInt(parts[1],10);
+    renderYear(Number.isFinite(y) && y>1800 && y<2200 ? y : THIS_YEAR + 1);
+  }
+  if (scroll) window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", ()=>route());
+route();
+</script>
