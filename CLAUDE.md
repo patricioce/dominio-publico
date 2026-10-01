@@ -72,6 +72,7 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 - Tipografías: Literata (nombres, biografías) y Public Sans (interfaz).
 - Vistas: página por año, perfil de autor (contador, línea de tiempo vida/protección/dominio público, tabla por legislación), buscador, "Cómo calculamos", "Calidad de datos".
 - Tema claro y oscuro.
+- Sitio en Astro: sin selector de legislación (el del prototipo se descarta). Las páginas de año y el contador del perfil van por Argentina; las demás legislaciones se muestran en la tabla del perfil.
 
 ## Hoja de ruta
 
