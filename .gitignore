@@ -6,3 +6,7 @@ __pycache__/
 # Respuestas crudas de Wikidata: se regeneran con el script
 datos/generados/crudo/
 prototipo/prototipo.html
+# Sitio en Astro
+sitio/node_modules/
+sitio/dist/
+sitio/.astro/
