@@ -1,6 +1,6 @@
 {
  "anio": 1976,
- "filas": 257,
+ "filas": 259,
  "personas_unicas": 224,
  "personas_publicadas": 224,
  "por_categoria": {
@@ -15,6 +15,7 @@
  "muerte_en_disputa": [
   "Jimmy Reed: 1976-08-09, 1976-08-29",
   "Géza Anda: 1976-06-13, 1976-06-14",
+  "Stith Thompson: 1976-01-10, 1976-01-13",
   "Victor Varconi: 1976-06-06, 1976-07-26",
   "Enrico Mainardi: 1976-04-10, 1976-04-11",
   "Adriaan Roland Holst: 1976-08-05, 1976-08-06",
@@ -25,7 +26,6 @@
  "muerte_solo_anio": [
   "Armén Ohanián",
   "Naẓīra Zain-ad-Dīn",
-  "Martha Walter",
   "José Díaz Morales",
   "Izzat al-Nuss",
   "Raymundo Gleyzer",
@@ -39,10 +39,11 @@
   "Juan Stefanich (Q6504504)"
  ],
  "nacimiento_en_disputa": [
+  "Sŏr-ya Han: 1900-08-03, 1900-08-30",
   "Afro Basaldella: 1912-03-04, 1912-04-03",
   "Vishnu Sakharam Khandekar: 1889-01-19, 1898-01-11",
-  "Charles Lederer: 1906-12-31, 1911-12-31",
   "Anna Barkova: 1901-07-16, 1901-07-29",
+  "Charles Lederer: 1906-12-31, 1911-12-31",
   "Vasyl Kasian: 1896-01-01, 1896-12-20"
  ],
  "nacimiento_solo_anio": [
@@ -50,7 +51,6 @@
   "Naẓīra Zain-ad-Dīn",
   "Izzat al-Nuss",
   "Carlos Mastronardi",
-  "Miguel Ángel Bustos",
   "Juan Stefanich"
  ],
  "sin_nacimiento": [],
@@ -70,59 +70,62 @@
   "Andrei Fajt",
   "Khair al-Din al-Zirkli",
   "Eugen Roth",
-  "Viswanatha Satyanarayana",
   "Enrico Mainardi",
   "Serafima Birman",
+  "Viswanatha Satyanarayana",
   "Max Tau",
-  "Adriaan Roland Holst",
-  "Albert Dieudonné",
-  "Sŏr-ya Han",
   "Winston Hibler",
+  "Adriaan Roland Holst",
+  "Sŏr-ya Han",
+  "Albert Dieudonné",
   "John Lounsbery",
   "Hans Stüwe",
   "Ivo Tijardović",
   "Irvin Willat",
-  "Martin Wickramasinghe",
   "Jan Nisar Akhtar",
+  "Martin Wickramasinghe",
   "Edgar Pangborn",
   "Stanisław Grochowiak",
-  "Vishnu Sakharam Khandekar",
-  "Massimo Dallamano",
-  "Mario Pisu",
   "Zlatyu Boyadzhiev",
   "Naẓīra Zain-ad-Dīn",
   "Ivan Melezh",
   "Salomon Smolianoff",
+  "Massimo Dallamano",
+  "Mario Pisu",
+  "Vishnu Sakharam Khandekar",
   "Mikhail Yanshin",
   "Giani Gurmukh Singh Musafir",
   "Viktor Nikitič Lazarev",
   "Sergiu Dan",
-  "Mohsen Hashtroodi",
   "Józef Wittlin",
+  "Robert Lord",
+  "Anna Barkova",
   "Johannes Meyer",
   "Harry Braverman",
   "Charles Lederer",
   "Charles Reznikoff",
-  "Robert Lord",
-  "Anna Barkova",
   "Georges Migot",
+  "Mohsen Hashtroodi",
   "Rd Ariffien",
   "Gegham Saryan",
   "Eva Schulze-Knabe",
   "Lars Gullin",
   "Mike Pratt",
-  "Ercole Patti",
+  "Vladimir Gajdarov",
+  "Vasyl Kasian",
   "Camilo Osías",
   "Akio Yashiro",
   "Arthur Hornblow, Jr.",
   "Miroslav Feldman",
   "Edward Streeter",
-  "Vladimir Gajdarov",
-  "Vasyl Kasian",
+  "Ercole Patti",
   "Ilya Kopalin",
   "Izzat al-Nuss"
  ],
- "corregidos": [],
+ "corregidos": [
+  "Haroldo Conti",
+  "Miguel Ángel Bustos"
+ ],
  "curados_fusionados": [
   "Agatha Christie"
  ],
@@ -130,7 +133,7 @@
  "correcciones_sin_uso": [],
  "sin_categoria": [],
  "filas_por_consulta": {
-  "general": 240,
+  "general": 242,
   "argentinos": 17
  },
  "argentinos": 14,
@@ -145,5 +148,5 @@
  "solo_periodista": [
   "Juan Stefanich (Q6504504)"
  ],
- "a_revisar": 24
+ "a_revisar": 25
 }

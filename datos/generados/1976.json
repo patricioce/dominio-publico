@@ -1354,7 +1354,7 @@
    "b": "1885-03-07",
    "d": "1976-01-10",
    "bd": "7 de marzo de 1885",
-   "dd": "10 de enero de 1976",
+   "dd": "1976",
    "p": "Estados Unidos",
    "o": "Literatura",
    "occ": [
@@ -1363,12 +1363,14 @@
    "sl": 24,
    "wp": "https://es.wikipedia.org/wiki/Stith_Thompson",
    "img": null,
-   "flags": [],
+   "flags": [
+    "muerte"
+   ],
    "src": "wikidata",
    "consultas": [
     "general"
    ],
-   "conf": "ok"
+   "conf": "check"
   },
   {
    "id": "q558044",
@@ -3086,9 +3088,9 @@
    "id": "q487273",
    "qid": "Q487273",
    "n": "Sŏr-ya Han",
-   "b": "1900-08-30",
+   "b": "1900-08-03",
    "d": "1976-04-06",
-   "bd": "30 de agosto de 1900",
+   "bd": "1900",
    "dd": "6 de abril de 1976",
    "p": "Corea del Norte",
    "o": "Literatura",
@@ -3098,12 +3100,14 @@
    "sl": 14,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1952-10%201952%E5%B9%B410%E6%9C%882%E6%97%A5%E4%BA%9A%E6%B4%B2%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%8C%BA%E5%9F%9F%E5%92%8C%E5%B9%B3%E4%BC%9A%E8%AE%AE%E7%BE%8E%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%9B%A2%E9%95%BF%E4%B8%8E%E6%9C%9D%E9%B2%9C%E4%BB%A3%E8%A1%A8%E9%9F%A9%E9%9B%AA%E9%87%8E.png",
-   "flags": [],
+   "flags": [
+    "nacimiento"
+   ],
    "src": "wikidata",
    "consultas": [
     "general"
    ],
-   "conf": "ok"
+   "conf": "check"
   },
   {
    "id": "q550101",
@@ -4253,9 +4257,9 @@
    "qid": "Q6774593",
    "n": "Martha Walter",
    "b": "1875-03-19",
-   "d": "1976-01-01",
+   "d": "1976-01-18",
    "bd": "19 de marzo de 1875",
-   "dd": "1976",
+   "dd": "18 de enero de 1976",
    "p": "Estados Unidos",
    "o": "Artes visuales",
    "occ": [
@@ -4264,14 +4268,12 @@
    "sl": 11,
    "wp": "https://es.wikipedia.org/wiki/Martha_Walter",
    "img": null,
-   "flags": [
-    "anio"
-   ],
+   "flags": [],
    "src": "wikidata",
    "consultas": [
     "general"
    ],
-   "conf": "check"
+   "conf": "ok"
   },
   {
    "id": "q6894417",
@@ -4692,7 +4694,8 @@
     "general"
    ],
    "bnmm": "000024339",
-   "conf": "ok"
+   "c": "Detenido-desaparecido: fue secuestrado el 5 de mayo de 1976 y no hay fecha de muerte conocida. La ley 24.321 fija una fecha presuntiva de desaparición, pero no declara la muerte, así que el inicio del plazo es incierto.",
+   "conf": "check"
   },
   {
    "id": "q4232181",
@@ -5262,10 +5265,10 @@
    "id": "q1932712",
    "qid": "Q1932712",
    "n": "Miguel Ángel Bustos",
-   "b": "1932-01-01",
-   "d": "1976-01-01",
-   "bd": "1932",
-   "dd": "1976",
+   "b": "1932-08-31",
+   "d": "1976-06-20",
+   "bd": "31 de agosto de 1932",
+   "dd": "20 de junio de 1976",
    "p": "Argentina",
    "o": "Literatura",
    "occ": [
@@ -5277,15 +5280,13 @@
    "sl": 4,
    "wp": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Bustos",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Miguelangelbustos.jpg",
-   "flags": [
-    "anio"
-   ],
+   "flags": [],
    "src": "wikidata",
    "consultas": [
     "argentinos"
    ],
    "bnmm": "000051986",
-   "conf": "check"
+   "conf": "ok"
   },
   {
    "id": "q7322627",

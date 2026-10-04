@@ -315,6 +315,8 @@ def limpiar(filas, anio, correcciones, curados):
                 rec['p'] = valor
             elif campo == 'nombre':
                 rec['n'] = valor
+            elif campo == 'advertencia':
+                rec['c'] = valor
             else:
                 print(f'  Aviso: campo de corrección desconocido "{campo}" ({qid})', file=sys.stderr)
         if excluir:
