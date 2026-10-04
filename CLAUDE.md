@@ -21,6 +21,7 @@ Un sitio web que lista, año por año, los autores cuya obra pasa a dominio púb
 - `datos/referencia/query.csv`: export de 1956 hecho en el chat, para comparar.
 - `scripts/generar_anio.py AAAA`: consulta Wikidata, limpia y genera los datos de un año.
 - `referencia/`: script original del chat (solo documentación).
+- `investigacion/legislaciones.md`: investigación sobre plazos por país, con fuentes.
 - `sitio/`: sitio estático en Astro. Lee `datos/generados/` al compilar (`sitio/src/lib/datos.ts`); compilar desde `sitio/` con `npm run build`. URL de año por año de liberación (`/anio/2027`) y de autor por `nombre-qid` (`/autor/bertolt-brecht-q38757`).
 - `prototipo/plantilla.html`: prototipo HTML; `scripts/armar_prototipo.py` le inserta los datos y genera `prototipo/prototipo.html` (no versionado).
 
@@ -33,15 +34,25 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 | Argentina (principal) | vida + 70 |
 | Unión Europea | vida + 70 |
 | España | vida + 80 si murió antes del 7/12/1987; si no, vida + 70 |
-| Vida + 60 | India, Bangladesh, Venezuela |
-| Vida + 50 | China, Egipto, buena parte de África y Asia |
+| Colombia | vida + 80 |
+| Guatemala, Honduras | vida + 75 |
+| Vida + 60 | Venezuela, India, Bangladesh |
+| Canadá | vida + 70 desde el 30/12/2022, sin retroactividad: muertos hasta 1971, vida + 50 |
+| Japón | vida + 70 desde el 30/12/2018, sin retroactividad: muertos hasta 1967, vida + 50 |
+| Corea del Sur | vida + 70 desde 2013, sin retroactividad: muertos hasta 1962, vida + 50 |
+| Vida + 50 | China, Cuba, Bolivia, Nueva Zelanda, Egipto, buena parte de África y Asia |
 
-- Canadá, Nueva Zelanda y Japón pasaron a vida + 70 sin retroactividad: NO van en vida + 50.
-- México aplica vida + 100 (con transiciones complejas): mencionar, no calcular.
-- Rusia: +4 años para autores que trabajaron durante la guerra de 1941-1945.
+Base legal y fuentes de todo esto: `investigacion/legislaciones.md`. Las reglas están implementadas en `sitio/src/lib/calculo.ts` y `sitio/src/lib/avisos.ts`.
+
+- Nueva Zelanda sigue en vida + 50 (a junio de 2026): la extensión a vida + 70 vence en mayo de 2028 y no se sabe si será retroactiva.
+- Argentina, art. 15 de la ley 11.723: una obra extranjera no se protege más que en el país donde se publicó. Si la nacionalidad del autor es de un país con un plazo más corto, el año argentino es un máximo y se aclara en el perfil (la nacionalidad es solo una aproximación al país de publicación).
+- Unión Europea, art. 7 de la Directiva 2006/116/CE: lo mismo para autores no europeos con obras publicadas fuera de la UE. Por eso el + 80 de España se muestra con nota para autores no europeos.
+- Argentina, otros plazos: películas, 50 años desde la muerte del último entre guionista, productor y director; fotografías, 20 años desde la publicación; letra y música son obras distintas (art. 18). El perfil lo avisa según la ocupación.
+- México aplica vida + 100, pero hay varias lecturas sobre cómo se aplicaron sus extensiones: mencionar, no calcular.
+- Rusia: +4 años para autores que trabajaron durante la guerra de 1941-1945; para reprimidos rehabilitados después de morir, el plazo corre desde la rehabilitación.
 - EE.UU. se rige por fecha de publicación (95 años), no por la muerte del autor: si se agrega, va como sección de obras, no de autores.
-- Casos que se marcan como "Caso a verificar": coautorías (cuenta la muerte del último coautor), obras póstumas o anónimas, traducciones, ilustraciones, películas (varios colaboradores), marcas registradas.
-- Argentina: el uso comercial de obras en dominio público paga un derecho al Fondo Nacional de las Artes (dominio público pagante). Mencionarlo siempre.
+- Casos que se marcan como "Caso a verificar": coautorías (cuenta la muerte del último coautor), obras póstumas o anónimas, traducciones, ilustraciones, películas (varios colaboradores), marcas registradas, desaparecidos de la dictadura (la ley 24.321 fija una fecha presuntiva de desaparición, pero no declara la muerte).
+- Argentina: el uso comercial de obras en dominio público paga un derecho al Fondo Nacional de las Artes (dominio público pagante; en libros, 3 % del precio de tapa según la Resolución FNA 15.850/77). Mencionarlo siempre.
 - Todo el sitio lleva el aviso "Información orientativa, no es asesoramiento legal".
 
 ## Datos
@@ -61,7 +72,7 @@ Año de liberación = año de muerte + plazo + 1 (se libera el 1 de enero).
 3. Si hay varias fechas de nacimiento, mostrar los años posibles ("1886 o 1888").
 4. Excluir personas sin nombre en español, inglés ni "mul" (Wikidata está pasando los nombres en alfabeto latino a la etiqueta multilingüe "mul"; sin ella se perdían casos como Einstein o Agustín Lara).
    - Si alguien tiene fechas de muerte en varios años, se publica en el año de la fecha preferida de Wikidata; si ninguna es preferida, aparece en todos esos años con "Dato a revisar" hasta que se corrija a mano.
-5. Aplicar `correcciones.csv` y luego las fichas curadas (mandan sobre Wikidata).
+5. Aplicar `correcciones.csv` y luego las fichas curadas (mandan sobre Wikidata). Campos de corrección: `nacimiento`, `muerte`, `categoria`, `pais`, `nombre`, `excluir` y `advertencia` (texto que se muestra en el perfil y marca el caso como "a verificar").
 6. Limpiar países históricos (Imperio ruso, Raj británico, etc.) y mostrar hasta dos.
 7. Asignar categoría: Literatura, Música, Artes visuales, Cine e historieta, Ciencia.
 8. Generar un reporte de calidad de datos por año.

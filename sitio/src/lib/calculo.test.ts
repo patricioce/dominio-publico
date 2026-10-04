@@ -13,9 +13,20 @@ test('España: + 80 antes del 7/12/1987, + 70 desde ese día', () => {
   assert.equal(anioLiberacion('1987-12-07', 'es'), 2058);
 });
 
-test('Vida + 60 y vida + 50', () => {
+test('Vida + 60, + 75, + 80 y + 50', () => {
   assert.equal(anioLiberacion('1956-08-14', 'v60'), 2017);
+  assert.equal(anioLiberacion('1956-08-14', 'v75'), 2032);
+  assert.equal(anioLiberacion('1956-08-14', 'co'), 2037);
   assert.equal(anioLiberacion('1956-08-14', 'v50'), 2007);
+});
+
+test('Canadá, Japón y Corea: vida + 70 sin retroactividad', () => {
+  assert.equal(anioLiberacion('1971-06-01', 'ca'), 2022); // ya libre antes del cambio
+  assert.equal(anioLiberacion('1972-06-01', 'ca'), 2043);
+  assert.equal(anioLiberacion('1967-06-01', 'jp'), 2018);
+  assert.equal(anioLiberacion('1968-06-01', 'jp'), 2039);
+  assert.equal(anioLiberacion('1962-06-01', 'kr'), 2013);
+  assert.equal(anioLiberacion('1963-06-01', 'kr'), 2034);
 });
 
 test('Muerte el 31/12 o el 1/1 no cambia el año de liberación', () => {
