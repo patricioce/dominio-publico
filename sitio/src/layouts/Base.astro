@@ -1,6 +1,7 @@
 ---
 // Layout común: encabezado con navegación, aviso legal y pie.
 import '../styles/global.css';
+import { url } from '../lib/rutas';
 
 type Seccion = 'anio' | 'autores' | 'metodo' | 'datos';
 
@@ -12,13 +13,12 @@ interface Props {
 
 const { titulo, descripcion, seccion } = Astro.props;
 const NOMBRE = 'Nombre a definir';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const enlaces: { id: Seccion; href: string; texto: string }[] = [
-  { id: 'anio', href: `${base}/`, texto: 'Por año' },
-  { id: 'autores', href: `${base}/autores/`, texto: 'Todos los autores' },
-  { id: 'metodo', href: `${base}/como-calculamos/`, texto: 'Cómo calculamos' },
-  { id: 'datos', href: `${base}/calidad-de-datos/`, texto: 'Calidad de datos' },
+  { id: 'anio', href: url('/'), texto: 'Por año' },
+  { id: 'autores', href: url('/autores/'), texto: 'Todos los autores' },
+  { id: 'metodo', href: url('/como-calculamos/'), texto: 'Cómo calculamos' },
+  { id: 'datos', href: url('/calidad-de-datos/'), texto: 'Calidad de datos' },
 ];
 ---
 <!doctype html>
@@ -38,7 +38,7 @@ const enlaces: { id: Seccion; href: string; texto: string }[] = [
   <body>
     <header class="top">
       <div class="wrap">
-        <a class="brand" href={`${base}/`}><span class="brand-mark" aria-hidden="true">©</span>{NOMBRE}</a>
+        <a class="brand" href={url('/')}><span class="brand-mark" aria-hidden="true">©</span>{NOMBRE}</a>
         <nav class="main" aria-label="Secciones">
           {enlaces.map((e) => (
             <a href={e.href} aria-current={e.id === seccion ? 'page' : undefined}>{e.texto}</a>

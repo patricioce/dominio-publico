@@ -1,0 +1,151 @@
+---
+// Página de un año de liberación (ley argentina): sello, navegación entre años y autores por categoría.
+// Se compila una vez; el script del final ajusta al día de hoy los textos que dependen de la fecha.
+import Base from '../layouts/Base.astro';
+import { autores } from '../lib/datos';
+import { aniosConDatos, anioMuerteDe, esArgentino, gruposDelAnio, periodoVida } from '../lib/anios';
+import { diasHasta, plural } from '../lib/calculo';
+import { url } from '../lib/rutas';
+
+interface Props {
+  anio: number;
+}
+
+const { anio } = Astro.props;
+const LIMITE = 12;
+
+const muerte = anioMuerteDe(anio);
+const grupos = gruposDelAnio(autores, anio);
+const delAnio = grupos.flatMap((g) => g.autores);
+const argentinos = delAnio.filter(esArgentino).length;
+const anios = aniosConDatos(autores);
+const anterior = anios.filter((a) => a < anio).at(-1);
+const siguiente = anios.find((a) => a > anio);
+
+// Textos según la fecha de compilación; el script los recalcula en el navegador.
+const hoy = new Date();
+const esteAnio = hoy.getFullYear();
+const futuro = anio > esteAnio;
+let sub: string;
+if (anio === esteAnio + 1) sub = `Faltan ${plural(diasHasta(anio, hoy), 'día', 'días')}`;
+else if (futuro) sub = `Dentro de ${plural(anio - esteAnio, 'año', 'años')}`;
+else if (anio === esteAnio) sub = 'Liberados este año';
+else sub = `Hace ${plural(esteAnio - anio, 'año', 'años')}`;
+const verbo = futuro ? 'quedan' : 'quedaron';
+
+const titulo = `Autores que se liberan en ${anio}`;
+const descripcion = `Creadores que murieron en ${muerte}: según la ley argentina, sus obras ${verbo} en dominio público el 1 de enero de ${anio}.`;
+
+const obrasODedicacion = (a: (typeof delAnio)[number]) =>
+  a.w && a.w.length ? a.w.slice(0, 2).join(', ') : a.occ.join(', ');
+---
+<Base titulo={titulo} descripcion={descripcion} seccion="anio">
+  <section class="year-hero" data-anio={anio}>
+    <div class:list={['stamp', 'animate', { protected: futuro }]} aria-hidden="true">
+      <div class="stamp-year">{anio}</div>
+      <div class="stamp-sub" data-sub>{sub}</div>
+    </div>
+    <div class="year-copy">
+      <h1>Autores cuyas obras <span data-verbo>{verbo}</span> libres el 1 de enero de {anio}</h1>
+      <p>
+        Según la ley argentina (vida + 70): creadores que murieron en {muerte}.
+        Hay {plural(delAnio.length, 'autor', 'autores')}, {plural(argentinos, 'argentino', 'argentinos')}.
+      </p>
+      <div class="yearnav">
+        {anterior && <a class="btn" href={url(`/anio/${anterior}/`)} aria-label="Año anterior">‹ {anterior}</a>}
+        {siguiente && <a class="btn" href={url(`/anio/${siguiente}/`)} aria-label="Año siguiente">{siguiente} ›</a>}
+        <label class="toggle"><input type="checkbox" data-solo-arg /> Solo argentinos</label>
+      </div>
+      <nav class="chips" aria-label="Años con autores">
+        {anios.map((a) => (
+          <a class="chip" href={url(`/anio/${a}/`)} aria-current={a === anio ? 'true' : undefined}>{a}</a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  {grupos.map((g) => (
+    <section class="group" data-grupo>
+      <h2>{g.categoria} <small data-cuenta>{g.autores.length}</small></h2>
+      <ul class="rows">
+        {g.autores.map((a, i) => (
+          <li class="row" data-arg={esArgentino(a) ? '' : undefined} hidden={i >= LIMITE}>
+            <a href={url(`/autor/${a.slug}/`)}>
+              <span class="row-name">{a.n}</span>
+              <span class="row-meta">{periodoVida(a, muerte)} · {a.p}</span>
+              <span class="row-works">{obrasODedicacion(a)}</span>
+              {a.conf === 'check' && <span class="row-flag">Caso a verificar</span>}
+            </a>
+          </li>
+        ))}
+      </ul>
+      {g.autores.length > LIMITE && (
+        <button class="btn more" type="button" data-mas>Mostrar los {g.autores.length} autores</button>
+      )}
+    </section>
+  ))}
+  <div class="empty" data-vacio hidden>No hay autores argentinos que se liberen en {anio} en los datos cargados.</div>
+  <p class="src">
+    Primero las fichas revisadas a mano; después, por notoriedad (cantidad de Wikipedias con artículo sobre el autor).
+  </p>
+</Base>
+
+<script>
+  import { diasHasta, plural } from '../lib/calculo';
+
+  const LIMITE = 12;
+  const CLAVE = 'dp-solo-arg';
+
+  // Textos que dependen de la fecha de hoy.
+  const hero = document.querySelector<HTMLElement>('[data-anio]')!;
+  const anio = Number(hero.dataset.anio);
+  const hoy = new Date();
+  const esteAnio = hoy.getFullYear();
+  const futuro = anio > esteAnio;
+  hero.querySelector('.stamp')!.classList.toggle('protected', futuro);
+  hero.querySelector('[data-verbo]')!.textContent = futuro ? 'quedan' : 'quedaron';
+  hero.querySelector('[data-sub]')!.textContent =
+    anio === esteAnio + 1 ? `Faltan ${plural(diasHasta(anio, hoy), 'día', 'días')}`
+    : futuro ? `Dentro de ${plural(anio - esteAnio, 'año', 'años')}`
+    : anio === esteAnio ? 'Liberados este año'
+    : `Hace ${plural(esteAnio - anio, 'año', 'años')}`;
+
+  // Filtro "Solo argentinos" y botones "Mostrar los N autores".
+  const casilla = document.querySelector<HTMLInputElement>('[data-solo-arg]')!;
+  const grupos = [...document.querySelectorAll<HTMLElement>('[data-grupo]')];
+  const expandidos = new Set<HTMLElement>();
+
+  function aplicar() {
+    const soloArg = casilla.checked;
+    let hayAlguno = false;
+    for (const grupo of grupos) {
+      const filas = [...grupo.querySelectorAll<HTMLLIElement>('li.row')];
+      const visibles = filas.filter((f) => !soloArg || f.hasAttribute('data-arg'));
+      const abierto = expandidos.has(grupo);
+      for (const f of filas) f.hidden = true;
+      visibles.forEach((f, i) => (f.hidden = !abierto && i >= LIMITE));
+      grupo.hidden = visibles.length === 0;
+      grupo.querySelector('[data-cuenta]')!.textContent = String(visibles.length);
+      const boton = grupo.querySelector<HTMLButtonElement>('[data-mas]');
+      if (boton) {
+        boton.style.display = !abierto && visibles.length > LIMITE ? '' : 'none';
+        boton.textContent = `Mostrar los ${visibles.length} autores`;
+      }
+      if (visibles.length) hayAlguno = true;
+    }
+    document.querySelector<HTMLElement>('[data-vacio]')!.hidden = hayAlguno;
+  }
+
+  for (const grupo of grupos) {
+    grupo.querySelector('[data-mas]')?.addEventListener('click', () => {
+      expandidos.add(grupo);
+      aplicar();
+    });
+  }
+  casilla.addEventListener('change', () => {
+    try { localStorage.setItem(CLAVE, casilla.checked ? '1' : '0'); } catch {}
+    aplicar();
+  });
+  try { casilla.checked = localStorage.getItem(CLAVE) === '1'; } catch {}
+  aplicar();
+</script>

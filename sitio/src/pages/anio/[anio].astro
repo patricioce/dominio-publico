@@ -1,0 +1,12 @@
+---
+import PaginaAnio from '../../components/PaginaAnio.astro';
+import { autores } from '../../lib/datos';
+import { aniosConDatos } from '../../lib/anios';
+
+export function getStaticPaths() {
+  return aniosConDatos(autores).map((anio) => ({ params: { anio: String(anio) }, props: { anio } }));
+}
+
+const { anio } = Astro.props;
+---
+<PaginaAnio anio={anio} />
