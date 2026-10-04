@@ -1,0 +1,65 @@
+---
+// Layout común: encabezado con navegación, aviso legal y pie.
+import '../styles/global.css';
+
+type Seccion = 'anio' | 'autores' | 'metodo' | 'datos';
+
+interface Props {
+  titulo: string;
+  descripcion?: string;
+  seccion?: Seccion;
+}
+
+const { titulo, descripcion, seccion } = Astro.props;
+const NOMBRE = 'Nombre a definir';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const enlaces: { id: Seccion; href: string; texto: string }[] = [
+  { id: 'anio', href: `${base}/`, texto: 'Por año' },
+  { id: 'autores', href: `${base}/autores/`, texto: 'Todos los autores' },
+  { id: 'metodo', href: `${base}/como-calculamos/`, texto: 'Cómo calculamos' },
+  { id: 'datos', href: `${base}/calidad-de-datos/`, texto: 'Calidad de datos' },
+];
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{titulo} · {NOMBRE}</title>
+    {descripcion && <meta name="description" content={descripcion} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,800;1,7..72,400&family=Public+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href={`${base}/`}><span class="brand-mark" aria-hidden="true">©</span>{NOMBRE}</a>
+        <nav class="main" aria-label="Secciones">
+          {enlaces.map((e) => (
+            <a href={e.href} aria-current={e.id === seccion ? 'page' : undefined}>{e.texto}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <div class="notice">
+      <div class="wrap">
+        <span>Información orientativa, no es asesoramiento legal. Los años se calculan según la ley argentina (vida + 70).</span>
+      </div>
+    </div>
+
+    <main><div class="wrap"><slot /></div></main>
+
+    <footer>
+      <div class="wrap">
+        <p>Información orientativa, no es asesoramiento legal. El cálculo aplica el plazo estándar; coautorías, obras póstumas, traducciones y marcas registradas pueden cambiarlo.</p>
+        <p>En Argentina, el uso comercial de obras en dominio público paga un derecho al Fondo Nacional de las Artes (dominio público pagante).</p>
+        <p>Datos: Wikidata (CC0), con correcciones y fichas curadas a mano.</p>
+      </div>
+    </footer>
+  </body>
+</html>

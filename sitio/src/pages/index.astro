@@ -1,19 +1,14 @@
 ---
 // Página de prueba del paso 1: confirma que los datos se cargan. Se reemplaza en el paso 4.
+import Base from '../layouts/Base.astro';
 import { autores, indice } from '../lib/datos';
 
 const enVariosAnios = autores.filter((a) => a.aniosMuerte.length > 1);
 const totalIndice = indice.reduce((s, x) => s + x.personas, 0);
 const ejemplos = autores.filter((a) => a.bio).slice(0, 5);
 ---
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Prueba de datos</title>
-  </head>
-  <body>
-    <h1>Prueba de datos</h1>
+<Base titulo="Prueba de datos" seccion="anio">
+    <div class="prose"><h1>Prueba de datos</h1>
     <ul>
       <li>Años de muerte: {indice[0].anio_muerte} a {indice.at(-1)?.anio_muerte}</li>
       <li>Filas en el índice: {totalIndice}</li>
@@ -22,5 +17,5 @@ const ejemplos = autores.filter((a) => a.bio).slice(0, 5);
     </ul>
     <h2>Ejemplos de slug</h2>
     <ul>{ejemplos.map((a) => <li>{a.n} → <code>{a.slug}</code></li>)}</ul>
-  </body>
-</html>
+  </div>
+</Base>
