@@ -1,0 +1,53 @@
+# Compila el sitio y lo publica en GitHub Pages en cada push a main.
+name: Publicar sitio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sitio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: sitio/package-lock.json
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: npm ci
+      - run: npm test
+      - run: npm run check
+      - run: npm run build
+        env:
+          # Con dominio propio, base_path queda vacío y el sitio va en la raíz.
+          SITIO_URL: ${{ steps.pages.outputs.origin }}
+          SITIO_BASE: ${{ steps.pages.outputs.base_path || '/' }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio/dist
+
+  publicar:
+    needs: compilar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

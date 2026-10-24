@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/rutas';
+---
+<Base titulo="Página no encontrada">
+  <div class="empty">
+    No encontramos esta página. Podés <a href={url('/autores/')}>buscar un autor</a> o ver
+    <a href={url('/')}>los autores que se liberan el próximo 1 de enero</a>.
+  </div>
+</Base>
