@@ -1,0 +1,122 @@
+---
+// Reporte de calidad: totales, tabla por año de muerte y detalle de cada año (datos/generados/reporte_AAAA.json).
+import Base from '../layouts/Base.astro';
+import { indice, reporte } from '../lib/datos';
+import { anioLiberacionDe } from '../lib/anios';
+import { url } from '../lib/rutas';
+
+interface Reporte {
+  filas?: number;
+  personas_unicas?: number;
+  personas_publicadas?: number;
+  filas_por_consulta?: Record<string, number>;
+  [clave: string]: unknown;
+}
+
+const lista = (r: Reporte, clave: string): string[] => (Array.isArray(r[clave]) ? (r[clave] as string[]) : []);
+const tot = (clave: 'personas' | 'argentinos' | 'a_revisar' | 'muerte_fuera_del_anio' | 'argentinos_sin_bnmm') =>
+  indice.reduce((s, x) => s + (x[clave] ?? 0), 0);
+const n = (x: number) => x.toLocaleString('es-AR');
+
+const SECCIONES: { clave: string; titulo: string; texto?: string }[] = [
+  {
+    clave: 'muerte_fuera_del_anio',
+    titulo: 'Fechas de muerte en otro año',
+    texto: 'Wikidata registra también una fecha en otro año y ninguna es la preferida. Cambian el año de liberación: hay que resolverlas a mano.',
+  },
+  {
+    clave: 'movidos_a_otro_anio',
+    titulo: 'Pasaron a otro año',
+    texto: 'La fecha preferida en Wikidata, una corrección o una ficha curada ubican la muerte en otro año.',
+  },
+  {
+    clave: 'muerte_en_disputa',
+    titulo: 'Fechas de muerte en disputa dentro del año',
+    texto: 'No cambian el año de liberación; se muestra solo el año hasta verificarlas.',
+  },
+  { clave: 'muerte_solo_anio', titulo: 'Solo se conoce el año de muerte' },
+  { clave: 'nacimiento_en_disputa', titulo: 'Fechas de nacimiento en disputa' },
+  {
+    clave: 'argentinos_sin_bnmm',
+    titulo: 'Argentinos sin ficha en la Biblioteca Nacional',
+    texto: 'No tienen cargado en Wikidata el identificador de la Biblioteca Nacional Mariano Moreno.',
+  },
+  { clave: 'solo_periodista', titulo: 'Solo como periodistas', texto: 'Se publican, pero no se destacan en las listas por año.' },
+  { clave: 'sin_pais', titulo: 'Sin país registrado' },
+];
+
+const anios = indice.map((x) => ({ ...x, r: reporte(x.anio_muerte) as Reporte }));
+---
+<Base
+  titulo="Calidad de datos"
+  descripcion="Cuántos autores tenemos por año, cuántos casos quedan por verificar y qué datos de Wikidata hay que revisar."
+  seccion="datos"
+>
+  <article class="prose wide">
+    <h1>Calidad de datos</h1>
+    <p>
+      Resultado de la importación de Wikidata después de la limpieza automática, las correcciones manuales y las
+      fichas curadas. Si encontrás un error, la mejor forma de corregirlo para todos es en Wikidata.
+    </p>
+    <div class="stats">
+      <div class="stat"><b>{n(tot('personas'))}</b><span>creadores publicados</span></div>
+      <div class="stat"><b>{n(tot('argentinos'))}</b><span>argentinos</span></div>
+      <div class="stat"><b>{n(tot('a_revisar'))}</b><span>datos a revisar</span></div>
+      <div class="stat"><b>{n(tot('muerte_fuera_del_anio'))}</b><span>con fechas de muerte en dos años</span></div>
+    </div>
+    <p class="src">
+      Un autor con fechas de muerte en dos años aparece en las listas de los dos, así que el total de creadores puede
+      contarlo dos veces.
+    </p>
+
+    <h2>Por año de muerte</h2>
+    <div class="table-wrap">
+      <table class="all compact">
+        <thead>
+          <tr>
+            <th>Muerte</th><th>Se libera (AR)</th><th>Autores</th><th>Argentinos</th><th>Sin ficha BNMM</th>
+            <th>A revisar</th><th>Fechas en dos años</th>
+          </tr>
+        </thead>
+        <tbody>
+          {indice.map((x) => (
+            <tr>
+              <td class="num"><a href={`#muerte-${x.anio_muerte}`}>{x.anio_muerte}</a></td>
+              <td class="num"><a href={url(`/anio/${anioLiberacionDe(x.anio_muerte)}/`)}>{anioLiberacionDe(x.anio_muerte)}</a></td>
+              <td class="num">{n(x.personas)}</td>
+              <td class="num">{x.argentinos}</td>
+              <td class="num">{x.argentinos_sin_bnmm}</td>
+              <td class="num">{x.a_revisar}</td>
+              <td class="num">{x.muerte_fuera_del_anio}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Detalle por año</h2>
+    {anios.map(({ anio_muerte, r }) => (
+      <details id={`muerte-${anio_muerte}`}>
+        <summary>Muertes de {anio_muerte} (se liberan en {anioLiberacionDe(anio_muerte)})</summary>
+        <p>
+          {n(r.filas ?? 0)} filas de Wikidata
+          ({Object.entries(r.filas_por_consulta ?? {}).map(([k, v]) => `${v} de la consulta ${k}`).join(', ')})
+          se unificaron en {n(r.personas_unicas ?? 0)} personas; se publican {n(r.personas_publicadas ?? 0)}.
+        </p>
+        {SECCIONES.filter((s) => lista(r, s.clave).length > 0).map((s) => (
+          <>
+            <h3>{s.titulo} <small>{lista(r, s.clave).length}</small></h3>
+            {s.texto && <p class="src">{s.texto}</p>}
+            <ul class="tight">{lista(r, s.clave).map((x) => <li>{x}</li>)}</ul>
+          </>
+        ))}
+        <ul class="tight">
+          <li>Excluidos por corrección manual: {lista(r, 'excluidos_por_correccion').join(', ') || 'ninguno'}.</li>
+          <li>Excluidos por no tener nombre en español, inglés ni multilingüe: {lista(r, 'excluidos_sin_nombre').join(', ') || 'ninguno'}.</li>
+          <li>Sin artículo en la Wikipedia en español: {lista(r, 'sin_wikipedia_es').length}.</li>
+          <li>Fichas curadas que la consulta no trajo (se mantienen): {lista(r, 'curados_ausentes_en_wikidata').join(', ') || 'ninguna'}.</li>
+        </ul>
+      </details>
+    ))}
+  </article>
+</Base>

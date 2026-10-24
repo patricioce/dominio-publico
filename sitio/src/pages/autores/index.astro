@@ -1,0 +1,95 @@
+---
+// Buscador: carga autores.json y filtra en el navegador.
+import Base from '../../layouts/Base.astro';
+import { autores } from '../../lib/datos';
+import { plural } from '../../lib/calculo';
+import { url } from '../../lib/rutas';
+
+const total = autores.length;
+---
+<Base
+  titulo="Todos los autores"
+  descripcion={`Buscador de ${total.toLocaleString('es-AR')} creadores y el año en que su obra queda libre según la ley argentina.`}
+  seccion="autores"
+>
+  <div class="search-head" data-buscador data-indice={url('/autores.json')} data-base={url('/autor/')}>
+    <h1>Todos los autores</h1>
+    <input class="search-input" type="search" placeholder="Buscar por nombre, país u oficio" aria-label="Buscar autores" data-q />
+    <label class="toggle"><input type="checkbox" data-solo-arg /> Solo argentinos</label>
+    <p class="src" data-cuenta aria-live="polite">Cargando {plural(total, 'autor', 'autores')}…</p>
+  </div>
+  <div class="table-wrap">
+    <table class="all">
+      <thead><tr><th>Autor</th><th>Vida</th><th>País</th><th>Se libera</th><th>Estado</th></tr></thead>
+      <tbody data-filas></tbody>
+    </table>
+  </div>
+  <noscript><p class="empty">El buscador necesita JavaScript. También podés recorrer los autores <a href={url('/')}>por año</a>.</p></noscript>
+</Base>
+
+<script>
+  import { estadoDelAnio, plural, textoEstado } from '../../lib/calculo';
+  import { coincide, type Entrada } from '../../lib/buscador';
+
+  const MAX = 200;
+  const CLAVE = 'dp-solo-arg';
+  const raiz = document.querySelector<HTMLElement>('[data-buscador]')!;
+  const input = raiz.querySelector<HTMLInputElement>('[data-q]')!;
+  const casilla = raiz.querySelector<HTMLInputElement>('[data-solo-arg]')!;
+  const cuenta = raiz.querySelector<HTMLElement>('[data-cuenta]')!;
+  const filas = document.querySelector<HTMLElement>('[data-filas]')!;
+  const hoy = new Date();
+
+  const esc = (s: string) =>
+    s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  let indice: Entrada[] = [];
+
+  function dibujar() {
+    const q = input.value.trim();
+    const soloArg = casilla.checked;
+    const resultado = indice.filter((e) => (!soloArg || e.a) && coincide(e, q));
+    cuenta.textContent =
+      resultado.length > MAX
+        ? `${plural(resultado.length, 'resultado', 'resultados')}; se muestran los primeros ${MAX}. Escribí para filtrar.`
+        : plural(resultado.length, 'resultado', 'resultados');
+    filas.innerHTML = resultado.length
+      ? resultado
+          .slice(0, MAX)
+          .map((e) => {
+            const s = estadoDelAnio(e.f, hoy);
+            return `<tr><td class="name"><a href="${raiz.dataset.base}${e.s}/">${esc(e.n)}</a></td>
+              <td class="num">${esc(e.v)}</td><td>${esc(e.p)}</td><td class="num">${e.f}</td>
+              <td class="${s.libre ? 'st-free' : 'st-prot'}">${s.libre ? 'Libre' : textoEstado(s)}</td></tr>`;
+          })
+          .join('')
+      : `<tr><td colspan="5">Ningún autor coincide con “${esc(q)}”. Probá con otro nombre, país u oficio.</td></tr>`;
+  }
+
+  // La consulta queda en la URL (?q=) para poder compartir una búsqueda.
+  const params = new URLSearchParams(location.search);
+  input.value = params.get('q') ?? '';
+  try { casilla.checked = localStorage.getItem(CLAVE) === '1'; } catch {}
+
+  input.addEventListener('input', () => {
+    const u = new URL(location.href);
+    if (input.value.trim()) u.searchParams.set('q', input.value.trim());
+    else u.searchParams.delete('q');
+    history.replaceState(null, '', u);
+    dibujar();
+  });
+  casilla.addEventListener('change', () => {
+    try { localStorage.setItem(CLAVE, casilla.checked ? '1' : '0'); } catch {}
+    dibujar();
+  });
+
+  fetch(raiz.dataset.indice!)
+    .then((r) => r.json())
+    .then((datos: Entrada[]) => {
+      indice = datos;
+      dibujar();
+    })
+    .catch(() => {
+      cuenta.textContent = 'No se pudo cargar la lista de autores. Probá recargar la página.';
+    });
+</script>

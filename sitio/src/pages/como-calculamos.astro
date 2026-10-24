@@ -1,0 +1,128 @@
+---
+// Explicación del cálculo. Base: CLAUDE.md ("Reglas de cálculo") e investigacion/legislaciones.md (secciones 2.4 y 6).
+// Pendiente: revisión legal (paso 6 de la hoja de ruta).
+import Base from '../layouts/Base.astro';
+import { indice } from '../lib/datos';
+import { NOTA_MEXICO } from '../lib/calculo';
+import { url } from '../lib/rutas';
+
+const desde = indice[0].anio_muerte;
+const hasta = indice.at(-1)!.anio_muerte;
+---
+<Base
+  titulo="Cómo calculamos"
+  descripcion="Cómo calculamos el año en que la obra de un autor pasa a dominio público, qué plazos usamos y qué casos no cubre el cálculo estándar."
+  seccion="metodo"
+>
+  <article class="prose">
+    <h1>Cómo calculamos</h1>
+    <p>
+      La obra de un autor pasa a dominio público el 1 de enero siguiente al vencimiento del plazo de protección,
+      que se cuenta desde su muerte.
+    </p>
+    <div class="formula">Año de liberación = año de muerte + plazo + 1</div>
+    <p>
+      Por ejemplo, Bertolt Brecht murió en 1956. Con el plazo argentino de 70 años, contados desde el 1 de enero
+      siguiente a su muerte (art. 5, ley 11.723), su obra queda libre el 1 de enero de 2027.
+    </p>
+
+    <h2>Plazos que usamos</h2>
+    <p>Las listas por año y el contador de cada perfil usan la ley argentina. La tabla del perfil muestra además:</p>
+    <ul>
+      <li><strong>Argentina y Unión Europea:</strong> vida + 70.</li>
+      <li><strong>España:</strong> vida + 80 para autores muertos antes del 7 de diciembre de 1987, y vida + 70 después.</li>
+      <li><strong>Colombia:</strong> vida + 80.</li>
+      <li><strong>Guatemala y Honduras:</strong> vida + 75.</li>
+      <li><strong>Vida + 60:</strong> Venezuela, India y Bangladesh.</li>
+      <li>
+        <strong>Canadá, Japón y Corea del Sur:</strong> pasaron de vida + 50 a vida + 70 sin efecto retroactivo
+        (Canadá en 2022, Japón en 2018, Corea del Sur en 2013). Lo que ya estaba libre siguió libre: autores muertos
+        hasta 1971 en Canadá, hasta 1967 en Japón y hasta 1962 en Corea del Sur.
+      </li>
+      <li>
+        <strong>Vida + 50:</strong> China, Cuba, Bolivia, Nueva Zelanda, Egipto y buena parte de África y Asia.
+        Nueva Zelanda debe pasar a vida + 70 antes de mayo de 2028, y todavía no se sabe si será retroactivo.
+      </li>
+      <li><strong>México</strong> no lo calculamos. {NOTA_MEXICO}</li>
+    </ul>
+
+    <h2>Obras extranjeras: el plazo más corto</h2>
+    <p>
+      La ley argentina no protege una obra extranjera por más tiempo que el país donde se publicó (art. 15, ley 11.723).
+      Si un autor chino publicó en China, que protege vida + 50, en Argentina su obra se libera con ese plazo más corto.
+      La Unión Europea tiene una regla parecida para autores de fuera de la UE (Directiva 2006/116/CE, art. 7).
+    </p>
+    <p>
+      Lo que cuenta es el país donde se publicó la obra por primera vez, no la nacionalidad del autor. Nosotros solo
+      tenemos la nacionalidad, así que la usamos como aproximación: cuando es de un país con un plazo más corto,
+      el perfil dice que el año argentino es un máximo.
+    </p>
+
+    <h2>Cada país aplica su ley</h2>
+    <p>
+      Una obra puede estar libre en Argentina y protegida en México al mismo tiempo: cada país aplica su propia ley a
+      los usos que se hacen en su territorio. Publicar algo en internet no elige una ley.
+    </p>
+
+    <h2>Qué no cubre el cálculo estándar</h2>
+    <ul>
+      <li>
+        <strong>Coautorías:</strong> se cuenta desde la muerte del último coautor. En Argentina, la letra y la música
+        de una canción son obras distintas (art. 18), así que pueden liberarse en años distintos; en la UE se cuenta
+        desde la muerte del último entre letrista y compositor.
+      </li>
+      <li>
+        <strong>Películas:</strong> en Argentina, 50 años desde la muerte del último entre el autor del argumento, el
+        productor y el director (art. 34). En la UE, 70 años desde la muerte del último entre director, guionista,
+        dialoguista y compositor. Un director no libera sus películas con su propia muerte.
+      </li>
+      <li>
+        <strong>Fotografías:</strong> en Argentina, 20 años desde la primera publicación, sin importar cuándo murió
+        quien las tomó (art. 34).
+      </li>
+      <li>
+        <strong>Traducciones, adaptaciones y ediciones:</strong> tienen su propio plazo (arts. 24 y 26). Que un autor se
+        libere no libera una traducción reciente de su obra.
+      </li>
+      <li><strong>Obras póstumas o anónimas</strong>, que pueden tener reglas propias según el país.</li>
+      <li><strong>Marcas registradas</strong>, que pueden proteger un nombre o un personaje aunque la obra esté libre.</li>
+      <li>
+        <strong>Interpretaciones y grabaciones:</strong> tienen derechos aparte. La partitura puede estar libre y la
+        grabación no.
+      </li>
+      <li>
+        <strong>Desaparecidos de la dictadura:</strong> la ley 24.321 fija una fecha presuntiva de desaparición, pero no
+        declara la muerte, así que el inicio del plazo es incierto.
+      </li>
+      <li>
+        <strong>Estados Unidos</strong>, que para obras antiguas cuenta desde la publicación y no desde la muerte del
+        autor.
+      </li>
+    </ul>
+    <p>Cuando alguna de estas situaciones puede aplicar, el perfil lo marca como “Caso a verificar” y lo explica.</p>
+
+    <h2>Derecho moral</h2>
+    <p>
+      Aunque la obra esté en dominio público, hay que respetar la autoría y la integridad: mencionar al autor y
+      respetar la fidelidad del texto y del título (art. 52, ley 11.723).
+    </p>
+
+    <h2>Dominio público pagante</h2>
+    <p>
+      En Argentina, quien explota comercialmente una obra en dominio público paga un derecho al Fondo Nacional de las
+      Artes (decreto-ley 1224/58). Para la edición de libros es el 3 % del precio de tapa (Resolución FNA 15.850/77).
+      Están exentos los usos exclusivamente culturales o didácticos en lugares de acceso libre y gratuito.
+    </p>
+
+    <h2>De dónde salen los datos</h2>
+    <p>
+      Los creadores muertos entre {desde} y {hasta} vienen de Wikidata: escritores, poetas, dramaturgos, letristas,
+      compositores, pintores, escultores, fotógrafos, directores de cine e historietistas con artículo en al menos 10
+      Wikipedias. Para argentinos bajamos el umbral a 3 y sumamos guionistas, periodistas, ilustradores, dibujantes,
+      libretistas y otras ocupaciones. Los autores más conocidos tienen además una ficha revisada a mano.
+      Ver <a href={url('/calidad-de-datos/')}>calidad de datos</a>.
+    </p>
+
+    <p class="src">Información orientativa, no es asesoramiento legal.</p>
+  </article>
+</Base>
