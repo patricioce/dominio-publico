@@ -94,9 +94,8 @@ Para el lanzamiento:
 2. [x] Datos reales para los años de muerte 1950 a 1976.
 3. [x] Consulta aparte para argentinos con notabilidad más baja y más ocupaciones (letristas, guionistas, periodistas, ilustradores); cruzar con la Biblioteca Nacional Mariano Moreno.
    - Pendiente: cruce completo de fechas con la BNMM (pedirles exportación de autoridades o permiso; hoy solo se usa P3788 de Wikidata).
-4. [ ] Sitio estático en Astro, con una URL por año y por autor, publicado en GitHub.
-   - Hecho: páginas por año, perfil de autor, buscador, "Cómo calculamos", "Calidad de datos", flujo de publicación (`.github/workflows/sitio.yml`).
-   - Pendiente: crear el repo en GitHub, subirlo y activar Pages (fuente "GitHub Actions").
+4. [x] Sitio estático en Astro, con una URL por año y por autor, publicado en GitHub.
+   - Repo: https://github.com/patricioce/dominio-publico. Sitio: https://patricioce.github.io/dominio-publico/ (se publica solo en cada push a `main`).
 5. [ ] Fichas curadas para los 30 a 50 autores más buscados de cada año (redacción propia, no copiada de Wikipedia).
 6. [ ] Revisión legal de "Cómo calculamos"; registrar dominio y nombre.
 
