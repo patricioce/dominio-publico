@@ -335,11 +335,13 @@ def limpiar(filas, anio, correcciones, curados):
                     rec[k] = c[k]
             if c.get('id'):
                 rec['id'] = c['id']
-            rec['b'], rec['d'] = c['b'], c['d']
-            rec['bd'], rec['dd'] = fecha_larga(c['b']), fecha_larga(c['d'])
-            rec['flags'] = [m for m in rec['flags'] if m not in ('muerte', 'nacimiento', 'anio', 'sin_nacimiento')]
             rec['src'] = 'wikidata+curado'
-            muerte_verificada = True
+            # Una ficha sin fechas (no se conocen completas) conserva las de Wikidata y sus marcas.
+            if c.get('b') and c.get('d'):
+                rec['b'], rec['d'] = c['b'], c['d']
+                rec['bd'], rec['dd'] = fecha_larga(c['b']), fecha_larga(c['d'])
+                rec['flags'] = [m for m in rec['flags'] if m not in ('muerte', 'nacimiento', 'anio', 'sin_nacimiento')]
+                muerte_verificada = True
 
         if rec['d'][:4] != anio_txt:
             reporte['movidos_a_otro_anio'].append(f"{nombre} ({qid}): muerte {rec['d']}")
@@ -364,7 +366,7 @@ def limpiar(filas, anio, correcciones, curados):
 
     # Fichas curadas del año que Wikidata no devolvió (notabilidad baja, otra ocupación, etc.).
     for c in curados:
-        if id(c) in curados_usados or c['d'][:4] != anio_txt:
+        if id(c) in curados_usados or c.get('d', '')[:4] != anio_txt:
             continue
         reporte['curados_ausentes_en_wikidata'].append(c['n'])
         rec = dict(c)

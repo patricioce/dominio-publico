@@ -986,7 +986,125 @@
    "p": "España",
    "o": "Cine e historieta",
    "bio": "Director de cine español que desarrolló casi toda su carrera en la industria cinematográfica argentina.",
-   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (director, guionista, compositor), así que sus películas pueden liberarse más tarde."
+   "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (director, guionista, compositor), así que sus películas pueden liberarse más tarde.",
+   "w": [
+    "Jettatore (1938)",
+    "Cándida (1939)",
+    "El astro del tango (1940)",
+    "Una cubana en España (1951)"
+   ]
+  },
+  {
+   "qid": "Q2521930",
+   "n": "Vicente Barbieri",
+   "b": "1903-08-31",
+   "d": "1956-09-10",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta argentino de la Generación del 40, criado en el campo bonaerense de Alberti. Presidió la Sociedad Argentina de Escritores desde 1955 hasta su muerte y recibió en forma póstuma el Premio Nacional de Poesía por El bailarín.",
+   "w": [
+    "Fábula del corazón (1939)",
+    "El río distante (1945)",
+    "El bailarín (1953)",
+    "Facundo en la ciudadela (1956)"
+   ],
+   "c": "Algunos libros se publicaron después de su muerte (El intruso, 1958; Obra poética, 1961; Prosas dispersas, 1970). En Argentina el plazo corre igual desde su muerte, pero en otros países las ediciones póstumas pueden tener derechos propios."
+  },
+  {
+   "qid": "Q5042714",
+   "n": "Carlos Torres Ríos",
+   "p": "Argentina",
+   "o": "Cine e historieta",
+   "bio": "Director, director de fotografía y montajista argentino, activo desde el cine mudo (nacido Jesús Torres Ríos). Era hermano del director Leopoldo Torres Ríos y tío de Leopoldo Torre Nilsson.",
+   "w": [
+    "Un hombre bueno (1941)",
+    "La luna en el pozo (1942)",
+    "Fuego en la montaña (1943)",
+    "Bólidos de acero (1950)"
+   ]
+  },
+  {
+   "qid": "Q96390466",
+   "n": "Josefina Oliver",
+   "b": "1875-03-01",
+   "d": "1956-01-23",
+   "p": "Argentina",
+   "o": "Artes visuales",
+   "bio": "Fotógrafa y diarista porteña. Entre 1892 y 1956 llevó un diario de 20 tomos en el que reunió escritos, fotos propias coloreadas a mano y collages. Su obra quedó en manos de la familia y se conoció recién a partir de 2006.",
+   "w": [
+    "Diario (1892–1956, 20 tomos, inédito)",
+    "Fotografías iluminadas, álbumes y collages (desde 1900)",
+    "Yo Josefina Oliver (selección publicada en 2019)"
+   ],
+   "c": "Casi toda su obra sigue inédita y la conserva la familia: que pase a dominio público no da acceso a los originales. En Argentina las fotos se protegen 20 años desde su primera publicación, así que el plazo de las inéditas y de las publicadas recién en 2019 es un caso a verificar. La edición de 2019 puede tener derechos propios."
+  },
+  {
+   "qid": "Q8345656",
+   "n": "Christofredo Jakob",
+   "b": "1866-12-25",
+   "d": "1956-05-06",
+   "p": "Argentina",
+   "o": "Ciencia",
+   "bio": "Médico y neurobiólogo alemán radicado en Buenos Aires desde 1899, considerado el fundador de la neurociencia argentina. Enseñó en la Universidad de Buenos Aires y en la de La Plata, y publicó también dos libros de poemas.",
+   "w": [
+    "Del cerebro animal al cerebro humano (1911 en alemán, 1913 en castellano, con Clemente Onelli)",
+    "Folia Neurobiológica Argentina (1939–1946)"
+   ],
+   "c": "Dejó unos 250 trabajos, varios publicados primero en Alemania y algunos con coautores. En una obra en colaboración cuenta la muerte del último coautor (Clemente Onelli murió en 1924, antes que él)."
+  },
+  {
+   "qid": "Q7121745",
+   "n": "Pablo Rojas Paz",
+   "b": "1896-06-26",
+   "d": "1956-10-01",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor tucumano: ensayista, cuentista, novelista y biógrafo. Fundó la revista Proa en 1924 con Borges, Brandán Caraffa y Güiraldes, ganó el Premio Nacional en 1940 y escribió crónicas de fútbol en Crítica con el seudónimo «El negro de la tribuna».",
+   "w": [
+    "Paisajes y meditaciones (1924)",
+    "El patio de la noche (1940)",
+    "Biografía de Buenos Aires (1943)",
+    "Echeverría, pastor de soledades (1952)"
+   ]
+  },
+  {
+   "qid": "Q1394538",
+   "n": "Rigoberto López Pérez",
+   "b": "1929-05-13",
+   "d": "1956-09-21",
+   "p": "Nicaragua",
+   "o": "Literatura",
+   "bio": "Poeta, músico y compositor nicaragüense nacido en León. El 21 de septiembre de 1956 disparó contra el dictador Anastasio Somoza García en una fiesta en León y murió en el acto; Somoza murió días después. En 1981 Nicaragua lo declaró Héroe Nacional.",
+   "w": [
+    "Confesión de un soldado (poema, 1946)",
+    "Claridad (canción)",
+    "Si el vino me hace llorar (canción)"
+   ]
+  },
+  {
+   "qid": "Q485158",
+   "n": "Pedro Subercaseaux",
+   "b": "1880-12-10",
+   "d": "1956-01-03",
+   "p": "Chile",
+   "o": "Artes visuales",
+   "bio": "Pintor chileno nacido en Roma, autor de grandes cuadros sobre la historia de Chile y de arte sacro. Como caricaturista firmó «Lustig» y creó una de las primeras historietas chilenas; más tarde se hizo monje benedictino.",
+   "w": [
+    "El abrazo de Maipú (comprado por el gobierno argentino en 1908)",
+    "Federico von Pilsener (historieta, desde 1906)"
+   ]
+  },
+  {
+   "qid": "Q2468242",
+   "n": "Adelqui Migliar",
+   "b": "1891-08-05",
+   "d": "1956-08-06",
+   "p": "Chile",
+   "o": "Cine e historieta",
+   "bio": "Actor, director, guionista y productor chileno que hizo carrera en Países Bajos, Reino Unido y Estados Unidos. Dirigió Luces de Buenos Aires (1931), la primera película de Carlos Gardel para la Paramount.",
+   "w": [
+    "Luces de Buenos Aires (1931)"
+   ]
   }
  ]
 }

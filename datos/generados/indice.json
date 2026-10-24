@@ -91,19 +91,19 @@
  },
  {
   "anio_muerte": 1956,
-  "personas": 181,
-  "a_revisar": 38,
+  "personas": 182,
+  "a_revisar": 41,
   "por_categoria": {
-   "Literatura": 94,
-   "Artes visuales": 30,
+   "Literatura": 93,
+   "Artes visuales": 31,
    "Cine e historieta": 29,
    "Música": 27,
-   "Ciencia": 1
+   "Ciencia": 2
   },
   "muerte_fuera_del_anio": 3,
   "argentinos": 6,
   "argentinos_sin_bnmm": 3,
-  "curados": 36
+  "curados": 44
  },
  {
   "anio_muerte": 1957,

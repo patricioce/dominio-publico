@@ -495,6 +495,36 @@
    "conf": "check"
   },
   {
+   "id": "papini",
+   "qid": "Q529858",
+   "n": "Giovanni Papini",
+   "b": "1881-01-09",
+   "d": "1956-07-08",
+   "bd": "9 de enero de 1881",
+   "dd": "8 de julio de 1956",
+   "p": "Italia",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 45,
+   "wp": "https://es.wikipedia.org/wiki/Giovanni_Papini",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picture%20of%20Giovanni%20Papini.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "consultas": [
+    "general"
+   ],
+   "bio": "Escritor y polemista italiano, muy leído en Latinoamérica; Borges prologó su obra.",
+   "w": [
+    "Un hombre acabado (1913)",
+    "Historia de Cristo (1921)",
+    "Gog (1931)"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q161135",
    "qid": "Q161135",
    "n": "Savielly Tartakower",
@@ -514,36 +544,6 @@
    "src": "wikidata",
    "consultas": [
     "general"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "papini",
-   "qid": "Q529858",
-   "n": "Giovanni Papini",
-   "b": "1881-01-09",
-   "d": "1956-07-08",
-   "bd": "9 de enero de 1881",
-   "dd": "8 de julio de 1956",
-   "p": "Italia",
-   "o": "Literatura",
-   "occ": [
-    "escritor",
-    "poeta"
-   ],
-   "sl": 44,
-   "wp": "https://es.wikipedia.org/wiki/Giovanni_Papini",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picture%20of%20Giovanni%20Papini.jpg",
-   "flags": [],
-   "src": "wikidata+curado",
-   "consultas": [
-    "general"
-   ],
-   "bio": "Escritor y polemista italiano, muy leído en Latinoamérica; Borges prologó su obra.",
-   "w": [
-    "Un hombre acabado (1913)",
-    "Historia de Cristo (1921)",
-    "Gog (1931)"
    ],
    "conf": "ok"
   },
@@ -937,6 +937,35 @@
    "conf": "ok"
   },
   {
+   "id": "delamare",
+   "qid": "Q981086",
+   "n": "Walter de la Mare",
+   "b": "1873-04-25",
+   "d": "1956-06-22",
+   "bd": "25 de abril de 1873",
+   "dd": "22 de junio de 1956",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "occ": [
+    "escritor",
+    "poeta"
+   ],
+   "sl": 32,
+   "wp": "https://es.wikipedia.org/wiki/Walter_de_la_Mare",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Walter%20de%20la%20Mare%20by%20Lady%20Ottoline%20Morrell.jpg",
+   "flags": [],
+   "src": "wikidata+curado",
+   "consultas": [
+    "general"
+   ],
+   "bio": "Poeta y narrador británico, maestro del relato fantástico y la poesía para chicos.",
+   "w": [
+    "The Listeners (1912)",
+    "Memorias de una enana (1921)"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q57500",
    "qid": "Q57500",
    "n": "Hermann Abendroth",
@@ -979,35 +1008,6 @@
    "src": "wikidata",
    "consultas": [
     "general"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "delamare",
-   "qid": "Q981086",
-   "n": "Walter de la Mare",
-   "b": "1873-04-25",
-   "d": "1956-06-22",
-   "bd": "25 de abril de 1873",
-   "dd": "22 de junio de 1956",
-   "p": "Reino Unido",
-   "o": "Literatura",
-   "occ": [
-    "escritor",
-    "poeta"
-   ],
-   "sl": 31,
-   "wp": "https://es.wikipedia.org/wiki/Walter_de_la_Mare",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Walter%20de%20la%20Mare%20by%20Lady%20Ottoline%20Morrell.jpg",
-   "flags": [],
-   "src": "wikidata+curado",
-   "consultas": [
-    "general"
-   ],
-   "bio": "Poeta y narrador británico, maestro del relato fantástico y la poesía para chicos.",
-   "w": [
-    "The Listeners (1912)",
-    "Memorias de una enana (1921)"
    ],
    "conf": "ok"
   },
@@ -1138,6 +1138,32 @@
    "conf": "ok"
   },
   {
+   "id": "q78527",
+   "qid": "Q78527",
+   "n": "Erich Kleiber",
+   "b": "1890-08-05",
+   "d": "1956-01-27",
+   "bd": "5 de agosto de 1890",
+   "dd": "27 de enero de 1956",
+   "p": "Argentina / Austria",
+   "o": "Música",
+   "occ": [
+    "compositor"
+   ],
+   "sl": 28,
+   "wp": "https://es.wikipedia.org/wiki/Erich_Kleiber",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20Kleiber%2C%201955%20-%20collezione%20Tino%20Barindelli%20%28cropped%29.tif",
+   "flags": [],
+   "src": "wikidata+curado",
+   "consultas": [
+    "argentinos",
+    "general"
+   ],
+   "bio": "Director de orquesta austríaco, nacionalizado argentino en 1938; dirigió temporadas decisivas en el Teatro Colón.",
+   "c": "Su trabajo fue sobre todo de interpretación: las grabaciones tienen plazos propios, distintos de los del autor.",
+   "conf": "check"
+  },
+  {
    "id": "bromfield",
    "qid": "Q500042",
    "n": "Louis Bromfield",
@@ -1188,32 +1214,6 @@
     "general"
    ],
    "conf": "ok"
-  },
-  {
-   "id": "q78527",
-   "qid": "Q78527",
-   "n": "Erich Kleiber",
-   "b": "1890-08-05",
-   "d": "1956-01-27",
-   "bd": "5 de agosto de 1890",
-   "dd": "27 de enero de 1956",
-   "p": "Argentina / Austria",
-   "o": "Música",
-   "occ": [
-    "compositor"
-   ],
-   "sl": 27,
-   "wp": "https://es.wikipedia.org/wiki/Erich_Kleiber",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erich%20Kleiber%2C%201955%20-%20collezione%20Tino%20Barindelli%20%28cropped%29.tif",
-   "flags": [],
-   "src": "wikidata+curado",
-   "consultas": [
-    "argentinos",
-    "general"
-   ],
-   "bio": "Director de orquesta austríaco, nacionalizado argentino en 1938; dirigió temporadas decisivas en el Teatro Colón.",
-   "c": "Su trabajo fue sobre todo de interpretación: las grabaciones tienen plazos propios, distintos de los del autor.",
-   "conf": "check"
   },
   {
    "id": "q508270",
@@ -1875,6 +1875,29 @@
    "conf": "ok"
   },
   {
+   "id": "q694849",
+   "qid": "Q694849",
+   "n": "Jan Šrámek",
+   "b": "1870-08-11",
+   "d": "1956-04-22",
+   "bd": "11 de agosto de 1870",
+   "dd": "22 de abril de 1956",
+   "p": "Checoslovaquia",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Jan_%C5%A0r%C3%A1mek",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20%C5%A0r%C3%A1mek.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q24718637",
    "qid": "Q24718637",
    "n": "Teresa Feoderovna Ries",
@@ -1969,29 +1992,6 @@
    "sl": 17,
    "wp": "https://es.wikipedia.org/wiki/Gerald_Finzi",
    "img": null,
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "q694849",
-   "qid": "Q694849",
-   "n": "Jan Šrámek",
-   "b": "1870-08-11",
-   "d": "1956-04-22",
-   "bd": "11 de agosto de 1870",
-   "dd": "22 de abril de 1956",
-   "p": "Checoslovaquia",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 17,
-   "wp": "https://es.wikipedia.org/wiki/Jan_%C5%A0r%C3%A1mek",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20%C5%A0r%C3%A1mek.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -2285,6 +2285,29 @@
    "conf": "ok"
   },
   {
+   "id": "q15133288",
+   "qid": "Q15133288",
+   "n": "Devorah Baron",
+   "b": "1887-12-04",
+   "d": "1956-08-20",
+   "bd": "4 de diciembre de 1887",
+   "dd": "20 de agosto de 1956",
+   "p": "Israel",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 15,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%91%D7%95%D7%A8%D7%94%20%D7%91%D7%90%D7%A8%D7%95%D7%9F%20%D7%91%D7%9E%D7%99%D7%A6%D7%92%20%D7%AA%D7%95%D7%A6%D7%A8%D7%AA%20%D7%94%D7%90%D7%A8%D7%A5%20%D7%A9%D7%9C%20%D7%93%D7%95%D7%93%20%D7%98%D7%A8%D7%98%D7%A7%D7%95%D7%91%D7%A8%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96%20%D7%A1%D7%95%D7%96%D7%9F%20%D7%93%D7%9C%D7%9C%20%D7%91%D7%A0%D7%95%D7%95%D7%94%20%D7%A6%D7%93%D7%A7%20%D7%91%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%2034.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q518002",
    "qid": "Q518002",
    "n": "Günther Ramin",
@@ -2424,9 +2447,15 @@
    "wp": "https://es.wikipedia.org/wiki/Rigoberto_L%C3%B3pez_P%C3%A9rez",
    "img": null,
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "general"
+   ],
+   "bio": "Poeta, músico y compositor nicaragüense nacido en León. El 21 de septiembre de 1956 disparó contra el dictador Anastasio Somoza García en una fiesta en León y murió en el acto; Somoza murió días después. En 1981 Nicaragua lo declaró Héroe Nacional.",
+   "w": [
+    "Confesión de un soldado (poema, 1946)",
+    "Claridad (canción)",
+    "Si el vino me hace llorar (canción)"
    ],
    "conf": "ok"
   },
@@ -2492,29 +2521,6 @@
    "sl": 14,
    "wp": "https://es.wikipedia.org/wiki/Charley_Rogers",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charley%20Rogers%20in%20Nazty%20Nuisance.jpg",
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "q15133288",
-   "qid": "Q15133288",
-   "n": "Devorah Baron",
-   "b": "1887-12-04",
-   "d": "1956-08-20",
-   "bd": "4 de diciembre de 1887",
-   "dd": "20 de agosto de 1956",
-   "p": "Israel",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 14,
-   "wp": null,
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%91%D7%95%D7%A8%D7%94%20%D7%91%D7%90%D7%A8%D7%95%D7%9F%20%D7%91%D7%9E%D7%99%D7%A6%D7%92%20%D7%AA%D7%95%D7%A6%D7%A8%D7%AA%20%D7%94%D7%90%D7%A8%D7%A5%20%D7%A9%D7%9C%20%D7%93%D7%95%D7%93%20%D7%98%D7%A8%D7%98%D7%A7%D7%95%D7%91%D7%A8%20%D7%91%D7%9E%D7%A8%D7%9B%D7%96%20%D7%A1%D7%95%D7%96%D7%9F%20%D7%93%D7%9C%D7%9C%20%D7%91%D7%A0%D7%95%D7%95%D7%94%20%D7%A6%D7%93%D7%A7%20%D7%91%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%2034.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -2648,7 +2654,7 @@
    "d": "1956-05-08",
    "bd": "3 de abril de 1869",
    "dd": "8 de mayo de 1956",
-   "p": "Sin dato",
+   "p": "Unión Soviética",
    "o": "Cine e historieta",
    "occ": [
     "director de cine"
@@ -3011,7 +3017,7 @@
    "d": "1956-09-11",
    "bd": "24 de noviembre de 1913",
    "dd": "1956",
-   "p": "Estados Unidos",
+   "p": "Estados Unidos / Filipinas",
    "o": "Literatura",
    "occ": [
     "escritor",
@@ -3019,7 +3025,7 @@
    ],
    "sl": 12,
    "wp": "https://es.wikipedia.org/wiki/Carlos_Bulosan",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bulosan%20Marker%20in%20Binalonan.jpg",
+   "img": null,
    "flags": [
     "muerte"
    ],
@@ -3167,9 +3173,14 @@
    "wp": "https://es.wikipedia.org/wiki/Pedro_Subercaseaux",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pedro%20Subercaseaux%282%29.jpg",
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "general"
+   ],
+   "bio": "Pintor chileno nacido en Roma, autor de grandes cuadros sobre la historia de Chile y de arte sacro. Como caricaturista firmó «Lustig» y creó una de las primeras historietas chilenas; más tarde se hizo monje benedictino.",
+   "w": [
+    "El abrazo de Maipú (comprado por el gobierno argentino en 1908)",
+    "Federico von Pilsener (historieta, desde 1906)"
    ],
    "conf": "ok"
   },
@@ -3237,9 +3248,13 @@
    "wp": "https://es.wikipedia.org/wiki/Adelqui_Migliar",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adelqui%20Migliar.jpg",
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "general"
+   ],
+   "bio": "Actor, director, guionista y productor chileno que hizo carrera en Países Bajos, Reino Unido y Estados Unidos. Dirigió Luces de Buenos Aires (1931), la primera película de Carlos Gardel para la Paramount.",
+   "w": [
+    "Luces de Buenos Aires (1931)"
    ],
    "conf": "ok"
   },
@@ -3438,7 +3453,7 @@
    "d": "1956-03-23",
    "bd": "3 de septiembre de 1865",
    "dd": "23 de marzo de 1956",
-   "p": "República Popular de Polonia",
+   "p": "Polonia",
    "o": "Artes visuales",
    "occ": [
     "escultor",
@@ -3516,6 +3531,29 @@
    "sl": 11,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolae-labis-1-1-221x300.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q71864",
+   "qid": "Q71864",
+   "n": "Nikolaus zu Dohna-Schlodien",
+   "b": "1879-04-05",
+   "d": "1956-08-21",
+   "bd": "5 de abril de 1879",
+   "dd": "21 de agosto de 1956",
+   "p": "Alemania",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 11,
+   "wp": "https://es.wikipedia.org/wiki/Nikolaus_zu_Dohna-Schlodien",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Nikolaus%20Graf%20zu%20Dohna-Schlodien.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -3974,6 +4012,31 @@
    "conf": "ok"
   },
   {
+   "id": "q2501600",
+   "qid": "Q2501600",
+   "n": "Ion Călugăru",
+   "b": "1902-02-14",
+   "d": "1956-05-22",
+   "bd": "14 de febrero de 1902",
+   "dd": "22 de mayo de 1956",
+   "p": "Rumania",
+   "o": "Literatura",
+   "occ": [
+    "dramaturgo",
+    "escritor",
+    "poeta"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ion%20C%C4%83lug%C4%83ru%2C%20prozator.JPG",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q465618",
    "qid": "Q465618",
    "n": "Jeanne Rij-Rousseau",
@@ -4043,6 +4106,12 @@
     "general"
    ],
    "bio": "Director de cine español que desarrolló casi toda su carrera en la industria cinematográfica argentina.",
+   "w": [
+    "Jettatore (1938)",
+    "Cándida (1939)",
+    "El astro del tango (1940)",
+    "Una cubana en España (1951)"
+   ],
    "c": "En cine el plazo suele contar desde la muerte del último colaborador principal (director, guionista, compositor), así que sus películas pueden liberarse más tarde.",
    "conf": "check"
   },
@@ -4062,29 +4131,6 @@
    "sl": 10,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D1%96%D0%BB%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0.jpg",
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "q71864",
-   "qid": "Q71864",
-   "n": "Nikolaus zu Dohna-Schlodien",
-   "b": "1879-04-05",
-   "d": "1956-08-21",
-   "bd": "5 de abril de 1879",
-   "dd": "21 de agosto de 1956",
-   "p": "Alemania",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 10,
-   "wp": "https://es.wikipedia.org/wiki/Nikolaus_zu_Dohna-Schlodien",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP%20Nikolaus%20Graf%20zu%20Dohna-Schlodien.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -4298,12 +4344,20 @@
    "wp": "https://es.wikipedia.org/wiki/Vicente_Barbieri",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/VicenteBarbieri.JPG",
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "argentinos"
    ],
    "bnmm": "000024718",
-   "conf": "ok"
+   "bio": "Poeta argentino de la Generación del 40, criado en el campo bonaerense de Alberti. Presidió la Sociedad Argentina de Escritores desde 1955 hasta su muerte y recibió en forma póstuma el Premio Nacional de Poesía por El bailarín.",
+   "w": [
+    "Fábula del corazón (1939)",
+    "El río distante (1945)",
+    "El bailarín (1953)",
+    "Facundo en la ciudadela (1956)"
+   ],
+   "c": "Algunos libros se publicaron después de su muerte (El intruso, 1958; Obra poética, 1961; Prosas dispersas, 1970). En Argentina el plazo corre igual desde su muerte, pero en otros países las ediciones póstumas pueden tener derechos propios.",
+   "conf": "check"
   },
   {
    "id": "q5042714",
@@ -4325,9 +4379,16 @@
    "flags": [
     "anio"
    ],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "argentinos"
+   ],
+   "bio": "Director, director de fotografía y montajista argentino, activo desde el cine mudo (nacido Jesús Torres Ríos). Era hermano del director Leopoldo Torres Ríos y tío de Leopoldo Torre Nilsson.",
+   "w": [
+    "Un hombre bueno (1941)",
+    "La luna en el pozo (1942)",
+    "Fuego en la montaña (1943)",
+    "Bólidos de acero (1950)"
    ],
    "conf": "check"
   },
@@ -4340,7 +4401,7 @@
    "bd": "1 de marzo de 1875",
    "dd": "23 de enero de 1956",
    "p": "Argentina",
-   "o": "Literatura",
+   "o": "Artes visuales",
    "occ": [
     "escritor",
     "fotógrafo"
@@ -4349,11 +4410,18 @@
    "wp": "https://es.wikipedia.org/wiki/Josefina_Oliver",
    "img": null,
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "argentinos"
    ],
-   "conf": "ok"
+   "bio": "Fotógrafa y diarista porteña. Entre 1892 y 1956 llevó un diario de 20 tomos en el que reunió escritos, fotos propias coloreadas a mano y collages. Su obra quedó en manos de la familia y se conoció recién a partir de 2006.",
+   "w": [
+    "Diario (1892–1956, 20 tomos, inédito)",
+    "Fotografías iluminadas, álbumes y collages (desde 1900)",
+    "Yo Josefina Oliver (selección publicada en 2019)"
+   ],
+   "c": "Casi toda su obra sigue inédita y la conserva la familia: que pase a dominio público no da acceso a los originales. En Argentina las fotos se protegen 20 años desde su primera publicación, así que el plazo de las inéditas y de las publicadas recién en 2019 es un caso a verificar. La edición de 2019 puede tener derechos propios.",
+   "conf": "check"
   },
   {
    "id": "q8345656",
@@ -4364,7 +4432,7 @@
    "bd": "25 de diciembre de 1866",
    "dd": "6 de mayo de 1956",
    "p": "Argentina",
-   "o": "Literatura",
+   "o": "Ciencia",
    "occ": [
     "poeta"
    ],
@@ -4372,12 +4440,18 @@
    "wp": "https://es.wikipedia.org/wiki/Christofredo_Jakob",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Christfried%20Jakob%20%28ca.%201920%29.jpg",
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "argentinos"
    ],
    "bnmm": "000054630",
-   "conf": "ok"
+   "bio": "Médico y neurobiólogo alemán radicado en Buenos Aires desde 1899, considerado el fundador de la neurociencia argentina. Enseñó en la Universidad de Buenos Aires y en la de La Plata, y publicó también dos libros de poemas.",
+   "w": [
+    "Del cerebro animal al cerebro humano (1911 en alemán, 1913 en castellano, con Clemente Onelli)",
+    "Folia Neurobiológica Argentina (1939–1946)"
+   ],
+   "c": "Dejó unos 250 trabajos, varios publicados primero en Alemania y algunos con coautores. En una obra en colaboración cuenta la muerte del último coautor (Clemente Onelli murió en 1924, antes que él).",
+   "conf": "check"
   },
   {
    "id": "q7121745",
@@ -4396,11 +4470,18 @@
    "wp": "https://es.wikipedia.org/wiki/Pablo_Rojas_Paz",
    "img": null,
    "flags": [],
-   "src": "wikidata",
+   "src": "wikidata+curado",
    "consultas": [
     "argentinos"
    ],
    "bnmm": "000043293",
+   "bio": "Escritor tucumano: ensayista, cuentista, novelista y biógrafo. Fundó la revista Proa en 1924 con Borges, Brandán Caraffa y Güiraldes, ganó el Premio Nacional en 1940 y escribió crónicas de fútbol en Crítica con el seudónimo «El negro de la tribuna».",
+   "w": [
+    "Paisajes y meditaciones (1924)",
+    "El patio de la noche (1940)",
+    "Biografía de Buenos Aires (1943)",
+    "Echeverría, pastor de soledades (1952)"
+   ],
    "conf": "ok"
   },
   {
