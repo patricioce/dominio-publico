@@ -76,11 +76,11 @@
  },
  {
   "anio_muerte": 1955,
-  "personas": 162,
+  "personas": 163,
   "a_revisar": 19,
   "por_categoria": {
    "Literatura": 92,
-   "Artes visuales": 32,
+   "Artes visuales": 33,
    "Cine e historieta": 22,
    "Música": 16
   },
@@ -91,10 +91,10 @@
  },
  {
   "anio_muerte": 1956,
-  "personas": 182,
-  "a_revisar": 46,
+  "personas": 179,
+  "a_revisar": 45,
   "por_categoria": {
-   "Literatura": 92,
+   "Literatura": 89,
    "Artes visuales": 31,
    "Cine e historieta": 29,
    "Música": 27,

@@ -368,54 +368,6 @@
    "conf": "check"
   },
   {
-   "id": "q334297",
-   "qid": "Q334297",
-   "n": "Pak Heon-yeong",
-   "b": "1900-05-28",
-   "d": "1956-12-15",
-   "bd": "28 de mayo de 1900",
-   "dd": "15 de diciembre de 1956",
-   "p": "Corea del Norte",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 51,
-   "wp": "https://es.wikipedia.org/wiki/Pak_Heon-yeong",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pak%20Hon-yong%2002.jpg",
-   "flags": [
-    "muerte_otro_anio"
-   ],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "check"
-  },
-  {
-   "id": "q237220",
-   "qid": "Q237220",
-   "n": "Hiram Bingham III",
-   "b": "1875-11-19",
-   "d": "1956-06-06",
-   "bd": "19 de noviembre de 1875",
-   "dd": "6 de junio de 1956",
-   "p": "Estados Unidos",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 50,
-   "wp": "https://es.wikipedia.org/wiki/Hiram_Bingham_III",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Hiram%20Bingham%20of%20Conn.%2C%20%281-9-25%29%20LCCN2016839105%20%283x4a%29.jpg",
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "ok"
-  },
-  {
    "id": "walser",
    "qid": "Q123075",
    "n": "Robert Walser",
@@ -534,29 +486,6 @@
     "Un hombre acabado (1913)",
     "Historia de Cristo (1921)",
     "Gog (1931)"
-   ],
-   "conf": "ok"
-  },
-  {
-   "id": "q161135",
-   "qid": "Q161135",
-   "n": "Savielly Tartakower",
-   "b": "1887-02-22",
-   "d": "1956-02-04",
-   "bd": "22 de febrero de 1887",
-   "dd": "4 de febrero de 1956",
-   "p": "Francia / Polonia",
-   "o": "Literatura",
-   "occ": [
-    "poeta"
-   ],
-   "sl": 45,
-   "wp": "https://es.wikipedia.org/wiki/Savielly_Tartakower",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg",
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
    ],
    "conf": "ok"
   },

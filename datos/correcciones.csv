@@ -20,3 +20,6 @@ Q61028,Walter Gieseking,categoria,Música,Migrado de limpieza_referencia.py (OVE
 Q1394538,Rigoberto López Pérez,categoria,Literatura,Migrado de limpieza_referencia.py (OVERRIDE_CAT)
 Q1585984,Haroldo Conti,advertencia,"Detenido-desaparecido: fue secuestrado el 5 de mayo de 1976 y no hay fecha de muerte conocida. La ley 24.321 fija una fecha presuntiva de desaparición, pero no declara la muerte, así que el inicio del plazo es incierto.","Wikidata usa la fecha del secuestro como fecha de muerte (es.wikipedia: Haroldo Conti)"
 Q1932712,Miguel Ángel Bustos,muerte,1976-06-20,"Secuestrado el 31/5/1976 y asesinado el 20/6/1976 (Masacre de Sarandí); restos identificados en 2014 (es.wikipedia). Wikidata solo tiene el año"
+Q237220,Hiram Bingham III,excluir,si,Explorador y político; no es un creador en el sentido del sitio
+Q161135,Savielly Tartakower,excluir,si,Ajedrecista; entra como poeta pero no es un creador en el sentido del sitio
+Q334297,Pak Heon-yeong,excluir,si,Dirigente político; no es un creador en el sentido del sitio

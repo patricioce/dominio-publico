@@ -19,7 +19,7 @@
    "occ": [
     "escritor"
    ],
-   "sl": 321,
+   "sl": 322,
    "wp": "https://es.wikipedia.org/wiki/Albert_Einstein",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head%20cleaned.jpg",
    "flags": [],
@@ -43,7 +43,7 @@
     "escritor",
     "poeta"
    ],
-   "sl": 165,
+   "sl": 166,
    "wp": "https://es.wikipedia.org/wiki/Thomas_Mann",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Mann%201929.jpg",
    "flags": [],
@@ -290,31 +290,6 @@
    "conf": "ok"
   },
   {
-   "id": "q334297",
-   "qid": "Q334297",
-   "n": "Pak Heon-yeong",
-   "b": "1900-05-28",
-   "d": "1955-12-18",
-   "bd": "28 de mayo de 1900",
-   "dd": "18 de diciembre de 1955",
-   "p": "Corea del Norte",
-   "o": "Literatura",
-   "occ": [
-    "escritor"
-   ],
-   "sl": 51,
-   "wp": "https://es.wikipedia.org/wiki/Pak_Heon-yeong",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pak%20Hon-yong%2002.jpg",
-   "flags": [
-    "muerte_otro_anio"
-   ],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "check"
-  },
-  {
    "id": "q352963",
    "qid": "Q352963",
    "n": "James Agee",
@@ -491,7 +466,7 @@
    "occ": [
     "escritor"
    ],
-   "sl": 38,
+   "sl": 39,
    "wp": "https://es.wikipedia.org/wiki/Calouste_Gulbenkian",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Caloustegulbenkian.jpg",
    "flags": [],
@@ -702,7 +677,7 @@
     "escritor",
     "poeta"
    ],
-   "sl": 30,
+   "sl": 31,
    "wp": "https://es.wikipedia.org/wiki/Lin_Huiyin",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lin%20Huiyin%2010.jpg",
    "flags": [],
@@ -1490,6 +1465,29 @@
    "conf": "ok"
   },
   {
+   "id": "q944285",
+   "qid": "Q944285",
+   "n": "Johannes de Jong",
+   "b": "1885-09-10",
+   "d": "1955-09-08",
+   "bd": "10 de septiembre de 1885",
+   "dd": "8 de septiembre de 1955",
+   "p": "Países Bajos",
+   "o": "Literatura",
+   "occ": [
+    "escritor"
+   ],
+   "sl": 18,
+   "wp": "https://es.wikipedia.org/wiki/Johannes_de_Jong",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erepromotie%20kardinaal%20J.%20de%20Jong%20te%20Leuven%2C%20Bestanddeelnr%20902-5866%20%28cropped%29.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
    "id": "q1642398",
    "qid": "Q1642398",
    "n": "Leonardus Nardus",
@@ -2144,6 +2142,31 @@
    "conf": "ok"
   },
   {
+   "id": "q3781616",
+   "qid": "Q3781616",
+   "n": "Fructuós Gelabert",
+   "b": "1874-01-15",
+   "d": "1955-02-25",
+   "bd": "15 de enero de 1874",
+   "dd": "1955",
+   "p": "España",
+   "o": "Cine e historieta",
+   "occ": [
+    "director de cine"
+   ],
+   "sl": 13,
+   "wp": "https://es.wikipedia.org/wiki/Fructu%C3%B3s_Gelabert",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/14%200091retu.jpg",
+   "flags": [
+    "muerte"
+   ],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "check"
+  },
+  {
    "id": "q213954",
    "qid": "Q213954",
    "n": "Herbert von Dirksen",
@@ -2432,7 +2455,7 @@
    "n": "Andrés Eloy Blanco",
    "b": "1896-08-06",
    "d": "1955-05-21",
-   "bd": "6 de agosto de 1896",
+   "bd": "1896 o 1897",
    "dd": "21 de mayo de 1955",
    "p": "Venezuela",
    "o": "Literatura",
@@ -2442,12 +2465,14 @@
    "sl": 12,
    "wp": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Eloy_Blanco",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9s%20Eloy%20Blanco%2C%201941.jpg",
-   "flags": [],
+   "flags": [
+    "nacimiento"
+   ],
    "src": "wikidata",
    "consultas": [
     "general"
    ],
-   "conf": "ok"
+   "conf": "check"
   },
   {
    "id": "q5729862",
@@ -2552,31 +2577,6 @@
    "conf": "ok"
   },
   {
-   "id": "q3781616",
-   "qid": "Q3781616",
-   "n": "Fructuós Gelabert",
-   "b": "1874-01-15",
-   "d": "1955-02-25",
-   "bd": "15 de enero de 1874",
-   "dd": "1955",
-   "p": "España",
-   "o": "Cine e historieta",
-   "occ": [
-    "director de cine"
-   ],
-   "sl": 12,
-   "wp": "https://es.wikipedia.org/wiki/Fructu%C3%B3s_Gelabert",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/14%200091retu.jpg",
-   "flags": [
-    "muerte"
-   ],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "check"
-  },
-  {
    "id": "q1372034",
    "qid": "Q1372034",
    "n": "Lamorna Birch",
@@ -2662,6 +2662,30 @@
    "sl": 12,
    "wp": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Franck",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Franz%20Marc%2C%20M%C3%A4dchenkopf%20%28Bildnis%20Maria%20Franck%29%2C%201906.jpg",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q544344",
+   "qid": "Q544344",
+   "n": "Marion Bauer",
+   "b": "1882-08-15",
+   "d": "1955-08-09",
+   "bd": "15 de agosto de 1882",
+   "dd": "9 de agosto de 1955",
+   "p": "Estados Unidos",
+   "o": "Literatura",
+   "occ": [
+    "compositor",
+    "escritor"
+   ],
+   "sl": 12,
+   "wp": "https://es.wikipedia.org/wiki/Marion_Bauer",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/MarionBauer1922.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -3023,30 +3047,6 @@
    "conf": "ok"
   },
   {
-   "id": "q544344",
-   "qid": "Q544344",
-   "n": "Marion Bauer",
-   "b": "1882-08-15",
-   "d": "1955-08-09",
-   "bd": "15 de agosto de 1882",
-   "dd": "9 de agosto de 1955",
-   "p": "Estados Unidos",
-   "o": "Literatura",
-   "occ": [
-    "compositor",
-    "escritor"
-   ],
-   "sl": 11,
-   "wp": "https://es.wikipedia.org/wiki/Marion_Bauer",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/MarionBauer1922.jpg",
-   "flags": [],
-   "src": "wikidata",
-   "consultas": [
-    "general"
-   ],
-   "conf": "ok"
-  },
-  {
    "id": "q12057561",
    "qid": "Q12057561",
    "n": "Nicolai Fechin",
@@ -3229,6 +3229,29 @@
    "sl": 11,
    "wp": null,
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ylla%20toucan%20Schaal.tif",
+   "flags": [],
+   "src": "wikidata",
+   "consultas": [
+    "general"
+   ],
+   "conf": "ok"
+  },
+  {
+   "id": "q943306",
+   "qid": "Q943306",
+   "n": "Adelbert Ames, Jr.",
+   "b": "1880-08-19",
+   "d": "1955-07-03",
+   "bd": "19 de agosto de 1880",
+   "dd": "3 de julio de 1955",
+   "p": "Estados Unidos",
+   "o": "Artes visuales",
+   "occ": [
+    "pintor"
+   ],
+   "sl": 10,
+   "wp": null,
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adelbert%20Ames%20b1880.jpg",
    "flags": [],
    "src": "wikidata",
    "consultas": [
@@ -3457,9 +3480,9 @@
    "id": "q1710259",
    "qid": "Q1710259",
    "n": "Haqqi al-Azm",
-   "b": "1865-01-01",
+   "b": "1864-01-01",
    "d": "1955-01-01",
-   "bd": "1865 o 1870",
+   "bd": "1864 o 1865 o 1870",
    "dd": "1955",
    "p": "Siria",
    "o": "Literatura",

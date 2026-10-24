@@ -1,23 +1,25 @@
 {
  "anio": 1955,
- "filas": 197,
- "personas_unicas": 162,
- "personas_publicadas": 162,
+ "filas": 201,
+ "personas_unicas": 164,
+ "personas_publicadas": 163,
  "por_categoria": {
   "Literatura": 92,
-  "Artes visuales": 32,
+  "Artes visuales": 33,
   "Cine e historieta": 22,
   "Música": 16
  },
  "excluidos_sin_nombre": [],
- "excluidos_por_correccion": [],
+ "excluidos_por_correccion": [
+  "Q334297 (Pak Heon-yeong)"
+ ],
  "movidos_a_otro_anio": [],
  "muerte_en_disputa": [
   "Mihály Károlyi: 1955-03-19, 1955-03-20",
   "Horace McCoy: 1955-12-15, 1955-12-16",
   "William Churchill deMille: 1955-03-05, 1955-03-08",
-  "Carl Friedberg: 1955-09-08, 1955-09-09",
   "Fructuós Gelabert: 1955-02-25, 1955-02-27",
+  "Carl Friedberg: 1955-09-08, 1955-09-09",
   "Barbra Ring: 1955-05-06, 1955-05-16",
   "Sōtarō Yasui: 1955-12-14, 1955-12-16",
   "Carmen Tórtola Valencia: 1955-02-13, 1955-03-15",
@@ -35,11 +37,12 @@
   "Blanca de los Ríos (Q5729862)"
  ],
  "nacimiento_en_disputa": [
+  "Andrés Eloy Blanco: 1896-08-06, 1897-08-06",
   "Noel M. Smith: 1893-05-22, 1895-05-22",
   "Clyde Bruckman: 1894-06-30, 1894-09-20",
   "Blanca de los Ríos: 1859-08-15, 1861-11-30",
   "Nicolai Fechin: 1881-12-08, 1881-12-21",
-  "Haqqi al-Azm: 1865-01-01, 1870-01-01",
+  "Haqqi al-Azm: 1864-01-01, 1865-01-01, 1870-01-01",
   "Mikhail Lozinsky: 1886-07-18, 1886-07-20",
   "Dovid Knut: 1900-09-22, 1900-09-23",
   "Anselmo Bucci: 1887-05-21, 1887-05-23"
@@ -65,8 +68,8 @@
   "Oskar Lindberg",
   "Josip Štolcer-Slavenski",
   "Konstantin Eggert",
-  "Ludwig Lewisohn",
   "Franz Carl Weiskopf",
+  "Ludwig Lewisohn",
   "Adnan Adıvar",
   "Willy Burkhard",
   "Noel M. Smith",
@@ -88,6 +91,7 @@
   "Dimitrie Gusti",
   "Arne Eggen",
   "Hortensia Papadat-Bengescu",
+  "Adelbert Ames, Jr.",
   "Haqqi al-Azm",
   "Mikhail Lozinsky",
   "Dovid Knut",
@@ -102,7 +106,7 @@
  "correcciones_sin_uso": [],
  "sin_categoria": [],
  "filas_por_consulta": {
-  "general": 187,
+  "general": 191,
   "argentinos": 10
  },
  "argentinos": 7,
