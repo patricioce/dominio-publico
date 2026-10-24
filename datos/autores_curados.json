@@ -1105,6 +1105,117 @@
    "w": [
     "Luces de Buenos Aires (1931)"
    ]
+  },
+  {
+   "qid": "Q312631",
+   "n": "Aleksandr Ródchenko",
+   "b": "1891-12-05",
+   "d": "1956-12-03",
+   "p": "Unión Soviética",
+   "o": "Artes visuales",
+   "bio": "Artista ruso, uno de los fundadores del constructivismo: pintor, escultor, diseñador gráfico y fotógrafo. Con Mayakovski armó carteles y publicidades en los años veinte, y su fotografía de ángulos extremos marcó la imagen moderna.",
+   "w": [
+    "Primeras pinturas monocromas, en la exposición 5x5=25 (1921)",
+    "Ilustraciones de «Sobre esto», de Mayakovski (fotomontaje, 1923)",
+    "Cartel «Libros» para la editorial Lengiz (1924)"
+   ],
+   "c": "Muchos carteles los hizo con Mayakovski (m. 1930), que escribía los textos; en esos cuenta la muerte del último coautor, que es Ródchenko. En Rusia se suman 4 años al plazo de quienes trabajaron durante la guerra de 1941-1945: caso a verificar."
+  },
+  {
+   "qid": "Q233088",
+   "n": "Marie Laurencin",
+   "b": "1883-10-31",
+   "d": "1956-06-08",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "bio": "Pintora y grabadora francesa de la vanguardia de París, cercana a Picasso, a Apollinaire y al grupo de la Section d'Or. Su pintura de tonos pastel la convirtió en retratista del mundo de la moda; también diseñó decorados y vestuario para ballet.",
+   "w": [
+    "Decorados y vestuario de Las ciervas, ballet de Poulenc (1924)",
+    "Retratos de Coco Chanel, Helena Rubinstein y Colette"
+   ]
+  },
+  {
+   "qid": "Q84250",
+   "n": "Josef Hoffmann",
+   "b": "1870-12-15",
+   "d": "1956-05-07",
+   "p": "Austria",
+   "o": "Artes visuales",
+   "bio": "Arquitecto y diseñador austríaco nacido en Moravia, fundador de la Secesión de Viena y de los Talleres de Viena (Wiener Werkstätte). Sus formas geométricas anticiparon la arquitectura moderna y el art déco.",
+   "w": [
+    "Sanatorio Purkersdorf (1905)",
+    "Palacio Stoclet, Bruselas (1905–1911)",
+    "Silla Sitzmaschine"
+   ],
+   "c": "Muchos proyectos fueron obras en colaboración: en el Palacio Stoclet trabajó con Gustav Klimt (m. 1918), y los objetos de los Talleres de Viena se diseñaban con otros artistas. En cada obra cuenta la muerte del último coautor."
+  },
+  {
+   "qid": "Q55221",
+   "n": "Alexander Korda",
+   "b": "1893-09-16",
+   "d": "1956-01-23",
+   "p": "Hungría / Reino Unido",
+   "o": "Cine e historieta",
+   "bio": "Director y productor de cine húngaro, nacionalizado británico. Después de trabajar en Hungría, Austria, Alemania y Hollywood, fundó London Films y se volvió la figura central del cine británico de los años treinta y cuarenta.",
+   "w": [
+    "La vida privada de Enrique VIII (1933, director y productor)",
+    "Rembrandt (1936, director)",
+    "El ladrón de Bagdad (1940, productor)",
+    "El tercer hombre (1949, productor)"
+   ]
+  },
+  {
+   "qid": "Q313529",
+   "n": "Tommy Dorsey",
+   "b": "1905-11-19",
+   "d": "1956-11-26",
+   "p": "Estados Unidos",
+   "o": "Música",
+   "bio": "Trombonista y director de big band estadounidense, una de las orquestas más populares de la era del swing. Por su sonido suave lo llamaban «el caballero sentimental del swing»; en su orquesta cantó el joven Frank Sinatra.",
+   "w": [
+    "I'll Never Smile Again (grabación, 1940)",
+    "Orquesta de Tommy Dorsey (desde 1935)"
+   ],
+   "c": "Fue sobre todo intérprete y director: muchos de sus éxitos son composiciones de otros autores, que tienen su propio plazo, y las grabaciones tienen derechos aparte."
+  },
+  {
+   "qid": "Q313096",
+   "n": "Jean Metzinger",
+   "p": "Francia",
+   "o": "Artes visuales",
+   "bio": "Pintor, poeta y teórico francés, figura central del cubismo. En 1910 describió por primera vez la idea de pintar un objeto desde varios puntos de vista, y en 1912 escribió con Albert Gleizes el primer tratado sobre el cubismo.",
+   "w": [
+    "Nota sobre la pintura (1910)",
+    "La merienda (1911)",
+    "Del cubismo (con Albert Gleizes, 1912)"
+   ],
+   "c": "Del cubismo lo escribió con Albert Gleizes, que murió antes (1953): ese libro también se libera en 2027."
+  },
+  {
+   "qid": "Q186561",
+   "n": "Alfred C. Kinsey",
+   "p": "Estados Unidos",
+   "o": "Ciencia",
+   "bio": "Biólogo estadounidense que pasó del estudio de los insectos a la investigación sobre sexualidad humana. Fundó en la Universidad de Indiana el instituto que lleva su nombre; sus informes de 1948 y 1953 fueron éxitos de venta y abrieron un debate público.",
+   "w": [
+    "Sexual Behavior in the Human Male (1948)",
+    "Sexual Behavior in the Human Female (1953)"
+   ],
+   "c": "Los dos informes tienen coautores: Wardell Pomeroy (m. 2001), Clyde Martin y, en el segundo, Paul Gebhard (m. 2015). En una obra en colaboración cuenta la muerte del último coautor, así que los informes no se liberan en 2027."
+  },
+  {
+   "qid": "Q263067",
+   "n": "Evelyn Beatrice Hall",
+   "b": "1868-09-28",
+   "d": "1956-04-13",
+   "p": "Reino Unido",
+   "o": "Literatura",
+   "bio": "Escritora inglesa que firmó toda su obra como S. G. Tallentyre. Es la autora de la frase sobre defender hasta la muerte el derecho a decir lo que uno no comparte, que suele atribuirse a Voltaire: la escribió en su libro sobre los amigos del filósofo.",
+   "w": [
+    "The Life of Voltaire (1903)",
+    "The Friends of Voltaire (1906)"
+   ],
+   "c": "Publicó con seudónimo y escribió dos libros con Henry Seton Merriman (m. 1903). Los libros firmados con seudónimo son un caso a verificar."
   }
  ]
 }
