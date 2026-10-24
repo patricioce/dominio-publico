@@ -1,0 +1,182 @@
+---
+// Perfil de autor: contador (ley argentina), línea de tiempo, tabla por legislación y avisos.
+// Se compila una vez; el script del final ajusta al día de hoy lo que depende de la fecha.
+import Base from '../../layouts/Base.astro';
+import { autores, enlaces, type Autor } from '../../lib/datos';
+import { anioLiberacion, estado, NOTA_MEXICO } from '../../lib/calculo';
+import { plazoMenorPorArt15 } from '../../lib/avisos';
+import { avisos, esCasoAVerificar, fechasVida, filasLegislacion, iniciales, lineaDeTiempo, posicionHoy } from '../../lib/perfil';
+import { url } from '../../lib/rutas';
+
+export function getStaticPaths() {
+  return autores.map((autor) => ({ params: { slug: autor.slug }, props: { autor } }));
+}
+
+interface Props {
+  autor: Autor;
+}
+
+const { autor: a } = Astro.props;
+const hoy = new Date();
+
+const anioAr = anioLiberacion(a.d);
+const comoMaximo = plazoMenorPorArt15(a.p, a.d) !== null;
+const filas = filasLegislacion(a, hoy);
+const notas = filas.filter((f) => f.nota);
+const lista = avisos(a);
+const verificar = esCasoAVerificar(a);
+const t = lineaDeTiempo(a, hoy);
+
+const FUENTE: Record<string, string> = {
+  wikidata: 'Wikidata, sin revisión manual',
+  'wikidata+curado': 'Wikidata, con revisión manual',
+  curado: 'ficha curada a mano',
+};
+
+const https = (u: string) => u.replace(/^http:\/\//, 'https://');
+const urlBnmm = a.bnmm && enlaces.bnmm ? enlaces.bnmm.replace('{}', a.bnmm) : null;
+
+const titulo = a.n;
+const descripcion = a.bio
+  ? `${a.bio} Su obra queda libre en Argentina el 1 de enero de ${anioAr}.`
+  : `${a.n} (${fechasVida(a)}). Según la ley argentina, su obra queda libre el 1 de enero de ${anioAr}.`;
+---
+<Base titulo={titulo} descripcion={descripcion}>
+  <a class="back" href={url(`/anio/${anioAr}/`)}>‹ Autores que se liberan en {anioAr}</a>
+  <div class="profile">
+    <article>
+      <div class="monogram" aria-hidden="true">{iniciales(a.n)}</div>
+      <h1>{a.n}</h1>
+      <p class="lifespan">
+        {fechasVida(a)} · {a.p} · {a.o}
+        <span class:list={['conf', verificar ? 'check' : 'ok']}>
+          {verificar ? 'Caso a verificar' : 'Cálculo estándar'}
+        </span>
+      </p>
+      {a.occ.length > 0 && <p class="occ">{a.occ.join(', ')}</p>}
+      <p class="bio">{a.bio ?? 'Biografía pendiente de redacción.'}</p>
+      {a.w && a.w.length > 0 && (
+        <>
+          <h3>Obras principales</h3>
+          <ul class="works">{a.w.map((obra) => <li>{obra}</li>)}</ul>
+        </>
+      )}
+      {lista.map((aviso) => (
+        <div class="caveat"><strong>{aviso.titulo}</strong>{aviso.texto}</div>
+      ))}
+      <div class="links">
+        {a.wp && <a class="btn" href={a.wp} target="_blank" rel="noopener">Wikipedia</a>}
+        {a.qid && <a class="btn" href={`https://www.wikidata.org/wiki/${a.qid}`} target="_blank" rel="noopener">Wikidata</a>}
+        {urlBnmm && <a class="btn" href={urlBnmm} target="_blank" rel="noopener">Biblioteca Nacional</a>}
+        {a.img && <a class="btn" href={https(a.img)} target="_blank" rel="noopener">Ver foto</a>}
+      </div>
+      <p class="src">
+        Fuente: {FUENTE[a.src] ?? 'ficha curada'}.{a.solo_periodista && ' Figura en Wikidata solo como periodista.'}
+      </p>
+    </article>
+
+    <aside>
+      <div class="counter" role="status" data-contador data-anio={anioAr} data-maximo={comoMaximo ? '' : undefined}>
+        <div class:list={["stamp", { protected: !estado(a.d, hoy).libre }]} aria-hidden="true">
+          <div class="counter-lead">Libre en</div>
+          <div class="counter-big">{anioAr}</div>
+        </div>
+        <p class="counter-note">
+          Queda libre en Argentina el 1 de enero de {anioAr}{comoMaximo && ', como máximo (ver abajo)'}.
+        </p>
+      </div>
+
+      <div class="timeline" aria-hidden="true" data-linea data-inicio={t.inicio} data-fin={t.fin}>
+        <div class="tl-wrap">
+          <div class="tl-bar">
+            <div class="tl-life" style={`width:${t.vida}%`}></div>
+            <div class="tl-prot" style={`width:${t.proteccion}%`}></div>
+            <div class="tl-free" style={`width:${t.libre}%`}></div>
+          </div>
+          <div class="tl-today" style={`left:${posicionHoy(t.inicio, t.fin, hoy)}%`}><span>Hoy</span></div>
+        </div>
+        <div class="tl-legend"><span>{a.b ? t.inicio : '?'}</span><span>{t.muerte}</span><span>{t.liberacion}</span></div>
+        <div class="tl-keys">
+          <span><i style="background:var(--ink);opacity:.8"></i>Vida</span>
+          <span><i style="background:var(--violet)"></i>Protegida</span>
+          <span><i style="background:var(--green)"></i>Dominio público</span>
+        </div>
+      </div>
+
+      <h3>En otras legislaciones</h3>
+      <div class="table-wrap">
+        <table class="juris">
+          <thead><tr><th>Legislación</th><th>Se libera</th><th>Estado</th></tr></thead>
+          <tbody>
+            {filas.map((f) => (
+              <tr class:list={{ active: f.legislacion === 'ar' }}>
+                <td>{f.nombre}{f.nota && <sup>*</sup>}</td>
+                <td class="num">{f.anio}</td>
+                <td class={f.estado.libre ? 'st-free' : 'st-prot'} data-estado={f.anio}>
+                  {f.estado.libre ? 'Libre' : f.texto}
+                </td>
+              </tr>
+            ))}
+            <tr><td>México<sup>*</sup></td><td class="num">—</td><td>No se calcula</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="juris-notes">
+        {notas.map((f) => <p class="src"><sup>*</sup> <strong>{f.nombre}:</strong> {f.nota}</p>)}
+        <p class="src"><sup>*</sup> <strong>México:</strong> {NOTA_MEXICO}</p>
+        <p class="src">
+          Información orientativa, no es asesoramiento legal. <a href={url('/como-calculamos/')}>Cómo calculamos</a>.
+        </p>
+      </div>
+    </aside>
+  </div>
+</Base>
+
+<script>
+  import { estadoDelAnio, plural, textoEstado } from '../../lib/calculo';
+  import { posicionHoy } from '../../lib/perfil';
+
+  const hoy = new Date();
+
+  // Contador: libre, último año (en días) o años que faltan.
+  const contador = document.querySelector<HTMLElement>('[data-contador]')!;
+  const e = estadoDelAnio(Number(contador.dataset.anio), hoy);
+  const maximo = contador.hasAttribute('data-maximo') ? ', como máximo (ver abajo)' : '';
+  const sello = contador.querySelector('.stamp')!;
+  sello.classList.toggle('protected', !e.libre);
+  sello.classList.toggle('animate', !e.libre);
+  const [lead, big] = [sello.querySelector('.counter-lead')!, sello.querySelector('.counter-big')!];
+  sello.querySelector('.counter-label')?.remove();
+  const nota = contador.querySelector('.counter-note')!;
+  if (e.libre) {
+    lead.textContent = 'Libre desde';
+    big.textContent = String(e.anio);
+    const anios = hoy.getFullYear() - e.anio;
+    const desde = anios === 0 ? 'desde el 1 de enero de este año' : `desde hace ${plural(anios, 'año', 'años')}`;
+    nota.textContent = `Su obra está en dominio público en Argentina ${desde}${maximo}.`;
+    contador.setAttribute('aria-label', `Libre desde ${e.anio}`);
+  } else {
+    const ultimo = e.anios === 1;
+    const n = ultimo ? e.dias : e.anios;
+    lead.textContent = 'Faltan';
+    big.textContent = n.toLocaleString('es-AR');
+    const label = document.createElement('div');
+    label.className = 'counter-label';
+    label.textContent = ultimo ? (n === 1 ? 'día' : 'días') : 'años';
+    sello.append(label);
+    nota.textContent = `Queda libre en Argentina el 1 de enero de ${e.anio}${maximo}.`;
+    contador.setAttribute('aria-label', `${textoEstado(e)} para que quede libre en Argentina`);
+  }
+
+  // Tabla por legislación.
+  for (const celda of document.querySelectorAll<HTMLElement>('[data-estado]')) {
+    const s = estadoDelAnio(Number(celda.dataset.estado), hoy);
+    celda.textContent = s.libre ? 'Libre' : textoEstado(s);
+    celda.className = s.libre ? 'st-free' : 'st-prot';
+  }
+
+  // Marca de "Hoy" en la línea de tiempo.
+  const linea = document.querySelector<HTMLElement>('[data-linea]')!;
+  const marca = linea.querySelector<HTMLElement>('.tl-today')!;
+  marca.style.left = `${posicionHoy(Number(linea.dataset.inicio), Number(linea.dataset.fin), hoy)}%`;
+</script>

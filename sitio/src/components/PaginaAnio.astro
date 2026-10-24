@@ -6,6 +6,7 @@ import { autores } from '../lib/datos';
 import { aniosConDatos, anioMuerteDe, esArgentino, gruposDelAnio, periodoVida } from '../lib/anios';
 import { diasHasta, plural } from '../lib/calculo';
 import { url } from '../lib/rutas';
+import { esCasoAVerificar } from '../lib/perfil';
 
 interface Props {
   anio: number;
@@ -74,7 +75,7 @@ const obrasODedicacion = (a: (typeof delAnio)[number]) =>
               <span class="row-name">{a.n}</span>
               <span class="row-meta">{periodoVida(a, muerte)} · {a.p}</span>
               <span class="row-works">{obrasODedicacion(a)}</span>
-              {a.conf === 'check' && <span class="row-flag">Caso a verificar</span>}
+              {esCasoAVerificar(a) && <span class="row-flag">Caso a verificar</span>}
             </a>
           </li>
         ))}

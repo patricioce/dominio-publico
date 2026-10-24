@@ -89,7 +89,11 @@ export type Estado =
   | { libre: false; anio: number; anios: number; dias: number };
 
 export function estado(muerteISO: string, hoy: Date, leg: Legislacion = LEGISLACION_PRINCIPAL): Estado {
-  const anio = anioLiberacion(muerteISO, leg);
+  return estadoDelAnio(anioLiberacion(muerteISO, leg), hoy);
+}
+
+/** Estado a partir del año de liberación ya calculado (lo usa el navegador para actualizar la página). */
+export function estadoDelAnio(anio: number, hoy: Date): Estado {
   if (anio <= hoy.getFullYear()) return { libre: true, anio };
   return { libre: false, anio, anios: anio - hoy.getFullYear(), dias: diasHasta(anio, hoy) };
 }
