@@ -42,3 +42,11 @@ test('grupos: orden de categorías, curados primero, solo periodistas al final',
   assert.deepEqual(grupos.map((g) => g.categoria), ['Literatura', 'Música']);
   assert.deepEqual(grupos[0].autores.map((a) => a.id), ['b', 'a', 'c']);
 });
+
+test('las fichas fuera de rango no generan páginas de año ni entran en sus listas', () => {
+  const borges = autor({ id: 'borges', d: '1986-06-14', aniosMuerte: [1986], fueraDeRango: true });
+  const brecht = autor({ id: 'brecht', aniosMuerte: [1956] });
+  assert.deepEqual(aniosConDatos([borges, brecht]), [2027]);
+  assert.deepEqual(gruposDelAnio([borges], 2057), []);
+  assert.equal(gruposDelAnio([borges, brecht], 2027)[0].autores.length, 1);
+});

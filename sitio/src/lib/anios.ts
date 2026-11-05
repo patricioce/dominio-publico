@@ -18,7 +18,7 @@ export function anioLiberacionDe(anioMuerte: number): number {
 
 /** Años de liberación que tienen datos, de menor a mayor. */
 export function aniosConDatos(autores: Autor[]): number[] {
-  const anios = new Set(autores.flatMap((a) => a.aniosMuerte.map(anioLiberacionDe)));
+  const anios = new Set(autores.filter((a) => !a.fueraDeRango).flatMap((a) => a.aniosMuerte.map(anioLiberacionDe)));
   return [...anios].sort((x, y) => x - y);
 }
 
@@ -50,7 +50,7 @@ export interface Grupo {
 /** Autores que se liberan el 1 de enero del año dado, agrupados por categoría y ordenados. */
 export function gruposDelAnio(autores: Autor[], anioLiberacion: number): Grupo[] {
   const muerte = anioMuerteDe(anioLiberacion);
-  const delAnio = autores.filter((a) => a.aniosMuerte.includes(muerte));
+  const delAnio = autores.filter((a) => !a.fueraDeRango && a.aniosMuerte.includes(muerte));
   const categorias = [...CATEGORIAS, ...new Set(delAnio.map((a) => a.o).filter((o) => !CATEGORIAS.includes(o)))];
   return categorias
     .map((categoria) => ({

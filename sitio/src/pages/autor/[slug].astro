@@ -42,7 +42,9 @@ const descripcion = a.bio
   : `${a.n} (${fechasVida(a)}). Según la ley argentina, su obra queda libre el 1 de enero de ${anioAr}.`;
 ---
 <Base titulo={titulo} descripcion={descripcion}>
-  <a class="back" href={url(`/anio/${anioAr}/`)}>‹ Autores que se liberan en {anioAr}</a>
+  {a.fueraDeRango
+    ? <a class="back" href={url('/autores/')}>‹ Buscar autores</a>
+    : <a class="back" href={url(`/anio/${anioAr}/`)}>‹ Autores que se liberan en {anioAr}</a>}
   <div class="profile">
     <article>
       <div class="monogram" aria-hidden="true">{iniciales(a.n)}</div>

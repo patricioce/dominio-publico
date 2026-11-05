@@ -38,6 +38,8 @@ export interface Autor extends AutorCrudo {
   slug: string;
   /** Años de muerte en los que aparece (más de uno si Wikidata no tiene fecha preferida). */
   aniosMuerte: number[];
+  /** Ficha curada de un año sin datos generados: tiene perfil, pero no entra en las páginas de año. */
+  fueraDeRango?: boolean;
 }
 
 export interface Indice {
@@ -57,8 +59,10 @@ export function slugDe(a: Pick<AutorCrudo, 'n' | 'qid' | 'id'>): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
-  // Sin QID (fichas curadas que Wikidata no trajo) se usa el id de la ficha.
-  const sufijo = (a.qid ?? a.id).toLowerCase();
+  // Sin QID (fichas curadas que Wikidata no trajo) va solo el nombre: /autor/jorge-luis-borges/.
+  // Si dos fichas sin QID dieran el mismo nombre, cargarAutores() corta la compilación.
+  if (!a.qid) return nombre || a.id.toLowerCase();
+  const sufijo = a.qid.toLowerCase();
   return nombre ? `${nombre}-${sufijo}` : sufijo;
 }
 
@@ -82,6 +86,17 @@ function cargarAutores(): Autor[] {
       } else {
         porId.set(crudo.id, { ...crudo, slug: slugDe(crudo), aniosMuerte: [anio_muerte] });
       }
+    }
+  }
+  // Fichas curadas de años que todavía no se generaron (Borges, Gardel, Quino…).
+  const archivoFuera = path.join(DIR_DATOS, 'curados_fuera_de_rango.json');
+  if (fs.existsSync(archivoFuera)) {
+    const { autores: fuera } = leerJson<{ autores: AutorCrudo[] }>('curados_fuera_de_rango.json');
+    for (const crudo of fuera) {
+      if (porId.has(crudo.id)) continue; // el año ya se generó y la ficha está en su lista
+      porId.set(crudo.id, {
+        ...crudo, slug: slugDe(crudo), aniosMuerte: [Number(crudo.d.slice(0, 4))], fueraDeRango: true,
+      });
     }
   }
   const autores = [...porId.values()];

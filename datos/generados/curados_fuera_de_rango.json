@@ -1,0 +1,305 @@
+{
+ "aviso": "Información orientativa, no es asesoramiento legal.",
+ "fuente": "Fichas curadas",
+ "autores": [
+  {
+   "id": "gardel",
+   "n": "Carlos Gardel",
+   "b": "1890-12-11",
+   "d": "1935-06-24",
+   "p": "Argentina",
+   "o": "Música",
+   "bio": "Cantante y compositor, la voz más emblemática del tango.",
+   "w": [
+    "Mi Buenos Aires querido (1934)",
+    "Volver (1934)",
+    "Por una cabeza (1935)"
+   ],
+   "c": "Las músicas de Gardel son libres, pero muchas letras son de Alfredo Le Pera, que murió en el mismo accidente (1935): también libres.",
+   "conf": "ok",
+   "bd": "11 de diciembre de 1890",
+   "dd": "24 de junio de 1935",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "quiroga",
+   "n": "Horacio Quiroga",
+   "b": "1878-12-31",
+   "d": "1937-02-19",
+   "p": "Uruguay / Argentina",
+   "o": "Literatura",
+   "bio": "Cuentista uruguayo radicado en Argentina, maestro del cuento de la selva misionera.",
+   "w": [
+    "Cuentos de amor de locura y de muerte (1917)",
+    "Cuentos de la selva (1918)"
+   ],
+   "conf": "ok",
+   "bd": "31 de diciembre de 1878",
+   "dd": "19 de febrero de 1937",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "storni",
+   "n": "Alfonsina Storni",
+   "b": "1892-05-29",
+   "d": "1938-10-25",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta argentina nacida en Suiza, voz fundamental del posmodernismo y del feminismo literario.",
+   "w": [
+    "La inquietud del rosal (1916)",
+    "Ocre (1925)",
+    "Mascarilla y trébol (1938)"
+   ],
+   "conf": "ok",
+   "bd": "29 de mayo de 1892",
+   "dd": "25 de octubre de 1938",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "arlt",
+   "n": "Roberto Arlt",
+   "b": "1900-04-02",
+   "d": "1942-07-26",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista y cronista argentino, retratista feroz de la Buenos Aires moderna.",
+   "w": [
+    "El juguete rabioso (1926)",
+    "Los siete locos (1929)",
+    "Aguafuertes porteñas (1933)"
+   ],
+   "conf": "ok",
+   "bd": "2 de abril de 1900",
+   "dd": "26 de julio de 1942",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "rwalsh",
+   "n": "Rodolfo Walsh",
+   "b": "1927-01-09",
+   "d": "1977-03-25",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Periodista y escritor argentino, pionero de la no ficción; asesinado por la dictadura.",
+   "w": [
+    "Operación masacre (1957)",
+    "Los oficios terrestres (1965)",
+    "Carta abierta de un escritor a la Junta Militar (1977)"
+   ],
+   "conf": "ok",
+   "bd": "9 de enero de 1927",
+   "dd": "25 de marzo de 1977",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "vocampo",
+   "n": "Victoria Ocampo",
+   "b": "1890-04-07",
+   "d": "1979-01-27",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritora y editora argentina, fundadora de la revista Sur.",
+   "w": [
+    "Testimonios (1935–1977)",
+    "Autobiografía (1979–1984)"
+   ],
+   "conf": "ok",
+   "bd": "7 de abril de 1890",
+   "dd": "27 de enero de 1979",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "cortazar",
+   "n": "Julio Cortázar",
+   "b": "1914-08-26",
+   "d": "1984-02-12",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor argentino, figura central del boom latinoamericano y maestro del cuento.",
+   "w": [
+    "Bestiario (1951)",
+    "Rayuela (1963)",
+    "Historias de cronopios y de famas (1962)"
+   ],
+   "conf": "ok",
+   "bd": "26 de agosto de 1914",
+   "dd": "12 de febrero de 1984",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "borges",
+   "n": "Jorge Luis Borges",
+   "b": "1899-08-24",
+   "d": "1986-06-14",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Escritor argentino, uno de los autores más influyentes de la literatura universal del siglo XX.",
+   "w": [
+    "Ficciones (1944)",
+    "El Aleph (1949)",
+    "El hacedor (1960)"
+   ],
+   "c": "Las obras escritas con Bioy Casares (m. 1999), como las de H. Bustos Domecq, se liberan recién en 2070.",
+   "conf": "check",
+   "bd": "24 de agosto de 1899",
+   "dd": "14 de junio de 1986",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "puig",
+   "n": "Manuel Puig",
+   "b": "1932-12-28",
+   "d": "1990-07-22",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista argentino que llevó el folletín y el cine a la novela.",
+   "w": [
+    "La traición de Rita Hayworth (1968)",
+    "Boquitas pintadas (1969)",
+    "El beso de la mujer araña (1976)"
+   ],
+   "conf": "ok",
+   "bd": "28 de diciembre de 1932",
+   "dd": "22 de julio de 1990",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "piazzolla",
+   "n": "Astor Piazzolla",
+   "b": "1921-03-11",
+   "d": "1992-07-04",
+   "p": "Argentina",
+   "o": "Música",
+   "bio": "Compositor y bandoneonista argentino, renovador del tango.",
+   "w": [
+    "Adiós Nonino (1959)",
+    "Libertango (1974)",
+    "María de Buenos Aires (1968, con Horacio Ferrer)"
+   ],
+   "c": "Las obras con letra de Horacio Ferrer (m. 2014) se liberan en 2085.",
+   "conf": "check",
+   "bd": "11 de marzo de 1921",
+   "dd": "4 de julio de 1992",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "socampo",
+   "n": "Silvina Ocampo",
+   "b": "1903-07-28",
+   "d": "1993-12-14",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Cuentista y poeta argentina, de una literatura fantástica perturbadora y singular.",
+   "w": [
+    "La furia (1959)",
+    "Las invitadas (1961)"
+   ],
+   "conf": "ok",
+   "bd": "28 de julio de 1903",
+   "dd": "14 de diciembre de 1993",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "bioy",
+   "n": "Adolfo Bioy Casares",
+   "b": "1914-09-15",
+   "d": "1999-03-08",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista argentino, autor de uno de los clásicos de la literatura fantástica.",
+   "w": [
+    "La invención de Morel (1940)",
+    "El sueño de los héroes (1954)",
+    "Diario de la guerra del cerdo (1969)"
+   ],
+   "conf": "ok",
+   "bd": "15 de septiembre de 1914",
+   "dd": "8 de marzo de 1999",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "mewalsh",
+   "n": "María Elena Walsh",
+   "b": "1930-02-01",
+   "d": "2011-01-10",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Poeta, compositora y escritora argentina, referente de la literatura infantil.",
+   "w": [
+    "Tutú Marambá (1960)",
+    "El reino del revés (1965)",
+    "Manuelita (1962)"
+   ],
+   "conf": "ok",
+   "bd": "1 de febrero de 1930",
+   "dd": "10 de enero de 2011",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "sabato",
+   "n": "Ernesto Sabato",
+   "b": "1911-06-24",
+   "d": "2011-04-30",
+   "p": "Argentina",
+   "o": "Literatura",
+   "bio": "Novelista y ensayista argentino, físico de formación.",
+   "w": [
+    "El túnel (1948)",
+    "Sobre héroes y tumbas (1961)",
+    "Abaddón el exterminador (1974)"
+   ],
+   "conf": "ok",
+   "bd": "24 de junio de 1911",
+   "dd": "30 de abril de 2011",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  },
+  {
+   "id": "quino",
+   "n": "Quino",
+   "b": "1932-07-17",
+   "d": "2020-09-30",
+   "p": "Argentina",
+   "o": "Cine e historieta",
+   "bio": "Humorista gráfico argentino, creador de Mafalda.",
+   "w": [
+    "Mafalda (1964–1973)"
+   ],
+   "c": "Mafalda también está protegida como marca registrada, independientemente del derecho de autor.",
+   "conf": "check",
+   "bd": "17 de julio de 1932",
+   "dd": "30 de septiembre de 2020",
+   "occ": [],
+   "flags": [],
+   "src": "curado"
+  }
+ ]
+}

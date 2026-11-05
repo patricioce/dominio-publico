@@ -9,6 +9,8 @@ Ver `CLAUDE.md` para objetivos, reglas de cálculo y hoja de ruta.
 python3 scripts/generar_anio.py 1956
 ```
 
+Si solo cambiaste fichas curadas de años que no están generados, alcanza con `python3 scripts/generar_anio.py --solo-curados` (no consulta Wikidata).
+
 Solo usa la biblioteca estándar de Python (3.9+). Genera `datos/generados/1956.json` y `datos/generados/reporte_1956.json`.
 
 ## Sitio (Astro)

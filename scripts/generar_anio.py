@@ -188,6 +188,15 @@ def _unir(listas):
     return salida
 
 
+def registro_curado(c):
+    """Registro publicable armado solo con una ficha curada (sin datos de Wikidata)."""
+    rec = dict(c)
+    rec.setdefault('id', c['qid'].lower() if c.get('qid') else re.sub(r'[^a-z0-9]+', '-', normalizar(c['n'])).strip('-'))
+    rec.update({'bd': fecha_larga(c['b']), 'dd': fecha_larga(c['d']), 'occ': [], 'flags': [], 'src': 'curado'})
+    rec.setdefault('conf', 'check' if c.get('c') else 'ok')
+    return rec
+
+
 def limpiar(filas, anio, correcciones, curados):
     anio_txt = str(anio)
     reporte = {
@@ -369,11 +378,7 @@ def limpiar(filas, anio, correcciones, curados):
         if id(c) in curados_usados or c.get('d', '')[:4] != anio_txt:
             continue
         reporte['curados_ausentes_en_wikidata'].append(c['n'])
-        rec = dict(c)
-        rec.setdefault('id', c['qid'].lower() if c.get('qid') else re.sub(r'[^a-z0-9]+', '-', normalizar(c['n'])).strip('-'))
-        rec.update({'bd': fecha_larga(c['b']), 'dd': fecha_larga(c['d']), 'occ': [], 'flags': [], 'src': 'curado'})
-        rec.setdefault('conf', 'check' if c.get('c') else 'ok')
-        personas.append(rec)
+        personas.append(registro_curado(c))
 
     for qid, filas_c in correcciones.items():
         for c in filas_c:
@@ -432,6 +437,20 @@ def escribir_indice():
         f.write('\n')
 
 
+def escribir_curados_fuera_de_rango():
+    """Fichas curadas cuyo año de muerte todavía no tiene datos generados (Borges, Gardel, Quino…).
+    El sitio les arma perfil y las suma al buscador, pero no una página de año: la lista de ese año
+    estaría incompleta. Cuando se genere el año, la ficha pasa a la lista del año y sale de acá."""
+    generados = {int(m.group(1)) for n in os.listdir(GENERADOS) if (m := re.fullmatch(r'(\d{4})\.json', n))}
+    fuera = [registro_curado(c) for c in cargar_curados()
+             if c.get('d') and c.get('b') and int(c['d'][:4]) not in generados]
+    fuera.sort(key=lambda p: (p['d'], normalizar(p['n'])))
+    with open(os.path.join(GENERADOS, 'curados_fuera_de_rango.json'), 'w', encoding='utf-8') as f:
+        json.dump({'aviso': AVISO, 'fuente': 'Fichas curadas', 'autores': fuera}, f, ensure_ascii=False, indent=1)
+        f.write('\n')
+    print(f'Fichas curadas fuera de los años generados: {len(fuera)}', file=sys.stderr)
+
+
 def procesar(anio, desde_crudo, pausa=5):
     filas = []
     for n, (nombre, ruta) in enumerate(CONSULTAS.items()):
@@ -456,10 +475,17 @@ def procesar(anio, desde_crudo, pausa=5):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('anio', help='año de muerte (1956) o rango (1950-1976)')
+    ap.add_argument('anio', nargs='?', help='año de muerte (1956) o rango (1950-1976)')
+    ap.add_argument('--solo-curados', action='store_true',
+                    help='sin consultar Wikidata: rehacer solo curados_fuera_de_rango.json (después de editar fichas)')
     ap.add_argument('--desde-crudo', action='store_true', help='usar la respuesta guardada en datos/generados/crudo/')
     ap.add_argument('--pausa', type=float, default=5, help='segundos entre consultas de un rango (por defecto 5)')
     args = ap.parse_args()
+    if args.solo_curados:
+        escribir_curados_fuera_de_rango()
+        return
+    if not args.anio:
+        ap.error('falta el año (o usar --solo-curados)')
 
     desde, _, hasta = args.anio.partition('-')
     anios = range(int(desde), int(hasta or desde) + 1)
@@ -473,6 +499,7 @@ def main():
             print(f'ERROR en {anio}: {e}', file=sys.stderr)
             fallidos.append(anio)
     escribir_indice()
+    escribir_curados_fuera_de_rango()
     if fallidos:
         print(f'Fallaron: {fallidos}. Volver a correrlos de a uno.', file=sys.stderr)
         sys.exit(1)

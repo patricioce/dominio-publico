@@ -17,9 +17,10 @@ Un sitio web que lista, año por año, los autores cuya obra pasa a dominio púb
 
 - `consultas/`: consultas SPARQL (plantillas con `{ANIO}` y `{ANIO_SIG}`).
 - `datos/correcciones.csv`, `datos/autores_curados.json`: datos editados a mano.
-- `datos/generados/`: salida del script (`AAAA.json`, `reporte_AAAA.json`). No editar a mano.
+- `datos/generados/`: salida del script (`AAAA.json`, `reporte_AAAA.json`, `curados_fuera_de_rango.json`). No editar a mano.
+  - `curados_fuera_de_rango.json`: fichas curadas cuyo año de muerte no tiene datos generados (Borges, Gardel, Quino…). Tienen perfil y aparecen en el buscador, pero no en las páginas de año (esa lista estaría incompleta). Al generar su año pasan a la lista normal.
 - `datos/referencia/query.csv`: export de 1956 hecho en el chat, para comparar.
-- `scripts/generar_anio.py AAAA`: consulta Wikidata, limpia y genera los datos de un año.
+- `scripts/generar_anio.py AAAA`: consulta Wikidata, limpia y genera los datos de un año. Después de editar fichas curadas sin regenerar años: `scripts/generar_anio.py --solo-curados` (no consulta Wikidata).
 - `referencia/`: script original del chat (solo documentación).
 - `investigacion/legislaciones.md`: investigación sobre plazos por país, con fuentes.
 - `sitio/`: sitio estático en Astro. Lee `datos/generados/` al compilar (`sitio/src/lib/datos.ts`); compilar desde `sitio/` con `npm run build`. URL de año por año de liberación (`/anio/2027`) y de autor por `nombre-qid` (`/autor/bertolt-brecht-q38757`).
