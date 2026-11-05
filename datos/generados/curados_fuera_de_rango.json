@@ -95,7 +95,8 @@
     "Los oficios terrestres (1965)",
     "Carta abierta de un escritor a la Junta Militar (1977)"
    ],
-   "conf": "ok",
+   "c": "Detenido-desaparecido: fue atacado por un grupo de tareas el 25 de marzo de 1977 y su cuerpo nunca apareció. La ley 24.321 fija una fecha presuntiva de desaparición, pero no declara la muerte, así que el inicio del plazo es incierto.",
+   "conf": "check",
    "bd": "9 de enero de 1927",
    "dd": "25 de marzo de 1977",
    "occ": [],

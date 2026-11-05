@@ -23,7 +23,7 @@ Un sitio web que lista, año por año, los autores cuya obra pasa a dominio púb
 - `scripts/generar_anio.py AAAA`: consulta Wikidata, limpia y genera los datos de un año. Después de editar fichas curadas sin regenerar años: `scripts/generar_anio.py --solo-curados` (no consulta Wikidata).
 - `referencia/`: script original del chat (solo documentación).
 - `investigacion/legislaciones.md`: investigación sobre plazos por país, con fuentes.
-- `sitio/`: sitio estático en Astro. Lee `datos/generados/` al compilar (`sitio/src/lib/datos.ts`); compilar desde `sitio/` con `npm run build`. URL de año por año de liberación (`/anio/2027`) y de autor por `nombre-qid` (`/autor/bertolt-brecht-q38757`).
+- `sitio/`: sitio estático en Astro. Lee `datos/generados/` al compilar (`sitio/src/lib/datos.ts`); compilar desde `sitio/` con `npm run build`. URL de año por año de liberación (`/anio/2027`) y de autor por `nombre-qid` (`/autor/bertolt-brecht-q38757`); sin QID, solo el nombre (`/autor/jorge-luis-borges`).
 - `prototipo/plantilla.html`: prototipo HTML; `scripts/armar_prototipo.py` le inserta los datos y genera `prototipo/prototipo.html` (no versionado).
 
 ## Reglas de cálculo
