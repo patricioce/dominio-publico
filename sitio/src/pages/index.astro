@@ -8,4 +8,4 @@ const proximo = new Date().getFullYear() + 1;
 const anios = aniosConDatos(autores);
 const anio = anios.find((a) => a >= proximo) ?? anios.at(-1)!;
 ---
-<PaginaAnio anio={anio} />
+<PaginaAnio anio={anio} portada />

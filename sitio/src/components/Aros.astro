@@ -1,0 +1,25 @@
+---
+// Aros concéntricos: el motivo gráfico del sitio. Alterna aros rojos gruesos y líneas negras finas.
+interface Props {
+  class?: string;
+  /** Cantidad de aros, de afuera hacia adentro. */
+  cantidad?: number;
+  /** Grosor del aro rojo, en px. */
+  grueso?: number;
+  /** Separación entre aros, en % del diámetro. */
+  paso?: number;
+  /** Termina con un disco rojo en el centro. */
+  centro?: boolean;
+}
+
+const { class: clase, cantidad = 6, grueso = 46, paso = 9, centro = false } = Astro.props;
+const aros = Array.from({ length: cantidad }, (_, i) => {
+  const rojo = i % 2 === 0;
+  return `--i:${i * paso}%;--b:${rojo ? `${grueso}px` : '2px'};--c:${rojo ? 'var(--red)' : 'var(--ink)'}`;
+});
+---
+<div class:list={['aros', clase]} aria-hidden="true">
+  {aros.map((estilo) => <i style={estilo}></i>)}
+  {centro && <i style={`--i:${cantidad * paso}%;--b:0;--c:transparent;background:var(--red)`}></i>}
+  <slot />
+</div>

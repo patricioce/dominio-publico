@@ -1,0 +1,18 @@
+{
+ "nota": "Citas cortas para la portada (destacados). Solo textos originales en castellano de autores ya libres en Argentina: las traducciones tienen derechos propios. Cada cita lleva su fuente; las marcadas con verificar: true hay que cotejarlas con una edición de época antes de publicar.",
+ "citas": [
+  {
+   "id": "storni",
+   "texto": "Tú me quieres alba, me quieres de espumas, me quieres de nácar.",
+   "resaltar": "nácar",
+   "fuente": "«Tú me quieres blanca», en El dulce daño (1918)"
+  },
+  {
+   "id": "arlt",
+   "texto": "El futuro es nuestro, por prepotencia de trabajo.",
+   "resaltar": "prepotencia de trabajo",
+   "fuente": "Prólogo de Los lanzallamas (1931)",
+   "verificar": true
+  }
+ ]
+}

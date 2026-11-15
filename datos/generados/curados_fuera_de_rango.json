@@ -5,6 +5,7 @@
   {
    "id": "gardel",
    "n": "Carlos Gardel",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Carlos_gardel_en_su_casa_1933.jpg",
    "b": "1890-12-11",
    "d": "1935-06-24",
    "p": "Argentina",
@@ -45,6 +46,7 @@
   {
    "id": "storni",
    "n": "Alfonsina Storni",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/AlfosinaStorni.jpg",
    "b": "1892-05-29",
    "d": "1938-10-25",
    "p": "Argentina",
@@ -65,6 +67,7 @@
   {
    "id": "arlt",
    "n": "Roberto Arlt",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/RobertoArlt.jpg",
    "b": "1900-04-02",
    "d": "1942-07-26",
    "p": "Argentina",

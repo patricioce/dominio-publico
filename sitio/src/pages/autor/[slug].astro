@@ -1,11 +1,13 @@
 ---
-// Perfil de autor: contador (ley argentina), línea de tiempo, tabla por legislación y avisos.
+// Ficha de autor: retrato, estado (ley argentina), las tres cifras, bio, obras, otras legislaciones y avisos.
 // Se compila una vez; el script del final ajusta al día de hoy lo que depende de la fecha.
 import Base from '../../layouts/Base.astro';
+import Aros from '../../components/Aros.astro';
+import Foto from '../../components/Foto.astro';
 import { autores, enlaces, type Autor } from '../../lib/datos';
-import { anioLiberacion, estado, NOTA_MEXICO } from '../../lib/calculo';
+import { anioDe, anioLiberacion, estado, LEGISLACIONES, NOTA_MEXICO, plural } from '../../lib/calculo';
 import { plazoMenorPorArt15 } from '../../lib/avisos';
-import { avisos, esCasoAVerificar, fechasVida, filasLegislacion, iniciales, lineaDeTiempo, posicionHoy } from '../../lib/perfil';
+import { avisos, esCasoAVerificar, fechasVida, filasLegislacion, lineaDeTiempo, posicionHoy } from '../../lib/perfil';
 import { url } from '../../lib/rutas';
 
 export function getStaticPaths() {
@@ -19,7 +21,10 @@ interface Props {
 const { autor: a } = Astro.props;
 const hoy = new Date();
 
+const muerte = anioDe(a.d);
 const anioAr = anioLiberacion(a.d);
+const plazo = LEGISLACIONES.ar.plazo(a.d);
+const e = estado(a.d, hoy);
 const comoMaximo = plazoMenorPorArt15(a.p, a.d) !== null;
 const filas = filasLegislacion(a, hoy);
 const notas = filas.filter((f) => f.nota);
@@ -40,54 +45,47 @@ const titulo = a.n;
 const descripcion = a.bio
   ? `${a.bio} Su obra queda libre en Argentina el 1 de enero de ${anioAr}.`
   : `${a.n} (${fechasVida(a)}). Según la ley argentina, su obra queda libre el 1 de enero de ${anioAr}.`;
+
+const textoEstado = e.libre
+  ? `En dominio público en la Argentina desde el 1/1/${anioAr}`
+  : `Protegida en la Argentina hasta el 31/12/${anioAr - 1}`;
+const tercera = e.libre
+  ? { rotulo: 'Libre', valor: hoy.getFullYear() === anioAr ? 'este año' : `hace ${plural(hoy.getFullYear() - anioAr, 'año', 'años')}` }
+  : e.anios === 1
+    ? { rotulo: 'Faltan', valor: plural(e.dias, 'día', 'días') }
+    : { rotulo: 'Faltan', valor: plural(e.anios, 'año', 'años') };
+
+/** "Los siete locos (1929)" → nombre y año por separado. */
+const obra = (s: string) => {
+  const m = s.match(/^(.*?)\s*\((\d{4})\)\s*$/);
+  return m ? { t: m[1], a: m[2] } : { t: s, a: '' };
+};
+let n = 0;
+const num = () => String(++n).padStart(2, '0');
 ---
-<Base titulo={titulo} descripcion={descripcion}>
+<Base titulo={titulo} descripcion={descripcion} seccion="autores">
   {a.fueraDeRango
-    ? <a class="back" href={url('/autores/')}>‹ Buscar autores</a>
-    : <a class="back" href={url(`/anio/${anioAr}/`)}>‹ Autores que se liberan en {anioAr}</a>}
-  <div class="profile">
-    <article>
-      <div class="monogram" aria-hidden="true">{iniciales(a.n)}</div>
+    ? <a class="back" href={url('/autores/')}>Autores / {a.p}</a>
+    : <a class="back" href={url(`/anio/${anioAr}/`)}>Autores / Se liberan en {anioAr} / {a.n}</a>}
+
+  <section class="ficha-hero">
+    <div class="ficha-retrato">
+      <Aros cantidad={1} grueso={30} />
+      <Foto autor={a} ancho={500} prioridad />
+    </div>
+    <div class="ficha-datos" data-contador data-anio={anioAr} data-maximo={comoMaximo ? '' : undefined}>
+      <p class:list={['estado', { protegida: !e.libre }]} data-estado-texto>{textoEstado}{comoMaximo && ', como máximo'}</p>
       <h1>{a.n}</h1>
       <p class="lifespan">
-        {fechasVida(a)} · {a.p} · {a.o}
-        <span class:list={['conf', verificar ? 'check' : 'ok']}>
-          {verificar ? 'Caso a verificar' : 'Cálculo estándar'}
-        </span>
+        {fechasVida(a)} · {a.p}
+        <span class:list={['conf', verificar ? 'check' : 'ok']}>{verificar ? 'Caso a verificar' : 'Cálculo estándar'}</span>
       </p>
       {a.occ.length > 0 && <p class="occ">{a.occ.join(', ')}</p>}
-      <p class="bio">{a.bio ?? 'Biografía pendiente de redacción.'}</p>
-      {a.w && a.w.length > 0 && (
-        <>
-          <h3>Obras principales</h3>
-          <ul class="works">{a.w.map((obra) => <li>{obra}</li>)}</ul>
-        </>
-      )}
-      {lista.map((aviso) => (
-        <div class="caveat"><strong>{aviso.titulo}</strong>{aviso.texto}</div>
-      ))}
-      <div class="links">
-        {a.wp && <a class="btn" href={a.wp} target="_blank" rel="noopener">Wikipedia</a>}
-        {a.qid && <a class="btn" href={`https://www.wikidata.org/wiki/${a.qid}`} target="_blank" rel="noopener">Wikidata</a>}
-        {urlBnmm && <a class="btn" href={urlBnmm} target="_blank" rel="noopener">Biblioteca Nacional</a>}
-        {a.img && <a class="btn" href={https(a.img)} target="_blank" rel="noopener">Ver foto</a>}
+      <div class="tres">
+        <div><p>Murió</p><b>{muerte}</b></div>
+        <div><p>+ {plazo} años (ley 11.723)</p><b class="rojo">{anioAr}</b></div>
+        <div><p data-rotulo>{tercera.rotulo}</p><b data-valor>{tercera.valor}</b></div>
       </div>
-      <p class="src">
-        Fuente: {FUENTE[a.src] ?? 'ficha curada'}.{a.solo_periodista && ' Figura en Wikidata solo como periodista.'}
-      </p>
-    </article>
-
-    <aside>
-      <div class="counter" role="status" data-contador data-anio={anioAr} data-maximo={comoMaximo ? '' : undefined}>
-        <div class:list={["stamp", { protected: !estado(a.d, hoy).libre }]} aria-hidden="true">
-          <div class="counter-lead">Libre en</div>
-          <div class="counter-big">{anioAr}</div>
-        </div>
-        <p class="counter-note">
-          Queda libre en Argentina el 1 de enero de {anioAr}{comoMaximo && ', como máximo (ver abajo)'}.
-        </p>
-      </div>
-
       <div class="timeline" aria-hidden="true" data-linea data-inicio={t.inicio} data-fin={t.fin}>
         <div class="tl-wrap">
           <div class="tl-bar">
@@ -99,13 +97,42 @@ const descripcion = a.bio
         </div>
         <div class="tl-legend"><span>{a.b ? t.inicio : '?'}</span><span>{t.muerte}</span><span>{t.liberacion}</span></div>
         <div class="tl-keys">
-          <span><i style="background:var(--ink);opacity:.8"></i>Vida</span>
-          <span><i style="background:var(--violet)"></i>Protegida</span>
-          <span><i style="background:var(--green)"></i>Dominio público</span>
+          <span><i style="background:var(--ink)"></i>Vida</span>
+          <span><i style="background:repeating-linear-gradient(90deg,var(--ink) 0 1px,transparent 1px 4px)"></i>Protegida</span>
+          <span><i style="background:var(--red)"></i>Dominio público</span>
         </div>
       </div>
+    </div>
+  </section>
 
-      <h3>En otras legislaciones</h3>
+  <section class="seccion">
+    <header><p>{num()}</p><h2>Quién fue</h2></header>
+    <div>
+      <p class="bio">{a.bio ?? 'Biografía pendiente de redacción.'}</p>
+      <div class="links" style="margin-top:20px">
+        {a.wp && <a class="btn" href={a.wp} target="_blank" rel="noopener">Wikipedia</a>}
+        {a.qid && <a class="btn" href={`https://www.wikidata.org/wiki/${a.qid}`} target="_blank" rel="noopener">Wikidata</a>}
+        {urlBnmm && <a class="btn" href={urlBnmm} target="_blank" rel="noopener">Biblioteca Nacional</a>}
+        {a.img && <a class="btn" href={https(a.img)} target="_blank" rel="noopener">Retrato en Commons</a>}
+      </div>
+    </div>
+  </section>
+
+  {a.w && a.w.length > 0 && (
+    <section class="seccion">
+      <header><p>{num()}</p><h2>Obras</h2><p class="src">Las principales. Lo póstumo puede tener otro régimen.</p></header>
+      <ol class="works">
+        {a.w.map((s) => {
+          const o = obra(s);
+          return <li><span class="num" style="color:var(--red-text);display:inline-block;min-width:4.5ch">{o.a}</span> {o.t}</li>;
+        })}
+      </ol>
+    </section>
+  )}
+
+  <section class="seccion">
+    <header><p>{num()}</p><h2>En otros países</h2><p class="src">Cada país tiene su plazo. Una edición libre acá puede no serlo allá.</p></header>
+    <div>
       <div class="table-wrap">
         <table class="juris">
           <thead><tr><th>Legislación</th><th>Se libera</th><th>Estado</th></tr></thead>
@@ -126,12 +153,23 @@ const descripcion = a.bio
       <div class="juris-notes">
         {notas.map((f) => <p class="src"><sup>*</sup> <strong>{f.nombre}:</strong> {f.nota}</p>)}
         <p class="src"><sup>*</sup> <strong>México:</strong> {NOTA_MEXICO}</p>
-        <p class="src">
-          Información orientativa, no es asesoramiento legal. <a href={url('/como-calculamos/')}>Cómo calculamos</a>.
-        </p>
       </div>
-    </aside>
-  </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <header><p>{num()}</p><h2>A tener en cuenta</h2></header>
+    <div class="caveats">
+      {lista.map((aviso) => (
+        <div class:list={['caveat', { rojo: aviso.titulo === 'Dominio público pagante' }]}><strong>{aviso.titulo}</strong>{aviso.texto}</div>
+      ))}
+    </div>
+  </section>
+
+  <p class="src">
+    Fuente: {FUENTE[a.src] ?? 'ficha curada'}.{a.solo_periodista && ' Figura en Wikidata solo como periodista.'}
+    Información orientativa, no es asesoramiento legal. <a href={url('/como-calculamos/')}>Cómo calculamos</a>.
+  </p>
 </Base>
 
 <script>
@@ -140,34 +178,24 @@ const descripcion = a.bio
 
   const hoy = new Date();
 
-  // Contador: libre, último año (en días) o años que faltan.
-  const contador = document.querySelector<HTMLElement>('[data-contador]')!;
-  const e = estadoDelAnio(Number(contador.dataset.anio), hoy);
-  const maximo = contador.hasAttribute('data-maximo') ? ', como máximo (ver abajo)' : '';
-  const sello = contador.querySelector('.stamp')!;
-  sello.classList.toggle('protected', !e.libre);
-  sello.classList.toggle('animate', !e.libre);
-  const [lead, big] = [sello.querySelector('.counter-lead')!, sello.querySelector('.counter-big')!];
-  sello.querySelector('.counter-label')?.remove();
-  const nota = contador.querySelector('.counter-note')!;
+  // Estado, tercera cifra y franja según el día de hoy.
+  const datos = document.querySelector<HTMLElement>('[data-contador]')!;
+  const anio = Number(datos.dataset.anio);
+  const e = estadoDelAnio(anio, hoy);
+  const maximo = datos.hasAttribute('data-maximo') ? ', como máximo' : '';
+  const franja = datos.querySelector<HTMLElement>('[data-estado-texto]')!;
+  franja.classList.toggle('protegida', !e.libre);
+  franja.textContent = (e.libre
+    ? `En dominio público en la Argentina desde el 1/1/${anio}`
+    : `Protegida en la Argentina hasta el 31/12/${anio - 1}`) + maximo;
+  const rotulo = datos.querySelector('[data-rotulo]')!;
+  const valor = datos.querySelector('[data-valor]')!;
   if (e.libre) {
-    lead.textContent = 'Libre desde';
-    big.textContent = String(e.anio);
-    const anios = hoy.getFullYear() - e.anio;
-    const desde = anios === 0 ? 'desde el 1 de enero de este año' : `desde hace ${plural(anios, 'año', 'años')}`;
-    nota.textContent = `Su obra está en dominio público en Argentina ${desde}${maximo}.`;
-    contador.setAttribute('aria-label', `Libre desde ${e.anio}`);
+    rotulo.textContent = 'Libre';
+    valor.textContent = hoy.getFullYear() === anio ? 'este año' : `hace ${plural(hoy.getFullYear() - anio, 'año', 'años')}`;
   } else {
-    const ultimo = e.anios === 1;
-    const n = ultimo ? e.dias : e.anios;
-    lead.textContent = 'Faltan';
-    big.textContent = n.toLocaleString('es-AR');
-    const label = document.createElement('div');
-    label.className = 'counter-label';
-    label.textContent = ultimo ? (n === 1 ? 'día' : 'días') : 'años';
-    sello.append(label);
-    nota.textContent = `Queda libre en Argentina el 1 de enero de ${e.anio}${maximo}.`;
-    contador.setAttribute('aria-label', `${textoEstado(e)} para que quede libre en Argentina`);
+    rotulo.textContent = 'Faltan';
+    valor.textContent = e.anios === 1 ? plural(e.dias, 'día', 'días') : plural(e.anios, 'año', 'años');
   }
 
   // Tabla por legislación.
