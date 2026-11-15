@@ -2,6 +2,9 @@
 // Página de un año de liberación (ley argentina): sello, navegación entre años y autores por categoría.
 // Se compila una vez; el script del final ajusta al día de hoy los textos que dependen de la fecha.
 import Base from '../layouts/Base.astro';
+import Aros from './Aros.astro';
+import Foto from './Foto.astro';
+import Portada from './Portada.astro';
 import { autores } from '../lib/datos';
 import { aniosConDatos, anioMuerteDe, esArgentino, gruposDelAnio, periodoVida } from '../lib/anios';
 import { diasHasta, plural } from '../lib/calculo';
@@ -10,9 +13,11 @@ import { esCasoAVerificar } from '../lib/perfil';
 
 interface Props {
   anio: number;
+  /** En la portada, arriba van el 1.1 y los destacados. */
+  portada?: boolean;
 }
 
-const { anio } = Astro.props;
+const { anio, portada = false } = Astro.props;
 const LIMITE = 12;
 
 const muerte = anioMuerteDe(anio);
@@ -40,14 +45,13 @@ const descripcion = `Creadores que murieron en ${muerte}: según la ley argentin
 const obrasODedicacion = (a: (typeof delAnio)[number]) =>
   a.w && a.w.length ? a.w.slice(0, 2).join(', ') : a.occ.join(', ');
 ---
-<Base titulo={titulo} descripcion={descripcion} seccion="anio">
+<Base titulo={titulo} descripcion={descripcion} seccion={portada ? 'inicio' : 'anio'}>
+  {portada && <Portada slot="ancho" anio={anio} />}
   <section class="year-hero" data-anio={anio}>
-    <div class:list={['stamp', 'animate', { protected: futuro }]} aria-hidden="true">
-      <div class="stamp-year">{anio}</div>
-      <div class="stamp-sub" data-sub>{sub}</div>
-    </div>
+    {!portada && <Aros class="p11-aros" cantidad={4} grueso={36} />}
     <div class="year-copy">
-      <h1>Autores cuyas obras <span data-verbo>{verbo}</span> libres el 1 de enero de {anio}</h1>
+      <p class="p11-cuando"><b class="num" style="color:var(--red-text)">1.1.{anio}</b> <span data-sub>{sub}</span></p>
+      <h1>Autores cuyas obras <span data-verbo>{verbo}</span> en dominio público el 1 de enero de {anio}</h1>
       <p>
         Según la ley argentina (vida + 70): creadores que murieron en {muerte}.
         Hay {plural(delAnio.length, 'autor', 'autores')}, {plural(argentinos, 'argentino', 'argentinos')}.
@@ -72,6 +76,7 @@ const obrasODedicacion = (a: (typeof delAnio)[number]) =>
         {g.autores.map((a, i) => (
           <li class="row" data-arg={esArgentino(a) ? '' : undefined} hidden={i >= LIMITE}>
             <a href={url(`/autor/${a.slug}/`)}>
+              <Foto autor={a} ancho={112} class="row-foto" />
               <span class="row-name">{a.n}</span>
               <span class="row-meta">{periodoVida(a, muerte)} · {a.p}</span>
               <span class="row-works">{obrasODedicacion(a)}</span>
@@ -103,7 +108,6 @@ const obrasODedicacion = (a: (typeof delAnio)[number]) =>
   const hoy = new Date();
   const esteAnio = hoy.getFullYear();
   const futuro = anio > esteAnio;
-  hero.querySelector('.stamp')!.classList.toggle('protected', futuro);
   hero.querySelector('[data-verbo]')!.textContent = futuro ? 'quedan' : 'quedaron';
   hero.querySelector('[data-sub]')!.textContent =
     anio === esteAnio + 1 ? `Faltan ${plural(diasHasta(anio, hoy), 'día', 'días')}`

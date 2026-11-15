@@ -1,6 +1,6 @@
 # Proyecto: sitio de autores que pasan a dominio público
 
-Nombre del sitio: **a definir** (candidatos: Faltan, Hora Libre, Primero de Enero). "Año Libre" es el nombre provisorio del prototipo y está descartado.
+Nombre del sitio: **En Dominio Público** (dominio candidato: endominiopublico.com, a registrar). "Año Libre" fue el nombre provisorio y está descartado.
 
 ## Objetivo
 
@@ -78,13 +78,15 @@ Base legal y fuentes de todo esto: `investigacion/legislaciones.md`. Las reglas 
 7. Asignar categoría: Literatura, Música, Artes visuales, Cine e historieta, Ciencia.
 8. Generar un reporte de calidad de datos por año.
 
-## Diseño (del prototipo `prototipo/plantilla.html`)
+## Diseño (rediseño "cartel suizo", noviembre de 2026)
 
-- Sello como elemento central: violeta (`#5B3A9B`) = protegida, verde (`#2E7D57`) = libre.
-- Tipografías: Literata (nombres, biografías) y Public Sans (interfaz).
-- Vistas: página por año, perfil de autor (contador, línea de tiempo vida/protección/dominio público, tabla por legislación), buscador, "Cómo calculamos", "Calidad de datos".
-- Tema claro y oscuro.
-- Sitio en Astro: sin selector de legislación (el del prototipo se descarta). Las páginas de año y el contador del perfil van por Argentina; las demás legislaciones se muestran en la tabla del perfil.
+- Blanco, negro y un solo rojo (`#E3001B`; `#C40018` para texto chico). Tipografía: Inter Tight. Sin tema oscuro por ahora.
+- Motivo gráfico: aros concéntricos rojos y negros (`components/Aros.astro`). Logo: "En / Dominio / Público." en tres renglones, con el punto en rojo.
+- Menú numerado (01, 02…). Secciones de la ficha numeradas, con título a la izquierda y contenido a la derecha.
+- Estados: libre = rojo, protegida = negro.
+- Portada (`components/Portada.astro`): de octubre a diciembre va primero el "1.1." (cuenta regresiva al próximo 1 de enero); el resto del año, el carrusel de autores ya libres, que alterna "las dos fechas" (muerte y liberación) y "la cita". `?portada=11` o `?portada=destacados` fuerzan una u otra.
+- Citas del carrusel: `datos/citas.json`, editado a mano. Solo textos originales en castellano (las traducciones tienen derechos), con fuente; las marcadas `verificar` hay que cotejarlas antes de publicar.
+- Retratos: el campo `img` (Wikidata o ficha curada), miniatura de Commons en blanco y negro dentro de un círculo; sin foto, monograma. Falta la atribución por foto (hoja de ruta, punto 8).
 
 ## Hoja de ruta
 

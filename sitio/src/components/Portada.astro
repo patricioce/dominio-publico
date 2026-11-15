@@ -1,0 +1,169 @@
+---
+// Portada: el "1.1" (cuenta regresiva al próximo 1 de enero) y el carrusel de autores ya libres.
+// De octubre a diciembre va primero el 1.1; el resto del año, los destacados. El script lo ajusta al día de hoy;
+// ?portada=11 o ?portada=destacados fuerza una u otra para revisarlas.
+import Aros from './Aros.astro';
+import Foto from './Foto.astro';
+import { autores } from '../lib/datos';
+import { anioLiberacion, anioDe, diasHasta, plural } from '../lib/calculo';
+import { gruposDelAnio } from '../lib/anios';
+import { cargarCitas, destacados } from '../lib/destacados';
+import { url } from '../lib/rutas';
+
+interface Props {
+  anio: number;
+}
+
+const { anio } = Astro.props;
+const hoy = new Date();
+const dias = diasHasta(anio, hoy);
+const primeros = gruposDelAnio(autores, anio)
+  .flatMap((g) => g.autores)
+  .sort((x, y) => Number(!!y.bio) - Number(!!x.bio) || (y.sl ?? 0) - (x.sl ?? 0))
+  .slice(0, 5);
+const total = gruposDelAnio(autores, anio).reduce((n, g) => n + g.autores.length, 0);
+const lista = destacados(autores, cargarCitas(), hoy);
+const once = hoy.getMonth() >= 9;
+
+/** "Tú me quieres alba, … de <em>nácar</em>." */
+function partes(texto: string, resaltar?: string): [string, string, string] {
+  const i = resaltar ? texto.indexOf(resaltar) : -1;
+  return i < 0 ? [texto, '', ''] : [texto.slice(0, i), resaltar!, texto.slice(i + resaltar!.length)];
+}
+---
+<div class="portadas" data-portadas data-proximo={anio} style={`display:flex;flex-direction:column`}>
+  <section class="portada" data-p11 style={`order:${once ? 0 : 1}`} aria-labelledby="p11-titulo">
+    <Aros class="p11-aros" centro />
+    <div class="wrap">
+      <p class="p11-cuando" data-dias>Faltan {plural(dias, 'día', 'días')}</p>
+      <h1 class="p11-fecha" id="p11-titulo">1.1.<br />{anio}</h1>
+      <p class="p11-quienes">
+        Ese día la obra de {primeros.map((a, i) => (
+          <>
+            <a href={url(`/autor/${a.slug}/`)}>{a.n}</a>{i < primeros.length - 2 ? ', ' : i === primeros.length - 2 ? ' y ' : ''}
+          </>
+        ))}{' '}
+        —y {plural(total - primeros.length, 'autor más', 'autores más')}— pasa a dominio público en la Argentina.
+      </p>
+      <form class="buscador" action={url('/autores/')} method="get" role="search">
+        <label class="visually-hidden" for="q-portada">Buscar un autor</label>
+        <input id="q-portada" name="q" type="search" placeholder="Buscar un autor" />
+        <button type="submit">Buscar →</button>
+      </form>
+    </div>
+  </section>
+
+  {lista.length > 0 && (
+    <section class="destacados" data-carrusel style={`order:${once ? 1 : 0}`} aria-roledescription="carrusel" aria-label="Autores en dominio público">
+      {lista.map(({ autor: a, cita }, i) => {
+        const muerte = anioDe(a.d);
+        const libre = anioLiberacion(a.d);
+        const [antes, rojo, despues] = cita ? partes(cita.texto, cita.resaltar) : ['', '', ''];
+        return (
+          <article class="slide" data-slide hidden={i > 0} aria-roledescription="diapositiva" aria-label={`${i + 1} de ${lista.length}: ${a.n}`}>
+            {cita ? (
+              <>
+                <Aros class="c-aros" cantidad={2} grueso={44} paso={7}>
+                  <Foto autor={a} ancho={560} prioridad={i === 0} />
+                </Aros>
+                <div class="wrap">
+                  <blockquote class="c-cita">{antes}{rojo && <em>{rojo}</em>}{despues}</blockquote>
+                  <div class="c-firma">
+                    <div>
+                      <h2>{a.n}</h2>
+                      <p>{a.b ? a.b.slice(0, 4) : '?'}–{muerte}</p>
+                    </div>
+                    <p>{cita.fuente}.</p>
+                    <div>
+                      <p class="rojo">En dominio público desde {libre}</p>
+                      <a class="flecha" href={url(`/autor/${a.slug}/`)}>Ver su ficha →</a>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div class="wrap">
+                <div class="d-fechas">
+                  <span>murió</span><b>{muerte}</b>
+                  <span class="rojo">libre</span><b class="rojo">{libre}</b>
+                </div>
+                <p class="d-explica">
+                  Desde el 1 de enero de {libre}, la obra de {a.n} está en dominio público en la Argentina:
+                  cualquiera puede leerla, editarla o adaptarla.
+                </p>
+                <div class="d-circulo">
+                  <Foto autor={a} ancho={420} prioridad={i === 0} />
+                  <div class="d-texto">
+                    <h2>{a.n}</h2>
+                    <p>{a.bio}</p>
+                    <p><a href={url(`/autor/${a.slug}/`)}>Ver su ficha →</a></p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </article>
+        );
+      })}
+      <div class="d-controles">
+        <div class="wrap">
+          <button class="btn round" type="button" data-ant aria-label="Autor anterior">←</button>
+          <button class="btn round red" type="button" data-sig aria-label="Autor siguiente">→</button>
+          <span class="d-cuenta" data-cuenta aria-live="polite">01 / {String(lista.length).padStart(2, '0')}</span>
+          <span class="d-barra" aria-hidden="true"><i data-barra style={`width:${100 / lista.length}%`}></i></span>
+          <button class="linklike" type="button" data-pausa>Pausar</button>
+        </div>
+      </div>
+    </section>
+  )}
+</div>
+
+<script>
+  import { diasHasta, plural } from '../lib/calculo';
+
+  const raiz = document.querySelector<HTMLElement>('[data-portadas]')!;
+  const anio = Number(raiz.dataset.proximo);
+  const hoy = new Date();
+
+  // Orden según la fecha (o lo que pida la URL).
+  const pedido = new URLSearchParams(location.search).get('portada');
+  const once = pedido ? pedido === '11' : hoy.getMonth() >= 9;
+  raiz.querySelector<HTMLElement>('[data-p11]')!.style.order = once ? '0' : '1';
+  const carrusel = raiz.querySelector<HTMLElement>('[data-carrusel]');
+  if (carrusel) carrusel.style.order = once ? '1' : '0';
+  raiz.querySelector('[data-dias]')!.textContent = `Faltan ${plural(diasHasta(anio, hoy), 'día', 'días')}`;
+
+  // Carrusel: avanza solo cada 8 s, se puede pausar y recorrer con las flechas.
+  if (carrusel) {
+    const slides = [...carrusel.querySelectorAll<HTMLElement>('[data-slide]')];
+    const cuenta = carrusel.querySelector<HTMLElement>('[data-cuenta]')!;
+    const barra = carrusel.querySelector<HTMLElement>('[data-barra]')!;
+    const pausa = carrusel.querySelector<HTMLButtonElement>('[data-pausa]')!;
+    const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let actual = 0;
+    let reloj: number | undefined;
+    const dos = (n: number) => String(n).padStart(2, '0');
+
+    function mostrar(i: number) {
+      actual = (i + slides.length) % slides.length;
+      slides.forEach((s, j) => (s.hidden = j !== actual));
+      cuenta.textContent = `${dos(actual + 1)} / ${dos(slides.length)}`;
+      barra.style.width = `${((actual + 1) / slides.length) * 100}%`;
+    }
+    function arrancar() {
+      parar();
+      reloj = window.setInterval(() => mostrar(actual + 1), 8000);
+      pausa.textContent = 'Pausar';
+    }
+    function parar() {
+      if (reloj) window.clearInterval(reloj);
+      reloj = undefined;
+      pausa.textContent = 'Reanudar';
+    }
+    carrusel.querySelector('[data-ant]')!.addEventListener('click', () => { mostrar(actual - 1); parar(); });
+    carrusel.querySelector('[data-sig]')!.addEventListener('click', () => { mostrar(actual + 1); parar(); });
+    pausa.addEventListener('click', () => (reloj ? parar() : arrancar()));
+    carrusel.addEventListener('focusin', parar);
+    if (!quieto && slides.length > 1) arrancar();
+    else parar();
+  }
+</script>

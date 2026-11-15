@@ -1,0 +1,20 @@
+---
+// Retrato circular en blanco y negro (Wikimedia Commons). Sin foto, monograma con las iniciales.
+import type { Autor } from '../lib/datos';
+import { urlFoto } from '../lib/destacados';
+import { iniciales } from '../lib/perfil';
+
+interface Props {
+  autor: Pick<Autor, 'n' | 'img'>;
+  ancho: number;
+  class?: string;
+  /** Las fotos de la portada se cargan enseguida; las de las listas, a demanda. */
+  prioridad?: boolean;
+}
+
+const { autor, ancho, class: clase, prioridad = false } = Astro.props;
+const src = urlFoto(autor.img, ancho);
+---
+{src
+  ? <img class:list={['foto', clase]} src={src} alt={`Retrato de ${autor.n}`} loading={prioridad ? 'eager' : 'lazy'} decoding="async" width={ancho} height={ancho} />
+  : <span class:list={['foto', 'monograma', clase]} aria-hidden="true">{iniciales(autor.n)}</span>}

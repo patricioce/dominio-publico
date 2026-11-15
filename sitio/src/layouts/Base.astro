@@ -1,9 +1,10 @@
 ---
-// Layout común: encabezado con navegación, aviso legal y pie.
+// Layout común: encabezado con el logo y el menú numerado, aviso legal y pie.
+// El slot "ancho" va antes del contenedor centrado, para piezas a todo el ancho (portada).
 import '../styles/global.css';
 import { url } from '../lib/rutas';
 
-type Seccion = 'anio' | 'autores' | 'metodo' | 'datos';
+type Seccion = 'inicio' | 'anio' | 'autores' | 'metodo' | 'datos';
 
 interface Props {
   titulo: string;
@@ -12,11 +13,12 @@ interface Props {
 }
 
 const { titulo, descripcion, seccion } = Astro.props;
-const NOMBRE = 'Nombre a definir';
+const NOMBRE = 'En Dominio Público';
 
+const proximo = new Date().getFullYear() + 1;
 const enlaces: { id: Seccion; href: string; texto: string }[] = [
-  { id: 'anio', href: url('/'), texto: 'Por año' },
-  { id: 'autores', href: url('/autores/'), texto: 'Todos los autores' },
+  { id: 'autores', href: url('/autores/'), texto: 'Autores' },
+  { id: 'anio', href: url(`/anio/${proximo}/`), texto: `Se liberan en ${proximo}` },
   { id: 'metodo', href: url('/como-calculamos/'), texto: 'Cómo calculamos' },
   { id: 'datos', href: url('/calidad-de-datos/'), texto: 'Calidad de datos' },
 ];
@@ -30,35 +32,36 @@ const enlaces: { id: Seccion; href: string; texto: string }[] = [
     {descripcion && <meta name="description" content={descripcion} />}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,800;1,7..72,400&family=Public+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="top">
       <div class="wrap">
-        <a class="brand" href={url('/')}><span class="brand-mark" aria-hidden="true">©</span>{NOMBRE}</a>
+        <a class="brand" href={url('/')} aria-label={`${NOMBRE}, inicio`}>En<br />Dominio<br />Público<i>.</i></a>
         <nav class="main" aria-label="Secciones">
-          {enlaces.map((e) => (
-            <a href={e.href} aria-current={e.id === seccion ? 'page' : undefined}>{e.texto}</a>
+          {enlaces.map((e, i) => (
+            <a href={e.href} aria-current={e.id === seccion ? 'page' : undefined}>
+              <span>{String(i + 1).padStart(2, '0')}</span>{e.texto}
+            </a>
           ))}
         </nav>
       </div>
     </header>
     <div class="notice">
-      <div class="wrap">
-        <span>Información orientativa, no es asesoramiento legal. Los años se calculan según la ley argentina (vida + 70).</span>
-      </div>
+      <div class="wrap">Información orientativa, no es asesoramiento legal. Los años se calculan según la ley argentina (vida + 70).</div>
     </div>
 
-    <main><div class="wrap"><slot /></div></main>
+    <main>
+      <slot name="ancho" />
+      <div class="wrap"><slot /></div>
+    </main>
 
     <footer>
       <div class="wrap">
+        <p class="brand">En<br />Dominio<br />Público<i>.</i></p>
         <p>Información orientativa, no es asesoramiento legal. El cálculo aplica el plazo estándar; coautorías, obras póstumas, traducciones y marcas registradas pueden cambiarlo.</p>
         <p>En Argentina, el uso comercial de obras en dominio público paga un derecho al Fondo Nacional de las Artes (dominio público pagante).</p>
-        <p>Datos: Wikidata (CC0), con correcciones y fichas curadas a mano.</p>
+        <p>Datos: Wikidata (CC0), con correcciones y fichas curadas a mano. Retratos: Wikimedia Commons.</p>
       </div>
     </footer>
   </body>
